@@ -1,0 +1,207 @@
+Found 14 access points:
+
+               SSID              | Channel | RSSI |   Auth Mode 
+----------------------------------------------------------------
+                      TreeNewbee |       2 |  -35 |     WPA2 PSK
+                    TreeNewbeemo |       6 |  -43 |     WPA2 PSK
+                       ECUT-STUD |       1 |  -70 |         OPEN
+                            ECUT |      13 |  -74 |         OPEN
+                       ECUT-STUD |      13 |  -76 |         OPEN
+   |       7 |  -78 | WPA WPA2 PSK
+                            ECUT |       9 |  -79 |         OPEN
+                        vivo Y79 |      11 |  -79 |     WPA2 PSK
+                       ECUT-STUD |       9 |  -80 |         OPEN
+                    Tenda_FE0D78 |      11 |  -80 |         OPEN
+                       ECUT-STUD |       5 |  -82 |         OPEN
+                            ECUT |       5 |  -84 |         OPEN
+                     TP-LINK_304 |      11 |  -87 | WPA WPA2 PSK
+                           JD300 |       1 |  -89 | WPA WPA2 PSK
+----------------------------------------------------------------
+I (7540) ESP_SCAN: scanf wifi done!
+ scanf done !
+
+Found 11 access points:
+
+               SSID              | Channel | RSSI |   Auth Mode 
+----------------------------------------------------------------
+                      TreeNewbee |       2 |  -31 |     WPA2 PSK
+                    TreeNewbeemo |       6 |  -49 |     WPA2 PSK
+                            ECUT |       1 |  -51 |         OPEN
+                    Tenda_FE0D78 |      11 |  -73 |         OPEN
+                        vivo Y79 |      11 |  -77 |     WPA2 PSK
+   |       7 |  -78 | WPA WPA2 PSK
+                            ECUT |       5 |  -79 |         OPEN
+                       ECUT-STUD |       5 |  -84 |         OPEN
+                       ECUT-STUD |      13 |  -84 |         OPEN
+                           jd318 |       3 |  -88 | WPA WPA2 PSK
+                       jidian303 |       3 |  -89 | WPA WPA2 PSK
+----------------------------------------------------------------
+I (12150) ESP_SCAN: scanf wifi done!
+ scanf done !
+
+Found 11 access points:
+
+               SSID              | Channel | RSSI |   Auth Mode 
+----------------------------------------------------------------
+                      TreeNewbee |       2 |  -32 |     WPA2 PSK
+                            ECUT |       1 |  -50 |         OPEN
+                       ECUT-STUD |       1 |  -52 |         OPEN
+                    TreeNewbeemo |       6 |  -52 |     WPA2 PSK
+                        vivo Y79 |      11 |  -76 |     WPA2 PSK
+   |       7 |  -77 | WPA WPA2 PSK
+                    Tenda_FE0D78 |      11 |  -78 |         OPEN
+                            ECUT |      13 |  -82 |         OPEN
+                     TP-LINK_304 |      11 |  -83 | WPA WPA2 PSK
+                       ECUT-STUD |       9 |  -84 |         OPEN
+                            ECUT |       9 |  -85 |         OPEN
+----------------------------------------------------------------
+I (16760) ESP_SCAN: scanf wifi done!
+ scanf done !
+
+Found 13 access points:
+
+               SSID              | Channel | RSSI |   Auth Mode 
+----------------------------------------------------------------
+                      TreeNewbee |       2 |  -30 |     WPA2 PSK
+                            ECUT |       1 |  -48 |         OPEN
+                       ECUT-STUD |       1 |  -49 |         OPEN
+                    TreeNewbeemo |       6 |  -59 |     WPA2 PSK
+                        vivo Y79 |      11 |  -73 |     WPA2 PSK
+                    Tenda_FE0D78 |      11 |  -77 |         OPEN
+                       ECUT-STUD |      13 |  -79 |         OPEN
+                            ECUT |      13 |  -81 |         OPEN
+                            ECUT |       9 |  -84 |         OPEN
+                       ECUT-STUD |       9 |  -85 |         OPEN
+                           JD300 |       1 |  -86 | WPA WPA2 PSK
+                     TP-LINK_304 |      11 |  -88 | WPA WPA2 PSK
+                           jd318 |       3 |  -89 | WPA WPA2 PSK
+----------------------------------------------------------------
+I (21390) ESP_SCAN: scanf wifi done!
+ scanf done !
+
+Found 15 access points:
+
+               SSID              | Channel | RSSI |   Auth Mode 
+----------------------------------------------------------------
+                      TreeNewbee |       2 |  -34 |     WPA2 PSK
+                            ECUT |       1 |  -51 |         OPEN
+                       ECUT-STUD |       1 |  -51 |         OPEN
+                    TreeNewbeemo |       6 |  -57 |     WPA2 PSK
+   |       7 |  -76 | WPA WPA2 PSK
+                        vivo Y79 |      11 |  -76 |     WPA2 PSK
+                    Tenda_FE0D78 |      11 |  -79 |         OPEN
+                            ECUT |      13 |  -79 |         OPEN
+                       ECUT-STUD |      13 |  -79 |         OPEN
+                       ECUT-STUD |       5 |  -83 |         OPEN
+                            ECUT |       5 |  -85 |         OPEN
+                            ECUT |       9 |  -85 |         OPEN
+                       ECUT-STUD |       9 |  -86 |         OPEN
+                     TP-LINK_304 |      11 |  -88 | WPA WPA2 PSK
+                           jd318 |       3 |  -91 | WPA WPA2 PSK
+----------------------------------------------------------------
+I (26030) ESP_SCAN: scanf wifi done!
+ scanf done !
+
+Found 12 access points:
+
+               SSID              | Channel | RSSI |   Auth Mode 
+----------------------------------------------------------------
+                      TreeNewbee |       2 |  -30 |     WPA2 PSK
+                       ECUT-STUD |       1 |  -49 |         OPEN
+                            ECUT |       1 |  -50 |         OPEN
+                    TreeNewbeemo |       6 |  -63 |     WPA2 PSK
+   |       7 |  -76 | WPA WPA2 PSK
+                       ECUT-STUD |       5 |  -79 |         OPEN
+                            ECUT |       5 |  -79 |         OPEN
+                            ECUT |      13 |  -79 |         OPEN
+                       ECUT-STUD |      13 |  -80 |         OPEN
+                       jidian303 |       3 |  -88 | WPA WPA2 PSK
+                           JD300 |       1 |  -89 | WPA WPA2 PSK
+                           jd318 |       3 |  -89 | WPA WPA2 PSK
+----------------------------------------------------------------
+I (30650) ESP_SCAN: scanf wifi done!
+ scanf done !
+
+Found 11 access points:
+
+               SSID              | Channel | RSSI |   Auth Mode 
+----------------------------------------------------------------
+                      TreeNewbee |       2 |  -35 |     WPA2 PSK
+                            ECUT |       1 |  -52 |         OPEN
+                       ECUT-STUD |       1 |  -53 |         OPEN
+                    TreeNewbeemo |       6 |  -67 |     WPA2 PSK
+                        vivo Y79 |      11 |  -76 |     WPA2 PSK
+   |       7 |  -79 | WPA WPA2 PSK
+                    Tenda_FE0D78 |      11 |  -79 |         OPEN
+                       ECUT-STUD |      13 |  -80 |         OPEN
+                            ECUT |      13 |  -81 |         OPEN
+                       ECUT-STUD |       5 |  -82 |         OPEN
+                     TP-LINK_304 |      11 |  -89 | WPA WPA2 PSK
+----------------------------------------------------------------
+I (35260) ESP_SCAN: scanf wifi done!
+ scanf done !
+
+Found 12 access points:
+
+               SSID              | Channel | RSSI |   Auth Mode 
+----------------------------------------------------------------
+                      TreeNewbee |       2 |  -35 |     WPA2 PSK
+                       ECUT-STUD |       1 |  -52 |         OPEN
+                            ECUT |       1 |  -54 |         OPEN
+                    TreeNewbeemo |       6 |  -79 |     WPA2 PSK
+                        vivo Y79 |      11 |  -80 |     WPA2 PSK
+   |       7 |  -81 | WPA WPA2 PSK
+                    Tenda_FE0D78 |      11 |  -81 |         OPEN
+                       ECUT-STUD |       5 |  -83 |         OPEN
+                            ECUT |       5 |  -83 |         OPEN
+                       ECUT-STUD |      13 |  -84 |         OPEN
+                            ECUT |      13 |  -85 |         OPEN
+                     TP-LINK_304 |      11 |  -90 | WPA WPA2 PSK
+----------------------------------------------------------------
+I (39880) ESP_SCAN: scanf wifi done!
+ scanf done !
+
+Found 14 access points:
+
+               SSID              | Channel | RSSI |   Auth Mode 
+----------------------------------------------------------------
+                      TreeNewbee |       2 |  -33 |     WPA2 PSK
+                            ECUT |       1 |  -53 |         OPEN
+                       ECUT-STUD |       1 |  -55 |         OPEN
+                    TreeNewbeemo |       6 |  -70 |     WPA2 PSK
+                        vivo Y79 |      11 |  -77 |     WPA2 PSK
+   |       7 |  -82 | WPA WPA2 PSK
+                            ECUT |      13 |  -82 |         OPEN
+                       ECUT-STUD |      13 |  -82 |         OPEN
+                       ECUT-STUD |       5 |  -83 |         OPEN
+                            ECUT |       5 |  -83 |         OPEN
+                     TP-LINK_304 |      11 |  -85 | WPA WPA2 PSK
+                    Tenda_FE0D78 |      11 |  -86 |         OPEN
+                       jidian303 |       3 |  -90 | WPA WPA2 PSK
+                           jd318 |       3 |  -90 | WPA WPA2 PSK
+----------------------------------------------------------------
+I (44510) ESP_SCAN: scanf wifi done!
+ scanf done !
+
+Found 14 access points:
+
+               SSID              | Channel | RSSI |   Auth Mode 
+----------------------------------------------------------------
+                      TreeNewbee |       2 |  -34 |     WPA2 PSK
+                            ECUT |       1 |  -52 |         OPEN
+                       ECUT-STUD |       1 |  -52 |         OPEN
+                    TreeNewbeemo |       6 |  -66 |     WPA2 PSK
+                    Tenda_FE0D78 |      11 |  -78 |         OPEN
+                        vivo Y79 |      11 |  -79 |     WPA2 PSK
+                       ECUT-STUD |      13 |  -80 |         OPEN
+                            ECUT |      13 |  -81 |         OPEN
+                            ECUT |       5 |  -82 |         OPEN
+   |       7 |  -82 | WPA WPA2 PSK
+                       ECUT-STUD |       5 |  -83 |         OPEN
+                     TP-LINK_304 |      11 |  -85 | WPA WPA2 PSK
+                       jidian303 |       3 |  -92 | WPA WPA2 PSK
+                           jd318 |       3 |  -93 | WPA WPA2 PSK
+----------------------------------------------------------------
+
+[genius@archlinux scan-test]$ 
+

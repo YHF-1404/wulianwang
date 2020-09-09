@@ -1,0 +1,370 @@
+2019.7.3:   
+            Location: scanf_task()
+            Issue: Here has something wrong which will cause "Disconnection reason 2" error
+            Is solved: No
+
+
+2019.7.6:
+            Location: obtain_time()
+            Issue: E (45079) network: The current date/time error
+            Is solved: No
+
+
+
+2019.7.7:
+            Location: unknow
+            Issue: look down
+            Is solved: No
+
+Task stack [sntp_task] stack from [0x3fff71bc] to [0x3fff81b8], total [4096] size
+
+                   0          4          8          c         10         14         18         1c         20         24         28         2c         30         34         38         3c 
+
+3fff8140  0x40236a78 0x3ffedcac 0x401078c4 0x00000000 0x40211928 0x40107720 0x3ffedcac 0x4023c25f 0x40211928 0x40107720 0x3ffedcac 0x40232801 0x5d20e3c5 0x00000009 0x00000009 0x00000002 
+0x40236a78: realloc at /home/genius/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/esp_malloc.c:39
+
+0x4023c25f: cJSON_Print at /home/genius/esp/ESP8266_RTOS_SDK/components/cjson/cJSON/cJSON.c:1816
+
+0x40232801: sntp_task at /home/genius/ESP8266/wifi-clock/components/network/network.c:258
+
+3fff8180  0x00000007 0x00000006 0x00000077 0x00000000 0x000000bb 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 
+
+
+        PC: 0x4000bf80        PS: 0x00000030        A0: 0x40232809        A1: 0x3fff8170
+0x40232809: sntp_task at /home/genius/ESP8266/wifi-clock/components/network/network.c:259
+
+        A2: 0x00000000        A3: 0xfffffffc        A4: 0x000000ff        A5: 0x0000ff00
+        A6: 0x00ff0000        A7: 0xff000000        A8: 0x0000007d        A9: 0x00000108
+       A10: 0x3fff7fe3       A11: 0x00000039       A12: 0x3ffedcac       A13: 0x40107720
+       A14: 0x00000000       A15: 0x00000000       SAR: 0x0000001f  EXCCAUSE: 0x0000001c
+
+
+Task stack [sntp_task] stack from [0x3fff71bc] to [0x3fff81b8], total [4096] size
+
+register map is 3ffed780 error
+                   0          4          8          c         10         14         18         1c         20         24         28         2c         30         34         38         3c 
+
+3fff71bc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff71fc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff723c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff727c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff72bc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff72fc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff733c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff737c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff73bc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff73fc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff743c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff747c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff74bc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff74fc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff753c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff757c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff75bc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff75fc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff763c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff767c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff76bc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff76fc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff773c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff777c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff77bc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff77fc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff783c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff787c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff78bc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff78fc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff793c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff797c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff79bc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff79fc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff7a3c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff7a7c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff7abc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff7afc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff7b3c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff7b7c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff7bbc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff7bfc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff7c3c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+3fff7c7c  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x40212154 0x3ffeddcc 0x19999999 0x3fff7d4d 0x00000000 0xa5a5a5a5 0xa5a5a5a5 
+3fff7cbc  0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x3fff7d30 0x3fff7d4d 0x00000000 0x3fff7fc0 0x4023658d 0x402122ee 0x402122f1 0x402122f4 0x402280f2 0x3fff7d4c 0xfffffea3 0x3ffeddcc 
+0x4023658d: _scanf_i at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/nano-vfscanf_i.c:218
+
+0x402280f2: xQueueGenericSend at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/freertos/queue.c:2332
+
+3fff7cfc  0x40234594 0x00000030 0x3fff8000 0xa5a5a5a5 0x00000003 0x00002001 0x00000000 0x00080240 0x00000008 0x3ffeddcc 0x4021213e 0x3fff8000 0x402361f0 0x00000040 0x0000000a 0x0000000a 
+0x40234594: _strtoul_r at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdlib/../../../.././newlib/libc/stdlib/strtoul.c:140
+
+0x402361f0: __ssvfscanf_r at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/nano-vfscanf.c:439 (discriminator 1)
+
+3fff7d3c  0x00000000 0x00000000 0x3fff7eb4 0x00000001 0xa5a50038 0x401051d4 0x4010037a 0x00000030 0x40228eaa 0x3fff7da0 0x00000020 0x00000000 0x40106330 0x40106330 0x00000001 0xa5a5a5a5 
+0x401051d4: _xt_user_exit at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/xtensa_vectors.S:715
+
+0x4010037a: vPortExitCritical at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/port.c:368
+
+0x40228eaa: xTaskResumeAll at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/freertos/tasks.c:3747 (discriminator 4)
+
+0x40106330: xthal_set_intset at ??:?
+
+0x40106330: xthal_set_intset at ??:?
+
+3fff7d7c  0x00000003 0x00002001 0x00000000 0x00080240 0x00000001 0x3fff1294 0x3fff3890 0x3ffe9124 0x00000000 0x3fff3890 0x3fff8278 0x3ffe9124 0x40228eaa 0xa5a5a5a5 0x3ffe8c78 0x00000001 
+0x40228eaa: xTaskResumeAll at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/freertos/tasks.c:3747 (discriminator 4)
+
+3fff7dbc  0x4023d944 0x3fff3890 0x3ffe8c78 0x00000001 0x4021e120 0xffffffff 0xe6b4ffff 0xfdd76d2d 0xe6b40608 0xfdd76d2d 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x3ffe8c78 0x000000ff 0x00000000 
+0x4023d944: __wifi_task_resume_all at /home/genius/esp/ESP8266_RTOS_SDK/components/esp8266/source/esp_wifi_os_adapter.c:82
+
+0x4021e120: ieee80211_output_pbuf at ??:?
+
+3fff7dfc  0x00000000 0x3fff706c 0x3fff8278 0x00000002 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0x40107514 0x40107514 0x3fff825c 0x00000000 0x4023f72c 0x00000000 0x3fff8292 0x0000002a 
+0x4023f72c: low_level_output at /home/genius/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/netif/ethernetif.c:357
+
+3fff7e3c  0x4023f66c 0x401051d4 0x4022b8fb 0x00000030 0x4022b8fb 0x3fff7e90 0x00000000 0x3fff825c 0x40100428 0x401051d4 0x4010037a 0x00000030 0x40100428 0x3fff7eb0 0x00000020 0x00000000 
+0x4023f66c: low_level_send_cb at /home/genius/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/netif/ethernetif.c:217
+
+0x401051d4: _xt_user_exit at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/xtensa_vectors.S:715
+
+0x4022b8fb: etharp_raw at /home/genius/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/core/ipv4/etharp.c:626
+
+0x4022b8fb: etharp_raw at /home/genius/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/core/ipv4/etharp.c:626
+
+0x40100428: vPortETSIntrUnlock at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/port.c:368
+
+0x401051d4: _xt_user_exit at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/xtensa_vectors.S:715
+
+0x4010037a: vPortExitCritical at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/port.c:368
+
+0x40100428: vPortETSIntrUnlock at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/port.c:368
+
+3fff7e7c  0x401077c8 0x40107718 0xc01076f4 0x00000010 0x401077c8 0x401051d4 0x40229ced 0x00000030 0x40100428 0x3fff7ee0 0x40107760 0x00000000 0x4010088e 0x40232e28 0x00000000 0x40107760 
+0x401051d4: _xt_user_exit at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/xtensa_vectors.S:715
+
+0x40229ced: blk_link_size at /home/genius/esp/ESP8266_RTOS_SDK/components/heap/port/esp8266/include/priv/esp_heap_caps_priv.h:100
+ (inlined by) ptr_size at /home/genius/esp/ESP8266_RTOS_SDK/components/heap/port/esp8266/include/priv/esp_heap_caps_priv.h:150
+ (inlined by) _heap_caps_realloc at /home/genius/esp/ESP8266_RTOS_SDK/components/heap/src/esp_heap_caps.c:311
+
+0x40100428: vPortETSIntrUnlock at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/port.c:368
+
+0x4010088e: _heap_caps_malloc at /home/genius/esp/ESP8266_RTOS_SDK/components/heap/src/esp_heap_caps.c:203
+
+0x40232e28: __ssputs_r at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/nano-vfprintf.c:343
+
+3fff7ebc  0x40100428 0x000002ac 0x3ffe86e7 0x0000006d 0x401009a6 0x00000060 0x40107720 0x00000060 0x40229d20 0x40236855 0x00000288 0x40107720 0x00000000 0x00000000 0x3fff7fba 0x3ffeddcc 
+0x40100428: vPortETSIntrUnlock at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/port.c:368
+
+0x401009a6: _heap_caps_free at /home/genius/esp/ESP8266_RTOS_SDK/components/heap/src/esp_heap_caps.c:288
+
+0x40229d20: _heap_caps_realloc at /home/genius/esp/ESP8266_RTOS_SDK/components/heap/src/esp_heap_caps.c:319
+
+0x40236855: _realloc_r at /home/genius/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/syscall.c:150
+
+3fff7efc  0x00000000 0x00000060 0x00000000 0x3fff8070 0x40232d98 0x3fff8040 0x3ffeddcc 0x3fff7fba 0x40242d44 0x00000000 0x3fff7fe2 0x00000000 0x4010088e 0x40232e28 0x00000000 0x0000006e 
+0x40232d98: __ssputs_r at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/nano-vfprintf.c:343
+
+0x40242d44: _printf_common at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/nano-vfprintf_i.c:102 (discriminator 2)
+
+0x4010088e: _heap_caps_malloc at /home/genius/esp/ESP8266_RTOS_SDK/components/heap/src/esp_heap_caps.c:203
+
+0x40232e28: __ssputs_r at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/nano-vfprintf.c:343
+
+3fff7f3c  0x3fff7fa0 0x40232d98 0x3fff8040 0x3fff7fe2 0x40233474 0x00000002 0x40107720 0x00000060 0x40229d20 0x3ffeddcc 0x00000009 0x0000000a 0x40211d0d 0x3fff7fe3 0x3fff8063 0x4021192c 
+0x40232d98: __ssputs_r at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/nano-vfprintf.c:343
+
+0x40233474: _printf_i at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/nano-vfprintf_i.c:244
+
+0x40229d20: _heap_caps_realloc at /home/genius/esp/ESP8266_RTOS_SDK/components/heap/src/esp_heap_caps.c:319
+
+3fff7f7c  0x0000001a 0x00000060 0x00000000 0x3fff8070 0x40211d60 0x00000000 0x3ffeddcc 0x3fff8040 0x402330d0 0x00000000 0x00000002 0x00000002 0x00000000 0x00000001 0x00000002 0x3f302064 
+0x402330d0: _svfprintf_r at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/nano-vfprintf.c:641
+
+3fff7fbc  0x3fff8020 0x40232d98 0x3fff80c0 0x3fff8062 0x40233474 0x00000001 0x00000007 0x00000000 0x32000000 0x0039ddcc 0x00000007 0x0000000a 0x40211d0d 0x3fff8063 0x40107704 0x00000000 
+0x40232d98: __ssputs_r at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/nano-vfprintf.c:343
+
+0x40233474: _printf_i at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/nano-vfprintf_i.c:244
+
+3fff7ffc  0x40235bd4 0x3fff80e0 0x3fff80c0 0x00000010 0x00000002 0x40211d5f 0x3ffeddcc 0x3fff80c0 0x402330d0 0x00000000 0xffffffff 0xffffffff 0x00000000 0x3ffedcac 0x3ffeddcc 0x0000001e 
+0x40235bd4: sscanf at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/sscanf.c:431
+
+0x402330d0: _svfprintf_r at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/nano-vfprintf.c:641
+
+3fff803c  0x40235b45 0x3ffedcae 0x0000001a 0x0000001b 0xffff0208 0x3ffedcac 0x0000001d 0x3fff03a0 0x40227e4a 0x00370000 0x00000000 0x3fff03a0 0x40227e4a 0x1b87cf1e 0x00058d07 0x00000000 
+0x40235b45: snprintf at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/snprintf.c:118
+
+0x40227e4a: prvCopyDataToQueue at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/freertos/queue.c:2332
+
+0x40227e4a: prvCopyDataToQueue at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/freertos/queue.c:2332
+
+3fff807c  0x00000000 0x3fff8150 0x3fff8140 0x0000000c 0x00000001 0x40211929 0x00000000 0x3fff0350 0x40100428 0x00005d20 0x00000000 0x3fff80e0 0x4010088e 0x4023bf35 0x00000000 0x00000002 
+0x40100428: vPortETSIntrUnlock at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/port.c:368
+
+0x4010088e: _heap_caps_malloc at /home/genius/esp/ESP8266_RTOS_SDK/components/heap/src/esp_heap_caps.c:203
+
+0x4023bf35: print at /home/genius/esp/ESP8266_RTOS_SDK/components/cjson/cJSON/cJSON.c:1816
+
+3fff80bc  0x4023ba64 0x3ffedcad 0x00000000 0x7ffffffe 0x00000000 0x40107720 0x4010790c 0x0000005a 0x40229cc8 0x40236a89 0x00000000 0x3fff6ff8 0x4023be7b 0x00000058 0x00000000 0x3fff8120 
+0x4023ba64: print_string_ptr at /home/genius/esp/ESP8266_RTOS_SDK/components/cjson/cJSON/cJSON.c:1816
+
+0x40229cc8: _heap_caps_realloc at /home/genius/esp/ESP8266_RTOS_SDK/components/heap/src/esp_heap_caps.c:309
+
+0x40236a89: realloc at /home/genius/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/esp_malloc.c:39
+
+0x4023be7b: print_value at /home/genius/esp/ESP8266_RTOS_SDK/components/cjson/cJSON/cJSON.c:1816
+
+3fff80fc  0x00000000 0x40107720 0x00000001 0x3ffe8570 0x40236a89 0x40107720 0x00000001 0x3ffe8570 0x4023bf35 0x00000000 0x00000100 0x00000059 0x00000000 0x00000000 0x00000001 0x40236a60 
+0x40236a89: realloc at /home/genius/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/esp_malloc.c:39
+
+0x4023bf35: print at /home/genius/esp/ESP8266_RTOS_SDK/components/cjson/cJSON/cJSON.c:1816
+
+0x40236a60: malloc at /home/genius/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/esp_malloc.c:39
+
+3fff813c  0x40236aa8 0x40236a78 0x3ffedcac 0x401078c4 0x00000000 0x40211928 0x40107720 0x3ffedcac 0x4023c25f 0x40211928 0x40107720 0x3ffedcac 0x40232801 0x5d20e3c5 0x00000009 0x00000009 
+0x40236aa8: free at /home/genius/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/esp_malloc.c:49
+
+0x40236a78: realloc at /home/genius/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/esp_malloc.c:39
+
+0x4023c25f: cJSON_Print at /home/genius/esp/ESP8266_RTOS_SDK/components/cjson/cJSON/cJSON.c:1816
+
+0x40232801: sntp_task at /home/genius/ESP8266/wifi-clock/components/network/network.c:258
+
+3fff817c  0x00000002 0x00000007 0x00000006 0x00000077 0x00000000 0x000000bb 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 0x00000000 
+
+
+        PC: 0x40243ac3        PS: 0x00000033        A0: 0x40243ac3        A1: 0x3ffed780
+0x40243ac3: rom_i2c_readReg at ??:?
+
+0x40243ac3: rom_i2c_readReg at ??:?
+
+        A2: 0x08000000        A3: 0x08000000        A4: 0x00000000        A5: 0x00000006
+        A6: 0x40243a98        A7: 0x00000001        A8: 0x40243b54        A9: 0x00020af8
+0x40243a98: rom_i2c_readReg at ??:?
+
+0x40243b54: rom_i2c_writeReg at ??:?
+
+       A10: 0x00000001       A11: 0x00000002       A12: 0x3ffe9010       A13: 0x00000062
+       A14: 0x00000000       A15: 0x00000001       SAR: 0x00000020  EXCCAUSE: 0x00000000
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7204, room 16 
+0x40100000: _stext at ??:?
+
+tail 4
+chksum 0x64
+load 0x3ffe8408, len 24, room 4 
+tail 4
+chksum 0x4d
+load 0x3ffe8420, len 3524, room 4 
+tail 0
+chksum 0x28
+
+
+
+
+2019.7.7:
+            Location: unknow
+            Issue: look down
+            Is solved: YES
+
+I (102588) network: checking ssid...
+I (102588) network: Setting WiFi configuration SSID Huang...
+E (103718) network: Disconnect reason : 2
+
+
+Task stack [esp_event_loop_] stack from [0x3fff3020] to [0x3fff381c], total [2048] size
+
+                   0          4          8          c         10         14         18         1c         20         24         28         2c         30         34         38         3c 
+
+3fff3780  0x40211700 0x40211700 0x40107514 0x00000002 0x02a064ec 0x401003c6 0x3fff29d0 0x00000000 0x00000000 0x40105fcc 0x00000000 0x00000000 0x00000000 0x00000000 0x3fff37e0 0x4023261d 
+0x401003c6: PendSV at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/port.c:368
+
+0x40105fcc: xthal_set_intset at ??:?
+
+0x4023261d: event_handler at /home/genius/ESP8266/wifi-clock/components/network/network.c:83
+
+3fff37c0  0xa5a5a5a5 0x00000000 0x00000000 0x4023da58 0x00000000 0x00000000 0x00000000 0x4023da96 0x00000005 0x6e617548 0xa5a50067 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 
+0x4023da58: esp_event_post_to_user at /home/genius/esp/ESP8266_RTOS_SDK/components/esp8266/source/event_loop.c:92
+
+0x4023da96: esp_event_loop_task at /home/genius/esp/ESP8266_RTOS_SDK/components/esp8266/source/event_loop.c:92
+
+3fff3800  0xa5a5a5a5 0xda46e605 0x02a064ec 0x401003c6 0x00000000 0x00000000 0x00000000 0x00000000 
+0x401003c6: PendSV at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/port.c:368
+
+
+
+        PC: 0x401009f2        PS: 0x00000033        A0: 0x40228b92        A1: 0x3fff37b0
+0x401009f2: uxListRemove at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/freertos/list.c:176
+
+0x40228b92: vTaskDelete at /home/genius/esp/ESP8266_RTOS_SDK/components/freertos/freertos/tasks.c:3747 (discriminator 4)
+
+        A2: 0x3fff6f94        A3: 0x00000000        A4: 0x43450001        A5: 0x3fff706c
+        A6: 0x40235c20        A7: 0x00000000        A8: 0x4010bff8        A9: 0x00000090
+0x40235c20: __swrite at /home/dongheng/workspace/espressif/newlib_xtensa-2.2.0-bin/newlib_xtensa-2.2.0/xtensa-lx106-elf/newlib/libc/stdio/../../../.././newlib/libc/stdio/stdio.c:81
+
+       A10: 0x3fff3663       A11: 0x00000032       A12: 0x3fff6f90       A13: 0x3fff6f94
+       A14: 0x00000000       A15: 0x00000000       SAR: 0x0000001d  EXCCAUSE: 0x00000009
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7204, room 16 
+0x40100000: _stext at ??:?
+
+tail 4
+chksum 0x64
+load 0x3ffe8408, len 24, room 4 
+tail 4
+chksum 0x4d
+load 0x3ffe8420, len 3524, room 4 
+tail 0
+chksum 0x28
+I (84) boot: ESP-IDF  2nd stage bootloader
+I (84) boot: compile time 23:51:03
+
+
+
+#if LWIP_NETIF_HOSTNAME
+
+    netif->hostname = "LWIP";
+
+#endif /* LWIP_NETIF_HOSTNAME */
+netif_set_hostname(netif, "lwip");
+
+
+
+2019.7.11:
+            Location: event_handler()
+            Issue: while reconnecting wifi will lead to this bug( E (33353) event_handler: Disconnect reason : 2 )
+            Is solved: No
+
+
+I (2963) event_handler: Scanf done
+I (2963) event_handler: Send ZL_SCANF_DONE done!
+I (3053) ZL_WIFI_EVENT: Receive done
+I (3053) network: checking ssid...
+I (3053) network: Setting WiFi configuration SSID Huang...
+I (3543) wificlock: Free heap size: 54020
+
+I (6293) event: sta ip: 192.168.43.9, mask: 255.255.255.0, gw: 192.168.43.1
+I (6293) event_handler: Send ZL_GOT_IP done!
+I (6293) ZL_WIFI_EVENT: Receive done
+I (6543) wificlock: Free heap size: 54020
+
+I (32123) event_handler: Scanf done
+I (32123) event_handler: Send ZL_SCANF_DONE done!
+I (32213) ZL_WIFI_EVENT: Receive done
+I (32213) network: checking ssid...
+I (32213) network: Setting WiFi configuration SSID Huang...
+I (33343) event_handler: Send ZL_DISCONNECTED done!
+        E (33353) event_handler: Disconnect reason : 2
+I (33353) ZL_WIFI_EVENT: Receive done
+I (33543) wificlock: Free heap size: 54088
+
+I (36213) event_handler: Scanf done
+I (36213) event_handler: Send ZL_SCANF_DONE done!
+I (36263) ZL_WIFI_EVENT: Receive done
+I (36263) network: checking ssid...
+I (36263) network: Setting WiFi configuration SSID Huang...
+I (36543) wificlock: Free heap size: 53860
+
+I (39453) event: sta ip: 192.168.43.9, mask: 255.255.255.0, gw: 192.168.43.1
+I (39453) event_handler: Send ZL_GOT_IP done!
+I (39453) ZL_WIFI_EVENT: Receive done
+I (39543) wificlock: Free heap size: 53860
