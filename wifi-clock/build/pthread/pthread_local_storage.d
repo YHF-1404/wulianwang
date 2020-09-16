@@ -35,7 +35,7 @@ pthread_local_storage.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/stdio.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/yhf/my_esp8266_project/wulianwang/wifi-clock/build/include/sdkconfig.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -142,7 +142,7 @@ pthread_local_storage.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/yhf/my_esp8266_project/wulianwang/wifi-clock/build/include/sdkconfig.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

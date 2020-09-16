@@ -8,8 +8,8 @@
 
 #include <string.h>
 
-char const *WIFI_SSID[] = {"ecutjwu", "dzxxgc"};
-char const *WIFI_PASS[] = {"ec123456", "dz123456"};
+char const *WIFI_SSID[] = {"ecutjwu", "dzxxgc", "yhf-meizu"};
+char const *WIFI_PASS[] = {"ec123456", "dz123456", "11111111"};
 
 //#define DEBUG
 

@@ -40,7 +40,7 @@ vfs.o: /home/yhf/esp/ESP8266_RTOS_SDK/components/vfs/vfs.c \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/yhf/my_esp8266_project/wulianwang/wifi-clock/build/include/sdkconfig.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h \
@@ -163,7 +163,7 @@ vfs.o: /home/yhf/esp/ESP8266_RTOS_SDK/components/vfs/vfs.c \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/yhf/my_esp8266_project/wulianwang/wifi-clock/build/include/sdkconfig.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h:
 

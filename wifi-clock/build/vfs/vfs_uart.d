@@ -37,7 +37,7 @@ vfs_uart.o: /home/yhf/esp/ESP8266_RTOS_SDK/components/vfs/vfs_uart.c \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/utime.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/examples/get-started/hello_world/build/include/sdkconfig.h \
+ /home/yhf/my_esp8266_project/wulianwang/wifi-clock/build/include/sdkconfig.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/stdlib.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/alloca.h \
@@ -162,7 +162,7 @@ vfs_uart.o: /home/yhf/esp/ESP8266_RTOS_SDK/components/vfs/vfs_uart.c \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/examples/get-started/hello_world/build/include/sdkconfig.h:
+/home/yhf/my_esp8266_project/wulianwang/wifi-clock/build/include/sdkconfig.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h:
 

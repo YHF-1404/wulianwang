@@ -63,7 +63,20 @@ newlib/port/syscall.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/mpu_wrappers.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/vfs/include/esp_vfs.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/unistd.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/unistd.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/utime.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/utime.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/semphr.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/time.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/termios.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/poll.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/dirent.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/vfs/include/sys/dirent.h
 
 /home/yhf/my_esp8266_project/wulianwang/wifi-clock/build/include/sdkconfig.h:
 
@@ -192,4 +205,30 @@ newlib/port/syscall.o: \
 /home/yhf/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/vfs/include/esp_vfs.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/unistd.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/unistd.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/utime.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/utime.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/semphr.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/time.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/termios.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/poll.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/dirent.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/vfs/include/sys/dirent.h:
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/syscall.c:

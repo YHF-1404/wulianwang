@@ -1,0 +1,124 @@
+ARM GAS  /tmp/cckMcX8R.s 			page 1
+
+
+   1              		.cpu cortex-m3
+   2              		.eabi_attribute 20, 1
+   3              		.eabi_attribute 21, 1
+   4              		.eabi_attribute 23, 3
+   5              		.eabi_attribute 24, 1
+   6              		.eabi_attribute 25, 1
+   7              		.eabi_attribute 26, 1
+   8              		.eabi_attribute 30, 1
+   9              		.eabi_attribute 34, 1
+  10              		.eabi_attribute 18, 4
+  11              		.file	"iwdg.c"
+  12              		.text
+  13              	.Ltext0:
+  14              		.cfi_sections	.debug_frame
+  15              		.section	.text.MX_IWDG_Init,"ax",%progbits
+  16              		.align	1
+  17              		.global	MX_IWDG_Init
+  18              		.arch armv7-m
+  19              		.syntax unified
+  20              		.thumb
+  21              		.thumb_func
+  22              		.fpu softvfp
+  24              	MX_IWDG_Init:
+  25              	.LFB66:
+  26              		.file 1 "component/iwdg/iwdg.c"
+   1:component/iwdg/iwdg.c **** #include "iwdg.h"
+   2:component/iwdg/iwdg.c **** 
+   3:component/iwdg/iwdg.c **** 
+   4:component/iwdg/iwdg.c **** IWDG_HandleTypeDef hiwdg;
+   5:component/iwdg/iwdg.c **** 
+   6:component/iwdg/iwdg.c **** 
+   7:component/iwdg/iwdg.c **** void MX_IWDG_Init(void)
+   8:component/iwdg/iwdg.c **** {
+  27              		.loc 1 8 1 view -0
+  28              		.cfi_startproc
+  29              		@ args = 0, pretend = 0, frame = 0
+  30              		@ frame_needed = 0, uses_anonymous_args = 0
+  31 0000 08B5     		push	{r3, lr}
+  32              	.LCFI0:
+  33              		.cfi_def_cfa_offset 8
+  34              		.cfi_offset 3, -8
+  35              		.cfi_offset 14, -4
+   9:component/iwdg/iwdg.c **** 
+  10:component/iwdg/iwdg.c ****   hiwdg.Instance = IWDG;
+  36              		.loc 1 10 3 view .LVU1
+  37              		.loc 1 10 18 is_stmt 0 view .LVU2
+  38 0002 0748     		ldr	r0, .L5
+  39 0004 074B     		ldr	r3, .L5+4
+  40 0006 0360     		str	r3, [r0]
+  11:component/iwdg/iwdg.c ****   hiwdg.Init.Prescaler = IWDG_PRESCALER_8;
+  41              		.loc 1 11 3 is_stmt 1 view .LVU3
+  42              		.loc 1 11 24 is_stmt 0 view .LVU4
+  43 0008 0123     		movs	r3, #1
+  44 000a 4360     		str	r3, [r0, #4]
+  12:component/iwdg/iwdg.c ****   hiwdg.Init.Reload = 2500-1;
+  45              		.loc 1 12 3 is_stmt 1 view .LVU5
+  46              		.loc 1 12 21 is_stmt 0 view .LVU6
+ARM GAS  /tmp/cckMcX8R.s 			page 2
+
+
+  47 000c 40F6C313 		movw	r3, #2499
+  48 0010 8360     		str	r3, [r0, #8]
+  13:component/iwdg/iwdg.c ****   if (HAL_IWDG_Init(&hiwdg) != HAL_OK)
+  49              		.loc 1 13 3 is_stmt 1 view .LVU7
+  50              		.loc 1 13 7 is_stmt 0 view .LVU8
+  51 0012 FFF7FEFF 		bl	HAL_IWDG_Init
+  52              	.LVL0:
+  53              		.loc 1 13 6 view .LVU9
+  54 0016 00B9     		cbnz	r0, .L4
+  55              	.L1:
+  14:component/iwdg/iwdg.c ****   {
+  15:component/iwdg/iwdg.c ****     Error_Handler();
+  16:component/iwdg/iwdg.c ****   }
+  17:component/iwdg/iwdg.c **** 
+  18:component/iwdg/iwdg.c **** }
+  56              		.loc 1 18 1 view .LVU10
+  57 0018 08BD     		pop	{r3, pc}
+  58              	.L4:
+  15:component/iwdg/iwdg.c ****   }
+  59              		.loc 1 15 5 is_stmt 1 view .LVU11
+  60 001a FFF7FEFF 		bl	Error_Handler
+  61              	.LVL1:
+  62              		.loc 1 18 1 is_stmt 0 view .LVU12
+  63 001e FBE7     		b	.L1
+  64              	.L6:
+  65              		.align	2
+  66              	.L5:
+  67 0020 00000000 		.word	hiwdg
+  68 0024 00300040 		.word	1073754112
+  69              		.cfi_endproc
+  70              	.LFE66:
+  72              		.comm	hiwdg,12,4
+  73              		.text
+  74              	.Letext0:
+  75              		.file 2 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_de
+  76              		.file 3 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_stdint
+  77              		.file 4 "Drivers/CMSIS/Include/core_cm3.h"
+  78              		.file 5 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h"
+  79              		.file 6 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"
+  80              		.file 7 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/inclu
+  81              		.file 8 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_types.
+  82              		.file 9 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.h
+  83              		.file 10 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/lock.h
+  84              		.file 11 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h"
+  85              		.file 12 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h"
+  86              		.file 13 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
+  87              		.file 14 "component/iwdg/iwdg.h"
+  88              		.file 15 "app/Inc/main.h"
+ARM GAS  /tmp/cckMcX8R.s 			page 3
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 iwdg.c
+     /tmp/cckMcX8R.s:16     .text.MX_IWDG_Init:0000000000000000 $t
+     /tmp/cckMcX8R.s:24     .text.MX_IWDG_Init:0000000000000000 MX_IWDG_Init
+     /tmp/cckMcX8R.s:67     .text.MX_IWDG_Init:0000000000000020 $d
+                            *COM*:000000000000000c hiwdg
+
+UNDEFINED SYMBOLS
+HAL_IWDG_Init
+Error_Handler
