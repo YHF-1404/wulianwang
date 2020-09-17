@@ -8,7 +8,8 @@
         "array": "c",
         "initializer_list": "c",
         "string_view": "c",
-        "utility": "c"
+        "utility": "c",
+        "main.h": "c"
     },
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
     "C_Cpp.errorSquiggles": "Disabled",

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccA7N9Bw.s 			page 1
+ARM GAS  /tmp/cc6JKyfd.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
   30:component/lcd/lcd.c **** // volatile uint8_t LED_Matrix_G_Buf[LED_MATRIX_MAX_WIDTH/8][LED_MATRIX_MAX_HEIGHT];
   31:component/lcd/lcd.c **** 
   32:component/lcd/lcd.c **** 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 2
+ARM GAS  /tmp/cc6JKyfd.s 			page 2
 
 
   33:component/lcd/lcd.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
   41:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** extern "C" {
   42:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #endif
   43:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 3
+ARM GAS  /tmp/cc6JKyfd.s 			page 3
 
 
   44:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /* Includes ------------------------------------------------------------------*/
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
   98:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
   99:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****                               GPIO HW configuration can be modified afterwards using unitary functi
  100:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 4
+ARM GAS  /tmp/cc6JKyfd.s 			page 4
 
 
  101:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   uint32_t Speed;        /*!< Specifies the speed for the selected pins.
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  155:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
  156:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /** @defgroup GPIO_LL_EC_MODE Mode
  157:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @{
-ARM GAS  /tmp/ccA7N9Bw.s 			page 5
+ARM GAS  /tmp/cc6JKyfd.s 			page 5
 
 
  158:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   */
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  212:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_AF_EVENTOUT_PIN_7        AFIO_EVCR_PIN_PX7   /*!< EVENTOUT on pin 7 */
  213:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_AF_EVENTOUT_PIN_8        AFIO_EVCR_PIN_PX8   /*!< EVENTOUT on pin 8 */
  214:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_AF_EVENTOUT_PIN_9        AFIO_EVCR_PIN_PX9   /*!< EVENTOUT on pin 9 */
-ARM GAS  /tmp/ccA7N9Bw.s 			page 6
+ARM GAS  /tmp/cc6JKyfd.s 			page 6
 
 
  215:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_AF_EVENTOUT_PIN_10       AFIO_EVCR_PIN_PX10  /*!< EVENTOUT on pin 10 */
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  269:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_AF_EXTI_LINE12           (0x000FU << 16U | 3U)  /*!< EXTI_POSITION_0  | EXTICR[3] *
  270:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_AF_EXTI_LINE13           (0x00F0U << 16U | 3U)  /*!< EXTI_POSITION_4  | EXTICR[3] *
  271:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_AF_EXTI_LINE14           (0x0F00U << 16U | 3U)  /*!< EXTI_POSITION_8  | EXTICR[3] *
-ARM GAS  /tmp/ccA7N9Bw.s 			page 7
+ARM GAS  /tmp/cc6JKyfd.s 			page 7
 
 
  272:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_AF_EXTI_LINE15           (0xF000U << 16U | 3U)  /*!< EXTI_POSITION_12 | EXTICR[3] *
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  326:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         Alternate function Output.
  327:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @note   Warning: only one pin can be passed as parameter.
  328:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @rmtoll CRL        CNFy         LL_GPIO_SetPinMode
-ARM GAS  /tmp/ccA7N9Bw.s 			page 8
+ARM GAS  /tmp/cc6JKyfd.s 			page 8
 
 
  329:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @rmtoll CRL        MODEy        LL_GPIO_SetPinMode
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  383:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_8
  384:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_9
  385:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_10
-ARM GAS  /tmp/ccA7N9Bw.s 			page 9
+ARM GAS  /tmp/cc6JKyfd.s 			page 9
 
 
  386:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_11
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  440:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****              (Speed << (POSITION_VAL(Pin) * 4U)));
  441:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
  442:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 10
+ARM GAS  /tmp/cc6JKyfd.s 			page 10
 
 
  443:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /**
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  497:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_9
  498:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_10
  499:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_11
-ARM GAS  /tmp/ccA7N9Bw.s 			page 11
+ARM GAS  /tmp/cc6JKyfd.s 			page 11
 
 
  500:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_12
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  554:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /**
  555:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @brief  Configure gpio pull-up or pull-down for a dedicated pin on a dedicated port.
  556:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @note   Warning: only one pin can be passed as parameter.
-ARM GAS  /tmp/ccA7N9Bw.s 			page 12
+ARM GAS  /tmp/cc6JKyfd.s 			page 12
 
 
  557:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @rmtoll ODR        ODR         LL_GPIO_SetPinPull
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  611:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   */
  612:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** __STATIC_INLINE uint32_t LL_GPIO_GetPinPull(GPIO_TypeDef *GPIOx, uint32_t Pin)
  613:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
-ARM GAS  /tmp/ccA7N9Bw.s 			page 13
+ARM GAS  /tmp/cc6JKyfd.s 			page 13
 
 
  614:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   return (READ_BIT(GPIOx->ODR, (GPIO_ODR_ODR0 << (POSITION_VAL(Pin >> GPIO_PIN_MASK_POS)))) >> (POS
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  668:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_7
  669:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_8
  670:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_9
-ARM GAS  /tmp/ccA7N9Bw.s 			page 14
+ARM GAS  /tmp/cc6JKyfd.s 			page 14
 
 
  671:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_10
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  725:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_5
  726:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_6
  727:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_7
-ARM GAS  /tmp/ccA7N9Bw.s 			page 15
+ARM GAS  /tmp/cc6JKyfd.s 			page 15
 
 
  728:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_8
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  782:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_10
  783:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_11
  784:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_12
-ARM GAS  /tmp/ccA7N9Bw.s 			page 16
+ARM GAS  /tmp/cc6JKyfd.s 			page 16
 
 
  785:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_13
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  839:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_9
  840:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_10
  841:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_11
-ARM GAS  /tmp/ccA7N9Bw.s 			page 17
+ARM GAS  /tmp/cc6JKyfd.s 			page 17
 
 
  842:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_12
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
   42:component/lcd/lcd.c **** 
   43:component/lcd/lcd.c **** void LedMatrix_Clear(void)
   44:component/lcd/lcd.c **** {
-ARM GAS  /tmp/ccA7N9Bw.s 			page 18
+ARM GAS  /tmp/cc6JKyfd.s 			page 18
 
 
   78              		.loc 1 44 1 is_stmt 1 view -0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  116              	.LVL6:
   48:component/lcd/lcd.c **** 		{
  117              		.loc 1 48 11 is_stmt 1 view .LVU22
-ARM GAS  /tmp/ccA7N9Bw.s 			page 19
+ARM GAS  /tmp/cc6JKyfd.s 			page 19
 
 
   48:component/lcd/lcd.c **** 		{
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
   46:component/lcd/lcd.c **** 	{
  157              		.loc 1 46 2 is_stmt 0 discriminator 2 view .LVU38
  158 0034 1F28     		cmp	r0, #31
-ARM GAS  /tmp/ccA7N9Bw.s 			page 20
+ARM GAS  /tmp/cc6JKyfd.s 			page 20
 
 
  159 0036 E5D8     		bhi	.L17
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  203 0008 30B4     		push	{r4, r5}
  204              	.LCFI4:
  205              		.cfi_def_cfa_offset 8
-ARM GAS  /tmp/ccA7N9Bw.s 			page 21
+ARM GAS  /tmp/cc6JKyfd.s 			page 21
 
 
  206              		.cfi_offset 4, -8
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  239              		.loc 1 83 41 view .LVU62
  240 0028 03FA00F0 		lsl	r0, r3, r0
  241              	.LVL17:
-ARM GAS  /tmp/ccA7N9Bw.s 			page 22
+ARM GAS  /tmp/cc6JKyfd.s 			page 22
 
 
  242              		.loc 1 83 35 view .LVU63
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  285              		.cfi_restore 4
  286              		.cfi_def_cfa_offset 0
  287 006a 7047     		bx	lr
-ARM GAS  /tmp/ccA7N9Bw.s 			page 23
+ARM GAS  /tmp/cc6JKyfd.s 			page 23
 
 
  288              	.LVL22:
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
   78:component/lcd/lcd.c **** 		lcdbuf.LED_Matrix_G_Buf[pos][y] |= (1<<bx);
  331              		.loc 1 78 35 view .LVU86
  332 00a2 40B2     		sxtb	r0, r0
-ARM GAS  /tmp/ccA7N9Bw.s 			page 24
+ARM GAS  /tmp/cc6JKyfd.s 			page 24
 
 
  333 00a4 0343     		orrs	r3, r3, r0
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  380              	.LBB22:
  381              	.LBI22:
  820:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
-ARM GAS  /tmp/ccA7N9Bw.s 			page 25
+ARM GAS  /tmp/cc6JKyfd.s 			page 25
 
 
  382              		.loc 2 820 22 view .LVU94
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
  422              		.loc 2 822 3 view .LVU107
  423 001e 0E4B     		ldr	r3, .L43+4
-ARM GAS  /tmp/ccA7N9Bw.s 			page 26
+ARM GAS  /tmp/cc6JKyfd.s 			page 26
 
 
  424 0020 4022     		movs	r2, #64
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  466              	.LBE31:
  467              	.LBE30:
   98:component/lcd/lcd.c **** 	if(((line&0x04)>>2))											
-ARM GAS  /tmp/ccA7N9Bw.s 			page 27
+ARM GAS  /tmp/cc6JKyfd.s 			page 27
 
 
  468              		.loc 1 98 3 is_stmt 1 view .LVU121
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  512              	.LBE36:
  107:component/lcd/lcd.c **** }
  513              		.loc 1 107 1 view .LVU135
-ARM GAS  /tmp/ccA7N9Bw.s 			page 28
+ARM GAS  /tmp/cc6JKyfd.s 			page 28
 
 
  514 0050 7047     		bx	lr
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  116:component/lcd/lcd.c **** 			LedMatrix_DrawPoint(x,y,dot);
  562              		.loc 1 116 4 is_stmt 1 discriminator 3 view .LVU141
  563 0012 3A46     		mov	r2, r7
-ARM GAS  /tmp/ccA7N9Bw.s 			page 29
+ARM GAS  /tmp/cc6JKyfd.s 			page 29
 
 
  564 0014 2146     		mov	r1, r4
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  606              		.thumb
  607              		.thumb_func
  608              		.fpu softvfp
-ARM GAS  /tmp/ccA7N9Bw.s 			page 30
+ARM GAS  /tmp/cc6JKyfd.s 			page 30
 
 
  610              	LedMatrix_ShowChar:
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  655 001e 01EB4B01 		add	r1, r1, fp, lsl #1
  656 0022 4978     		ldrb	r1, [r1, #1]	@ zero_extendqisi2
  126:component/lcd/lcd.c **** 	csize=(font2size[size][0]/8+((font2size[size][0]%8)?1:0))
-ARM GAS  /tmp/ccA7N9Bw.s 			page 31
+ARM GAS  /tmp/cc6JKyfd.s 			page 31
 
 
  657              		.loc 1 126 7 view .LVU167
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  703 005c 02EB8303 		add	r3, r2, r3, lsl #2
  704 0060 13F80950 		ldrb	r5, [r3, r9]	@ zero_extendqisi2
  705              	.LVL62:
-ARM GAS  /tmp/ccA7N9Bw.s 			page 32
+ARM GAS  /tmp/cc6JKyfd.s 			page 32
 
 
  132:component/lcd/lcd.c **** 		else if(size==2)temp=asc2_1608[chr][t];	
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  135:component/lcd/lcd.c **** 		{
  747              		.loc 1 135 9 is_stmt 0 discriminator 1 view .LVU199
  748 0086 072E     		cmp	r6, #7
-ARM GAS  /tmp/ccA7N9Bw.s 			page 33
+ARM GAS  /tmp/cc6JKyfd.s 			page 33
 
 
  749 0088 0CD8     		bhi	.L62
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  131:component/lcd/lcd.c **** 		else if(size==1)temp=asc2_1206[chr][t]; 
  790              		.loc 1 131 3 is_stmt 1 view .LVU214
  131:component/lcd/lcd.c **** 		else if(size==1)temp=asc2_1206[chr][t]; 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 34
+ARM GAS  /tmp/cc6JKyfd.s 			page 34
 
 
  791              		.loc 1 131 5 is_stmt 0 view .LVU215
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  840              	.LFB405:
  150:component/lcd/lcd.c **** 
  151:component/lcd/lcd.c **** 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 35
+ARM GAS  /tmp/cc6JKyfd.s 			page 35
 
 
  152:component/lcd/lcd.c **** void LedMatrix_ShowString(uint8_t x,uint8_t y,const uint8_t *p,uint8_t size)
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  161:component/lcd/lcd.c ****         p++;
  886              		.loc 1 161 9 is_stmt 1 view .LVU233
  887              		.loc 1 161 10 is_stmt 0 view .LVU234
-ARM GAS  /tmp/ccA7N9Bw.s 			page 36
+ARM GAS  /tmp/cc6JKyfd.s 			page 36
 
 
  888 0030 0135     		adds	r5, r5, #1
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  934              		.loc 1 170 7 discriminator 1 view .LVU245
  935 0008 19B1     		cbz	r1, .L81
  936              		.loc 1 170 12 is_stmt 1 discriminator 2 view .LVU246
-ARM GAS  /tmp/ccA7N9Bw.s 			page 37
+ARM GAS  /tmp/cc6JKyfd.s 			page 37
 
 
  937              		.loc 1 170 18 is_stmt 0 discriminator 2 view .LVU247
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  985              	.LVL94:
  179:component/lcd/lcd.c **** 	uint8_t offset=font2size[size][1];
  986              		.loc 1 179 2 view .LVU254
-ARM GAS  /tmp/ccA7N9Bw.s 			page 38
+ARM GAS  /tmp/cc6JKyfd.s 			page 38
 
 
  987              		.loc 1 179 10 is_stmt 0 view .LVU255
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1026 003c 3032     		adds	r2, r2, #48
  1027              	.LVL101:
  1028              		.loc 1 193 4 view .LVU269
-ARM GAS  /tmp/ccA7N9Bw.s 			page 39
+ARM GAS  /tmp/cc6JKyfd.s 			page 39
 
 
  1029 003e 4844     		add	r0, r0, r9
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  184:component/lcd/lcd.c **** 		{
  1072              		.loc 1 184 3 is_stmt 1 view .LVU282
  184:component/lcd/lcd.c **** 		{
-ARM GAS  /tmp/ccA7N9Bw.s 			page 40
+ARM GAS  /tmp/cc6JKyfd.s 			page 40
 
 
  1073              		.loc 1 184 5 is_stmt 0 view .LVU283
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  202:component/lcd/lcd.c **** uint8_t LedMatrix_RollStart(uint8_t x,uint8_t y,uint8_t width,char *p,uint8_t size)
  203:component/lcd/lcd.c **** {
  1115              		.loc 1 203 1 is_stmt 1 view -0
-ARM GAS  /tmp/ccA7N9Bw.s 			page 41
+ARM GAS  /tmp/cc6JKyfd.s 			page 41
 
 
  1116              		.cfi_startproc
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1160              	.LVL114:
  1161              		.loc 1 212 24 view .LVU311
  1162 002a 0B4C     		ldr	r4, .L100
-ARM GAS  /tmp/ccA7N9Bw.s 			page 42
+ARM GAS  /tmp/cc6JKyfd.s 			page 42
 
 
  1163              		.loc 1 212 24 view .LVU312
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1209              	.LCFI16:
  1210              		.cfi_restore_state
  214:component/lcd/lcd.c **** 	}
-ARM GAS  /tmp/ccA7N9Bw.s 			page 43
+ARM GAS  /tmp/cc6JKyfd.s 			page 43
 
 
  1211              		.loc 1 214 32 view .LVU328
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1259 000c 90F8C820 		ldrb	r2, [r0, #200]	@ zero_extendqisi2
  1260              		.loc 1 227 10 view .LVU335
  1261 0010 9B4B     		ldr	r3, .L139+4
-ARM GAS  /tmp/ccA7N9Bw.s 			page 44
+ARM GAS  /tmp/cc6JKyfd.s 			page 44
 
 
  1262 0012 03EB4201 		add	r1, r3, r2, lsl #1
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1305              		.loc 1 238 4 is_stmt 0 view .LVU355
  1306 004e 13F0FF01 		ands	r1, r3, #255
  1307 0052 74D0     		beq	.L103
-ARM GAS  /tmp/ccA7N9Bw.s 			page 45
+ARM GAS  /tmp/cc6JKyfd.s 			page 45
 
 
  239:component/lcd/lcd.c **** 	{
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1355 0090 CDF814B0 		str	fp, [sp, #20]
  1356 0094 B346     		mov	fp, r6
  1357              	.LVL135:
-ARM GAS  /tmp/ccA7N9Bw.s 			page 46
+ARM GAS  /tmp/cc6JKyfd.s 			page 46
 
 
  235:component/lcd/lcd.c **** 	uint8_t y0=y;
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1399 00c6 2146     		mov	r1, r4
  1400 00c8 3846     		mov	r0, r7
  1401 00ca FFF7FEFF 		bl	LedMatrix_DrawPoint
-ARM GAS  /tmp/ccA7N9Bw.s 			page 47
+ARM GAS  /tmp/cc6JKyfd.s 			page 47
 
 
  1402              	.LVL142:
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1445 00f6 E4D1     		bne	.L133
  254:component/lcd/lcd.c **** 				temp<<=1;
  1446              		.loc 1 254 10 is_stmt 1 view .LVU406
-ARM GAS  /tmp/ccA7N9Bw.s 			page 48
+ARM GAS  /tmp/cc6JKyfd.s 			page 48
 
 
  1447 00f8 654B     		ldr	r3, .L139+20
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1487 0118 584B     		ldr	r3, .L139
  1488 011a 93F8C830 		ldrb	r3, [r3, #200]	@ zero_extendqisi2
  247:component/lcd/lcd.c **** 			else if(rollctrl.size==1)temp=asc2_1206[diachar][i];
-ARM GAS  /tmp/ccA7N9Bw.s 			page 49
+ARM GAS  /tmp/cc6JKyfd.s 			page 49
 
 
  1489              		.loc 1 247 6 view .LVU422
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1529              	.LVL162:
  1530              		.loc 1 269 26 view .LVU435
  1531 014e D2B2     		uxtb	r2, r2
-ARM GAS  /tmp/ccA7N9Bw.s 			page 50
+ARM GAS  /tmp/cc6JKyfd.s 			page 50
 
 
  1532              		.loc 1 269 6 view .LVU436
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  271:component/lcd/lcd.c **** 	{
  1577              		.loc 1 271 16 discriminator 3 view .LVU452
  1578 0180 EDB2     		uxtb	r5, r5
-ARM GAS  /tmp/ccA7N9Bw.s 			page 51
+ARM GAS  /tmp/cc6JKyfd.s 			page 51
 
 
  1579              	.LVL172:
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  284:component/lcd/lcd.c **** 		else if(rollctrl.size==2)temp=asc2_1608[diachar][i];
  1623              		.loc 1 284 8 is_stmt 1 view .LVU469
  1624              		.loc 1 284 10 is_stmt 0 view .LVU470
-ARM GAS  /tmp/ccA7N9Bw.s 			page 52
+ARM GAS  /tmp/cc6JKyfd.s 			page 52
 
 
  1625 01be 022B     		cmp	r3, #2
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1669 01f0 E4B2     		uxtb	r4, r4
  1670              	.LVL185:
  292:component/lcd/lcd.c **** 			if((y-y0)==font2size[rollctrl.size][0])
-ARM GAS  /tmp/ccA7N9Bw.s 			page 53
+ARM GAS  /tmp/cc6JKyfd.s 			page 53
 
 
  1671              		.loc 1 292 4 is_stmt 1 view .LVU484
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1714              		.loc 1 295 6 view .LVU500
  1715 0224 FFB2     		uxtb	r7, r7
  1716              	.LVL191:
-ARM GAS  /tmp/ccA7N9Bw.s 			page 54
+ARM GAS  /tmp/cc6JKyfd.s 			page 54
 
 
  296:component/lcd/lcd.c **** 				break;
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  271:component/lcd/lcd.c **** 	{
  1756              		.loc 1 271 7 discriminator 1 view .LVU516
  1757 024c 0026     		movs	r6, #0
-ARM GAS  /tmp/ccA7N9Bw.s 			page 55
+ARM GAS  /tmp/cc6JKyfd.s 			page 55
 
 
  1758 024e DCE7     		b	.L123
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1807              		.section	.text.LedMatrix_DrawBMP,"ax",%progbits
  1808              		.align	1
  1809              		.global	LedMatrix_DrawBMP
-ARM GAS  /tmp/ccA7N9Bw.s 			page 56
+ARM GAS  /tmp/cc6JKyfd.s 			page 56
 
 
  1810              		.syntax unified
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1845              	.L144:
  315:component/lcd/lcd.c **** 		{
  1846              		.loc 1 315 12 is_stmt 1 discriminator 1 view .LVU539
-ARM GAS  /tmp/ccA7N9Bw.s 			page 57
+ARM GAS  /tmp/cc6JKyfd.s 			page 57
 
 
  315:component/lcd/lcd.c **** 		{
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  321:component/lcd/lcd.c **** 
  322:component/lcd/lcd.c **** 
  323:component/lcd/lcd.c **** void LedMatrix_DrawLine(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2)
-ARM GAS  /tmp/ccA7N9Bw.s 			page 58
+ARM GAS  /tmp/cc6JKyfd.s 			page 58
 
 
  324:component/lcd/lcd.c **** {
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1939              		.loc 1 332 19 view .LVU566
  1940 001a 0092     		str	r2, [sp]
  1941              	.L152:
-ARM GAS  /tmp/ccA7N9Bw.s 			page 59
+ARM GAS  /tmp/cc6JKyfd.s 			page 59
 
 
  1942              	.LVL214:
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  1981 003a A0EB020A 		sub	r10, r0, r2
  1982              	.LVL220:
  334:component/lcd/lcd.c **** 	if(delta_y>0)incy=1;
-ARM GAS  /tmp/ccA7N9Bw.s 			page 60
+ARM GAS  /tmp/cc6JKyfd.s 			page 60
 
 
  1983              		.loc 1 334 12 view .LVU584
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2026 0068 0134     		adds	r4, r4, #1
  2027              	.LVL230:
  2028              		.loc 1 340 25 discriminator 2 view .LVU598
-ARM GAS  /tmp/ccA7N9Bw.s 			page 61
+ARM GAS  /tmp/cc6JKyfd.s 			page 61
 
 
  2029 006a A4B2     		uxth	r4, r4
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2071              		.loc 1 352 4 is_stmt 1 view .LVU615
  2072              		.loc 1 352 8 is_stmt 0 view .LVU616
  2073 0094 AD1B     		subs	r5, r5, r6
-ARM GAS  /tmp/ccA7N9Bw.s 			page 62
+ARM GAS  /tmp/cc6JKyfd.s 			page 62
 
 
  2074              	.LVL237:
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2122              		.cfi_offset 6, -12
  2123              		.cfi_offset 7, -8
  2124              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccA7N9Bw.s 			page 63
+ARM GAS  /tmp/cc6JKyfd.s 			page 63
 
 
  2125 0002 0746     		mov	r7, r0
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2172              		.loc 1 369 1 is_stmt 1 view -0
  2173              		.cfi_startproc
  2174              		@ args = 0, pretend = 0, frame = 32
-ARM GAS  /tmp/ccA7N9Bw.s 			page 64
+ARM GAS  /tmp/cc6JKyfd.s 			page 64
 
 
  2175              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  384:component/lcd/lcd.c **** 		a++;
  385:component/lcd/lcd.c **** 		if(di<0)di +=4*a+6;	  
  2214              		.loc 1 385 11 is_stmt 1 discriminator 1 view .LVU643
-ARM GAS  /tmp/ccA7N9Bw.s 			page 65
+ARM GAS  /tmp/cc6JKyfd.s 			page 65
 
 
  2215              		.loc 1 385 17 is_stmt 0 discriminator 1 view .LVU644
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2264              		.loc 1 379 3 view .LVU651
  2265 007e 5544     		add	r5, r5, r10
  2266 0080 EDB2     		uxtb	r5, r5
-ARM GAS  /tmp/ccA7N9Bw.s 			page 66
+ARM GAS  /tmp/cc6JKyfd.s 			page 66
 
 
  2267 0082 3A78     		ldrb	r2, [r7]	@ zero_extendqisi2
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2312 00ca A8EB0203 		sub	r3, r8, r2
  2313              		.loc 1 388 12 view .LVU662
  2314 00ce 9B00     		lsls	r3, r3, #2
-ARM GAS  /tmp/ccA7N9Bw.s 			page 67
+ARM GAS  /tmp/cc6JKyfd.s 			page 67
 
 
  2315              		.loc 1 388 10 view .LVU663
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2370              		.align	2
  2373              	GBK_16:
  2374 0000 00000000 		.ascii	"\000\000\000\000\000\004\001\004\001\010\021\020\021"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 68
+ARM GAS  /tmp/cc6JKyfd.s 			page 68
 
 
  2374      00040104 
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2394 00b9 A816B01C 		.ascii	"\250\026\260\034\240\020\202\020\202\020\376\000\200"
  2394      A0108210 
  2394      8210FE00 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 69
+ARM GAS  /tmp/cc6JKyfd.s 			page 69
 
 
  2394      80
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2416      008008A0 
  2416      0AB80928 
  2416      2B5015
-ARM GAS  /tmp/ccA7N9Bw.s 			page 70
+ARM GAS  /tmp/cc6JKyfd.s 			page 70
 
 
  2417 0185 70010010 		.ascii	"p\001\000\020\000\037\376\022\000\025\000\031\340\000"
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2438 0240 E4BA     		.ascii	"\344\272"
  2439 0242 00000000 		.ascii	"\000\000\000\000\000\000\037\370\021\000\037\0000\014"
  2439      00001FF8 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 71
+ARM GAS  /tmp/cc6JKyfd.s 			page 71
 
 
  2439      11001F00 
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2458      00100010 
  2458      000000
  2459 030a 0000     		.ascii	"\000\000"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 72
+ARM GAS  /tmp/cc6JKyfd.s 			page 72
 
 
  2460 030c E69C     		.ascii	"\346\234"
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2479      01
  2480 03c5 303FC001 		.ascii	"0?\300\001`\002\020\002\014\002\004\002\004\000\002"
  2480      60021002 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 73
+ARM GAS  /tmp/cc6JKyfd.s 			page 73
 
 
  2480      0C020402 
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2501 0484 00000000 		.ascii	"\000\000\000\000\003\034\020`\020 \010 \014 \021@*B"
  2501      031C1060 
  2501      10200820 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 74
+ARM GAS  /tmp/cc6JKyfd.s 			page 74
 
 
  2501      0C201140 
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2521      04000400 
  2522 054b 000000   		.ascii	"\000\000\000"
  2523 054e E5B0     		.ascii	"\345\260"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 75
+ARM GAS  /tmp/cc6JKyfd.s 			page 75
 
 
  2524 0550 00000000 		.ascii	"\000\000\000\000\000\010\000T1d/\3305\2426\276+\270"
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2541 060c 04360260 		.ascii	"\0046\002`\003\000\001\000\000\200\000\000\000\000"
  2541      03000100 
  2541      00800000 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 76
+ARM GAS  /tmp/cc6JKyfd.s 			page 76
 
 
  2541      0000
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2561      00080030 
  2561      0FC00D30 
  2561      092C09
-ARM GAS  /tmp/ccA7N9Bw.s 			page 77
+ARM GAS  /tmp/cc6JKyfd.s 			page 77
 
 
  2562 06d5 24112431 		.ascii	"$\021$1$\"D\002|\002`\002\000\000\000\000\000"
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2581 078d 000000   		.ascii	"\000\000\000"
  2582 0790 E58E     		.ascii	"\345\216"
  2583 0792 00000000 		.ascii	"\000\000\000\000\000@\004@\004@\033\300j@\022@\037\377"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 78
+ARM GAS  /tmp/cc6JKyfd.s 			page 78
 
 
  2583      00400440 
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2602      00220022 
  2602      00C21CD2 
  2602      1A521A
-ARM GAS  /tmp/ccA7N9Bw.s 			page 79
+ARM GAS  /tmp/cc6JKyfd.s 			page 79
 
 
  2603 084b 541BFC22 		.ascii	"T\033\374\"\224$\2048\204\000\004\000\004\000\004\000"
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2622      08101000 
  2622      10
  2623 0900 00180008 		.ascii	"\000\030\000\010\000\000"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 80
+ARM GAS  /tmp/cc6JKyfd.s 			page 80
 
 
  2623      0000
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2645 09b2 00000004 		.ascii	"\000\000\000\004\000\010\001\020\002 \002\300?\000\""
  2645      00080110 
  2645      022002C0 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 81
+ARM GAS  /tmp/cc6JKyfd.s 			page 81
 
 
  2645      3F0022
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2666      000800
  2667 0a79 080000   		.ascii	"\010\000\000"
  2668 0a7c E58E     		.ascii	"\345\216"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 82
+ARM GAS  /tmp/cc6JKyfd.s 			page 82
 
 
  2669 0a7e 00000200 		.ascii	"\000\000\002\000\003\034\020\360\010\000\000\004\000"
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2687      9207A404 
  2687      5C005000 
  2687      20000000 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 83
+ARM GAS  /tmp/cc6JKyfd.s 			page 83
 
 
  2687      00
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2707      00400040 
  2707      00443C48 
  2707      17F02940 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 84
+ARM GAS  /tmp/cc6JKyfd.s 			page 84
 
 
  2707      29403940 
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2726 0cbe E6B3     		.ascii	"\346\263"
  2727 0cc0 00000000 		.ascii	"\000\000\000\000\000\202\010\202\011B\012z\014j\177"
  2727      00820882 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 85
+ARM GAS  /tmp/cc6JKyfd.s 			page 85
 
 
  2727      09420A7A 
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2746      18126804 
  2746      88040800 
  2746      080008
-ARM GAS  /tmp/ccA7N9Bw.s 			page 86
+ARM GAS  /tmp/cc6JKyfd.s 			page 86
 
 
  2747 0d86 00080000 		.ascii	"\000\010\000\000"
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2768      020C0070 
  2768      10800100 
  2768      0100
-ARM GAS  /tmp/ccA7N9Bw.s 			page 87
+ARM GAS  /tmp/cc6JKyfd.s 			page 87
 
 
  2769 0e44 15FC16B0 		.ascii	"\025\374\026\260~\220\032\202*\376\002\000\002\000\002"
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2788 0f02 00000010 		.ascii	"\000\000\000\020\001 \012@\013\200\037\370$\200\002"
  2788      01200A40 
  2788      0B801FF8 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 88
+ARM GAS  /tmp/cc6JKyfd.s 			page 88
 
 
  2788      248002
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2808 0fc9 000000   		.ascii	"\000\000\000"
  2809 0fcc E799     		.ascii	"\347\231"
  2810 0fce 00000004 		.ascii	"\000\000\000\004\006\034\010\324\012\254.\324)\320>"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 89
+ARM GAS  /tmp/cc6JKyfd.s 			page 89
 
 
  2810      061C08D4 
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2829 1085 801FFE14 		.ascii	"\200\037\376\024\200\024\200 \200'\000\034\000\020\000"
  2829      80148020 
  2829      8027001C 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 90
+ARM GAS  /tmp/cc6JKyfd.s 			page 90
 
 
  2829      001000
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2850 113d 38000000 		.ascii	"8\000\000\000\000"
  2850      00
  2851 1142 E5B7     		.ascii	"\345\267"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 91
+ARM GAS  /tmp/cc6JKyfd.s 			page 91
 
 
  2852 1144 00000004 		.ascii	"\000\000\000\004\000\010\000r\003\202\014\202\010\244"
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2871      8810981F 
  2871      E81C0800 
  2871      08
-ARM GAS  /tmp/ccA7N9Bw.s 			page 92
+ARM GAS  /tmp/cc6JKyfd.s 			page 92
 
 
  2872 1208 00080008 		.ascii	"\000\010\000\010\000\000"
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2892 12b8 E58D     		.ascii	"\345\215"
  2893 12ba 00000000 		.ascii	"\000\000\000\000\000\010\001\010\001\020\001`\005\200"
  2893      00080108 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 93
+ARM GAS  /tmp/cc6JKyfd.s 			page 93
 
 
  2893      01100160 
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2912      00000000 
  2912      00000000 
  2912      00
-ARM GAS  /tmp/ccA7N9Bw.s 			page 94
+ARM GAS  /tmp/cc6JKyfd.s 			page 94
 
 
  2913 137e 00000000 		.ascii	"\000\000\000\000\000\000"
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2933      00780ED8 
  2933      1F8C1B84 
  2933      11C411
-ARM GAS  /tmp/ccA7N9Bw.s 			page 95
+ARM GAS  /tmp/cc6JKyfd.s 			page 95
 
 
  2934 143f E413641E 		.ascii	"\344\023d\036<\0168\0008\000x\000h\000\010\000\000"
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2953      80008000 
  2953      80
  2954 14f4 00800080 		.ascii	"\000\200\000\200\000\000"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 96
+ARM GAS  /tmp/cc6JKyfd.s 			page 96
 
 
  2954      0000
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2974      0000
  2975 15a4 3000     		.ascii	"0\000"
  2976 15a6 00000000 		.ascii	"\000\000\000\000\000\000\004\000\004\000\014\000\010"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 97
+ARM GAS  /tmp/cc6JKyfd.s 			page 97
 
 
  2976      00000400 
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  2995      0388070C 
  2995      0704
  2996 165e 0D041904 		.ascii	"\015\004\031\004\031\004\021\014\001\010\001\370\000"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 98
+ARM GAS  /tmp/cc6JKyfd.s 			page 98
 
 
  2996      1904110C 
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3016      00
  3017 1714 00000000 		.ascii	"\000\000\000\000\000\000"
  3017      0000
-ARM GAS  /tmp/ccA7N9Bw.s 			page 99
+ARM GAS  /tmp/cc6JKyfd.s 			page 99
 
 
  3018 171a 3B00     		.ascii	";\000"
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3038      003C00F8 
  3038      01F007C0 
  3038      1F401C
-ARM GAS  /tmp/ccA7N9Bw.s 			page 100
+ARM GAS  /tmp/cc6JKyfd.s 			page 100
 
 
  3039 17d5 401C400F 		.ascii	"@\034@\017@\007\300\001\360\000|\000<\000\014\000\000"
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3058 187d 80108010 		.ascii	"\200\020\200\020\200\020\200\020\200\020\200\020\000"
  3058      80108010 
  3058      80108010 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 101
+ARM GAS  /tmp/cc6JKyfd.s 			page 101
 
 
  3058      00
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3078      1C100C
  3079 1936 00040000 		.ascii	"\000\004\000\000"
  3080 193a 4B00     		.ascii	"K\000"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 102
+ARM GAS  /tmp/cc6JKyfd.s 			page 102
 
 
  3081 193c 00001FFC 		.ascii	"\000\000\037\374\037\374\037\374\000\014\000\014\000"
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3101      0FF00FF8 
  3101      1818180C 
  3101      10
-ARM GAS  /tmp/ccA7N9Bw.s 			page 103
+ARM GAS  /tmp/cc6JKyfd.s 			page 103
 
 
  3102 19f3 0C100410 		.ascii	"\014\020\004\020$\020|\030<\034<\017\374\007\364\003"
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3122      3C00F803 
  3122      E00F801F 
  3122      001C00
-ARM GAS  /tmp/ccA7N9Bw.s 			page 104
+ARM GAS  /tmp/cc6JKyfd.s 			page 104
 
 
  3123 1aac 10000000 		.ascii	"\020\000\000\000"
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3145 1b5c 00000000 		.ascii	"\000\000\000\000\020\000\030\000\014\000\006\000\003"
  3145      10001800 
  3145      0C000600 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 105
+ARM GAS  /tmp/cc6JKyfd.s 			page 105
 
 
  3145      03
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3165      FC01FC00 
  3165      04000000 
  3166 1c25 00       		.ascii	"\000"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 106
+ARM GAS  /tmp/cc6JKyfd.s 			page 106
 
 
  3167 1c26 6100     		.ascii	"a\000"
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3187 1cd0 6600     		.ascii	"f\000"
  3188 1cd2 00000002 		.ascii	"\000\000\000\002\000\336\001\377\001\351\001)\001)\001"
  3188      00DE01FF 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 107
+ARM GAS  /tmp/cc6JKyfd.s 			page 107
 
 
  3188      01E90129 
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3208      00
  3209 1d89 001FFC1F 		.ascii	"\000\037\374\037\374\000\000\000\000\000\000\000\000"
  3209      FC000000 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 108
+ARM GAS  /tmp/cc6JKyfd.s 			page 108
 
 
  3209      00000000 
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3229      010C0188 
  3229      01FF01FF 
  3229      01
-ARM GAS  /tmp/ccA7N9Bw.s 			page 109
+ARM GAS  /tmp/cc6JKyfd.s 			page 109
 
 
  3230 1e41 FF000000 		.ascii	"\377\000\000\000\000"
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3250 1eec 00000000 		.ascii	"\000\000\000\000"
  3251 1ef0 7600     		.ascii	"v\000"
  3252 1ef2 010001C0 		.ascii	"\001\000\001\300\001\360\000|\000\034\000|\001\340\001"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 110
+ARM GAS  /tmp/cc6JKyfd.s 			page 110
 
 
  3252      01F0007C 
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3273 1fa9 00FFFFFF 		.ascii	"\000\377\377\377\377\000\000\000\000\000\000\000\000"
  3273      FF000000 
  3273      00000000 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 111
+ARM GAS  /tmp/cc6JKyfd.s 			page 111
 
 
  3273      00
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3301      0000
  3302 004e 00080808 		.ascii	"\000\010\010\010\010\000"
  3302      0800
-ARM GAS  /tmp/ccA7N9Bw.s 			page 112
+ARM GAS  /tmp/cc6JKyfd.s 			page 112
 
 
  3303 0054 02000000 		.ascii	"\002\000\000\000\000\000"
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3330 00f6 427E4200 		.ascii	"B~B\000\000\000"
  3330      0000
  3331 00fc 04427C40 		.ascii	"\004B|@\000\000"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 113
+ARM GAS  /tmp/cc6JKyfd.s 			page 113
 
 
  3331      0000
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3358      0000
  3359 01a4 003E5200 		.ascii	"\000>R\000\000\000"
  3359      0000
-ARM GAS  /tmp/ccA7N9Bw.s 			page 114
+ARM GAS  /tmp/cc6JKyfd.s 			page 114
 
 
  3360 01aa 0A151A00 		.ascii	"\012\025\032\000\000\000"
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3390      00000000 
  3391 000c 00000000 		.ascii	"\000\000\000\000?@\000\000\000\000\000\000"
  3391      3F400000 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 115
+ARM GAS  /tmp/cc6JKyfd.s 			page 115
 
 
  3391      00000000 
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3409      1B800000 
  3410 00f0 02000D00 		.ascii	"\002\000\015\000\021\000?\300\001@\000\000"
  3410      11003FC0 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 116
+ARM GAS  /tmp/cc6JKyfd.s 			page 116
 
 
  3410      01400000 
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3428      30000000 
  3429 01d4 0F001080 		.ascii	"\017\000\020\200 @\"@3\200\002\000"
  3429      20402240 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 117
+ARM GAS  /tmp/cc6JKyfd.s 			page 117
 
 
  3429      33800200 
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3447      20000000 
  3448 02b8 304021C0 		.ascii	"0@!\300&@8@ \300\000\000"
  3448      26403840 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 118
+ARM GAS  /tmp/cc6JKyfd.s 			page 118
 
 
  3448      20C00000 
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3466      00400000 
  3467 039c 07C00400 		.ascii	"\007\300\004\000\007\300\004\000\003\300\000\000"
  3467      07C00400 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 119
+ARM GAS  /tmp/cc6JKyfd.s 			page 119
 
 
  3467      03C00000 
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3487              		.set	.LANCHOR5,. + 0
  3490              	asc2_1608:
  3491 0000 00000000 		.ascii	"\000\000\000\000\000\000\000\000\000\000\000\000\000"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 120
+ARM GAS  /tmp/cc6JKyfd.s 			page 120
 
 
  3491      00000000 
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3510      00
  3511 00bd 800000   		.ascii	"\200\000\000"
  3512 00c0 0001000D 		.ascii	"\000\001\000\015\000\016\000\000\000\000\000\000\000"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 121
+ARM GAS  /tmp/cc6JKyfd.s 			page 121
 
 
  3512      000E0000 
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3533      100010FC 
  3533      13001C00 
  3533      10
-ARM GAS  /tmp/ccA7N9Bw.s 			page 122
+ARM GAS  /tmp/cc6JKyfd.s 			page 122
 
 
  3534 017d 000000   		.ascii	"\000\000\000"
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3555 0230 03E00C18 		.ascii	"\003\340\014\030\020\004\020\004\020\004\020\010\034"
  3555      10041004 
  3555      10041008 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 123
+ARM GAS  /tmp/cc6JKyfd.s 			page 123
 
 
  3555      1C
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3577      00E01018 
  3577      1F
  3578 02ed FC1000   		.ascii	"\374\020\000"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 124
+ARM GAS  /tmp/cc6JKyfd.s 			page 124
 
 
  3579 02f0 07F00808 		.ascii	"\007\360\010\010\020\004\020\004\020\004\010\010\007"
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3600 039d 000000   		.ascii	"\000\000\000"
  3601 03a0 0804101C 		.ascii	"\010\004\020\034\020d\020\204\023\004\034\004\020\030"
  3601      10641084 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 125
+ARM GAS  /tmp/cc6JKyfd.s 			page 125
 
 
  3601      13041C04 
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3621      00C80000 
  3622 0460 00000104 		.ascii	"\000\000\001\004\001\004\017\374\021\004\021\004\021"
  3622      01040FFC 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 126
+ARM GAS  /tmp/cc6JKyfd.s 			page 126
 
 
  3622      11041104 
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3644      00880104 
  3644      01040105 
  3644      01FF
-ARM GAS  /tmp/ccA7N9Bw.s 			page 127
+ARM GAS  /tmp/cc6JKyfd.s 			page 127
 
 
  3645 051e 0001     		.ascii	"\000\001"
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3666 05cd 000000   		.ascii	"\000\000\000"
  3667 05d0 00004002 		.ascii	"\000\000@\002@\002>\374\001\000\000\000\000\000\000"
  3667      40023EFC 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 128
+ARM GAS  /tmp/cc6JKyfd.s 			page 128
 
 
  3667      01000000 
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3692 008f 38       		.ascii	"8"
  3693 0090 00000700 		.ascii	"\000\000\007\000\017\214\030\314\020D\030\314\017\370"
  3693      0F8C18CC 
-ARM GAS  /tmp/ccA7N9Bw.s 			page 129
+ARM GAS  /tmp/cc6JKyfd.s 			page 129
 
 
  3693      104418CC 
@@ -7732,73 +7732,73 @@ ARM GAS  /tmp/ccA7N9Bw.s 			page 1
  3744              		.file 17 "component/lcd/lcdfont.h"
  3745              		.file 18 "component/timer/tim.h"
  3746              		.file 19 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h"
-ARM GAS  /tmp/ccA7N9Bw.s 			page 130
+ARM GAS  /tmp/cc6JKyfd.s 			page 130
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 lcd.c
-     /tmp/ccA7N9Bw.s:16     .text.LedMatrixInit:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:24     .text.LedMatrixInit:0000000000000000 LedMatrixInit
-     /tmp/ccA7N9Bw.s:62     .text.LedMatrixInit:0000000000000014 $d
-     /tmp/ccA7N9Bw.s:69     .text.LedMatrix_Clear:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:76     .text.LedMatrix_Clear:0000000000000000 LedMatrix_Clear
-     /tmp/ccA7N9Bw.s:174    .text.LedMatrix_Clear:0000000000000040 $d
+     /tmp/cc6JKyfd.s:16     .text.LedMatrixInit:0000000000000000 $t
+     /tmp/cc6JKyfd.s:24     .text.LedMatrixInit:0000000000000000 LedMatrixInit
+     /tmp/cc6JKyfd.s:62     .text.LedMatrixInit:0000000000000014 $d
+     /tmp/cc6JKyfd.s:69     .text.LedMatrix_Clear:0000000000000000 $t
+     /tmp/cc6JKyfd.s:76     .text.LedMatrix_Clear:0000000000000000 LedMatrix_Clear
+     /tmp/cc6JKyfd.s:174    .text.LedMatrix_Clear:0000000000000040 $d
                             *COM*:0000000000000201 lcdbuf
-     /tmp/ccA7N9Bw.s:179    .text.LedMatrix_DrawPoint:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:186    .text.LedMatrix_DrawPoint:0000000000000000 LedMatrix_DrawPoint
-     /tmp/ccA7N9Bw.s:354    .text.LedMatrix_DrawPoint:00000000000000bc $d
-     /tmp/ccA7N9Bw.s:359    .text.scanf_line:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:366    .text.scanf_line:0000000000000000 scanf_line
-     /tmp/ccA7N9Bw.s:518    .text.scanf_line:0000000000000054 $d
-     /tmp/ccA7N9Bw.s:524    .text.LedMatrix_Fill:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:531    .text.LedMatrix_Fill:0000000000000000 LedMatrix_Fill
-     /tmp/ccA7N9Bw.s:603    .text.LedMatrix_ShowChar:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:610    .text.LedMatrix_ShowChar:0000000000000000 LedMatrix_ShowChar
-     /tmp/ccA7N9Bw.s:821    .text.LedMatrix_ShowChar:00000000000000d4 $d
-     /tmp/ccA7N9Bw.s:831    .text.LedMatrix_ShowString:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:838    .text.LedMatrix_ShowString:0000000000000000 LedMatrix_ShowString
-     /tmp/ccA7N9Bw.s:900    .text.LedMatrix_ShowString:0000000000000038 $d
-     /tmp/ccA7N9Bw.s:905    .text.mypow:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:912    .text.mypow:0000000000000000 mypow
-     /tmp/ccA7N9Bw.s:950    .text.LedMatrix_ShowNum:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:957    .text.LedMatrix_ShowNum:0000000000000000 LedMatrix_ShowNum
-     /tmp/ccA7N9Bw.s:1099   .text.LedMatrix_ShowNum:0000000000000090 $d
-     /tmp/ccA7N9Bw.s:1105   .text.LedMatrix_RollStart:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:1112   .text.LedMatrix_RollStart:0000000000000000 LedMatrix_RollStart
-     /tmp/ccA7N9Bw.s:1217   .text.LedMatrix_RollStart:0000000000000058 $d
+     /tmp/cc6JKyfd.s:179    .text.LedMatrix_DrawPoint:0000000000000000 $t
+     /tmp/cc6JKyfd.s:186    .text.LedMatrix_DrawPoint:0000000000000000 LedMatrix_DrawPoint
+     /tmp/cc6JKyfd.s:354    .text.LedMatrix_DrawPoint:00000000000000bc $d
+     /tmp/cc6JKyfd.s:359    .text.scanf_line:0000000000000000 $t
+     /tmp/cc6JKyfd.s:366    .text.scanf_line:0000000000000000 scanf_line
+     /tmp/cc6JKyfd.s:518    .text.scanf_line:0000000000000054 $d
+     /tmp/cc6JKyfd.s:524    .text.LedMatrix_Fill:0000000000000000 $t
+     /tmp/cc6JKyfd.s:531    .text.LedMatrix_Fill:0000000000000000 LedMatrix_Fill
+     /tmp/cc6JKyfd.s:603    .text.LedMatrix_ShowChar:0000000000000000 $t
+     /tmp/cc6JKyfd.s:610    .text.LedMatrix_ShowChar:0000000000000000 LedMatrix_ShowChar
+     /tmp/cc6JKyfd.s:821    .text.LedMatrix_ShowChar:00000000000000d4 $d
+     /tmp/cc6JKyfd.s:831    .text.LedMatrix_ShowString:0000000000000000 $t
+     /tmp/cc6JKyfd.s:838    .text.LedMatrix_ShowString:0000000000000000 LedMatrix_ShowString
+     /tmp/cc6JKyfd.s:900    .text.LedMatrix_ShowString:0000000000000038 $d
+     /tmp/cc6JKyfd.s:905    .text.mypow:0000000000000000 $t
+     /tmp/cc6JKyfd.s:912    .text.mypow:0000000000000000 mypow
+     /tmp/cc6JKyfd.s:950    .text.LedMatrix_ShowNum:0000000000000000 $t
+     /tmp/cc6JKyfd.s:957    .text.LedMatrix_ShowNum:0000000000000000 LedMatrix_ShowNum
+     /tmp/cc6JKyfd.s:1099   .text.LedMatrix_ShowNum:0000000000000090 $d
+     /tmp/cc6JKyfd.s:1105   .text.LedMatrix_RollStart:0000000000000000 $t
+     /tmp/cc6JKyfd.s:1112   .text.LedMatrix_RollStart:0000000000000000 LedMatrix_RollStart
+     /tmp/cc6JKyfd.s:1217   .text.LedMatrix_RollStart:0000000000000058 $d
                             *COM*:00000000000000d2 rollctrl
-     /tmp/ccA7N9Bw.s:1223   .text.LedMatrix_RollStringExce:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:1230   .text.LedMatrix_RollStringExce:0000000000000000 LedMatrix_RollStringExce
-     /tmp/ccA7N9Bw.s:1797   .text.LedMatrix_RollStringExce:000000000000027c $d
-     /tmp/ccA7N9Bw.s:1808   .text.LedMatrix_DrawBMP:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:1815   .text.LedMatrix_DrawBMP:0000000000000000 LedMatrix_DrawBMP
-     /tmp/ccA7N9Bw.s:1884   .text.LedMatrix_DrawLine:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:1891   .text.LedMatrix_DrawLine:0000000000000000 LedMatrix_DrawLine
-     /tmp/ccA7N9Bw.s:2096   .text.LedMatrix_DrawLine:00000000000000a4 $d
-     /tmp/ccA7N9Bw.s:2101   .text.LedMatrix_DrawRectangle:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:2108   .text.LedMatrix_DrawRectangle:0000000000000000 LedMatrix_DrawRectangle
-     /tmp/ccA7N9Bw.s:2162   .text.LedMatrix_Draw_Circle:0000000000000000 $t
-     /tmp/ccA7N9Bw.s:2169   .text.LedMatrix_Draw_Circle:0000000000000000 LedMatrix_Draw_Circle
-     /tmp/ccA7N9Bw.s:2342   .text.LedMatrix_Draw_Circle:00000000000000e4 $d
-     /tmp/ccA7N9Bw.s:3711   .rodata.sw:0000000000000000 sw
-     /tmp/ccA7N9Bw.s:2361   .bss.BACK_COLOR:0000000000000000 BACK_COLOR
-     /tmp/ccA7N9Bw.s:2367   .data.POINT_COLOR:0000000000000000 POINT_COLOR
-     /tmp/ccA7N9Bw.s:3674   .rodata.asc_num_1608:0000000000000000 asc_num_1608
-     /tmp/ccA7N9Bw.s:3490   .rodata.asc2_1608:0000000000000000 asc2_1608
-     /tmp/ccA7N9Bw.s:3389   .rodata.asc2_1206:0000000000000000 asc2_1206
-     /tmp/ccA7N9Bw.s:3288   .rodata.asc2_0806:0000000000000000 asc2_0806
-     /tmp/ccA7N9Bw.s:2373   .rodata.GBK_16:0000000000000000 GBK_16
-     /tmp/ccA7N9Bw.s:3700   .rodata.font2size:0000000000000000 font2size
-     /tmp/ccA7N9Bw.s:2362   .bss.BACK_COLOR:0000000000000000 $d
-     /tmp/ccA7N9Bw.s:2370   .rodata.GBK_16:0000000000000000 $d
-     /tmp/ccA7N9Bw.s:3284   .rodata.asc2_0806:0000000000000000 $d
-ARM GAS  /tmp/ccA7N9Bw.s 			page 131
+     /tmp/cc6JKyfd.s:1223   .text.LedMatrix_RollStringExce:0000000000000000 $t
+     /tmp/cc6JKyfd.s:1230   .text.LedMatrix_RollStringExce:0000000000000000 LedMatrix_RollStringExce
+     /tmp/cc6JKyfd.s:1797   .text.LedMatrix_RollStringExce:000000000000027c $d
+     /tmp/cc6JKyfd.s:1808   .text.LedMatrix_DrawBMP:0000000000000000 $t
+     /tmp/cc6JKyfd.s:1815   .text.LedMatrix_DrawBMP:0000000000000000 LedMatrix_DrawBMP
+     /tmp/cc6JKyfd.s:1884   .text.LedMatrix_DrawLine:0000000000000000 $t
+     /tmp/cc6JKyfd.s:1891   .text.LedMatrix_DrawLine:0000000000000000 LedMatrix_DrawLine
+     /tmp/cc6JKyfd.s:2096   .text.LedMatrix_DrawLine:00000000000000a4 $d
+     /tmp/cc6JKyfd.s:2101   .text.LedMatrix_DrawRectangle:0000000000000000 $t
+     /tmp/cc6JKyfd.s:2108   .text.LedMatrix_DrawRectangle:0000000000000000 LedMatrix_DrawRectangle
+     /tmp/cc6JKyfd.s:2162   .text.LedMatrix_Draw_Circle:0000000000000000 $t
+     /tmp/cc6JKyfd.s:2169   .text.LedMatrix_Draw_Circle:0000000000000000 LedMatrix_Draw_Circle
+     /tmp/cc6JKyfd.s:2342   .text.LedMatrix_Draw_Circle:00000000000000e4 $d
+     /tmp/cc6JKyfd.s:3711   .rodata.sw:0000000000000000 sw
+     /tmp/cc6JKyfd.s:2361   .bss.BACK_COLOR:0000000000000000 BACK_COLOR
+     /tmp/cc6JKyfd.s:2367   .data.POINT_COLOR:0000000000000000 POINT_COLOR
+     /tmp/cc6JKyfd.s:3674   .rodata.asc_num_1608:0000000000000000 asc_num_1608
+     /tmp/cc6JKyfd.s:3490   .rodata.asc2_1608:0000000000000000 asc2_1608
+     /tmp/cc6JKyfd.s:3389   .rodata.asc2_1206:0000000000000000 asc2_1206
+     /tmp/cc6JKyfd.s:3288   .rodata.asc2_0806:0000000000000000 asc2_0806
+     /tmp/cc6JKyfd.s:2373   .rodata.GBK_16:0000000000000000 GBK_16
+     /tmp/cc6JKyfd.s:3700   .rodata.font2size:0000000000000000 font2size
+     /tmp/cc6JKyfd.s:2362   .bss.BACK_COLOR:0000000000000000 $d
+     /tmp/cc6JKyfd.s:2370   .rodata.GBK_16:0000000000000000 $d
+     /tmp/cc6JKyfd.s:3284   .rodata.asc2_0806:0000000000000000 $d
+ARM GAS  /tmp/cc6JKyfd.s 			page 131
 
 
-     /tmp/ccA7N9Bw.s:3385   .rodata.asc2_1206:0000000000000000 $d
-     /tmp/ccA7N9Bw.s:3486   .rodata.asc2_1608:0000000000000000 $d
-     /tmp/ccA7N9Bw.s:3671   .rodata.asc_num_1608:0000000000000000 $d
-     /tmp/ccA7N9Bw.s:3696   .rodata.font2size:0000000000000000 $d
-     /tmp/ccA7N9Bw.s:3708   .rodata.sw:0000000000000000 $d
+     /tmp/cc6JKyfd.s:3385   .rodata.asc2_1206:0000000000000000 $d
+     /tmp/cc6JKyfd.s:3486   .rodata.asc2_1608:0000000000000000 $d
+     /tmp/cc6JKyfd.s:3671   .rodata.asc_num_1608:0000000000000000 $d
+     /tmp/cc6JKyfd.s:3696   .rodata.font2size:0000000000000000 $d
+     /tmp/cc6JKyfd.s:3708   .rodata.sw:0000000000000000 $d
 
 NO UNDEFINED SYMBOLS
