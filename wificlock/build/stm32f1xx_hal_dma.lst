@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccNYJ9dM.s 			page 1
+ARM GAS  /tmp/ccqqMCof.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
   30:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****                    
   31:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****      -@-   In Memory-to-Memory transfer mode, Circular mode is not allowed.
   32:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****      *** Polling mode IO operation ***
-ARM GAS  /tmp/ccNYJ9dM.s 			page 2
+ARM GAS  /tmp/ccqqMCof.s 			page 2
 
 
   33:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****      =================================
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
   87:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
   88:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
   89:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-ARM GAS  /tmp/ccNYJ9dM.s 			page 3
+ARM GAS  /tmp/ccqqMCof.s 			page 3
 
 
   90:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  144:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     [..]
  145:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     The HAL_DMA_Init() function follows the DMA configuration procedures as described in
  146:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     reference manual.  
-ARM GAS  /tmp/ccNYJ9dM.s 			page 4
+ARM GAS  /tmp/ccqqMCof.s 			page 4
 
 
  147:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  201:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  202:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   /* Get the CR register value */
  203:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   tmp = hdma->Instance->CCR;
-ARM GAS  /tmp/ccNYJ9dM.s 			page 5
+ARM GAS  /tmp/ccqqMCof.s 			page 5
 
 
  204:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  258:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  259:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   /* Reset DMA Channel memory address register */
  260:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   hdma->Instance->CMAR = 0U;
-ARM GAS  /tmp/ccNYJ9dM.s 			page 6
+ARM GAS  /tmp/ccqqMCof.s 			page 6
 
 
  261:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  315:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       (+) Configure the source, destination address and data length and Start DMA transfer
  316:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       (+) Configure the source, destination address and data length and
  317:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****           Start DMA transfer with interrupt
-ARM GAS  /tmp/ccNYJ9dM.s 			page 7
+ARM GAS  /tmp/ccqqMCof.s 			page 7
 
 
  318:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       (+) Abort DMA transfer
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  372:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   *               the configuration information for the specified DMA Channel.
  373:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * @param  SrcAddress: The source memory Buffer address
  374:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * @param  DstAddress: The destination memory Buffer address
-ARM GAS  /tmp/ccNYJ9dM.s 			page 8
+ARM GAS  /tmp/ccqqMCof.s 			page 8
 
 
  375:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * @param  DataLength: The length of data to be transferred from source to destination
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  429:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   *               the configuration information for the specified DMA Channel.
  430:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * @retval HAL status
  431:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   */
-ARM GAS  /tmp/ccNYJ9dM.s 			page 9
+ARM GAS  /tmp/ccqqMCof.s 			page 9
 
 
  432:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** HAL_StatusTypeDef HAL_DMA_Abort(DMA_HandleTypeDef *hdma)
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  486:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     __HAL_UNLOCK(hdma);
  487:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  488:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* Call User Abort callback */
-ARM GAS  /tmp/ccNYJ9dM.s 			page 10
+ARM GAS  /tmp/ccqqMCof.s 			page 10
 
 
  489:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     if(hdma->XferAbortCallback != NULL)
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  543:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
  544:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       /* When a DMA transfer error occurs */
  545:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       /* A hardware clear of its EN bits is performed */
-ARM GAS  /tmp/ccNYJ9dM.s 			page 11
+ARM GAS  /tmp/ccqqMCof.s 			page 11
 
 
  546:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       /* Clear all flags */
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  600:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** /**
  601:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * @brief  Handles DMA interrupt request.
  602:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * @param  hdma: pointer to a DMA_HandleTypeDef structure that contains
-ARM GAS  /tmp/ccNYJ9dM.s 			page 12
+ARM GAS  /tmp/ccqqMCof.s 			page 12
 
 
  603:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   *               the configuration information for the specified DMA Channel.  
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  657:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   /* Transfer Error Interrupt management **************************************/
  658:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   else if (( RESET != (flag_it & (DMA_FLAG_TE1 << hdma->ChannelIndex))) && (RESET != (source_it & D
  659:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
-ARM GAS  /tmp/ccNYJ9dM.s 			page 13
+ARM GAS  /tmp/ccqqMCof.s 			page 13
 
 
  660:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     /* When a DMA transfer error occurs */
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  714:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  715:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     case  HAL_DMA_XFER_ERROR_CB_ID:
  716:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferErrorCallback = pCallback;
-ARM GAS  /tmp/ccNYJ9dM.s 			page 14
+ARM GAS  /tmp/ccqqMCof.s 			page 14
 
 
  717:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       break;         
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  771:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       hdma->XferAbortCallback = NULL;
  772:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****       break; 
  773:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
-ARM GAS  /tmp/ccNYJ9dM.s 			page 15
+ARM GAS  /tmp/ccqqMCof.s 			page 15
 
 
  774:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     case   HAL_DMA_XFER_ALL_CB_ID:
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  828:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  829:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** /**
  830:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * @brief  Return the DMA error code.
-ARM GAS  /tmp/ccNYJ9dM.s 			page 16
+ARM GAS  /tmp/ccqqMCof.s 			page 16
 
 
  831:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   * @param  hdma : pointer to a DMA_HandleTypeDef structure that contains
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
   47              		.loc 1 864 30 view .LVU6
   48 000a 6C60     		str	r4, [r5, #4]
  865:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
-ARM GAS  /tmp/ccNYJ9dM.s 			page 17
+ARM GAS  /tmp/ccqqMCof.s 			page 17
 
 
  866:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   /* Configure DMA Channel data length */
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
   81 0020 7047     		bx	lr
   82              	.LVL3:
   83              	.L5:
-ARM GAS  /tmp/ccNYJ9dM.s 			page 18
+ARM GAS  /tmp/ccqqMCof.s 			page 18
 
 
   84              	.LCFI2:
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  171:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   assert_param(IS_DMA_PERIPHERAL_INC_STATE(hdma->Init.PeriphInc));
  128              		.loc 1 171 3 view .LVU32
  172:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   assert_param(IS_DMA_MEMORY_INC_STATE(hdma->Init.MemInc));
-ARM GAS  /tmp/ccNYJ9dM.s 			page 19
+ARM GAS  /tmp/ccqqMCof.s 			page 19
 
 
  129              		.loc 1 172 3 view .LVU33
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  206:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****                       DMA_CCR_MINC  | DMA_CCR_PINC   | DMA_CCR_CIRC   | \
  164              		.loc 1 206 7 is_stmt 0 view .LVU53
  165 0024 20F47F50 		bic	r0, r0, #16320
-ARM GAS  /tmp/ccNYJ9dM.s 			page 20
+ARM GAS  /tmp/ccqqMCof.s 			page 20
 
 
  166              	.LVL8:
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  202 0048 0B60     		str	r3, [r1]
  220:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  203              		.loc 1 220 3 is_stmt 1 view .LVU72
-ARM GAS  /tmp/ccNYJ9dM.s 			page 21
+ARM GAS  /tmp/ccqqMCof.s 			page 21
 
 
  220:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  237:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   /* Check the DMA handle allocation */
  250              		.loc 1 237 1 is_stmt 1 view -0
  251              		.cfi_startproc
-ARM GAS  /tmp/ccNYJ9dM.s 			page 22
+ARM GAS  /tmp/ccqqMCof.s 			page 22
 
 
  252              		@ args = 0, pretend = 0, frame = 0
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  260:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  290              		.loc 1 260 7 is_stmt 0 view .LVU100
  291 0020 1A68     		ldr	r2, [r3]
-ARM GAS  /tmp/ccNYJ9dM.s 			page 23
+ARM GAS  /tmp/ccqqMCof.s 			page 23
 
 
  260:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  327              		.loc 1 289 3 is_stmt 1 view .LVU119
  289:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  328              		.loc 1 289 27 is_stmt 0 view .LVU120
-ARM GAS  /tmp/ccNYJ9dM.s 			page 24
+ARM GAS  /tmp/ccqqMCof.s 			page 24
 
 
  329 0048 5863     		str	r0, [r3, #52]
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  336:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   HAL_StatusTypeDef status = HAL_OK;
  374              		.loc 1 336 1 is_stmt 1 view -0
  375              		.cfi_startproc
-ARM GAS  /tmp/ccNYJ9dM.s 			page 25
+ARM GAS  /tmp/ccqqMCof.s 			page 25
 
 
  376              		@ args = 0, pretend = 0, frame = 0
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  414              		.loc 1 364 4 view .LVU148
  415              	.LVL22:
  364:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   }  
-ARM GAS  /tmp/ccNYJ9dM.s 			page 26
+ARM GAS  /tmp/ccqqMCof.s 			page 26
 
 
  416              		.loc 1 364 11 is_stmt 0 view .LVU149
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  461              		.thumb
  462              		.thumb_func
  463              		.fpu softvfp
-ARM GAS  /tmp/ccNYJ9dM.s 			page 27
+ARM GAS  /tmp/ccqqMCof.s 			page 27
 
 
  465              	HAL_DMA_Start_IT:
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  418:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  505              		.loc 1 418 5 is_stmt 0 view .LVU174
  506 001c 84F82030 		strb	r3, [r4, #32]
-ARM GAS  /tmp/ccNYJ9dM.s 			page 28
+ARM GAS  /tmp/ccqqMCof.s 			page 28
 
 
  418:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  546              		.loc 1 413 5 view .LVU189
  547 004c 2268     		ldr	r2, [r4]
  548 004e 1368     		ldr	r3, [r2]
-ARM GAS  /tmp/ccNYJ9dM.s 			page 29
+ARM GAS  /tmp/ccqqMCof.s 			page 29
 
 
  549 0050 43F00103 		orr	r3, r3, #1
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  597 0006 22F00E02 		bic	r2, r2, #14
  598 000a 0A60     		str	r2, [r1]
  440:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     
-ARM GAS  /tmp/ccNYJ9dM.s 			page 30
+ARM GAS  /tmp/ccqqMCof.s 			page 30
 
 
  599              		.loc 1 440 3 view .LVU198
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  642              		@ args = 0, pretend = 0, frame = 0
  643              		@ frame_needed = 0, uses_anonymous_args = 0
  461:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   HAL_StatusTypeDef status = HAL_OK;
-ARM GAS  /tmp/ccNYJ9dM.s 			page 31
+ARM GAS  /tmp/ccqqMCof.s 			page 31
 
 
  644              		.loc 1 461 1 is_stmt 0 view .LVU212
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  685 0028 194A     		ldr	r2, .L52
  686 002a 9342     		cmp	r3, r2
  687 002c 14D0     		beq	.L43
-ARM GAS  /tmp/ccNYJ9dM.s 			page 32
+ARM GAS  /tmp/ccqqMCof.s 			page 32
 
 
  480:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  729              		.loc 1 489 5 discriminator 24 view .LVU238
  489:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
  730              		.loc 1 489 12 is_stmt 0 discriminator 24 view .LVU239
-ARM GAS  /tmp/ccNYJ9dM.s 			page 33
+ARM GAS  /tmp/ccqqMCof.s 			page 33
 
 
  731 006a 436B     		ldr	r3, [r0, #52]
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  780              		.cfi_startproc
  781              		@ args = 0, pretend = 0, frame = 0
  782              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccNYJ9dM.s 			page 34
+ARM GAS  /tmp/ccqqMCof.s 			page 34
 
 
  506:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   uint32_t temp;
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  822 001e 0F46     		mov	r7, r1
  823 0020 1546     		mov	r5, r2
  519:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
-ARM GAS  /tmp/ccNYJ9dM.s 			page 35
+ARM GAS  /tmp/ccqqMCof.s 			page 35
 
 
  824              		.loc 1 519 3 is_stmt 1 view .LVU262
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  521:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     return HAL_ERROR;
  865              		.loc 1 521 5 is_stmt 1 view .LVU276
  521:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     return HAL_ERROR;
-ARM GAS  /tmp/ccNYJ9dM.s 			page 36
+ARM GAS  /tmp/ccqqMCof.s 			page 36
 
 
  866              		.loc 1 521 21 is_stmt 0 view .LVU277
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  908 0090 03E0     		b	.L59
  909              	.L103:
  910 0092 4FF48006 		mov	r6, #4194304
-ARM GAS  /tmp/ccNYJ9dM.s 			page 37
+ARM GAS  /tmp/ccqqMCof.s 			page 37
 
 
  911 0096 00E0     		b	.L59
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  957              	.LVL58:
  958              	.L107:
  542:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
-ARM GAS  /tmp/ccNYJ9dM.s 			page 38
+ARM GAS  /tmp/ccqqMCof.s 			page 38
 
 
  959              		.loc 1 542 9 view .LVU298
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1001 010a 1431     		adds	r1, r1, #20
  1002 010c 8B42     		cmp	r3, r1
  1003 010e 0DD0     		beq	.L86
-ARM GAS  /tmp/ccNYJ9dM.s 			page 39
+ARM GAS  /tmp/ccqqMCof.s 			page 39
 
 
  542:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     {
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1045              		.loc 1 556 7 view .LVU323
  558:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     }
  1046              		.loc 1 558 7 view .LVU324
-ARM GAS  /tmp/ccNYJ9dM.s 			page 40
+ARM GAS  /tmp/ccqqMCof.s 			page 40
 
 
  558:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     }
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1084 0178 2A4A     		ldr	r2, .L110
  1085 017a 9342     		cmp	r3, r2
  1086 017c 14D0     		beq	.L88
-ARM GAS  /tmp/ccNYJ9dM.s 			page 41
+ARM GAS  /tmp/ccqqMCof.s 			page 41
 
 
  582:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  597:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** }
  1129              		.loc 1 597 3 view .LVU354
  597:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** }
-ARM GAS  /tmp/ccNYJ9dM.s 			page 42
+ARM GAS  /tmp/ccqqMCof.s 			page 42
 
 
  1130              		.loc 1 597 10 is_stmt 0 view .LVU355
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1176 0202 00E0     		b	.L69
  1177              	.L94:
  1178 0204 0422     		movs	r2, #4
-ARM GAS  /tmp/ccNYJ9dM.s 			page 43
+ARM GAS  /tmp/ccqqMCof.s 			page 43
 
 
  1179              	.L69:
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1229              		.loc 1 608 26 is_stmt 0 view .LVU369
  1230 0002 C36B     		ldr	r3, [r0, #60]
  608:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   uint32_t source_it = hdma->Instance->CCR;
-ARM GAS  /tmp/ccNYJ9dM.s 			page 44
+ARM GAS  /tmp/ccqqMCof.s 			page 44
 
 
  1231              		.loc 1 608 12 view .LVU370
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1270              		.loc 1 621 5 discriminator 1 view .LVU385
  1271 0032 1432     		adds	r2, r2, #20
  1272 0034 9342     		cmp	r3, r2
-ARM GAS  /tmp/ccNYJ9dM.s 			page 45
+ARM GAS  /tmp/ccqqMCof.s 			page 45
 
 
  1273 0036 18D0     		beq	.L121
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1315              		.loc 1 621 5 view .LVU397
  1316 006a 4022     		movs	r2, #64
  1317 006c F7E7     		b	.L115
-ARM GAS  /tmp/ccNYJ9dM.s 			page 46
+ARM GAS  /tmp/ccqqMCof.s 			page 46
 
 
  1318              	.L122:
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1360 00aa 14D0     		beq	.L126
  645:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  1361              		.loc 1 645 7 discriminator 1 view .LVU410
-ARM GAS  /tmp/ccNYJ9dM.s 			page 47
+ARM GAS  /tmp/ccqqMCof.s 			page 47
 
 
  1362 00ac 1432     		adds	r2, r2, #20
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  653:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****     }
  1404              		.loc 1 653 7 is_stmt 1 view .LVU423
  1405 00e8 9847     		blx	r3
-ARM GAS  /tmp/ccNYJ9dM.s 			page 48
+ARM GAS  /tmp/ccqqMCof.s 			page 48
 
 
  1406              	.LVL68:
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1448              		.loc 1 666 32 view .LVU435
  1449 0124 4A60     		str	r2, [r1, #4]
  669:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
-ARM GAS  /tmp/ccNYJ9dM.s 			page 49
+ARM GAS  /tmp/ccqqMCof.s 			page 49
 
 
  1450              		.loc 1 669 5 is_stmt 1 view .LVU436
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1494              		@ frame_needed = 0, uses_anonymous_args = 0
  1495              		@ link register save eliminated.
  697:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   HAL_StatusTypeDef status = HAL_OK;
-ARM GAS  /tmp/ccNYJ9dM.s 			page 50
+ARM GAS  /tmp/ccqqMCof.s 			page 50
 
 
  1496              		.loc 1 697 1 is_stmt 0 view .LVU449
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1533 001e F9D8     		bhi	.L139
  1534 0020 DFE801F0 		tbb	[pc, r1]
  1535              	.L141:
-ARM GAS  /tmp/ccNYJ9dM.s 			page 51
+ARM GAS  /tmp/ccqqMCof.s 			page 51
 
 
  1536 0024 02       		.byte	(.L144-.L141)/2
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1572              		.loc 1 721 7 is_stmt 1 view .LVU484
  698:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   
  1573              		.loc 1 698 21 is_stmt 0 view .LVU485
-ARM GAS  /tmp/ccNYJ9dM.s 			page 52
+ARM GAS  /tmp/ccqqMCof.s 			page 52
 
 
  1574 003c 0020     		movs	r0, #0
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  754:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c ****   {
  1618              		.loc 1 754 5 discriminator 2 view .LVU498
  1619 0014 9042     		cmp	r0, r2
-ARM GAS  /tmp/ccNYJ9dM.s 			page 53
+ARM GAS  /tmp/ccqqMCof.s 			page 53
 
 
  1620 0016 04D0     		beq	.L159
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1660 003a D862     		str	r0, [r3, #44]
  764:Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c **** 
  1661              		.loc 1 764 7 is_stmt 1 view .LVU513
-ARM GAS  /tmp/ccNYJ9dM.s 			page 54
+ARM GAS  /tmp/ccqqMCof.s 			page 54
 
 
  1662 003c EDE7     		b	.L150
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1699 0058 7047     		bx	lr
  1700              		.cfi_endproc
  1701              	.LFE75:
-ARM GAS  /tmp/ccNYJ9dM.s 			page 55
+ARM GAS  /tmp/ccqqMCof.s 			page 55
 
 
  1703              		.section	.text.HAL_DMA_GetState,"ax",%progbits
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1753              		.text
  1754              	.Letext0:
  1755              		.file 2 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_de
-ARM GAS  /tmp/ccNYJ9dM.s 			page 56
+ARM GAS  /tmp/ccqqMCof.s 			page 56
 
 
  1756              		.file 3 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_stdint
@@ -3313,47 +3313,47 @@ ARM GAS  /tmp/ccNYJ9dM.s 			page 1
  1765              		.file 12 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h"
  1766              		.file 13 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
  1767              		.file 14 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
-ARM GAS  /tmp/ccNYJ9dM.s 			page 57
+ARM GAS  /tmp/ccqqMCof.s 			page 57
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 stm32f1xx_hal_dma.c
-     /tmp/ccNYJ9dM.s:16     .text.DMA_SetConfig:0000000000000000 $t
-     /tmp/ccNYJ9dM.s:23     .text.DMA_SetConfig:0000000000000000 DMA_SetConfig
-     /tmp/ccNYJ9dM.s:102    .text.HAL_DMA_Init:0000000000000000 $t
-     /tmp/ccNYJ9dM.s:109    .text.HAL_DMA_Init:0000000000000000 HAL_DMA_Init
-     /tmp/ccNYJ9dM.s:233    .text.HAL_DMA_Init:0000000000000060 $d
-     /tmp/ccNYJ9dM.s:240    .text.HAL_DMA_DeInit:0000000000000000 $t
-     /tmp/ccNYJ9dM.s:247    .text.HAL_DMA_DeInit:0000000000000000 HAL_DMA_DeInit
-     /tmp/ccNYJ9dM.s:357    .text.HAL_DMA_DeInit:000000000000005c $d
-     /tmp/ccNYJ9dM.s:364    .text.HAL_DMA_Start:0000000000000000 $t
-     /tmp/ccNYJ9dM.s:371    .text.HAL_DMA_Start:0000000000000000 HAL_DMA_Start
-     /tmp/ccNYJ9dM.s:458    .text.HAL_DMA_Start_IT:0000000000000000 $t
-     /tmp/ccNYJ9dM.s:465    .text.HAL_DMA_Start_IT:0000000000000000 HAL_DMA_Start_IT
-     /tmp/ccNYJ9dM.s:575    .text.HAL_DMA_Abort:0000000000000000 $t
-     /tmp/ccNYJ9dM.s:582    .text.HAL_DMA_Abort:0000000000000000 HAL_DMA_Abort
-     /tmp/ccNYJ9dM.s:630    .text.HAL_DMA_Abort_IT:0000000000000000 $t
-     /tmp/ccNYJ9dM.s:637    .text.HAL_DMA_Abort_IT:0000000000000000 HAL_DMA_Abort_IT
-     /tmp/ccNYJ9dM.s:763    .text.HAL_DMA_Abort_IT:0000000000000090 $d
-     /tmp/ccNYJ9dM.s:769    .text.HAL_DMA_PollForTransfer:0000000000000000 $t
-     /tmp/ccNYJ9dM.s:776    .text.HAL_DMA_PollForTransfer:0000000000000000 HAL_DMA_PollForTransfer
-     /tmp/ccNYJ9dM.s:1200   .text.HAL_DMA_PollForTransfer:0000000000000224 $d
-     /tmp/ccNYJ9dM.s:1206   .text.HAL_DMA_IRQHandler:0000000000000000 $t
-     /tmp/ccNYJ9dM.s:1213   .text.HAL_DMA_IRQHandler:0000000000000000 HAL_DMA_IRQHandler
-     /tmp/ccNYJ9dM.s:1475   .text.HAL_DMA_IRQHandler:000000000000013c $d
-     /tmp/ccNYJ9dM.s:1481   .text.HAL_DMA_RegisterCallback:0000000000000000 $t
-     /tmp/ccNYJ9dM.s:1488   .text.HAL_DMA_RegisterCallback:0000000000000000 HAL_DMA_RegisterCallback
-     /tmp/ccNYJ9dM.s:1536   .text.HAL_DMA_RegisterCallback:0000000000000024 $d
-     /tmp/ccNYJ9dM.s:1540   .text.HAL_DMA_RegisterCallback:0000000000000028 $t
-     /tmp/ccNYJ9dM.s:1586   .text.HAL_DMA_UnRegisterCallback:0000000000000000 $t
-     /tmp/ccNYJ9dM.s:1593   .text.HAL_DMA_UnRegisterCallback:0000000000000000 HAL_DMA_UnRegisterCallback
-     /tmp/ccNYJ9dM.s:1640   .text.HAL_DMA_UnRegisterCallback:000000000000002a $d
-     /tmp/ccNYJ9dM.s:1704   .text.HAL_DMA_GetState:0000000000000000 $t
-     /tmp/ccNYJ9dM.s:1711   .text.HAL_DMA_GetState:0000000000000000 HAL_DMA_GetState
-     /tmp/ccNYJ9dM.s:1729   .text.HAL_DMA_GetError:0000000000000000 $t
-     /tmp/ccNYJ9dM.s:1736   .text.HAL_DMA_GetError:0000000000000000 HAL_DMA_GetError
-     /tmp/ccNYJ9dM.s:1645   .text.HAL_DMA_UnRegisterCallback:000000000000002f $d
-     /tmp/ccNYJ9dM.s:1645   .text.HAL_DMA_UnRegisterCallback:0000000000000030 $t
+     /tmp/ccqqMCof.s:16     .text.DMA_SetConfig:0000000000000000 $t
+     /tmp/ccqqMCof.s:23     .text.DMA_SetConfig:0000000000000000 DMA_SetConfig
+     /tmp/ccqqMCof.s:102    .text.HAL_DMA_Init:0000000000000000 $t
+     /tmp/ccqqMCof.s:109    .text.HAL_DMA_Init:0000000000000000 HAL_DMA_Init
+     /tmp/ccqqMCof.s:233    .text.HAL_DMA_Init:0000000000000060 $d
+     /tmp/ccqqMCof.s:240    .text.HAL_DMA_DeInit:0000000000000000 $t
+     /tmp/ccqqMCof.s:247    .text.HAL_DMA_DeInit:0000000000000000 HAL_DMA_DeInit
+     /tmp/ccqqMCof.s:357    .text.HAL_DMA_DeInit:000000000000005c $d
+     /tmp/ccqqMCof.s:364    .text.HAL_DMA_Start:0000000000000000 $t
+     /tmp/ccqqMCof.s:371    .text.HAL_DMA_Start:0000000000000000 HAL_DMA_Start
+     /tmp/ccqqMCof.s:458    .text.HAL_DMA_Start_IT:0000000000000000 $t
+     /tmp/ccqqMCof.s:465    .text.HAL_DMA_Start_IT:0000000000000000 HAL_DMA_Start_IT
+     /tmp/ccqqMCof.s:575    .text.HAL_DMA_Abort:0000000000000000 $t
+     /tmp/ccqqMCof.s:582    .text.HAL_DMA_Abort:0000000000000000 HAL_DMA_Abort
+     /tmp/ccqqMCof.s:630    .text.HAL_DMA_Abort_IT:0000000000000000 $t
+     /tmp/ccqqMCof.s:637    .text.HAL_DMA_Abort_IT:0000000000000000 HAL_DMA_Abort_IT
+     /tmp/ccqqMCof.s:763    .text.HAL_DMA_Abort_IT:0000000000000090 $d
+     /tmp/ccqqMCof.s:769    .text.HAL_DMA_PollForTransfer:0000000000000000 $t
+     /tmp/ccqqMCof.s:776    .text.HAL_DMA_PollForTransfer:0000000000000000 HAL_DMA_PollForTransfer
+     /tmp/ccqqMCof.s:1200   .text.HAL_DMA_PollForTransfer:0000000000000224 $d
+     /tmp/ccqqMCof.s:1206   .text.HAL_DMA_IRQHandler:0000000000000000 $t
+     /tmp/ccqqMCof.s:1213   .text.HAL_DMA_IRQHandler:0000000000000000 HAL_DMA_IRQHandler
+     /tmp/ccqqMCof.s:1475   .text.HAL_DMA_IRQHandler:000000000000013c $d
+     /tmp/ccqqMCof.s:1481   .text.HAL_DMA_RegisterCallback:0000000000000000 $t
+     /tmp/ccqqMCof.s:1488   .text.HAL_DMA_RegisterCallback:0000000000000000 HAL_DMA_RegisterCallback
+     /tmp/ccqqMCof.s:1536   .text.HAL_DMA_RegisterCallback:0000000000000024 $d
+     /tmp/ccqqMCof.s:1540   .text.HAL_DMA_RegisterCallback:0000000000000028 $t
+     /tmp/ccqqMCof.s:1586   .text.HAL_DMA_UnRegisterCallback:0000000000000000 $t
+     /tmp/ccqqMCof.s:1593   .text.HAL_DMA_UnRegisterCallback:0000000000000000 HAL_DMA_UnRegisterCallback
+     /tmp/ccqqMCof.s:1640   .text.HAL_DMA_UnRegisterCallback:000000000000002a $d
+     /tmp/ccqqMCof.s:1704   .text.HAL_DMA_GetState:0000000000000000 $t
+     /tmp/ccqqMCof.s:1711   .text.HAL_DMA_GetState:0000000000000000 HAL_DMA_GetState
+     /tmp/ccqqMCof.s:1729   .text.HAL_DMA_GetError:0000000000000000 $t
+     /tmp/ccqqMCof.s:1736   .text.HAL_DMA_GetError:0000000000000000 HAL_DMA_GetError
+     /tmp/ccqqMCof.s:1645   .text.HAL_DMA_UnRegisterCallback:000000000000002f $d
+     /tmp/ccqqMCof.s:1645   .text.HAL_DMA_UnRegisterCallback:0000000000000030 $t
 
 UNDEFINED SYMBOLS
 HAL_GetTick

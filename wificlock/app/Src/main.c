@@ -176,7 +176,7 @@ uint8_t StrToInt(char* str)
     return val;
 }
 
-
+#define DEBUG_GETTIME
 void decode_time(char *text, ZL_RTC_t *ZL_Time)
 {
 	//char *out;

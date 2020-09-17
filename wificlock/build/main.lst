@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cccngOsp.s 			page 1
+ARM GAS  /tmp/ccv7mc5q.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
   31:app/Src/main.c **** uint8_t StrToInt(char* str);
   32:app/Src/main.c **** void decode_time(char *text, ZL_RTC_t *ZL_Time);
   33:app/Src/main.c **** void print_syn_msg(void);
-ARM GAS  /tmp/cccngOsp.s 			page 2
+ARM GAS  /tmp/ccv7mc5q.s 			page 2
 
 
   34:app/Src/main.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
   88:app/Src/main.c ****       }break;
   89:app/Src/main.c **** 
   90:app/Src/main.c ****       case SynMode:
-ARM GAS  /tmp/cccngOsp.s 			page 3
+ARM GAS  /tmp/ccv7mc5q.s 			page 3
 
 
   91:app/Src/main.c ****       {
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
   56 0018 0494     		str	r4, [sp, #16]
  115:app/Src/main.c **** 
  116:app/Src/main.c ****   /**Initializes the CPU, AHB and APB busses clocks 
-ARM GAS  /tmp/cccngOsp.s 			page 4
+ARM GAS  /tmp/ccv7mc5q.s 			page 4
 
 
  117:app/Src/main.c ****   */
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  134:app/Src/main.c ****   RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
   94              		.loc 1 134 3 is_stmt 1 view .LVU27
   95              		.loc 1 134 31 is_stmt 0 view .LVU28
-ARM GAS  /tmp/cccngOsp.s 			page 5
+ARM GAS  /tmp/ccv7mc5q.s 			page 5
 
 
   96 0040 0F23     		movs	r3, #15
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  133              		@ sp needed
  134 0068 70BD     		pop	{r4, r5, r6, pc}
  135              		.cfi_endproc
-ARM GAS  /tmp/cccngOsp.s 			page 6
+ARM GAS  /tmp/ccv7mc5q.s 			page 6
 
 
  136              	.LFE400:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
   23:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
   24:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
   25:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-ARM GAS  /tmp/cccngOsp.s 			page 7
+ARM GAS  /tmp/ccv7mc5q.s 			page 7
 
 
   26:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
   80:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #endif /*USE_FULL_LL_DRIVER*/
   81:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
   82:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /* Exported types ------------------------------------------------------------*/
-ARM GAS  /tmp/cccngOsp.s 			page 8
+ARM GAS  /tmp/ccv7mc5q.s 			page 8
 
 
   83:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #if defined(USE_FULL_LL_DRIVER)
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  137:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_PIN_7                    ((GPIO_BSRR_BS7  << GPIO_PIN_MASK_POS) | 0x00000080U)  /*!
  138:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_PIN_8                    ((GPIO_BSRR_BS8  << GPIO_PIN_MASK_POS) | 0x04000001U)  /*!
  139:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_PIN_9                    ((GPIO_BSRR_BS9  << GPIO_PIN_MASK_POS) | 0x04000002U)  /*!
-ARM GAS  /tmp/cccngOsp.s 			page 9
+ARM GAS  /tmp/ccv7mc5q.s 			page 9
 
 
  140:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_PIN_10                   ((GPIO_BSRR_BS10 << GPIO_PIN_MASK_POS) | 0x04000004U)  /*!
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  194:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_PULL_DOWN                0x00000000U    /*!< Select I/O pull down */
  195:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** #define LL_GPIO_PULL_UP                  GPIO_ODR_ODR0  /*!< Select I/O pull up */
  196:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
-ARM GAS  /tmp/cccngOsp.s 			page 10
+ARM GAS  /tmp/ccv7mc5q.s 			page 10
 
 
  197:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /**
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  251:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @}
  252:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   */
  253:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
-ARM GAS  /tmp/cccngOsp.s 			page 11
+ARM GAS  /tmp/ccv7mc5q.s 			page 11
 
 
  254:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /** @defgroup GPIO_LL_EC_EXTI_LINE GPIO EXTI LINE
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  308:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   */
  309:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
  310:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /**
-ARM GAS  /tmp/cccngOsp.s 			page 12
+ARM GAS  /tmp/ccv7mc5q.s 			page 12
 
 
  311:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @}
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  365:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @brief  Return gpio mode for a dedicated pin on dedicated port.
  366:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @note   I/O mode can be Analog, Floating input, Input with pull-up/pull-down, General purpose O
  367:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         Alternate function Output.
-ARM GAS  /tmp/cccngOsp.s 			page 13
+ARM GAS  /tmp/ccv7mc5q.s 			page 13
 
 
  368:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @note   Warning: only one pin can be passed as parameter.
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  422:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_8
  423:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_9
  424:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_10
-ARM GAS  /tmp/cccngOsp.s 			page 14
+ARM GAS  /tmp/ccv7mc5q.s 			page 14
 
 
  425:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_11
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  479:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
  480:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /**
  481:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @brief  Configure gpio output type for several pins on dedicated port.
-ARM GAS  /tmp/cccngOsp.s 			page 15
+ARM GAS  /tmp/ccv7mc5q.s 			page 15
 
 
  482:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @note   Output type as to be set when gpio pin is in output or
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  536:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_10
  537:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_11
  538:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_12
-ARM GAS  /tmp/cccngOsp.s 			page 16
+ARM GAS  /tmp/ccv7mc5q.s 			page 16
 
 
  539:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_13
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  593:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_1
  594:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_2
  595:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_3
-ARM GAS  /tmp/cccngOsp.s 			page 17
+ARM GAS  /tmp/ccv7mc5q.s 			page 17
 
 
  596:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   *         @arg @ref LL_GPIO_PIN_4
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  650:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   WRITE_REG(GPIOx->LCKR, ((PinMask >> GPIO_PIN_MASK_POS) & 0x0000FFFFU));
  651:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   WRITE_REG(GPIOx->LCKR, GPIO_LCKR_LCKK | ((PinMask >> GPIO_PIN_MASK_POS) & 0x0000FFFFU));
  652:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   temp = READ_REG(GPIOx->LCKR);
-ARM GAS  /tmp/cccngOsp.s 			page 18
+ARM GAS  /tmp/ccv7mc5q.s 			page 18
 
 
  653:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   (void) temp;
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  707:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @param  GPIOx GPIO Port
  708:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   * @retval Input data register value of port
  709:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   */
-ARM GAS  /tmp/cccngOsp.s 			page 19
+ARM GAS  /tmp/ccv7mc5q.s 			page 19
 
 
  710:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** __STATIC_INLINE uint32_t LL_GPIO_ReadInputPort(GPIO_TypeDef *GPIOx)
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  764:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   return (uint32_t)(READ_REG(GPIOx->ODR));
  765:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
  766:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** 
-ARM GAS  /tmp/cccngOsp.s 			page 20
+ARM GAS  /tmp/ccv7mc5q.s 			page 20
 
 
  767:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** /**
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  163              		.loc 2 820 22 view .LVU50
  164              	.LBB47:
  821:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
-ARM GAS  /tmp/cccngOsp.s 			page 21
+ARM GAS  /tmp/ccv7mc5q.s 			page 21
 
 
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h ****   WRITE_REG(GPIOx->BSRR, (PinMask >> GPIO_PIN_MASK_POS) & 0x0000FFFFU);
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  187              	.LVL8:
  188              		.loc 2 851 3 view .LVU59
  189              	.LBE49:
-ARM GAS  /tmp/cccngOsp.s 			page 22
+ARM GAS  /tmp/ccv7mc5q.s 			page 22
 
 
  190              	.LBE48:
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  234 0010 06D8     		bhi	.L10
  171:app/Src/main.c ****     {
  172:app/Src/main.c **** 	    val = val * 10 + CharToNum(*(str + i));
-ARM GAS  /tmp/cccngOsp.s 			page 23
+ARM GAS  /tmp/ccv7mc5q.s 			page 23
 
 
  235              		.loc 1 172 6 is_stmt 1 view .LVU71
@@ -1377,58 +1377,75 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  282              		.align	2
  283              	.LC5:
  284 001c 53656300 		.ascii	"Sec\000"
- 285              		.section	.text.decode_time,"ax",%progbits
-ARM GAS  /tmp/cccngOsp.s 			page 24
+ 285              		.align	2
+ARM GAS  /tmp/ccv7mc5q.s 			page 24
 
 
- 286              		.align	1
- 287              		.global	decode_time
- 288              		.syntax unified
- 289              		.thumb
- 290              		.thumb_func
- 291              		.fpu softvfp
- 293              	decode_time:
- 294              	.LVL17:
- 295              	.LFB403:
+ 286              	.LC6:
+ 287 0020 25303264 		.ascii	"%02d:%02d:%02d\000"
+ 287      3A253032 
+ 287      643A2530 
+ 287      326400
+ 288 002f 00       		.align	2
+ 289              	.LC7:
+ 290 0030 25303464 		.ascii	"%04d:%02d:%02d\000"
+ 290      3A253032 
+ 290      643A2530 
+ 290      326400
+ 291              		.section	.text.decode_time,"ax",%progbits
+ 292              		.align	1
+ 293              		.global	decode_time
+ 294              		.syntax unified
+ 295              		.thumb
+ 296              		.thumb_func
+ 297              		.fpu softvfp
+ 299              	decode_time:
+ 300              	.LVL17:
+ 301              	.LFB403:
  178:app/Src/main.c **** 
- 179:app/Src/main.c **** 
+ 179:app/Src/main.c **** #define DEBUG_GETTIME
  180:app/Src/main.c **** void decode_time(char *text, ZL_RTC_t *ZL_Time)
  181:app/Src/main.c **** {
- 296              		.loc 1 181 1 is_stmt 1 view -0
- 297              		.cfi_startproc
- 298              		@ args = 0, pretend = 0, frame = 0
- 299              		@ frame_needed = 0, uses_anonymous_args = 0
- 300              		.loc 1 181 1 is_stmt 0 view .LVU83
- 301 0000 2DE9F84F 		push	{r3, r4, r5, r6, r7, r8, r9, r10, fp, lr}
- 302              	.LCFI5:
- 303              		.cfi_def_cfa_offset 40
- 304              		.cfi_offset 3, -40
- 305              		.cfi_offset 4, -36
- 306              		.cfi_offset 5, -32
- 307              		.cfi_offset 6, -28
- 308              		.cfi_offset 7, -24
- 309              		.cfi_offset 8, -20
- 310              		.cfi_offset 9, -16
- 311              		.cfi_offset 10, -12
- 312              		.cfi_offset 11, -8
- 313              		.cfi_offset 14, -4
- 314 0004 0C46     		mov	r4, r1
+ 302              		.loc 1 181 1 is_stmt 1 view -0
+ 303              		.cfi_startproc
+ 304              		@ args = 0, pretend = 0, frame = 104
+ 305              		@ frame_needed = 0, uses_anonymous_args = 0
+ 306              		.loc 1 181 1 is_stmt 0 view .LVU83
+ 307 0000 2DE9F04F 		push	{r4, r5, r6, r7, r8, r9, r10, fp, lr}
+ 308              	.LCFI5:
+ 309              		.cfi_def_cfa_offset 36
+ 310              		.cfi_offset 4, -36
+ 311              		.cfi_offset 5, -32
+ 312              		.cfi_offset 6, -28
+ 313              		.cfi_offset 7, -24
+ 314              		.cfi_offset 8, -20
+ 315              		.cfi_offset 9, -16
+ 316              		.cfi_offset 10, -12
+ 317              		.cfi_offset 11, -8
+ 318              		.cfi_offset 14, -4
+ 319 0004 9DB0     		sub	sp, sp, #116
+ 320              	.LCFI6:
+ 321              		.cfi_def_cfa_offset 152
+ 322 0006 0C46     		mov	r4, r1
  182:app/Src/main.c **** 	//char *out;
  183:app/Src/main.c ****   cJSON *deroot;
- 315              		.loc 1 183 3 is_stmt 1 view .LVU84
+ 323              		.loc 1 183 3 is_stmt 1 view .LVU84
  184:app/Src/main.c **** 
  185:app/Src/main.c **** 	deroot=cJSON_Parse(text);
- 316              		.loc 1 185 2 view .LVU85
- 317              		.loc 1 185 9 is_stmt 0 view .LVU86
- 318 0006 FFF7FEFF 		bl	cJSON_Parse
- 319              	.LVL18:
+ 324              		.loc 1 185 2 view .LVU85
+ 325              		.loc 1 185 9 is_stmt 0 view .LVU86
+ 326 0008 FFF7FEFF 		bl	cJSON_Parse
+ 327              	.LVL18:
  186:app/Src/main.c **** 	if (!deroot)
- 320              		.loc 1 186 2 is_stmt 1 view .LVU87
- 321              		.loc 1 186 5 is_stmt 0 view .LVU88
- 322 000a 0546     		mov	r5, r0
- 323 000c 0028     		cmp	r0, #0
- 324 000e 3ED0     		beq	.L15
- 325              	.LBB50:
+ 328              		.loc 1 186 2 is_stmt 1 view .LVU87
+ARM GAS  /tmp/ccv7mc5q.s 			page 25
+
+
+ 329              		.loc 1 186 5 is_stmt 0 view .LVU88
+ 330 000c 0546     		mov	r5, r0
+ 331 000e 0028     		cmp	r0, #0
+ 332 0010 5CD0     		beq	.L15
+ 333              	.LBB50:
  187:app/Src/main.c **** 	{
  188:app/Src/main.c **** 		//os_printf("Error before: [%s]\n",cJSON_GetErrorPtr());
  189:app/Src/main.c ****     cJSON_Delete(deroot);
@@ -1436,635 +1453,683 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  191:app/Src/main.c ****   else
  192:app/Src/main.c **** 	{
  193:app/Src/main.c ****     cJSON *jsYear = cJSON_GetObjectItem(deroot, "Year");
- 326              		.loc 1 193 5 is_stmt 1 view .LVU89
- 327              		.loc 1 193 21 is_stmt 0 view .LVU90
-ARM GAS  /tmp/cccngOsp.s 			page 25
-
-
- 328 0010 2049     		ldr	r1, .L16
- 329 0012 FFF7FEFF 		bl	cJSON_GetObjectItem
- 330              	.LVL19:
- 331              		.loc 1 193 21 view .LVU91
- 332 0016 8346     		mov	fp, r0
- 333              	.LVL20:
+ 334              		.loc 1 193 5 is_stmt 1 view .LVU89
+ 335              		.loc 1 193 21 is_stmt 0 view .LVU90
+ 336 0012 3049     		ldr	r1, .L16
+ 337 0014 FFF7FEFF 		bl	cJSON_GetObjectItem
+ 338              	.LVL19:
+ 339              		.loc 1 193 21 view .LVU91
+ 340 0018 8346     		mov	fp, r0
+ 341              	.LVL20:
  194:app/Src/main.c ****     cJSON *jsMon = cJSON_GetObjectItem(deroot, "Mon");
- 334              		.loc 1 194 5 is_stmt 1 view .LVU92
- 335              		.loc 1 194 20 is_stmt 0 view .LVU93
- 336 0018 1F49     		ldr	r1, .L16+4
- 337 001a 2846     		mov	r0, r5
- 338              	.LVL21:
- 339              		.loc 1 194 20 view .LVU94
- 340 001c FFF7FEFF 		bl	cJSON_GetObjectItem
- 341              	.LVL22:
- 342 0020 8246     		mov	r10, r0
- 343              	.LVL23:
+ 342              		.loc 1 194 5 is_stmt 1 view .LVU92
+ 343              		.loc 1 194 20 is_stmt 0 view .LVU93
+ 344 001a 2F49     		ldr	r1, .L16+4
+ 345 001c 2846     		mov	r0, r5
+ 346              	.LVL21:
+ 347              		.loc 1 194 20 view .LVU94
+ 348 001e FFF7FEFF 		bl	cJSON_GetObjectItem
+ 349              	.LVL22:
+ 350 0022 8246     		mov	r10, r0
+ 351              	.LVL23:
  195:app/Src/main.c ****     cJSON *jsDay = cJSON_GetObjectItem(deroot, "Day");
- 344              		.loc 1 195 5 is_stmt 1 view .LVU95
- 345              		.loc 1 195 20 is_stmt 0 view .LVU96
- 346 0022 1E49     		ldr	r1, .L16+8
- 347 0024 2846     		mov	r0, r5
- 348              	.LVL24:
- 349              		.loc 1 195 20 view .LVU97
- 350 0026 FFF7FEFF 		bl	cJSON_GetObjectItem
- 351              	.LVL25:
- 352 002a 8146     		mov	r9, r0
- 353              	.LVL26:
+ 352              		.loc 1 195 5 is_stmt 1 view .LVU95
+ 353              		.loc 1 195 20 is_stmt 0 view .LVU96
+ 354 0024 2D49     		ldr	r1, .L16+8
+ 355 0026 2846     		mov	r0, r5
+ 356              	.LVL24:
+ 357              		.loc 1 195 20 view .LVU97
+ 358 0028 FFF7FEFF 		bl	cJSON_GetObjectItem
+ 359              	.LVL25:
+ 360 002c 8146     		mov	r9, r0
+ 361              	.LVL26:
  196:app/Src/main.c ****     cJSON *jsHour = cJSON_GetObjectItem(deroot, "Hour");
- 354              		.loc 1 196 5 is_stmt 1 view .LVU98
- 355              		.loc 1 196 21 is_stmt 0 view .LVU99
- 356 002c 1C49     		ldr	r1, .L16+12
- 357 002e 2846     		mov	r0, r5
- 358              	.LVL27:
- 359              		.loc 1 196 21 view .LVU100
- 360 0030 FFF7FEFF 		bl	cJSON_GetObjectItem
- 361              	.LVL28:
- 362 0034 8046     		mov	r8, r0
- 363              	.LVL29:
+ 362              		.loc 1 196 5 is_stmt 1 view .LVU98
+ 363              		.loc 1 196 21 is_stmt 0 view .LVU99
+ 364 002e 2C49     		ldr	r1, .L16+12
+ 365 0030 2846     		mov	r0, r5
+ 366              	.LVL27:
+ 367              		.loc 1 196 21 view .LVU100
+ 368 0032 FFF7FEFF 		bl	cJSON_GetObjectItem
+ 369              	.LVL28:
+ 370 0036 0646     		mov	r6, r0
+ 371              	.LVL29:
  197:app/Src/main.c ****     cJSON *jsMin = cJSON_GetObjectItem(deroot, "Min");
- 364              		.loc 1 197 5 is_stmt 1 view .LVU101
- 365              		.loc 1 197 20 is_stmt 0 view .LVU102
- 366 0036 1B49     		ldr	r1, .L16+16
- 367 0038 2846     		mov	r0, r5
- 368              	.LVL30:
- 369              		.loc 1 197 20 view .LVU103
- 370 003a FFF7FEFF 		bl	cJSON_GetObjectItem
- 371              	.LVL31:
- 372 003e 0746     		mov	r7, r0
- 373              	.LVL32:
+ 372              		.loc 1 197 5 is_stmt 1 view .LVU101
+ 373              		.loc 1 197 20 is_stmt 0 view .LVU102
+ 374 0038 2A49     		ldr	r1, .L16+16
+ARM GAS  /tmp/ccv7mc5q.s 			page 26
+
+
+ 375 003a 2846     		mov	r0, r5
+ 376              	.LVL30:
+ 377              		.loc 1 197 20 view .LVU103
+ 378 003c FFF7FEFF 		bl	cJSON_GetObjectItem
+ 379              	.LVL31:
+ 380 0040 0746     		mov	r7, r0
+ 381              	.LVL32:
  198:app/Src/main.c ****     cJSON *jsSec = cJSON_GetObjectItem(deroot, "Sec");
- 374              		.loc 1 198 5 is_stmt 1 view .LVU104
- 375              		.loc 1 198 20 is_stmt 0 view .LVU105
- 376 0040 1949     		ldr	r1, .L16+20
- 377 0042 2846     		mov	r0, r5
- 378              	.LVL33:
- 379              		.loc 1 198 20 view .LVU106
-ARM GAS  /tmp/cccngOsp.s 			page 26
-
-
- 380 0044 FFF7FEFF 		bl	cJSON_GetObjectItem
- 381              	.LVL34:
- 382 0048 0646     		mov	r6, r0
- 383              	.LVL35:
+ 382              		.loc 1 198 5 is_stmt 1 view .LVU104
+ 383              		.loc 1 198 20 is_stmt 0 view .LVU105
+ 384 0042 2949     		ldr	r1, .L16+20
+ 385 0044 2846     		mov	r0, r5
+ 386              	.LVL33:
+ 387              		.loc 1 198 20 view .LVU106
+ 388 0046 FFF7FEFF 		bl	cJSON_GetObjectItem
+ 389              	.LVL34:
+ 390 004a 8046     		mov	r8, r0
+ 391              	.LVL35:
  199:app/Src/main.c **** 
  200:app/Src/main.c ****     ZL_Time->Year = StrToInt(jsYear->valuestring) - 2000;
- 384              		.loc 1 200 5 is_stmt 1 view .LVU107
- 385              		.loc 1 200 21 is_stmt 0 view .LVU108
- 386 004a DBF81000 		ldr	r0, [fp, #16]
- 387              	.LVL36:
- 388              		.loc 1 200 21 view .LVU109
- 389 004e FFF7FEFF 		bl	StrToInt
- 390              	.LVL37:
- 391              		.loc 1 200 51 view .LVU110
- 392 0052 3030     		adds	r0, r0, #48
- 393              		.loc 1 200 19 view .LVU111
- 394 0054 A071     		strb	r0, [r4, #6]
+ 392              		.loc 1 200 5 is_stmt 1 view .LVU107
+ 393              		.loc 1 200 21 is_stmt 0 view .LVU108
+ 394 004c DBF81000 		ldr	r0, [fp, #16]
+ 395              	.LVL36:
+ 396              		.loc 1 200 21 view .LVU109
+ 397 0050 FFF7FEFF 		bl	StrToInt
+ 398              	.LVL37:
+ 399              		.loc 1 200 51 view .LVU110
+ 400 0054 3030     		adds	r0, r0, #48
+ 401              		.loc 1 200 19 view .LVU111
+ 402 0056 A071     		strb	r0, [r4, #6]
  201:app/Src/main.c ****     ZL_Time->Month = StrToInt(jsMon->valuestring);
- 395              		.loc 1 201 5 is_stmt 1 view .LVU112
- 396              		.loc 1 201 22 is_stmt 0 view .LVU113
- 397 0056 DAF81000 		ldr	r0, [r10, #16]
- 398 005a FFF7FEFF 		bl	StrToInt
- 399              	.LVL38:
- 400              		.loc 1 201 20 view .LVU114
- 401 005e 6071     		strb	r0, [r4, #5]
+ 403              		.loc 1 201 5 is_stmt 1 view .LVU112
+ 404              		.loc 1 201 22 is_stmt 0 view .LVU113
+ 405 0058 DAF81000 		ldr	r0, [r10, #16]
+ 406 005c FFF7FEFF 		bl	StrToInt
+ 407              	.LVL38:
+ 408              		.loc 1 201 20 view .LVU114
+ 409 0060 6071     		strb	r0, [r4, #5]
  202:app/Src/main.c ****     ZL_Time->Day = StrToInt(jsDay->valuestring);
- 402              		.loc 1 202 5 is_stmt 1 view .LVU115
- 403              		.loc 1 202 20 is_stmt 0 view .LVU116
- 404 0060 D9F81000 		ldr	r0, [r9, #16]
- 405 0064 FFF7FEFF 		bl	StrToInt
- 406              	.LVL39:
- 407              		.loc 1 202 18 view .LVU117
- 408 0068 2071     		strb	r0, [r4, #4]
+ 410              		.loc 1 202 5 is_stmt 1 view .LVU115
+ 411              		.loc 1 202 20 is_stmt 0 view .LVU116
+ 412 0062 D9F81000 		ldr	r0, [r9, #16]
+ 413 0066 FFF7FEFF 		bl	StrToInt
+ 414              	.LVL39:
+ 415              		.loc 1 202 18 view .LVU117
+ 416 006a 2071     		strb	r0, [r4, #4]
  203:app/Src/main.c ****     ZL_Time->Hours = StrToInt(jsHour->valuestring);
- 409              		.loc 1 203 5 is_stmt 1 view .LVU118
- 410              		.loc 1 203 22 is_stmt 0 view .LVU119
- 411 006a D8F81000 		ldr	r0, [r8, #16]
- 412 006e FFF7FEFF 		bl	StrToInt
- 413              	.LVL40:
- 414              		.loc 1 203 20 view .LVU120
- 415 0072 A070     		strb	r0, [r4, #2]
+ 417              		.loc 1 203 5 is_stmt 1 view .LVU118
+ 418              		.loc 1 203 22 is_stmt 0 view .LVU119
+ 419 006c 3069     		ldr	r0, [r6, #16]
+ 420 006e FFF7FEFF 		bl	StrToInt
+ 421              	.LVL40:
+ 422 0072 0646     		mov	r6, r0
+ 423              	.LVL41:
+ 424              		.loc 1 203 20 view .LVU120
+ 425 0074 A070     		strb	r0, [r4, #2]
+ARM GAS  /tmp/ccv7mc5q.s 			page 27
+
+
  204:app/Src/main.c ****     ZL_Time->Minutes = StrToInt(jsMin->valuestring);
- 416              		.loc 1 204 5 is_stmt 1 view .LVU121
- 417              		.loc 1 204 24 is_stmt 0 view .LVU122
- 418 0074 3869     		ldr	r0, [r7, #16]
- 419 0076 FFF7FEFF 		bl	StrToInt
- 420              	.LVL41:
- 421              		.loc 1 204 22 view .LVU123
- 422 007a 6070     		strb	r0, [r4, #1]
+ 426              		.loc 1 204 5 is_stmt 1 view .LVU121
+ 427              		.loc 1 204 24 is_stmt 0 view .LVU122
+ 428 0076 3869     		ldr	r0, [r7, #16]
+ 429 0078 FFF7FEFF 		bl	StrToInt
+ 430              	.LVL42:
+ 431 007c 0746     		mov	r7, r0
+ 432              	.LVL43:
+ 433              		.loc 1 204 22 view .LVU123
+ 434 007e 6070     		strb	r0, [r4, #1]
  205:app/Src/main.c ****     ZL_Time->Seconds = StrToInt(jsSec->valuestring);
- 423              		.loc 1 205 5 is_stmt 1 view .LVU124
- 424              		.loc 1 205 24 is_stmt 0 view .LVU125
- 425 007c 3069     		ldr	r0, [r6, #16]
- 426 007e FFF7FEFF 		bl	StrToInt
- 427              	.LVL42:
- 428              		.loc 1 205 22 view .LVU126
- 429 0082 2070     		strb	r0, [r4]
-ARM GAS  /tmp/cccngOsp.s 			page 27
-
-
+ 435              		.loc 1 205 5 is_stmt 1 view .LVU124
+ 436              		.loc 1 205 24 is_stmt 0 view .LVU125
+ 437 0080 D8F81000 		ldr	r0, [r8, #16]
+ 438 0084 FFF7FEFF 		bl	StrToInt
+ 439              	.LVL44:
+ 440              		.loc 1 205 22 view .LVU126
+ 441 0088 2070     		strb	r0, [r4]
  206:app/Src/main.c **** 
  207:app/Src/main.c ****     #ifdef DEBUG_GETTIME
  208:app/Src/main.c ****       char debug_timebuf[50];
+ 442              		.loc 1 208 7 is_stmt 1 view .LVU127
  209:app/Src/main.c ****       char debug_databuf[50];
+ 443              		.loc 1 209 7 view .LVU128
  210:app/Src/main.c **** 
  211:app/Src/main.c ****       sprintf(debug_timebuf, "%02d:%02d:%02d", ZL_Time->Hours, ZL_Time->Minutes, ZL_Time->Seconds);
+ 444              		.loc 1 211 7 view .LVU129
+ 445 008a 0090     		str	r0, [sp]
+ 446 008c 3B46     		mov	r3, r7
+ 447 008e 3246     		mov	r2, r6
+ 448 0090 1649     		ldr	r1, .L16+24
+ 449 0092 02A8     		add	r0, sp, #8
+ 450 0094 FFF7FEFF 		bl	sprintf
+ 451              	.LVL45:
  212:app/Src/main.c ****       LedMatrix_ShowString(0, 0, (const uint8_t *)debug_timebuf, 2);
+ 452              		.loc 1 212 7 view .LVU130
+ 453 0098 0223     		movs	r3, #2
+ 454 009a 02AA     		add	r2, sp, #8
+ 455 009c 0021     		movs	r1, #0
+ 456 009e 0846     		mov	r0, r1
+ 457 00a0 FFF7FEFF 		bl	LedMatrix_ShowString
+ 458              	.LVL46:
  213:app/Src/main.c **** 
  214:app/Src/main.c ****       sprintf(debug_databuf, "%04d:%02d:%02d", ZL_Time->Year, ZL_Time->Month, ZL_Time->Day);
+ 459              		.loc 1 214 7 view .LVU131
+ 460              		.loc 1 214 86 is_stmt 0 view .LVU132
+ 461 00a4 2379     		ldrb	r3, [r4, #4]	@ zero_extendqisi2
+ 462              		.loc 1 214 7 view .LVU133
+ 463 00a6 0093     		str	r3, [sp]
+ 464 00a8 6379     		ldrb	r3, [r4, #5]	@ zero_extendqisi2
+ 465 00aa A279     		ldrb	r2, [r4, #6]	@ zero_extendqisi2
+ 466 00ac 1049     		ldr	r1, .L16+28
+ 467 00ae 0FA8     		add	r0, sp, #60
+ 468 00b0 FFF7FEFF 		bl	sprintf
+ 469              	.LVL47:
  215:app/Src/main.c ****       LedMatrix_ShowString(0, 15, (const uint8_t *)debug_databuf, 1);
+ 470              		.loc 1 215 7 is_stmt 1 view .LVU134
+ARM GAS  /tmp/ccv7mc5q.s 			page 28
+
+
+ 471 00b4 0123     		movs	r3, #1
+ 472 00b6 0FAA     		add	r2, sp, #60
+ 473 00b8 0F21     		movs	r1, #15
+ 474 00ba 0020     		movs	r0, #0
+ 475 00bc FFF7FEFF 		bl	LedMatrix_ShowString
+ 476              	.LVL48:
  216:app/Src/main.c ****     #endif
  217:app/Src/main.c **** 
  218:app/Src/main.c **** 		cJSON_Delete(deroot);
- 430              		.loc 1 218 3 is_stmt 1 view .LVU127
- 431 0084 2846     		mov	r0, r5
- 432 0086 FFF7FEFF 		bl	cJSON_Delete
- 433              	.LVL43:
- 434              	.L11:
- 435              		.loc 1 218 3 is_stmt 0 view .LVU128
- 436              	.LBE50:
+ 477              		.loc 1 218 3 view .LVU135
+ 478 00c0 2846     		mov	r0, r5
+ 479 00c2 FFF7FEFF 		bl	cJSON_Delete
+ 480              	.LVL49:
+ 481              	.L11:
+ 482              		.loc 1 218 3 is_stmt 0 view .LVU136
+ 483              	.LBE50:
  219:app/Src/main.c **** 	}
  220:app/Src/main.c **** }
- 437              		.loc 1 220 1 view .LVU129
- 438 008a BDE8F88F 		pop	{r3, r4, r5, r6, r7, r8, r9, r10, fp, pc}
- 439              	.LVL44:
- 440              	.L15:
+ 484              		.loc 1 220 1 view .LVU137
+ 485 00c6 1DB0     		add	sp, sp, #116
+ 486              	.LCFI7:
+ 487              		.cfi_remember_state
+ 488              		.cfi_def_cfa_offset 36
+ 489              		@ sp needed
+ 490 00c8 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
+ 491              	.LVL50:
+ 492              	.L15:
+ 493              	.LCFI8:
+ 494              		.cfi_restore_state
  189:app/Src/main.c **** 	}
- 441              		.loc 1 189 5 is_stmt 1 view .LVU130
- 442 008e FFF7FEFF 		bl	cJSON_Delete
- 443              	.LVL45:
+ 495              		.loc 1 189 5 is_stmt 1 view .LVU138
+ 496 00cc FFF7FEFF 		bl	cJSON_Delete
+ 497              	.LVL51:
  189:app/Src/main.c **** 	}
- 444              		.loc 1 189 5 is_stmt 0 view .LVU131
- 445 0092 FAE7     		b	.L11
- 446              	.L17:
- 447              		.align	2
- 448              	.L16:
- 449 0094 00000000 		.word	.LC0
- 450 0098 08000000 		.word	.LC1
- 451 009c 0C000000 		.word	.LC2
- 452 00a0 10000000 		.word	.LC3
- 453 00a4 18000000 		.word	.LC4
- 454 00a8 1C000000 		.word	.LC5
- 455              		.cfi_endproc
- 456              	.LFE403:
- 458              		.section	.text.main,"ax",%progbits
- 459              		.align	1
- 460              		.global	main
- 461              		.syntax unified
- 462              		.thumb
- 463              		.thumb_func
- 464              		.fpu softvfp
- 466              	main:
- 467              	.LFB399:
+ 498              		.loc 1 189 5 is_stmt 0 view .LVU139
+ 499 00d0 F9E7     		b	.L11
+ 500              	.L17:
+ 501 00d2 00BF     		.align	2
+ 502              	.L16:
+ 503 00d4 00000000 		.word	.LC0
+ 504 00d8 08000000 		.word	.LC1
+ 505 00dc 0C000000 		.word	.LC2
+ 506 00e0 10000000 		.word	.LC3
+ 507 00e4 18000000 		.word	.LC4
+ 508 00e8 1C000000 		.word	.LC5
+ 509 00ec 20000000 		.word	.LC6
+ 510 00f0 30000000 		.word	.LC7
+ 511              		.cfi_endproc
+ 512              	.LFE403:
+ 514              		.section	.text.main,"ax",%progbits
+ 515              		.align	1
+ 516              		.global	main
+ 517              		.syntax unified
+ 518              		.thumb
+ 519              		.thumb_func
+ 520              		.fpu softvfp
+ 522              	main:
+ARM GAS  /tmp/ccv7mc5q.s 			page 29
+
+
+ 523              	.LFB399:
   50:app/Src/main.c ****   cur_mode = DisMode;
- 468              		.loc 1 50 1 is_stmt 1 view -0
- 469              		.cfi_startproc
- 470              		@ Volatile: function does not return.
-ARM GAS  /tmp/cccngOsp.s 			page 28
-
-
- 471              		@ args = 0, pretend = 0, frame = 112
- 472              		@ frame_needed = 0, uses_anonymous_args = 0
- 473 0000 80B5     		push	{r7, lr}
- 474              	.LCFI6:
- 475              		.cfi_def_cfa_offset 8
- 476              		.cfi_offset 7, -8
- 477              		.cfi_offset 14, -4
- 478 0002 9EB0     		sub	sp, sp, #120
- 479              	.LCFI7:
- 480              		.cfi_def_cfa_offset 128
+ 524              		.loc 1 50 1 is_stmt 1 view -0
+ 525              		.cfi_startproc
+ 526              		@ Volatile: function does not return.
+ 527              		@ args = 0, pretend = 0, frame = 112
+ 528              		@ frame_needed = 0, uses_anonymous_args = 0
+ 529 0000 80B5     		push	{r7, lr}
+ 530              	.LCFI9:
+ 531              		.cfi_def_cfa_offset 8
+ 532              		.cfi_offset 7, -8
+ 533              		.cfi_offset 14, -4
+ 534 0002 9EB0     		sub	sp, sp, #120
+ 535              	.LCFI10:
+ 536              		.cfi_def_cfa_offset 128
   51:app/Src/main.c ****   ZL_RTC_t NowTime;
- 481              		.loc 1 51 3 view .LVU133
+ 537              		.loc 1 51 3 view .LVU141
   51:app/Src/main.c ****   ZL_RTC_t NowTime;
- 482              		.loc 1 51 12 is_stmt 0 view .LVU134
- 483 0004 0021     		movs	r1, #0
- 484 0006 494B     		ldr	r3, .L25
- 485 0008 1970     		strb	r1, [r3]
+ 538              		.loc 1 51 12 is_stmt 0 view .LVU142
+ 539 0004 0021     		movs	r1, #0
+ 540 0006 494B     		ldr	r3, .L25
+ 541 0008 1970     		strb	r1, [r3]
   52:app/Src/main.c ****   uint8_t Disbuf[100];
- 486              		.loc 1 52 3 is_stmt 1 view .LVU135
+ 542              		.loc 1 52 3 is_stmt 1 view .LVU143
   53:app/Src/main.c **** 
- 487              		.loc 1 53 3 view .LVU136
+ 543              		.loc 1 53 3 view .LVU144
   55:app/Src/main.c ****   uart1_data = (volatile data_buf_t*)malloc(sizeof(data_buf_t));
- 488              		.loc 1 55 3 view .LVU137
- 489 000a 6422     		movs	r2, #100
- 490 000c 02A8     		add	r0, sp, #8
- 491 000e FFF7FEFF 		bl	memset
- 492              	.LVL46:
+ 544              		.loc 1 55 3 view .LVU145
+ 545 000a 6422     		movs	r2, #100
+ 546 000c 02A8     		add	r0, sp, #8
+ 547 000e FFF7FEFF 		bl	memset
+ 548              	.LVL52:
   56:app/Src/main.c ****   time_data = (time_typedef*)malloc(sizeof(time_typedef));
- 493              		.loc 1 56 3 view .LVU138
+ 549              		.loc 1 56 3 view .LVU146
   56:app/Src/main.c ****   time_data = (time_typedef*)malloc(sizeof(time_typedef));
- 494              		.loc 1 56 38 is_stmt 0 view .LVU139
- 495 0012 6620     		movs	r0, #102
- 496 0014 FFF7FEFF 		bl	malloc
- 497              	.LVL47:
+ 550              		.loc 1 56 38 is_stmt 0 view .LVU147
+ 551 0012 6620     		movs	r0, #102
+ 552 0014 FFF7FEFF 		bl	malloc
+ 553              	.LVL53:
   56:app/Src/main.c ****   time_data = (time_typedef*)malloc(sizeof(time_typedef));
- 498              		.loc 1 56 14 view .LVU140
- 499 0018 454B     		ldr	r3, .L25+4
- 500 001a 1860     		str	r0, [r3]
+ 554              		.loc 1 56 14 view .LVU148
+ 555 0018 454B     		ldr	r3, .L25+4
+ 556 001a 1860     		str	r0, [r3]
   57:app/Src/main.c **** 
- 501              		.loc 1 57 3 is_stmt 1 view .LVU141
+ 557              		.loc 1 57 3 is_stmt 1 view .LVU149
   57:app/Src/main.c **** 
- 502              		.loc 1 57 30 is_stmt 0 view .LVU142
- 503 001c 4020     		movs	r0, #64
- 504 001e FFF7FEFF 		bl	malloc
- 505              	.LVL48:
+ 558              		.loc 1 57 30 is_stmt 0 view .LVU150
+ 559 001c 4020     		movs	r0, #64
+ 560 001e FFF7FEFF 		bl	malloc
+ 561              	.LVL54:
   57:app/Src/main.c **** 
- 506              		.loc 1 57 13 view .LVU143
- 507 0022 444B     		ldr	r3, .L25+8
- 508 0024 1860     		str	r0, [r3]
+ 562              		.loc 1 57 13 view .LVU151
+ 563 0022 444B     		ldr	r3, .L25+8
+ 564 0024 1860     		str	r0, [r3]
   59:app/Src/main.c ****   SystemClock_Config();
- 509              		.loc 1 59 3 is_stmt 1 view .LVU144
- 510 0026 FFF7FEFF 		bl	HAL_Init
- 511              	.LVL49:
+ 565              		.loc 1 59 3 is_stmt 1 view .LVU152
+ 566 0026 FFF7FEFF 		bl	HAL_Init
+ARM GAS  /tmp/ccv7mc5q.s 			page 30
+
+
+ 567              	.LVL55:
   60:app/Src/main.c ****   
- 512              		.loc 1 60 3 view .LVU145
- 513 002a FFF7FEFF 		bl	SystemClock_Config
- 514              	.LVL50:
-ARM GAS  /tmp/cccngOsp.s 			page 29
-
-
+ 568              		.loc 1 60 3 view .LVU153
+ 569 002a FFF7FEFF 		bl	SystemClock_Config
+ 570              	.LVL56:
   62:app/Src/main.c ****   MX_TIM3_Init();
- 515              		.loc 1 62 3 view .LVU146
- 516 002e FFF7FEFF 		bl	MX_GPIO_Init
- 517              	.LVL51:
+ 571              		.loc 1 62 3 view .LVU154
+ 572 002e FFF7FEFF 		bl	MX_GPIO_Init
+ 573              	.LVL57:
   63:app/Src/main.c ****   MX_IWDG_Init();
- 518              		.loc 1 63 3 view .LVU147
- 519 0032 FFF7FEFF 		bl	MX_TIM3_Init
- 520              	.LVL52:
+ 574              		.loc 1 63 3 view .LVU155
+ 575 0032 FFF7FEFF 		bl	MX_TIM3_Init
+ 576              	.LVL58:
   64:app/Src/main.c ****   MX_USART1_UART_Init();
- 521              		.loc 1 64 3 view .LVU148
- 522 0036 FFF7FEFF 		bl	MX_IWDG_Init
- 523              	.LVL53:
+ 577              		.loc 1 64 3 view .LVU156
+ 578 0036 FFF7FEFF 		bl	MX_IWDG_Init
+ 579              	.LVL59:
   65:app/Src/main.c ****   LedMatrixInit();
- 524              		.loc 1 65 3 view .LVU149
- 525 003a FFF7FEFF 		bl	MX_USART1_UART_Init
- 526              	.LVL54:
+ 580              		.loc 1 65 3 view .LVU157
+ 581 003a FFF7FEFF 		bl	MX_USART1_UART_Init
+ 582              	.LVL60:
   66:app/Src/main.c ****   HAL_TIM_Base_Start_IT(&htim3);
- 527              		.loc 1 66 3 view .LVU150
- 528 003e FFF7FEFF 		bl	LedMatrixInit
- 529              	.LVL55:
+ 583              		.loc 1 66 3 view .LVU158
+ 584 003e FFF7FEFF 		bl	LedMatrixInit
+ 585              	.LVL61:
   67:app/Src/main.c ****   ZL_RTC_Init(&ZL_Set_Time);
- 530              		.loc 1 67 3 view .LVU151
- 531 0042 3D48     		ldr	r0, .L25+12
- 532 0044 FFF7FEFF 		bl	HAL_TIM_Base_Start_IT
- 533              	.LVL56:
+ 586              		.loc 1 67 3 view .LVU159
+ 587 0042 3D48     		ldr	r0, .L25+12
+ 588 0044 FFF7FEFF 		bl	HAL_TIM_Base_Start_IT
+ 589              	.LVL62:
   68:app/Src/main.c ****   HAL_UART_Receive_IT(&huart1, &current_data, 1);
- 534              		.loc 1 68 3 view .LVU152
- 535 0048 3C48     		ldr	r0, .L25+16
- 536 004a FFF7FEFF 		bl	ZL_RTC_Init
- 537              	.LVL57:
+ 590              		.loc 1 68 3 view .LVU160
+ 591 0048 3C48     		ldr	r0, .L25+16
+ 592 004a FFF7FEFF 		bl	ZL_RTC_Init
+ 593              	.LVL63:
   69:app/Src/main.c ****   HAL_Delay(300);
- 538              		.loc 1 69 3 view .LVU153
- 539 004e 0122     		movs	r2, #1
- 540 0050 3B49     		ldr	r1, .L25+20
- 541 0052 3C48     		ldr	r0, .L25+24
- 542 0054 FFF7FEFF 		bl	HAL_UART_Receive_IT
- 543              	.LVL58:
+ 594              		.loc 1 69 3 view .LVU161
+ 595 004e 0122     		movs	r2, #1
+ 596 0050 3B49     		ldr	r1, .L25+20
+ 597 0052 3C48     		ldr	r0, .L25+24
+ 598 0054 FFF7FEFF 		bl	HAL_UART_Receive_IT
+ 599              	.LVL64:
   70:app/Src/main.c ****   
- 544              		.loc 1 70 3 view .LVU154
- 545 0058 4FF49670 		mov	r0, #300
- 546 005c FFF7FEFF 		bl	HAL_Delay
- 547              	.LVL59:
- 548 0060 39E0     		b	.L22
- 549              	.L20:
+ 600              		.loc 1 70 3 view .LVU162
+ 601 0058 4FF49670 		mov	r0, #300
+ 602 005c FFF7FEFF 		bl	HAL_Delay
+ 603              	.LVL65:
+ 604 0060 39E0     		b	.L22
+ 605              	.L20:
   79:app/Src/main.c ****         sprintf((char *)Disbuf, "%02d:%02d:%02d\0", NowTime.Hours, NowTime.Minutes, NowTime.Seconds
- 550              		.loc 1 79 9 view .LVU155
- 551 0062 1BA8     		add	r0, sp, #108
- 552 0064 FFF7FEFF 		bl	ZL_RTC_GetTime
- 553              	.LVL60:
+ 606              		.loc 1 79 9 view .LVU163
+ 607 0062 1BA8     		add	r0, sp, #108
+ 608 0064 FFF7FEFF 		bl	ZL_RTC_GetTime
+ 609              	.LVL66:
   80:app/Src/main.c ****         LedMatrix_ShowString(0, 0, (const uint8_t *)Disbuf, 2);
- 554              		.loc 1 80 9 view .LVU156
+ 610              		.loc 1 80 9 view .LVU164
   80:app/Src/main.c ****         LedMatrix_ShowString(0, 0, (const uint8_t *)Disbuf, 2);
- 555              		.loc 1 80 92 is_stmt 0 view .LVU157
- 556 0068 9DF86C30 		ldrb	r3, [sp, #108]	@ zero_extendqisi2
-  80:app/Src/main.c ****         LedMatrix_ShowString(0, 0, (const uint8_t *)Disbuf, 2);
- 557              		.loc 1 80 9 view .LVU158
- 558 006c 364D     		ldr	r5, .L25+28
-ARM GAS  /tmp/cccngOsp.s 			page 30
+ARM GAS  /tmp/ccv7mc5q.s 			page 31
 
 
- 559 006e 0093     		str	r3, [sp]
- 560 0070 9DF86D30 		ldrb	r3, [sp, #109]	@ zero_extendqisi2
- 561 0074 9DF86E20 		ldrb	r2, [sp, #110]	@ zero_extendqisi2
- 562 0078 2946     		mov	r1, r5
- 563 007a 02A8     		add	r0, sp, #8
- 564 007c FFF7FEFF 		bl	sprintf
- 565              	.LVL61:
+ 611              		.loc 1 80 92 is_stmt 0 view .LVU165
+ 612 0068 9DF86C30 		ldrb	r3, [sp, #108]	@ zero_extendqisi2
+  80:app/Src/main.c ****         LedMatrix_ShowString(0, 0, (const uint8_t *)Disbuf, 2);
+ 613              		.loc 1 80 9 view .LVU166
+ 614 006c 364D     		ldr	r5, .L25+28
+ 615 006e 0093     		str	r3, [sp]
+ 616 0070 9DF86D30 		ldrb	r3, [sp, #109]	@ zero_extendqisi2
+ 617 0074 9DF86E20 		ldrb	r2, [sp, #110]	@ zero_extendqisi2
+ 618 0078 2946     		mov	r1, r5
+ 619 007a 02A8     		add	r0, sp, #8
+ 620 007c FFF7FEFF 		bl	sprintf
+ 621              	.LVL67:
   81:app/Src/main.c ****         memset(Disbuf, '\0', sizeof(Disbuf));
- 566              		.loc 1 81 9 is_stmt 1 view .LVU159
- 567 0080 0223     		movs	r3, #2
- 568 0082 02AA     		add	r2, sp, #8
- 569 0084 0021     		movs	r1, #0
- 570 0086 0846     		mov	r0, r1
- 571 0088 FFF7FEFF 		bl	LedMatrix_ShowString
- 572              	.LVL62:
+ 622              		.loc 1 81 9 is_stmt 1 view .LVU167
+ 623 0080 0223     		movs	r3, #2
+ 624 0082 02AA     		add	r2, sp, #8
+ 625 0084 0021     		movs	r1, #0
+ 626 0086 0846     		mov	r0, r1
+ 627 0088 FFF7FEFF 		bl	LedMatrix_ShowString
+ 628              	.LVL68:
   82:app/Src/main.c ****         
- 573              		.loc 1 82 9 view .LVU160
- 574 008c 6424     		movs	r4, #100
- 575 008e 2246     		mov	r2, r4
- 576 0090 0021     		movs	r1, #0
- 577 0092 02A8     		add	r0, sp, #8
- 578 0094 FFF7FEFF 		bl	memset
- 579              	.LVL63:
+ 629              		.loc 1 82 9 view .LVU168
+ 630 008c 6424     		movs	r4, #100
+ 631 008e 2246     		mov	r2, r4
+ 632 0090 0021     		movs	r1, #0
+ 633 0092 02A8     		add	r0, sp, #8
+ 634 0094 FFF7FEFF 		bl	memset
+ 635              	.LVL69:
   84:app/Src/main.c ****         LedMatrix_ShowString(0, 18, (const uint8_t *)Disbuf, 1);
- 580              		.loc 1 84 9 view .LVU161
+ 636              		.loc 1 84 9 view .LVU169
   84:app/Src/main.c ****         LedMatrix_ShowString(0, 18, (const uint8_t *)Disbuf, 1);
- 581              		.loc 1 84 59 is_stmt 0 view .LVU162
- 582 0098 9DF87160 		ldrb	r6, [sp, #113]	@ zero_extendqisi2
+ 637              		.loc 1 84 59 is_stmt 0 view .LVU170
+ 638 0098 9DF87160 		ldrb	r6, [sp, #113]	@ zero_extendqisi2
   84:app/Src/main.c ****         LedMatrix_ShowString(0, 18, (const uint8_t *)Disbuf, 1);
- 583              		.loc 1 84 74 view .LVU163
- 584 009c 9DF87070 		ldrb	r7, [sp, #112]	@ zero_extendqisi2
+ 639              		.loc 1 84 74 view .LVU171
+ 640 009c 9DF87070 		ldrb	r7, [sp, #112]	@ zero_extendqisi2
   84:app/Src/main.c ****         LedMatrix_ShowString(0, 18, (const uint8_t *)Disbuf, 1);
- 585              		.loc 1 84 9 view .LVU164
- 586 00a0 9DF86F00 		ldrb	r0, [sp, #111]	@ zero_extendqisi2
- 587 00a4 FFF7FEFF 		bl	get_eng_week
- 588              	.LVL64:
- 589 00a8 0090     		str	r0, [sp]
- 590 00aa 3B46     		mov	r3, r7
- 591 00ac 3246     		mov	r2, r6
- 592 00ae 05F11001 		add	r1, r5, #16
- 593 00b2 02A8     		add	r0, sp, #8
- 594 00b4 FFF7FEFF 		bl	sprintf
- 595              	.LVL65:
-  85:app/Src/main.c ****         memset(Disbuf, '\0', sizeof(Disbuf));
- 596              		.loc 1 85 9 is_stmt 1 view .LVU165
- 597 00b8 0123     		movs	r3, #1
- 598 00ba 02AA     		add	r2, sp, #8
- 599 00bc 1221     		movs	r1, #18
- 600 00be 0020     		movs	r0, #0
- 601 00c0 FFF7FEFF 		bl	LedMatrix_ShowString
- 602              	.LVL66:
-  86:app/Src/main.c ****         lcdbuf.is_update = 1;
- 603              		.loc 1 86 9 view .LVU166
- 604 00c4 2246     		mov	r2, r4
- 605 00c6 0021     		movs	r1, #0
- 606 00c8 02A8     		add	r0, sp, #8
- 607 00ca FFF7FEFF 		bl	memset
-ARM GAS  /tmp/cccngOsp.s 			page 31
-
-
- 608              	.LVL67:
-  87:app/Src/main.c ****       }break;
- 609              		.loc 1 87 9 view .LVU167
-  87:app/Src/main.c ****       }break;
- 610              		.loc 1 87 26 is_stmt 0 view .LVU168
- 611 00ce 1F4B     		ldr	r3, .L25+32
- 612 00d0 0122     		movs	r2, #1
- 613 00d2 83F80022 		strb	r2, [r3, #512]
-  88:app/Src/main.c **** 
- 614              		.loc 1 88 8 is_stmt 1 view .LVU169
- 615              	.L22:
-  72:app/Src/main.c ****   {
- 616              		.loc 1 72 3 view .LVU170
-  74:app/Src/main.c ****     switch (cur_mode)
- 617              		.loc 1 74 5 view .LVU171
- 618 00d6 1E48     		ldr	r0, .L25+36
- 619 00d8 FFF7FEFF 		bl	HAL_IWDG_Refresh
- 620              	.LVL68:
-  75:app/Src/main.c ****     {
- 621              		.loc 1 75 5 view .LVU172
- 622 00dc 134B     		ldr	r3, .L25
- 623 00de 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 624 00e0 002B     		cmp	r3, #0
- 625 00e2 BED0     		beq	.L20
- 626 00e4 012B     		cmp	r3, #1
- 627 00e6 F6D1     		bne	.L22
-  92:app/Src/main.c ****         lcdbuf.is_update = 0;
- 628              		.loc 1 92 9 view .LVU173
- 629 00e8 134D     		ldr	r5, .L25+12
- 630 00ea 2846     		mov	r0, r5
- 631 00ec FFF7FEFF 		bl	HAL_TIM_Base_Stop_IT
- 632              	.LVL69:
-  93:app/Src/main.c ****         decode_time(uart1_data->buffer , &ZL_Set_Time);
- 633              		.loc 1 93 9 view .LVU174
-  93:app/Src/main.c ****         decode_time(uart1_data->buffer , &ZL_Set_Time);
- 634              		.loc 1 93 26 is_stmt 0 view .LVU175
- 635 00f0 0024     		movs	r4, #0
- 636 00f2 164B     		ldr	r3, .L25+32
- 637 00f4 83F80042 		strb	r4, [r3, #512]
-  94:app/Src/main.c ****         ZL_RTC_SetTime(&ZL_Set_Time);
- 638              		.loc 1 94 9 is_stmt 1 view .LVU176
-  94:app/Src/main.c ****         ZL_RTC_SetTime(&ZL_Set_Time);
- 639              		.loc 1 94 31 is_stmt 0 view .LVU177
- 640 00f8 0D4E     		ldr	r6, .L25+4
- 641 00fa 3068     		ldr	r0, [r6]
-  94:app/Src/main.c ****         ZL_RTC_SetTime(&ZL_Set_Time);
- 642              		.loc 1 94 9 view .LVU178
- 643 00fc 0F4F     		ldr	r7, .L25+16
- 644 00fe 3946     		mov	r1, r7
- 645 0100 0230     		adds	r0, r0, #2
- 646 0102 FFF7FEFF 		bl	decode_time
- 647              	.LVL70:
-  95:app/Src/main.c ****         memset((void *)uart1_data, 0, sizeof(data_buf_t));
- 648              		.loc 1 95 9 is_stmt 1 view .LVU179
- 649 0106 3846     		mov	r0, r7
- 650 0108 FFF7FEFF 		bl	ZL_RTC_SetTime
+ 641              		.loc 1 84 9 view .LVU172
+ 642 00a0 9DF86F00 		ldrb	r0, [sp, #111]	@ zero_extendqisi2
+ 643 00a4 FFF7FEFF 		bl	get_eng_week
+ 644              	.LVL70:
+ 645 00a8 0090     		str	r0, [sp]
+ 646 00aa 3B46     		mov	r3, r7
+ 647 00ac 3246     		mov	r2, r6
+ 648 00ae 05F11001 		add	r1, r5, #16
+ 649 00b2 02A8     		add	r0, sp, #8
+ 650 00b4 FFF7FEFF 		bl	sprintf
  651              	.LVL71:
-ARM GAS  /tmp/cccngOsp.s 			page 32
+  85:app/Src/main.c ****         memset(Disbuf, '\0', sizeof(Disbuf));
+ 652              		.loc 1 85 9 is_stmt 1 view .LVU173
+ 653 00b8 0123     		movs	r3, #1
+ 654 00ba 02AA     		add	r2, sp, #8
+ 655 00bc 1221     		movs	r1, #18
+ 656 00be 0020     		movs	r0, #0
+ 657 00c0 FFF7FEFF 		bl	LedMatrix_ShowString
+ 658              	.LVL72:
+  86:app/Src/main.c ****         lcdbuf.is_update = 1;
+ARM GAS  /tmp/ccv7mc5q.s 			page 32
 
 
+ 659              		.loc 1 86 9 view .LVU174
+ 660 00c4 2246     		mov	r2, r4
+ 661 00c6 0021     		movs	r1, #0
+ 662 00c8 02A8     		add	r0, sp, #8
+ 663 00ca FFF7FEFF 		bl	memset
+ 664              	.LVL73:
+  87:app/Src/main.c ****       }break;
+ 665              		.loc 1 87 9 view .LVU175
+  87:app/Src/main.c ****       }break;
+ 666              		.loc 1 87 26 is_stmt 0 view .LVU176
+ 667 00ce 1F4B     		ldr	r3, .L25+32
+ 668 00d0 0122     		movs	r2, #1
+ 669 00d2 83F80022 		strb	r2, [r3, #512]
+  88:app/Src/main.c **** 
+ 670              		.loc 1 88 8 is_stmt 1 view .LVU177
+ 671              	.L22:
+  72:app/Src/main.c ****   {
+ 672              		.loc 1 72 3 view .LVU178
+  74:app/Src/main.c ****     switch (cur_mode)
+ 673              		.loc 1 74 5 view .LVU179
+ 674 00d6 1E48     		ldr	r0, .L25+36
+ 675 00d8 FFF7FEFF 		bl	HAL_IWDG_Refresh
+ 676              	.LVL74:
+  75:app/Src/main.c ****     {
+ 677              		.loc 1 75 5 view .LVU180
+ 678 00dc 134B     		ldr	r3, .L25
+ 679 00de 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 680 00e0 002B     		cmp	r3, #0
+ 681 00e2 BED0     		beq	.L20
+ 682 00e4 012B     		cmp	r3, #1
+ 683 00e6 F6D1     		bne	.L22
+  92:app/Src/main.c ****         lcdbuf.is_update = 0;
+ 684              		.loc 1 92 9 view .LVU181
+ 685 00e8 134D     		ldr	r5, .L25+12
+ 686 00ea 2846     		mov	r0, r5
+ 687 00ec FFF7FEFF 		bl	HAL_TIM_Base_Stop_IT
+ 688              	.LVL75:
+  93:app/Src/main.c ****         decode_time(uart1_data->buffer , &ZL_Set_Time);
+ 689              		.loc 1 93 9 view .LVU182
+  93:app/Src/main.c ****         decode_time(uart1_data->buffer , &ZL_Set_Time);
+ 690              		.loc 1 93 26 is_stmt 0 view .LVU183
+ 691 00f0 0024     		movs	r4, #0
+ 692 00f2 164B     		ldr	r3, .L25+32
+ 693 00f4 83F80042 		strb	r4, [r3, #512]
+  94:app/Src/main.c ****         ZL_RTC_SetTime(&ZL_Set_Time);
+ 694              		.loc 1 94 9 is_stmt 1 view .LVU184
+  94:app/Src/main.c ****         ZL_RTC_SetTime(&ZL_Set_Time);
+ 695              		.loc 1 94 31 is_stmt 0 view .LVU185
+ 696 00f8 0D4E     		ldr	r6, .L25+4
+ 697 00fa 3068     		ldr	r0, [r6]
+  94:app/Src/main.c ****         ZL_RTC_SetTime(&ZL_Set_Time);
+ 698              		.loc 1 94 9 view .LVU186
+ 699 00fc 0F4F     		ldr	r7, .L25+16
+ 700 00fe 3946     		mov	r1, r7
+ 701 0100 0230     		adds	r0, r0, #2
+ 702 0102 FFF7FEFF 		bl	decode_time
+ 703              	.LVL76:
+ARM GAS  /tmp/ccv7mc5q.s 			page 33
+
+
+  95:app/Src/main.c ****         memset((void *)uart1_data, 0, sizeof(data_buf_t));
+ 704              		.loc 1 95 9 is_stmt 1 view .LVU187
+ 705 0106 3846     		mov	r0, r7
+ 706 0108 FFF7FEFF 		bl	ZL_RTC_SetTime
+ 707              	.LVL77:
   96:app/Src/main.c ****         HAL_Delay(300);
- 652              		.loc 1 96 9 view .LVU180
- 653 010c 6622     		movs	r2, #102
- 654 010e 2146     		mov	r1, r4
- 655 0110 3068     		ldr	r0, [r6]
- 656 0112 FFF7FEFF 		bl	memset
- 657              	.LVL72:
+ 708              		.loc 1 96 9 view .LVU188
+ 709 010c 6622     		movs	r2, #102
+ 710 010e 2146     		mov	r1, r4
+ 711 0110 3068     		ldr	r0, [r6]
+ 712 0112 FFF7FEFF 		bl	memset
+ 713              	.LVL78:
   97:app/Src/main.c ****         HAL_TIM_Base_Start_IT(&htim3);
- 658              		.loc 1 97 9 view .LVU181
- 659 0116 4FF49670 		mov	r0, #300
- 660 011a FFF7FEFF 		bl	HAL_Delay
- 661              	.LVL73:
+ 714              		.loc 1 97 9 view .LVU189
+ 715 0116 4FF49670 		mov	r0, #300
+ 716 011a FFF7FEFF 		bl	HAL_Delay
+ 717              	.LVL79:
   98:app/Src/main.c ****         cur_mode = DisMode;
- 662              		.loc 1 98 9 view .LVU182
- 663 011e 2846     		mov	r0, r5
- 664 0120 FFF7FEFF 		bl	HAL_TIM_Base_Start_IT
- 665              	.LVL74:
+ 718              		.loc 1 98 9 view .LVU190
+ 719 011e 2846     		mov	r0, r5
+ 720 0120 FFF7FEFF 		bl	HAL_TIM_Base_Start_IT
+ 721              	.LVL80:
   99:app/Src/main.c ****       }break;
- 666              		.loc 1 99 9 view .LVU183
+ 722              		.loc 1 99 9 view .LVU191
   99:app/Src/main.c ****       }break;
- 667              		.loc 1 99 18 is_stmt 0 view .LVU184
- 668 0124 014B     		ldr	r3, .L25
- 669 0126 1C70     		strb	r4, [r3]
+ 723              		.loc 1 99 18 is_stmt 0 view .LVU192
+ 724 0124 014B     		ldr	r3, .L25
+ 725 0126 1C70     		strb	r4, [r3]
  100:app/Src/main.c ****       
- 670              		.loc 1 100 8 is_stmt 1 view .LVU185
+ 726              		.loc 1 100 8 is_stmt 1 view .LVU193
  100:app/Src/main.c ****       
- 671              		.loc 1 100 7 is_stmt 0 view .LVU186
- 672 0128 D5E7     		b	.L22
- 673              	.L26:
- 674 012a 00BF     		.align	2
- 675              	.L25:
- 676 012c 00000000 		.word	cur_mode
- 677 0130 00000000 		.word	uart1_data
- 678 0134 00000000 		.word	time_data
- 679 0138 00000000 		.word	htim3
- 680 013c 00000000 		.word	.LANCHOR0
- 681 0140 00000000 		.word	current_data
- 682 0144 00000000 		.word	huart1
- 683 0148 00000000 		.word	.LANCHOR1
- 684 014c 00000000 		.word	lcdbuf
- 685 0150 00000000 		.word	hiwdg
- 686              		.cfi_endproc
- 687              	.LFE399:
- 689              		.section	.text.print_syn_msg,"ax",%progbits
- 690              		.align	1
- 691              		.global	print_syn_msg
- 692              		.syntax unified
- 693              		.thumb
- 694              		.thumb_func
- 695              		.fpu softvfp
- 697              	print_syn_msg:
- 698              	.LFB404:
+ 727              		.loc 1 100 7 is_stmt 0 view .LVU194
+ 728 0128 D5E7     		b	.L22
+ 729              	.L26:
+ 730 012a 00BF     		.align	2
+ 731              	.L25:
+ 732 012c 00000000 		.word	cur_mode
+ 733 0130 00000000 		.word	uart1_data
+ 734 0134 00000000 		.word	time_data
+ 735 0138 00000000 		.word	htim3
+ 736 013c 00000000 		.word	.LANCHOR0
+ 737 0140 00000000 		.word	current_data
+ 738 0144 00000000 		.word	huart1
+ 739 0148 00000000 		.word	.LANCHOR1
+ 740 014c 00000000 		.word	lcdbuf
+ 741 0150 00000000 		.word	hiwdg
+ 742              		.cfi_endproc
+ 743              	.LFE399:
+ 745              		.section	.text.print_syn_msg,"ax",%progbits
+ 746              		.align	1
+ 747              		.global	print_syn_msg
+ 748              		.syntax unified
+ 749              		.thumb
+ 750              		.thumb_func
+ 751              		.fpu softvfp
+ 753              	print_syn_msg:
+ 754              	.LFB404:
+ARM GAS  /tmp/ccv7mc5q.s 			page 34
+
+
  221:app/Src/main.c **** 
  222:app/Src/main.c **** 
  223:app/Src/main.c **** void print_syn_msg(void)
  224:app/Src/main.c **** {
- 699              		.loc 1 224 1 is_stmt 1 view -0
-ARM GAS  /tmp/cccngOsp.s 			page 33
-
-
- 700              		.cfi_startproc
- 701              		@ args = 0, pretend = 0, frame = 24
- 702              		@ frame_needed = 0, uses_anonymous_args = 0
- 703 0000 70B5     		push	{r4, r5, r6, lr}
- 704              	.LCFI8:
- 705              		.cfi_def_cfa_offset 16
- 706              		.cfi_offset 4, -16
- 707              		.cfi_offset 5, -12
- 708              		.cfi_offset 6, -8
- 709              		.cfi_offset 14, -4
- 710 0002 86B0     		sub	sp, sp, #24
- 711              	.LCFI9:
- 712              		.cfi_def_cfa_offset 40
+ 755              		.loc 1 224 1 is_stmt 1 view -0
+ 756              		.cfi_startproc
+ 757              		@ args = 0, pretend = 0, frame = 24
+ 758              		@ frame_needed = 0, uses_anonymous_args = 0
+ 759 0000 70B5     		push	{r4, r5, r6, lr}
+ 760              	.LCFI11:
+ 761              		.cfi_def_cfa_offset 16
+ 762              		.cfi_offset 4, -16
+ 763              		.cfi_offset 5, -12
+ 764              		.cfi_offset 6, -8
+ 765              		.cfi_offset 14, -4
+ 766 0002 86B0     		sub	sp, sp, #24
+ 767              	.LCFI12:
+ 768              		.cfi_def_cfa_offset 40
  225:app/Src/main.c ****   uint8_t Disbuf[20];
- 713              		.loc 1 225 3 view .LVU188
+ 769              		.loc 1 225 3 view .LVU196
  226:app/Src/main.c ****   sprintf((char *)Disbuf, "Syncing\0");
- 714              		.loc 1 226 3 view .LVU189
- 715 0004 01AC     		add	r4, sp, #4
- 716 0006 104E     		ldr	r6, .L29
- 717 0008 716A     		ldr	r1, [r6, #36]
- 718 000a 306A     		ldr	r0, [r6, #32]
- 719 000c 84E80300 		stm	r4, {r0, r1}
+ 770              		.loc 1 226 3 view .LVU197
+ 771 0004 01AC     		add	r4, sp, #4
+ 772 0006 104E     		ldr	r6, .L29
+ 773 0008 716A     		ldr	r1, [r6, #36]
+ 774 000a 306A     		ldr	r0, [r6, #32]
+ 775 000c 84E80300 		stm	r4, {r0, r1}
  227:app/Src/main.c ****   LedMatrix_ShowString(0, 0, (const uint8_t *)Disbuf, 1);
- 720              		.loc 1 227 3 view .LVU190
- 721 0010 0123     		movs	r3, #1
- 722 0012 2246     		mov	r2, r4
- 723 0014 0021     		movs	r1, #0
- 724 0016 0846     		mov	r0, r1
- 725 0018 FFF7FEFF 		bl	LedMatrix_ShowString
- 726              	.LVL75:
+ 776              		.loc 1 227 3 view .LVU198
+ 777 0010 0123     		movs	r3, #1
+ 778 0012 2246     		mov	r2, r4
+ 779 0014 0021     		movs	r1, #0
+ 780 0016 0846     		mov	r0, r1
+ 781 0018 FFF7FEFF 		bl	LedMatrix_ShowString
+ 782              	.LVL81:
  228:app/Src/main.c ****   memset(Disbuf, '\0', sizeof(Disbuf));
- 727              		.loc 1 228 3 view .LVU191
- 728 001c 0025     		movs	r5, #0
- 729 001e 6560     		str	r5, [r4, #4]
- 730 0020 A560     		str	r5, [r4, #8]
- 731 0022 E560     		str	r5, [r4, #12]
- 732 0024 2561     		str	r5, [r4, #16]
+ 783              		.loc 1 228 3 view .LVU199
+ 784 001c 0025     		movs	r5, #0
+ 785 001e 6560     		str	r5, [r4, #4]
+ 786 0020 A560     		str	r5, [r4, #8]
+ 787 0022 E560     		str	r5, [r4, #12]
+ 788 0024 2561     		str	r5, [r4, #16]
  229:app/Src/main.c ****   
  230:app/Src/main.c ****   sprintf((char *)Disbuf, "......\0");
- 733              		.loc 1 230 3 view .LVU192
- 734 0026 316B     		ldr	r1, [r6, #48]
- 735 0028 F06A     		ldr	r0, [r6, #44]
- 736 002a 0190     		str	r0, [sp, #4]
- 737 002c ADF80810 		strh	r1, [sp, #8]	@ movhi
- 738 0030 090C     		lsrs	r1, r1, #16
- 739 0032 8DF80A10 		strb	r1, [sp, #10]
+ 789              		.loc 1 230 3 view .LVU200
+ 790 0026 316B     		ldr	r1, [r6, #48]
+ 791 0028 F06A     		ldr	r0, [r6, #44]
+ 792 002a 0190     		str	r0, [sp, #4]
+ 793 002c ADF80810 		strh	r1, [sp, #8]	@ movhi
+ 794 0030 090C     		lsrs	r1, r1, #16
+ 795 0032 8DF80A10 		strb	r1, [sp, #10]
  231:app/Src/main.c ****   LedMatrix_ShowString(0, 20, (const uint8_t *)Disbuf, 1);
- 740              		.loc 1 231 3 view .LVU193
- 741 0036 0123     		movs	r3, #1
- 742 0038 2246     		mov	r2, r4
- 743 003a 1421     		movs	r1, #20
- 744 003c 2846     		mov	r0, r5
- 745 003e FFF7FEFF 		bl	LedMatrix_ShowString
- 746              	.LVL76:
+ 796              		.loc 1 231 3 view .LVU201
+ 797 0036 0123     		movs	r3, #1
+ 798 0038 2246     		mov	r2, r4
+ 799 003a 1421     		movs	r1, #20
+ 800 003c 2846     		mov	r0, r5
+ARM GAS  /tmp/ccv7mc5q.s 			page 35
+
+
+ 801 003e FFF7FEFF 		bl	LedMatrix_ShowString
+ 802              	.LVL82:
  232:app/Src/main.c ****   memset(Disbuf, '\0', sizeof(Disbuf));
- 747              		.loc 1 232 3 view .LVU194
+ 803              		.loc 1 232 3 view .LVU202
  233:app/Src/main.c **** }
-ARM GAS  /tmp/cccngOsp.s 			page 34
-
-
- 748              		.loc 1 233 1 is_stmt 0 view .LVU195
- 749 0042 06B0     		add	sp, sp, #24
- 750              	.LCFI10:
- 751              		.cfi_def_cfa_offset 16
- 752              		@ sp needed
- 753 0044 70BD     		pop	{r4, r5, r6, pc}
- 754              	.L30:
- 755 0046 00BF     		.align	2
- 756              	.L29:
- 757 0048 00000000 		.word	.LANCHOR1
- 758              		.cfi_endproc
- 759              	.LFE404:
- 761              		.section	.text.HAL_TIM_PeriodElapsedCallback,"ax",%progbits
- 762              		.align	1
- 763              		.global	HAL_TIM_PeriodElapsedCallback
- 764              		.syntax unified
- 765              		.thumb
- 766              		.thumb_func
- 767              		.fpu softvfp
- 769              	HAL_TIM_PeriodElapsedCallback:
- 770              	.LVL77:
- 771              	.LFB405:
+ 804              		.loc 1 233 1 is_stmt 0 view .LVU203
+ 805 0042 06B0     		add	sp, sp, #24
+ 806              	.LCFI13:
+ 807              		.cfi_def_cfa_offset 16
+ 808              		@ sp needed
+ 809 0044 70BD     		pop	{r4, r5, r6, pc}
+ 810              	.L30:
+ 811 0046 00BF     		.align	2
+ 812              	.L29:
+ 813 0048 00000000 		.word	.LANCHOR1
+ 814              		.cfi_endproc
+ 815              	.LFE404:
+ 817              		.section	.text.HAL_TIM_PeriodElapsedCallback,"ax",%progbits
+ 818              		.align	1
+ 819              		.global	HAL_TIM_PeriodElapsedCallback
+ 820              		.syntax unified
+ 821              		.thumb
+ 822              		.thumb_func
+ 823              		.fpu softvfp
+ 825              	HAL_TIM_PeriodElapsedCallback:
+ 826              	.LVL83:
+ 827              	.LFB405:
  234:app/Src/main.c **** 
  235:app/Src/main.c **** 
  236:app/Src/main.c **** 
  237:app/Src/main.c **** HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
  238:app/Src/main.c **** {
- 772              		.loc 1 238 1 is_stmt 1 view -0
- 773              		.cfi_startproc
- 774              		@ args = 0, pretend = 0, frame = 8
- 775              		@ frame_needed = 0, uses_anonymous_args = 0
+ 828              		.loc 1 238 1 is_stmt 1 view -0
+ 829              		.cfi_startproc
+ 830              		@ args = 0, pretend = 0, frame = 8
+ 831              		@ frame_needed = 0, uses_anonymous_args = 0
  239:app/Src/main.c ****   if(htim == &htim3)
- 776              		.loc 1 239 3 view .LVU197
- 777              		.loc 1 239 5 is_stmt 0 view .LVU198
- 778 0000 464B     		ldr	r3, .L55
- 779 0002 8342     		cmp	r3, r0
- 780 0004 00D0     		beq	.L52
- 781              	.L49:
- 782 0006 7047     		bx	lr
- 783              	.L52:
+ 832              		.loc 1 239 3 view .LVU205
+ 833              		.loc 1 239 5 is_stmt 0 view .LVU206
+ 834 0000 464B     		ldr	r3, .L55
+ 835 0002 8342     		cmp	r3, r0
+ 836 0004 00D0     		beq	.L52
+ 837              	.L49:
+ 838 0006 7047     		bx	lr
+ 839              	.L52:
  240:app/Src/main.c ****   {
  241:app/Src/main.c ****     if(lcdbuf.is_update)
- 784              		.loc 1 241 5 is_stmt 1 view .LVU199
- 785              		.loc 1 241 14 is_stmt 0 view .LVU200
- 786 0008 454B     		ldr	r3, .L55+4
- 787 000a 93F80032 		ldrb	r3, [r3, #512]	@ zero_extendqisi2
- 788              		.loc 1 241 7 view .LVU201
- 789 000e 002B     		cmp	r3, #0
- 790 0010 F9D0     		beq	.L49
+ 840              		.loc 1 241 5 is_stmt 1 view .LVU207
+ 841              		.loc 1 241 14 is_stmt 0 view .LVU208
+ 842 0008 454B     		ldr	r3, .L55+4
+ 843 000a 93F80032 		ldrb	r3, [r3, #512]	@ zero_extendqisi2
+ 844              		.loc 1 241 7 view .LVU209
+ 845 000e 002B     		cmp	r3, #0
+ 846 0010 F9D0     		beq	.L49
  238:app/Src/main.c ****   if(htim == &htim3)
- 791              		.loc 1 238 1 view .LVU202
- 792 0012 10B5     		push	{r4, lr}
- 793              	.LCFI11:
- 794              		.cfi_def_cfa_offset 8
- 795              		.cfi_offset 4, -8
- 796              		.cfi_offset 14, -4
- 797 0014 82B0     		sub	sp, sp, #8
-ARM GAS  /tmp/cccngOsp.s 			page 35
+ 847              		.loc 1 238 1 view .LVU210
+ 848 0012 10B5     		push	{r4, lr}
+ARM GAS  /tmp/ccv7mc5q.s 			page 36
 
 
- 798              	.LCFI12:
- 799              		.cfi_def_cfa_offset 16
- 800              	.LBB51:
+ 849              	.LCFI14:
+ 850              		.cfi_def_cfa_offset 8
+ 851              		.cfi_offset 4, -8
+ 852              		.cfi_offset 14, -4
+ 853 0014 82B0     		sub	sp, sp, #8
+ 854              	.LCFI15:
+ 855              		.cfi_def_cfa_offset 16
+ 856              	.LBB51:
  242:app/Src/main.c ****     {
  243:app/Src/main.c ****       uint8_t outbuffer[4];
- 801              		.loc 1 243 7 is_stmt 1 view .LVU203
+ 857              		.loc 1 243 7 is_stmt 1 view .LVU211
  244:app/Src/main.c **** 	    static uint8_t row = 0;
- 802              		.loc 1 244 6 view .LVU204
+ 858              		.loc 1 244 6 view .LVU212
  245:app/Src/main.c **** 		  if(row>15) row = 0;
- 803              		.loc 1 245 5 view .LVU205
- 804              		.loc 1 245 11 is_stmt 0 view .LVU206
- 805 0016 434B     		ldr	r3, .L55+8
- 806 0018 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 807              		.loc 1 245 7 view .LVU207
- 808 001a 0F2B     		cmp	r3, #15
- 809 001c 02D9     		bls	.L33
- 810              		.loc 1 245 16 is_stmt 1 discriminator 1 view .LVU208
- 811              		.loc 1 245 20 is_stmt 0 discriminator 1 view .LVU209
- 812 001e 414B     		ldr	r3, .L55+8
- 813 0020 0022     		movs	r2, #0
- 814 0022 1A70     		strb	r2, [r3]
- 815              	.L33:
- 816              	.LBB52:
- 817              	.LBB53:
+ 859              		.loc 1 245 5 view .LVU213
+ 860              		.loc 1 245 11 is_stmt 0 view .LVU214
+ 861 0016 434B     		ldr	r3, .L55+8
+ 862 0018 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 863              		.loc 1 245 7 view .LVU215
+ 864 001a 0F2B     		cmp	r3, #15
+ 865 001c 02D9     		bls	.L33
+ 866              		.loc 1 245 16 is_stmt 1 discriminator 1 view .LVU216
+ 867              		.loc 1 245 20 is_stmt 0 discriminator 1 view .LVU217
+ 868 001e 414B     		ldr	r3, .L55+8
+ 869 0020 0022     		movs	r2, #0
+ 870 0022 1A70     		strb	r2, [r3]
+ 871              	.L33:
+ 872              	.LBB52:
+ 873              	.LBB53:
  246:app/Src/main.c **** 
  247:app/Src/main.c **** 		  for(uint8_t col = 0; col < 8; ++col)
  248:app/Src/main.c **** 		  {
@@ -2074,125 +2139,125 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  252:app/Src/main.c **** 		  	outbuffer[2] = lcdbuf.LED_Matrix_G_Buf[col][row];
  253:app/Src/main.c **** 		  	outbuffer[3] = lcdbuf.LED_Matrix_G_Buf[col][row+16];			
  254:app/Src/main.c **** 		  	for(uint8_t i = 0 ; i < 8 ; ++i)
- 818              		.loc 1 254 18 discriminator 1 view .LVU210
- 819 0024 0024     		movs	r4, #0
- 820 0026 50E0     		b	.L34
- 821              	.LVL78:
- 822              	.L36:
- 823              	.LBB54:
- 824              	.LBB55:
+ 874              		.loc 1 254 18 discriminator 1 view .LVU218
+ 875 0024 0024     		movs	r4, #0
+ 876 0026 50E0     		b	.L34
+ 877              	.LVL84:
+ 878              	.L36:
+ 879              	.LBB54:
+ 880              	.LBB55:
  160:app/Src/main.c **** }
- 825              		.loc 1 160 5 is_stmt 1 view .LVU211
- 826              	.LBB56:
- 827              	.LBI56:
+ 881              		.loc 1 160 5 is_stmt 1 view .LVU219
+ 882              	.LBB56:
+ 883              	.LBI56:
  849:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
- 828              		.loc 2 849 22 view .LVU212
- 829              	.LBB57:
- 830              		.loc 2 851 3 view .LVU213
- 831 0028 3F4B     		ldr	r3, .L55+12
- 832              	.LVL79:
- 833              		.loc 2 851 3 is_stmt 0 view .LVU214
- 834 002a 4FF48062 		mov	r2, #1024
- 835 002e 5A61     		str	r2, [r3, #20]
- 836              	.LVL80:
+ 884              		.loc 2 849 22 view .LVU220
+ 885              	.LBB57:
+ 886              		.loc 2 851 3 view .LVU221
+ 887 0028 3F4B     		ldr	r3, .L55+12
+ 888              	.LVL85:
+ 889              		.loc 2 851 3 is_stmt 0 view .LVU222
+ 890 002a 4FF48062 		mov	r2, #1024
+ARM GAS  /tmp/ccv7mc5q.s 			page 37
+
+
+ 891 002e 5A61     		str	r2, [r3, #20]
+ 892              	.LVL86:
  852:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 837              		.loc 2 852 1 view .LVU215
- 838 0030 27E0     		b	.L37
-ARM GAS  /tmp/cccngOsp.s 			page 36
-
-
- 839              	.LVL81:
- 840              	.L38:
- 841              		.loc 2 852 1 view .LVU216
- 842              	.LBE57:
- 843              	.LBE56:
- 844              	.LBE55:
- 845              	.LBE54:
- 846              	.LBB61:
- 847              	.LBB62:
+ 893              		.loc 2 852 1 view .LVU223
+ 894 0030 27E0     		b	.L37
+ 895              	.LVL87:
+ 896              	.L38:
+ 897              		.loc 2 852 1 view .LVU224
+ 898              	.LBE57:
+ 899              	.LBE56:
+ 900              	.LBE55:
+ 901              	.LBE54:
+ 902              	.LBB61:
+ 903              	.LBB62:
  160:app/Src/main.c **** }
- 848              		.loc 1 160 5 is_stmt 1 view .LVU217
- 849              	.LBB63:
- 850              	.LBI63:
+ 904              		.loc 1 160 5 is_stmt 1 view .LVU225
+ 905              	.LBB63:
+ 906              	.LBI63:
  849:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
- 851              		.loc 2 849 22 view .LVU218
- 852              	.LBB64:
+ 907              		.loc 2 849 22 view .LVU226
+ 908              	.LBB64:
  851:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 853              		.loc 2 851 3 view .LVU219
- 854 0032 3D4B     		ldr	r3, .L55+12
- 855              	.LVL82:
+ 909              		.loc 2 851 3 view .LVU227
+ 910 0032 3D4B     		ldr	r3, .L55+12
+ 911              	.LVL88:
  851:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 856              		.loc 2 851 3 is_stmt 0 view .LVU220
- 857 0034 4FF40062 		mov	r2, #2048
- 858 0038 5A61     		str	r2, [r3, #20]
- 859              	.LVL83:
- 860              		.loc 2 852 1 view .LVU221
- 861 003a 2BE0     		b	.L39
- 862              	.LVL84:
- 863              	.L40:
- 864              		.loc 2 852 1 view .LVU222
- 865              	.LBE64:
- 866              	.LBE63:
- 867              	.LBE62:
- 868              	.LBE61:
- 869              	.LBB68:
- 870              	.LBB69:
+ 912              		.loc 2 851 3 is_stmt 0 view .LVU228
+ 913 0034 4FF40062 		mov	r2, #2048
+ 914 0038 5A61     		str	r2, [r3, #20]
+ 915              	.LVL89:
+ 916              		.loc 2 852 1 view .LVU229
+ 917 003a 2BE0     		b	.L39
+ 918              	.LVL90:
+ 919              	.L40:
+ 920              		.loc 2 852 1 view .LVU230
+ 921              	.LBE64:
+ 922              	.LBE63:
+ 923              	.LBE62:
+ 924              	.LBE61:
+ 925              	.LBB68:
+ 926              	.LBB69:
  160:app/Src/main.c **** }
- 871              		.loc 1 160 5 is_stmt 1 view .LVU223
- 872              	.LBB70:
- 873              	.LBI70:
+ 927              		.loc 1 160 5 is_stmt 1 view .LVU231
+ 928              	.LBB70:
+ 929              	.LBI70:
  849:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
- 874              		.loc 2 849 22 view .LVU224
- 875              	.LBB71:
+ 930              		.loc 2 849 22 view .LVU232
+ 931              	.LBB71:
  851:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 876              		.loc 2 851 3 view .LVU225
- 877 003c 3B4B     		ldr	r3, .L55+16
- 878              	.LVL85:
+ 932              		.loc 2 851 3 view .LVU233
+ 933 003c 3B4B     		ldr	r3, .L55+16
+ 934              	.LVL91:
  851:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 879              		.loc 2 851 3 is_stmt 0 view .LVU226
- 880 003e 1022     		movs	r2, #16
- 881 0040 5A61     		str	r2, [r3, #20]
- 882              	.LVL86:
- 883              		.loc 2 852 1 view .LVU227
- 884 0042 2FE0     		b	.L41
- 885              	.LVL87:
- 886              	.L42:
- 887              		.loc 2 852 1 view .LVU228
-ARM GAS  /tmp/cccngOsp.s 			page 37
+ 935              		.loc 2 851 3 is_stmt 0 view .LVU234
+ 936 003e 1022     		movs	r2, #16
+ 937 0040 5A61     		str	r2, [r3, #20]
+ 938              	.LVL92:
+ARM GAS  /tmp/ccv7mc5q.s 			page 38
 
 
- 888              	.LBE71:
- 889              	.LBE70:
- 890              	.LBE69:
- 891              	.LBE68:
- 892              	.LBB75:
- 893              	.LBB76:
+ 939              		.loc 2 852 1 view .LVU235
+ 940 0042 2FE0     		b	.L41
+ 941              	.LVL93:
+ 942              	.L42:
+ 943              		.loc 2 852 1 view .LVU236
+ 944              	.LBE71:
+ 945              	.LBE70:
+ 946              	.LBE69:
+ 947              	.LBE68:
+ 948              	.LBB75:
+ 949              	.LBB76:
  160:app/Src/main.c **** }
- 894              		.loc 1 160 5 is_stmt 1 view .LVU229
- 895              	.LBB77:
- 896              	.LBI77:
+ 950              		.loc 1 160 5 is_stmt 1 view .LVU237
+ 951              	.LBB77:
+ 952              	.LBI77:
  849:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
- 897              		.loc 2 849 22 view .LVU230
- 898              	.LBB78:
+ 953              		.loc 2 849 22 view .LVU238
+ 954              	.LBB78:
  851:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 899              		.loc 2 851 3 view .LVU231
- 900 0044 394B     		ldr	r3, .L55+16
- 901              	.LVL88:
+ 955              		.loc 2 851 3 view .LVU239
+ 956 0044 394B     		ldr	r3, .L55+16
+ 957              	.LVL94:
  851:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 902              		.loc 2 851 3 is_stmt 0 view .LVU232
- 903 0046 0822     		movs	r2, #8
- 904 0048 5A61     		str	r2, [r3, #20]
- 905              	.LVL89:
- 906              		.loc 2 852 1 view .LVU233
- 907 004a 33E0     		b	.L43
- 908              	.LVL90:
- 909              	.L45:
- 910              		.loc 2 852 1 view .LVU234
- 911              	.LBE78:
- 912              	.LBE77:
- 913              	.LBE76:
- 914              	.LBE75:
- 915              	.LBB82:
+ 958              		.loc 2 851 3 is_stmt 0 view .LVU240
+ 959 0046 0822     		movs	r2, #8
+ 960 0048 5A61     		str	r2, [r3, #20]
+ 961              	.LVL95:
+ 962              		.loc 2 852 1 view .LVU241
+ 963 004a 33E0     		b	.L43
+ 964              	.LVL96:
+ 965              	.L45:
+ 966              		.loc 2 852 1 view .LVU242
+ 967              	.LBE78:
+ 968              	.LBE77:
+ 969              	.LBE76:
+ 970              	.LBE75:
+ 971              	.LBB82:
  255:app/Src/main.c **** 		  	{
  256:app/Src/main.c ****           LL_GPIO_ResetOutputPin(LCD_CLK_GPIO_Port, LCD_CLK_Pin);
  257:app/Src/main.c ****           put_to_screen(outbuffer[0], LCD_R1_GPIO_Port, LCD_R1_Pin);
@@ -2203,489 +2268,489 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  262:app/Src/main.c ****   
  263:app/Src/main.c ****           for(uint8_t i = 0; i < 4; ++i)
  264:app/Src/main.c ****             outbuffer[i] >>= 1;
- 916              		.loc 1 264 13 is_stmt 1 discriminator 3 view .LVU235
- 917              		.loc 1 264 26 is_stmt 0 discriminator 3 view .LVU236
- 918 004c 02AA     		add	r2, sp, #8
- 919 004e D118     		adds	r1, r2, r3
- 920 0050 11F8042C 		ldrb	r2, [r1, #-4]	@ zero_extendqisi2
- 921 0054 5208     		lsrs	r2, r2, #1
- 922 0056 01F8042C 		strb	r2, [r1, #-4]
+ 972              		.loc 1 264 13 is_stmt 1 discriminator 3 view .LVU243
+ 973              		.loc 1 264 26 is_stmt 0 discriminator 3 view .LVU244
+ 974 004c 02AA     		add	r2, sp, #8
+ 975 004e D118     		adds	r1, r2, r3
+ 976 0050 11F8042C 		ldrb	r2, [r1, #-4]	@ zero_extendqisi2
+ 977 0054 5208     		lsrs	r2, r2, #1
+ 978 0056 01F8042C 		strb	r2, [r1, #-4]
  263:app/Src/main.c ****             outbuffer[i] >>= 1;
- 923              		.loc 1 263 37 is_stmt 1 discriminator 3 view .LVU237
- 924 005a 0133     		adds	r3, r3, #1
- 925              	.LVL91:
- 263:app/Src/main.c ****             outbuffer[i] >>= 1;
- 926              		.loc 1 263 37 is_stmt 0 discriminator 3 view .LVU238
- 927 005c DBB2     		uxtb	r3, r3
- 928              	.LVL92:
-ARM GAS  /tmp/cccngOsp.s 			page 38
+ 979              		.loc 1 263 37 is_stmt 1 discriminator 3 view .LVU245
+ 980 005a 0133     		adds	r3, r3, #1
+ARM GAS  /tmp/ccv7mc5q.s 			page 39
 
 
- 929              	.L44:
+ 981              	.LVL97:
  263:app/Src/main.c ****             outbuffer[i] >>= 1;
- 930              		.loc 1 263 30 is_stmt 1 discriminator 1 view .LVU239
+ 982              		.loc 1 263 37 is_stmt 0 discriminator 3 view .LVU246
+ 983 005c DBB2     		uxtb	r3, r3
+ 984              	.LVL98:
+ 985              	.L44:
  263:app/Src/main.c ****             outbuffer[i] >>= 1;
- 931              		.loc 1 263 11 is_stmt 0 discriminator 1 view .LVU240
- 932 005e 032B     		cmp	r3, #3
- 933 0060 F4D9     		bls	.L45
- 934              	.LBE82:
+ 986              		.loc 1 263 30 is_stmt 1 discriminator 1 view .LVU247
+ 263:app/Src/main.c ****             outbuffer[i] >>= 1;
+ 987              		.loc 1 263 11 is_stmt 0 discriminator 1 view .LVU248
+ 988 005e 032B     		cmp	r3, #3
+ 989 0060 F4D9     		bls	.L45
+ 990              	.LBE82:
  254:app/Src/main.c **** 		  	{
- 935              		.loc 1 254 34 is_stmt 1 discriminator 2 view .LVU241
- 936 0062 0130     		adds	r0, r0, #1
- 937              	.LVL93:
+ 991              		.loc 1 254 34 is_stmt 1 discriminator 2 view .LVU249
+ 992 0062 0130     		adds	r0, r0, #1
+ 993              	.LVL99:
  254:app/Src/main.c **** 		  	{
- 938              		.loc 1 254 34 is_stmt 0 discriminator 2 view .LVU242
- 939 0064 C0B2     		uxtb	r0, r0
- 940              	.LVL94:
- 941              	.L35:
+ 994              		.loc 1 254 34 is_stmt 0 discriminator 2 view .LVU250
+ 995 0064 C0B2     		uxtb	r0, r0
+ 996              	.LVL100:
+ 997              	.L35:
  254:app/Src/main.c **** 		  	{
- 942              		.loc 1 254 26 is_stmt 1 discriminator 1 view .LVU243
+ 998              		.loc 1 254 26 is_stmt 1 discriminator 1 view .LVU251
  254:app/Src/main.c **** 		  	{
- 943              		.loc 1 254 6 is_stmt 0 discriminator 1 view .LVU244
- 944 0066 0728     		cmp	r0, #7
- 945 0068 29D8     		bhi	.L53
+ 999              		.loc 1 254 6 is_stmt 0 discriminator 1 view .LVU252
+ 1000 0066 0728     		cmp	r0, #7
+ 1001 0068 29D8     		bhi	.L53
  256:app/Src/main.c ****           put_to_screen(outbuffer[0], LCD_R1_GPIO_Port, LCD_R1_Pin);
- 946              		.loc 1 256 11 is_stmt 1 view .LVU245
- 947              	.LVL95:
- 948              	.LBB83:
- 949              	.LBI83:
+ 1002              		.loc 1 256 11 is_stmt 1 view .LVU253
+ 1003              	.LVL101:
+ 1004              	.LBB83:
+ 1005              	.LBI83:
  849:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
- 950              		.loc 2 849 22 view .LVU246
- 951              	.LBB84:
+ 1006              		.loc 2 849 22 view .LVU254
+ 1007              	.LBB84:
  851:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 952              		.loc 2 851 3 view .LVU247
- 953 006a 304B     		ldr	r3, .L55+16
- 954 006c 0222     		movs	r2, #2
- 955 006e 5A61     		str	r2, [r3, #20]
- 956              	.LVL96:
+ 1008              		.loc 2 851 3 view .LVU255
+ 1009 006a 304B     		ldr	r3, .L55+16
+ 1010 006c 0222     		movs	r2, #2
+ 1011 006e 5A61     		str	r2, [r3, #20]
+ 1012              	.LVL102:
  851:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 957              		.loc 2 851 3 is_stmt 0 view .LVU248
- 958              	.LBE84:
- 959              	.LBE83:
+ 1013              		.loc 2 851 3 is_stmt 0 view .LVU256
+ 1014              	.LBE84:
+ 1015              	.LBE83:
  257:app/Src/main.c ****           put_to_screen(outbuffer[1], LCD_R2_GPIO_Port, LCD_R2_Pin);
- 960              		.loc 1 257 11 is_stmt 1 view .LVU249
- 961 0070 9DF80430 		ldrb	r3, [sp, #4]	@ zero_extendqisi2
- 962              	.LVL97:
- 963              	.LBB85:
- 964              	.LBI54:
+ 1016              		.loc 1 257 11 is_stmt 1 view .LVU257
+ 1017 0070 9DF80430 		ldrb	r3, [sp, #4]	@ zero_extendqisi2
+ 1018              	.LVL103:
+ 1019              	.LBB85:
+ 1020              	.LBI54:
  155:app/Src/main.c **** {
- 965              		.loc 1 155 13 view .LVU250
- 966              	.LBB60:
+ 1021              		.loc 1 155 13 view .LVU258
+ 1022              	.LBB60:
  157:app/Src/main.c ****     LL_GPIO_SetOutputPin(GPIO_port, GPIO_pin);
- 967              		.loc 1 157 3 view .LVU251
+ 1023              		.loc 1 157 3 view .LVU259
+ARM GAS  /tmp/ccv7mc5q.s 			page 40
+
+
  157:app/Src/main.c ****     LL_GPIO_SetOutputPin(GPIO_port, GPIO_pin);
- 968              		.loc 1 157 5 is_stmt 0 view .LVU252
- 969 0074 13F0010F 		tst	r3, #1
- 970 0078 D6D0     		beq	.L36
+ 1024              		.loc 1 157 5 is_stmt 0 view .LVU260
+ 1025 0074 13F0010F 		tst	r3, #1
+ 1026 0078 D6D0     		beq	.L36
  158:app/Src/main.c ****   else
-ARM GAS  /tmp/cccngOsp.s 			page 39
-
-
- 971              		.loc 1 158 5 is_stmt 1 view .LVU253
- 972              	.LVL98:
- 973              	.LBB58:
- 974              	.LBI58:
+ 1027              		.loc 1 158 5 is_stmt 1 view .LVU261
+ 1028              	.LVL104:
+ 1029              	.LBB58:
+ 1030              	.LBI58:
  820:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
- 975              		.loc 2 820 22 view .LVU254
- 976              	.LBB59:
+ 1031              		.loc 2 820 22 view .LVU262
+ 1032              	.LBB59:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 977              		.loc 2 822 3 view .LVU255
- 978 007a 2B4B     		ldr	r3, .L55+12
- 979              	.LVL99:
+ 1033              		.loc 2 822 3 view .LVU263
+ 1034 007a 2B4B     		ldr	r3, .L55+12
+ 1035              	.LVL105:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 980              		.loc 2 822 3 is_stmt 0 view .LVU256
- 981 007c 4FF48062 		mov	r2, #1024
- 982 0080 1A61     		str	r2, [r3, #16]
- 983              	.LVL100:
- 984              	.L37:
+ 1036              		.loc 2 822 3 is_stmt 0 view .LVU264
+ 1037 007c 4FF48062 		mov	r2, #1024
+ 1038 0080 1A61     		str	r2, [r3, #16]
+ 1039              	.LVL106:
+ 1040              	.L37:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 985              		.loc 2 822 3 view .LVU257
- 986              	.LBE59:
- 987              	.LBE58:
- 988              	.LBE60:
- 989              	.LBE85:
+ 1041              		.loc 2 822 3 view .LVU265
+ 1042              	.LBE59:
+ 1043              	.LBE58:
+ 1044              	.LBE60:
+ 1045              	.LBE85:
  258:app/Src/main.c ****           put_to_screen(outbuffer[2], LCD_G1_GPIO_Port, LCD_G1_Pin);
- 990              		.loc 1 258 11 is_stmt 1 view .LVU258
- 991 0082 9DF80530 		ldrb	r3, [sp, #5]	@ zero_extendqisi2
- 992              	.LVL101:
- 993              	.LBB86:
- 994              	.LBI61:
+ 1046              		.loc 1 258 11 is_stmt 1 view .LVU266
+ 1047 0082 9DF80530 		ldrb	r3, [sp, #5]	@ zero_extendqisi2
+ 1048              	.LVL107:
+ 1049              	.LBB86:
+ 1050              	.LBI61:
  155:app/Src/main.c **** {
- 995              		.loc 1 155 13 view .LVU259
- 996              	.LBB67:
+ 1051              		.loc 1 155 13 view .LVU267
+ 1052              	.LBB67:
  157:app/Src/main.c ****     LL_GPIO_SetOutputPin(GPIO_port, GPIO_pin);
- 997              		.loc 1 157 3 view .LVU260
+ 1053              		.loc 1 157 3 view .LVU268
  157:app/Src/main.c ****     LL_GPIO_SetOutputPin(GPIO_port, GPIO_pin);
- 998              		.loc 1 157 5 is_stmt 0 view .LVU261
- 999 0086 13F0010F 		tst	r3, #1
- 1000 008a D2D0     		beq	.L38
+ 1054              		.loc 1 157 5 is_stmt 0 view .LVU269
+ 1055 0086 13F0010F 		tst	r3, #1
+ 1056 008a D2D0     		beq	.L38
  158:app/Src/main.c ****   else
- 1001              		.loc 1 158 5 is_stmt 1 view .LVU262
- 1002              	.LVL102:
- 1003              	.LBB65:
- 1004              	.LBI65:
+ 1057              		.loc 1 158 5 is_stmt 1 view .LVU270
+ 1058              	.LVL108:
+ 1059              	.LBB65:
+ 1060              	.LBI65:
  820:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
- 1005              		.loc 2 820 22 view .LVU263
- 1006              	.LBB66:
+ 1061              		.loc 2 820 22 view .LVU271
+ 1062              	.LBB66:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1007              		.loc 2 822 3 view .LVU264
- 1008 008c 264B     		ldr	r3, .L55+12
- 1009              	.LVL103:
+ 1063              		.loc 2 822 3 view .LVU272
+ 1064 008c 264B     		ldr	r3, .L55+12
+ 1065              	.LVL109:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1010              		.loc 2 822 3 is_stmt 0 view .LVU265
- 1011 008e 4FF40062 		mov	r2, #2048
- 1012 0092 1A61     		str	r2, [r3, #16]
- 1013              	.LVL104:
- 1014              	.L39:
- 822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
-ARM GAS  /tmp/cccngOsp.s 			page 40
+ 1066              		.loc 2 822 3 is_stmt 0 view .LVU273
+ARM GAS  /tmp/ccv7mc5q.s 			page 41
 
 
- 1015              		.loc 2 822 3 view .LVU266
- 1016              	.LBE66:
- 1017              	.LBE65:
- 1018              	.LBE67:
- 1019              	.LBE86:
+ 1067 008e 4FF40062 		mov	r2, #2048
+ 1068 0092 1A61     		str	r2, [r3, #16]
+ 1069              	.LVL110:
+ 1070              	.L39:
+ 822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
+ 1071              		.loc 2 822 3 view .LVU274
+ 1072              	.LBE66:
+ 1073              	.LBE65:
+ 1074              	.LBE67:
+ 1075              	.LBE86:
  259:app/Src/main.c ****           put_to_screen(outbuffer[3], LCD_G2_GPIO_Port, LCD_G2_Pin);
- 1020              		.loc 1 259 11 is_stmt 1 view .LVU267
- 1021 0094 9DF80630 		ldrb	r3, [sp, #6]	@ zero_extendqisi2
- 1022              	.LVL105:
- 1023              	.LBB87:
- 1024              	.LBI68:
+ 1076              		.loc 1 259 11 is_stmt 1 view .LVU275
+ 1077 0094 9DF80630 		ldrb	r3, [sp, #6]	@ zero_extendqisi2
+ 1078              	.LVL111:
+ 1079              	.LBB87:
+ 1080              	.LBI68:
  155:app/Src/main.c **** {
- 1025              		.loc 1 155 13 view .LVU268
- 1026              	.LBB74:
+ 1081              		.loc 1 155 13 view .LVU276
+ 1082              	.LBB74:
  157:app/Src/main.c ****     LL_GPIO_SetOutputPin(GPIO_port, GPIO_pin);
- 1027              		.loc 1 157 3 view .LVU269
+ 1083              		.loc 1 157 3 view .LVU277
  157:app/Src/main.c ****     LL_GPIO_SetOutputPin(GPIO_port, GPIO_pin);
- 1028              		.loc 1 157 5 is_stmt 0 view .LVU270
- 1029 0098 13F0010F 		tst	r3, #1
- 1030 009c CED0     		beq	.L40
+ 1084              		.loc 1 157 5 is_stmt 0 view .LVU278
+ 1085 0098 13F0010F 		tst	r3, #1
+ 1086 009c CED0     		beq	.L40
  158:app/Src/main.c ****   else
- 1031              		.loc 1 158 5 is_stmt 1 view .LVU271
- 1032              	.LVL106:
- 1033              	.LBB72:
- 1034              	.LBI72:
+ 1087              		.loc 1 158 5 is_stmt 1 view .LVU279
+ 1088              	.LVL112:
+ 1089              	.LBB72:
+ 1090              	.LBI72:
  820:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
- 1035              		.loc 2 820 22 view .LVU272
- 1036              	.LBB73:
+ 1091              		.loc 2 820 22 view .LVU280
+ 1092              	.LBB73:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1037              		.loc 2 822 3 view .LVU273
- 1038 009e 234B     		ldr	r3, .L55+16
- 1039              	.LVL107:
+ 1093              		.loc 2 822 3 view .LVU281
+ 1094 009e 234B     		ldr	r3, .L55+16
+ 1095              	.LVL113:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1040              		.loc 2 822 3 is_stmt 0 view .LVU274
- 1041 00a0 1022     		movs	r2, #16
- 1042 00a2 1A61     		str	r2, [r3, #16]
- 1043              	.LVL108:
- 1044              	.L41:
+ 1096              		.loc 2 822 3 is_stmt 0 view .LVU282
+ 1097 00a0 1022     		movs	r2, #16
+ 1098 00a2 1A61     		str	r2, [r3, #16]
+ 1099              	.LVL114:
+ 1100              	.L41:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1045              		.loc 2 822 3 view .LVU275
- 1046              	.LBE73:
- 1047              	.LBE72:
- 1048              	.LBE74:
- 1049              	.LBE87:
+ 1101              		.loc 2 822 3 view .LVU283
+ 1102              	.LBE73:
+ 1103              	.LBE72:
+ 1104              	.LBE74:
+ 1105              	.LBE87:
  260:app/Src/main.c ****           LL_GPIO_SetOutputPin(LCD_CLK_GPIO_Port, LCD_CLK_Pin);
- 1050              		.loc 1 260 11 is_stmt 1 view .LVU276
- 1051 00a4 9DF80730 		ldrb	r3, [sp, #7]	@ zero_extendqisi2
- 1052              	.LVL109:
- 1053              	.LBB88:
- 1054              	.LBI75:
+ 1106              		.loc 1 260 11 is_stmt 1 view .LVU284
+ 1107 00a4 9DF80730 		ldrb	r3, [sp, #7]	@ zero_extendqisi2
+ 1108              	.LVL115:
+ 1109              	.LBB88:
+ 1110              	.LBI75:
  155:app/Src/main.c **** {
- 1055              		.loc 1 155 13 view .LVU277
- 1056              	.LBB81:
- 157:app/Src/main.c ****     LL_GPIO_SetOutputPin(GPIO_port, GPIO_pin);
- 1057              		.loc 1 157 3 view .LVU278
- 157:app/Src/main.c ****     LL_GPIO_SetOutputPin(GPIO_port, GPIO_pin);
- 1058              		.loc 1 157 5 is_stmt 0 view .LVU279
-ARM GAS  /tmp/cccngOsp.s 			page 41
+ 1111              		.loc 1 155 13 view .LVU285
+ARM GAS  /tmp/ccv7mc5q.s 			page 42
 
 
- 1059 00a8 13F0010F 		tst	r3, #1
- 1060 00ac CAD0     		beq	.L42
+ 1112              	.LBB81:
+ 157:app/Src/main.c ****     LL_GPIO_SetOutputPin(GPIO_port, GPIO_pin);
+ 1113              		.loc 1 157 3 view .LVU286
+ 157:app/Src/main.c ****     LL_GPIO_SetOutputPin(GPIO_port, GPIO_pin);
+ 1114              		.loc 1 157 5 is_stmt 0 view .LVU287
+ 1115 00a8 13F0010F 		tst	r3, #1
+ 1116 00ac CAD0     		beq	.L42
  158:app/Src/main.c ****   else
- 1061              		.loc 1 158 5 is_stmt 1 view .LVU280
- 1062              	.LVL110:
- 1063              	.LBB79:
- 1064              	.LBI79:
+ 1117              		.loc 1 158 5 is_stmt 1 view .LVU288
+ 1118              	.LVL116:
+ 1119              	.LBB79:
+ 1120              	.LBI79:
  820:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
- 1065              		.loc 2 820 22 view .LVU281
- 1066              	.LBB80:
+ 1121              		.loc 2 820 22 view .LVU289
+ 1122              	.LBB80:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1067              		.loc 2 822 3 view .LVU282
- 1068 00ae 1F4B     		ldr	r3, .L55+16
- 1069              	.LVL111:
+ 1123              		.loc 2 822 3 view .LVU290
+ 1124 00ae 1F4B     		ldr	r3, .L55+16
+ 1125              	.LVL117:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1070              		.loc 2 822 3 is_stmt 0 view .LVU283
- 1071 00b0 0822     		movs	r2, #8
- 1072 00b2 1A61     		str	r2, [r3, #16]
- 1073              	.LVL112:
- 1074              	.L43:
+ 1126              		.loc 2 822 3 is_stmt 0 view .LVU291
+ 1127 00b0 0822     		movs	r2, #8
+ 1128 00b2 1A61     		str	r2, [r3, #16]
+ 1129              	.LVL118:
+ 1130              	.L43:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1075              		.loc 2 822 3 view .LVU284
- 1076              	.LBE80:
- 1077              	.LBE79:
- 1078              	.LBE81:
- 1079              	.LBE88:
+ 1131              		.loc 2 822 3 view .LVU292
+ 1132              	.LBE80:
+ 1133              	.LBE79:
+ 1134              	.LBE81:
+ 1135              	.LBE88:
  261:app/Src/main.c ****   
- 1080              		.loc 1 261 11 is_stmt 1 view .LVU285
- 1081              	.LBB89:
- 1082              	.LBI89:
+ 1136              		.loc 1 261 11 is_stmt 1 view .LVU293
+ 1137              	.LBB89:
+ 1138              	.LBI89:
  820:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
- 1083              		.loc 2 820 22 view .LVU286
- 1084              	.LBB90:
+ 1139              		.loc 2 820 22 view .LVU294
+ 1140              	.LBB90:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1085              		.loc 2 822 3 view .LVU287
- 1086 00b4 1D4B     		ldr	r3, .L55+16
- 1087 00b6 0222     		movs	r2, #2
- 1088 00b8 1A61     		str	r2, [r3, #16]
- 1089              	.LVL113:
+ 1141              		.loc 2 822 3 view .LVU295
+ 1142 00b4 1D4B     		ldr	r3, .L55+16
+ 1143 00b6 0222     		movs	r2, #2
+ 1144 00b8 1A61     		str	r2, [r3, #16]
+ 1145              	.LVL119:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1090              		.loc 2 822 3 is_stmt 0 view .LVU288
- 1091              	.LBE90:
- 1092              	.LBE89:
+ 1146              		.loc 2 822 3 is_stmt 0 view .LVU296
+ 1147              	.LBE90:
+ 1148              	.LBE89:
  263:app/Src/main.c ****             outbuffer[i] >>= 1;
- 1093              		.loc 1 263 11 is_stmt 1 view .LVU289
- 1094              	.LBB91:
+ 1149              		.loc 1 263 11 is_stmt 1 view .LVU297
+ 1150              	.LBB91:
  263:app/Src/main.c ****             outbuffer[i] >>= 1;
- 1095              		.loc 1 263 15 view .LVU290
+ 1151              		.loc 1 263 15 view .LVU298
  263:app/Src/main.c ****             outbuffer[i] >>= 1;
- 1096              		.loc 1 263 23 is_stmt 0 view .LVU291
- 1097 00ba 0023     		movs	r3, #0
+ 1152              		.loc 1 263 23 is_stmt 0 view .LVU299
+ 1153 00ba 0023     		movs	r3, #0
  263:app/Src/main.c ****             outbuffer[i] >>= 1;
- 1098              		.loc 1 263 11 view .LVU292
- 1099 00bc CFE7     		b	.L44
- 1100              	.LVL114:
- 1101              	.L53:
- 263:app/Src/main.c ****             outbuffer[i] >>= 1;
-ARM GAS  /tmp/cccngOsp.s 			page 42
+ARM GAS  /tmp/ccv7mc5q.s 			page 43
 
 
- 1102              		.loc 1 263 11 view .LVU293
- 1103              	.LBE91:
- 1104              	.LBE53:
+ 1154              		.loc 1 263 11 view .LVU300
+ 1155 00bc CFE7     		b	.L44
+ 1156              	.LVL120:
+ 1157              	.L53:
+ 263:app/Src/main.c ****             outbuffer[i] >>= 1;
+ 1158              		.loc 1 263 11 view .LVU301
+ 1159              	.LBE91:
+ 1160              	.LBE53:
  265:app/Src/main.c **** 		  	}			
  266:app/Src/main.c ****         LL_GPIO_SetOutputPin(LCD_LAT_GPIO_Port, LCD_LAT_Pin);
- 1105              		.loc 1 266 9 is_stmt 1 view .LVU294
- 1106              	.LBB92:
- 1107              	.LBI92:
+ 1161              		.loc 1 266 9 is_stmt 1 view .LVU302
+ 1162              	.LBB92:
+ 1163              	.LBI92:
  820:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
- 1108              		.loc 2 820 22 view .LVU295
- 1109              	.LBB93:
+ 1164              		.loc 2 820 22 view .LVU303
+ 1165              	.LBB93:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1110              		.loc 2 822 3 view .LVU296
- 1111 00be 1B4B     		ldr	r3, .L55+16
- 1112 00c0 0422     		movs	r2, #4
- 1113 00c2 1A61     		str	r2, [r3, #16]
- 1114              	.LVL115:
+ 1166              		.loc 2 822 3 view .LVU304
+ 1167 00be 1B4B     		ldr	r3, .L55+16
+ 1168 00c0 0422     		movs	r2, #4
+ 1169 00c2 1A61     		str	r2, [r3, #16]
+ 1170              	.LVL121:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1115              		.loc 2 822 3 is_stmt 0 view .LVU297
- 1116              	.LBE93:
- 1117              	.LBE92:
+ 1171              		.loc 2 822 3 is_stmt 0 view .LVU305
+ 1172              	.LBE93:
+ 1173              	.LBE92:
  267:app/Src/main.c ****         LL_GPIO_ResetOutputPin(LCD_LAT_GPIO_Port, LCD_LAT_Pin);
- 1118              		.loc 1 267 9 is_stmt 1 view .LVU298
- 1119              	.LBB94:
- 1120              	.LBI94:
+ 1174              		.loc 1 267 9 is_stmt 1 view .LVU306
+ 1175              	.LBB94:
+ 1176              	.LBI94:
  849:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
- 1121              		.loc 2 849 22 view .LVU299
- 1122              	.LBB95:
+ 1177              		.loc 2 849 22 view .LVU307
+ 1178              	.LBB95:
  851:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1123              		.loc 2 851 3 view .LVU300
- 1124 00c4 5A61     		str	r2, [r3, #20]
- 1125              	.LVL116:
+ 1179              		.loc 2 851 3 view .LVU308
+ 1180 00c4 5A61     		str	r2, [r3, #20]
+ 1181              	.LVL122:
  851:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1126              		.loc 2 851 3 is_stmt 0 view .LVU301
- 1127              	.LBE95:
- 1128              	.LBE94:
+ 1182              		.loc 2 851 3 is_stmt 0 view .LVU309
+ 1183              	.LBE95:
+ 1184              	.LBE94:
  247:app/Src/main.c **** 		  {
- 1129              		.loc 1 247 35 is_stmt 1 view .LVU302
- 1130 00c6 0134     		adds	r4, r4, #1
- 1131              	.LVL117:
+ 1185              		.loc 1 247 35 is_stmt 1 view .LVU310
+ 1186 00c6 0134     		adds	r4, r4, #1
+ 1187              	.LVL123:
  247:app/Src/main.c **** 		  {
- 1132              		.loc 1 247 35 is_stmt 0 view .LVU303
- 1133 00c8 E4B2     		uxtb	r4, r4
- 1134              	.LVL118:
- 1135              	.L34:
+ 1188              		.loc 1 247 35 is_stmt 0 view .LVU311
+ 1189 00c8 E4B2     		uxtb	r4, r4
+ 1190              	.LVL124:
+ 1191              	.L34:
  247:app/Src/main.c **** 		  {
- 1136              		.loc 1 247 26 is_stmt 1 discriminator 1 view .LVU304
+ 1192              		.loc 1 247 26 is_stmt 1 discriminator 1 view .LVU312
  247:app/Src/main.c **** 		  {
- 1137              		.loc 1 247 5 is_stmt 0 discriminator 1 view .LVU305
- 1138 00ca 072C     		cmp	r4, #7
- 1139 00cc 1AD8     		bhi	.L54
+ 1193              		.loc 1 247 5 is_stmt 0 discriminator 1 view .LVU313
+ 1194 00ca 072C     		cmp	r4, #7
+ 1195 00cc 1AD8     		bhi	.L54
  249:app/Src/main.c **** 		  	outbuffer[0] = lcdbuf.LED_Matrix_R_Buf[col][row];
- 1140              		.loc 1 249 9 is_stmt 1 view .LVU306
- 1141              	.LVL119:
- 1142              	.LBB96:
- 1143              	.LBI96:
+ARM GAS  /tmp/ccv7mc5q.s 			page 44
+
+
+ 1196              		.loc 1 249 9 is_stmt 1 view .LVU314
+ 1197              	.LVL125:
+ 1198              	.LBB96:
+ 1199              	.LBI96:
  820:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
-ARM GAS  /tmp/cccngOsp.s 			page 43
-
-
- 1144              		.loc 2 820 22 view .LVU307
- 1145              	.LBB97:
+ 1200              		.loc 2 820 22 view .LVU315
+ 1201              	.LBB97:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1146              		.loc 2 822 3 view .LVU308
- 1147 00ce 164B     		ldr	r3, .L55+12
- 1148 00d0 0222     		movs	r2, #2
- 1149 00d2 1A61     		str	r2, [r3, #16]
- 1150              	.LVL120:
+ 1202              		.loc 2 822 3 view .LVU316
+ 1203 00ce 164B     		ldr	r3, .L55+12
+ 1204 00d0 0222     		movs	r2, #2
+ 1205 00d2 1A61     		str	r2, [r3, #16]
+ 1206              	.LVL126:
  822:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1151              		.loc 2 822 3 is_stmt 0 view .LVU309
- 1152              	.LBE97:
- 1153              	.LBE96:
+ 1207              		.loc 2 822 3 is_stmt 0 view .LVU317
+ 1208              	.LBE97:
+ 1209              	.LBE96:
  250:app/Src/main.c **** 		  	outbuffer[1] = lcdbuf.LED_Matrix_R_Buf[col][row+16];
- 1154              		.loc 1 250 6 is_stmt 1 view .LVU310
+ 1210              		.loc 1 250 6 is_stmt 1 view .LVU318
  250:app/Src/main.c **** 		  	outbuffer[1] = lcdbuf.LED_Matrix_R_Buf[col][row+16];
- 1155              		.loc 1 250 49 is_stmt 0 view .LVU311
- 1156 00d4 134B     		ldr	r3, .L55+8
- 1157 00d6 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 1158 00d8 114A     		ldr	r2, .L55+4
- 1159 00da 02EB4412 		add	r2, r2, r4, lsl #5
- 1160 00de D018     		adds	r0, r2, r3
- 1161 00e0 D15C     		ldrb	r1, [r2, r3]	@ zero_extendqisi2
+ 1211              		.loc 1 250 49 is_stmt 0 view .LVU319
+ 1212 00d4 134B     		ldr	r3, .L55+8
+ 1213 00d6 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 1214 00d8 114A     		ldr	r2, .L55+4
+ 1215 00da 02EB4412 		add	r2, r2, r4, lsl #5
+ 1216 00de D018     		adds	r0, r2, r3
+ 1217 00e0 D15C     		ldrb	r1, [r2, r3]	@ zero_extendqisi2
  250:app/Src/main.c **** 		  	outbuffer[1] = lcdbuf.LED_Matrix_R_Buf[col][row+16];
- 1162              		.loc 1 250 19 view .LVU312
- 1163 00e2 8DF80410 		strb	r1, [sp, #4]
+ 1218              		.loc 1 250 19 view .LVU320
+ 1219 00e2 8DF80410 		strb	r1, [sp, #4]
  251:app/Src/main.c **** 		  	outbuffer[2] = lcdbuf.LED_Matrix_G_Buf[col][row];
- 1164              		.loc 1 251 6 is_stmt 1 view .LVU313
+ 1220              		.loc 1 251 6 is_stmt 1 view .LVU321
  251:app/Src/main.c **** 		  	outbuffer[2] = lcdbuf.LED_Matrix_G_Buf[col][row];
- 1165              		.loc 1 251 53 is_stmt 0 view .LVU314
- 1166 00e6 1033     		adds	r3, r3, #16
+ 1221              		.loc 1 251 53 is_stmt 0 view .LVU322
+ 1222 00e6 1033     		adds	r3, r3, #16
  251:app/Src/main.c **** 		  	outbuffer[2] = lcdbuf.LED_Matrix_G_Buf[col][row];
- 1167              		.loc 1 251 49 view .LVU315
- 1168 00e8 D118     		adds	r1, r2, r3
- 1169 00ea D35C     		ldrb	r3, [r2, r3]	@ zero_extendqisi2
+ 1223              		.loc 1 251 49 view .LVU323
+ 1224 00e8 D118     		adds	r1, r2, r3
+ 1225 00ea D35C     		ldrb	r3, [r2, r3]	@ zero_extendqisi2
  251:app/Src/main.c **** 		  	outbuffer[2] = lcdbuf.LED_Matrix_G_Buf[col][row];
- 1170              		.loc 1 251 19 view .LVU316
- 1171 00ec 8DF80530 		strb	r3, [sp, #5]
+ 1226              		.loc 1 251 19 view .LVU324
+ 1227 00ec 8DF80530 		strb	r3, [sp, #5]
  252:app/Src/main.c **** 		  	outbuffer[3] = lcdbuf.LED_Matrix_G_Buf[col][row+16];			
- 1172              		.loc 1 252 6 is_stmt 1 view .LVU317
+ 1228              		.loc 1 252 6 is_stmt 1 view .LVU325
  252:app/Src/main.c **** 		  	outbuffer[3] = lcdbuf.LED_Matrix_G_Buf[col][row+16];			
- 1173              		.loc 1 252 49 is_stmt 0 view .LVU318
- 1174 00f0 90F80031 		ldrb	r3, [r0, #256]	@ zero_extendqisi2
+ 1229              		.loc 1 252 49 is_stmt 0 view .LVU326
+ 1230 00f0 90F80031 		ldrb	r3, [r0, #256]	@ zero_extendqisi2
  252:app/Src/main.c **** 		  	outbuffer[3] = lcdbuf.LED_Matrix_G_Buf[col][row+16];			
- 1175              		.loc 1 252 19 view .LVU319
- 1176 00f4 8DF80630 		strb	r3, [sp, #6]
+ 1231              		.loc 1 252 19 view .LVU327
+ 1232 00f4 8DF80630 		strb	r3, [sp, #6]
  253:app/Src/main.c **** 		  	for(uint8_t i = 0 ; i < 8 ; ++i)
- 1177              		.loc 1 253 6 is_stmt 1 view .LVU320
+ 1233              		.loc 1 253 6 is_stmt 1 view .LVU328
  253:app/Src/main.c **** 		  	for(uint8_t i = 0 ; i < 8 ; ++i)
- 1178              		.loc 1 253 49 is_stmt 0 view .LVU321
- 1179 00f8 91F80031 		ldrb	r3, [r1, #256]	@ zero_extendqisi2
+ 1234              		.loc 1 253 49 is_stmt 0 view .LVU329
+ 1235 00f8 91F80031 		ldrb	r3, [r1, #256]	@ zero_extendqisi2
  253:app/Src/main.c **** 		  	for(uint8_t i = 0 ; i < 8 ; ++i)
- 1180              		.loc 1 253 19 view .LVU322
- 1181 00fc 8DF80730 		strb	r3, [sp, #7]
- 254:app/Src/main.c **** 		  	{
- 1182              		.loc 1 254 6 is_stmt 1 view .LVU323
- 1183              	.LBB98:
- 254:app/Src/main.c **** 		  	{
-ARM GAS  /tmp/cccngOsp.s 			page 44
+ 1236              		.loc 1 253 19 view .LVU330
+ARM GAS  /tmp/ccv7mc5q.s 			page 45
 
 
- 1184              		.loc 1 254 10 view .LVU324
- 1185              	.LVL121:
+ 1237 00fc 8DF80730 		strb	r3, [sp, #7]
  254:app/Src/main.c **** 		  	{
- 1186              		.loc 1 254 18 is_stmt 0 view .LVU325
- 1187 0100 0020     		movs	r0, #0
+ 1238              		.loc 1 254 6 is_stmt 1 view .LVU331
+ 1239              	.LBB98:
  254:app/Src/main.c **** 		  	{
- 1188              		.loc 1 254 6 view .LVU326
- 1189 0102 B0E7     		b	.L35
- 1190              	.LVL122:
- 1191              	.L54:
+ 1240              		.loc 1 254 10 view .LVU332
+ 1241              	.LVL127:
  254:app/Src/main.c **** 		  	{
- 1192              		.loc 1 254 6 view .LVU327
- 1193              	.LBE98:
- 1194              	.LBE52:
+ 1242              		.loc 1 254 18 is_stmt 0 view .LVU333
+ 1243 0100 0020     		movs	r0, #0
+ 254:app/Src/main.c **** 		  	{
+ 1244              		.loc 1 254 6 view .LVU334
+ 1245 0102 B0E7     		b	.L35
+ 1246              	.LVL128:
+ 1247              	.L54:
+ 254:app/Src/main.c **** 		  	{
+ 1248              		.loc 1 254 6 view .LVU335
+ 1249              	.LBE98:
+ 1250              	.LBE52:
  268:app/Src/main.c **** 		  }
  269:app/Src/main.c ****       LL_GPIO_ResetOutputPin(LCD_OE_GPIO_Port, LCD_OE_Pin);
- 1195              		.loc 1 269 7 is_stmt 1 view .LVU328
- 1196              	.LBB99:
- 1197              	.LBI99:
+ 1251              		.loc 1 269 7 is_stmt 1 view .LVU336
+ 1252              	.LBB99:
+ 1253              	.LBI99:
  849:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** {
- 1198              		.loc 2 849 22 view .LVU329
- 1199              	.LBB100:
+ 1254              		.loc 2 849 22 view .LVU337
+ 1255              	.LBB100:
  851:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1200              		.loc 2 851 3 view .LVU330
- 1201 0104 084B     		ldr	r3, .L55+12
- 1202 0106 0222     		movs	r2, #2
- 1203 0108 5A61     		str	r2, [r3, #20]
- 1204              	.LVL123:
+ 1256              		.loc 2 851 3 view .LVU338
+ 1257 0104 084B     		ldr	r3, .L55+12
+ 1258 0106 0222     		movs	r2, #2
+ 1259 0108 5A61     		str	r2, [r3, #20]
+ 1260              	.LVL129:
  851:Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h **** }
- 1205              		.loc 2 851 3 is_stmt 0 view .LVU331
- 1206              	.LBE100:
- 1207              	.LBE99:
+ 1261              		.loc 2 851 3 is_stmt 0 view .LVU339
+ 1262              	.LBE100:
+ 1263              	.LBE99:
  270:app/Src/main.c **** 		  scanf_line(row);
- 1208              		.loc 1 270 5 is_stmt 1 view .LVU332
- 1209 010a 064C     		ldr	r4, .L55+8
- 1210              	.LVL124:
- 1211              		.loc 1 270 5 is_stmt 0 view .LVU333
- 1212 010c 2078     		ldrb	r0, [r4]	@ zero_extendqisi2
- 1213 010e FFF7FEFF 		bl	scanf_line
- 1214              	.LVL125:
+ 1264              		.loc 1 270 5 is_stmt 1 view .LVU340
+ 1265 010a 064C     		ldr	r4, .L55+8
+ 1266              	.LVL130:
+ 1267              		.loc 1 270 5 is_stmt 0 view .LVU341
+ 1268 010c 2078     		ldrb	r0, [r4]	@ zero_extendqisi2
+ 1269 010e FFF7FEFF 		bl	scanf_line
+ 1270              	.LVL131:
  271:app/Src/main.c **** 		  row++;
- 1215              		.loc 1 271 5 is_stmt 1 view .LVU334
- 1216              		.loc 1 271 8 is_stmt 0 view .LVU335
- 1217 0112 2378     		ldrb	r3, [r4]	@ zero_extendqisi2
- 1218 0114 0133     		adds	r3, r3, #1
- 1219 0116 2370     		strb	r3, [r4]
- 1220              	.LBE51:
+ 1271              		.loc 1 271 5 is_stmt 1 view .LVU342
+ 1272              		.loc 1 271 8 is_stmt 0 view .LVU343
+ 1273 0112 2378     		ldrb	r3, [r4]	@ zero_extendqisi2
+ 1274 0114 0133     		adds	r3, r3, #1
+ 1275 0116 2370     		strb	r3, [r4]
+ 1276              	.LBE51:
  272:app/Src/main.c ****       //lcdbuf.is_update = 0;
  273:app/Src/main.c ****     }
  274:app/Src/main.c ****   }
  275:app/Src/main.c **** }
- 1221              		.loc 1 275 1 view .LVU336
- 1222 0118 02B0     		add	sp, sp, #8
- 1223              	.LCFI13:
- 1224              		.cfi_def_cfa_offset 8
- 1225              		@ sp needed
- 1226 011a 10BD     		pop	{r4, pc}
-ARM GAS  /tmp/cccngOsp.s 			page 45
+ 1277              		.loc 1 275 1 view .LVU344
+ARM GAS  /tmp/ccv7mc5q.s 			page 46
 
 
- 1227              	.L56:
- 1228              		.align	2
- 1229              	.L55:
- 1230 011c 00000000 		.word	htim3
- 1231 0120 00000000 		.word	lcdbuf
- 1232 0124 00000000 		.word	.LANCHOR2
- 1233 0128 000C0140 		.word	1073810432
- 1234 012c 00080140 		.word	1073809408
- 1235              		.cfi_endproc
- 1236              	.LFE405:
- 1238              		.section	.text.HAL_UART_RxCpltCallback,"ax",%progbits
- 1239              		.align	1
- 1240              		.global	HAL_UART_RxCpltCallback
- 1241              		.syntax unified
- 1242              		.thumb
- 1243              		.thumb_func
- 1244              		.fpu softvfp
- 1246              	HAL_UART_RxCpltCallback:
- 1247              	.LVL126:
- 1248              	.LFB406:
+ 1278 0118 02B0     		add	sp, sp, #8
+ 1279              	.LCFI16:
+ 1280              		.cfi_def_cfa_offset 8
+ 1281              		@ sp needed
+ 1282 011a 10BD     		pop	{r4, pc}
+ 1283              	.L56:
+ 1284              		.align	2
+ 1285              	.L55:
+ 1286 011c 00000000 		.word	htim3
+ 1287 0120 00000000 		.word	lcdbuf
+ 1288 0124 00000000 		.word	.LANCHOR2
+ 1289 0128 000C0140 		.word	1073810432
+ 1290 012c 00080140 		.word	1073809408
+ 1291              		.cfi_endproc
+ 1292              	.LFE405:
+ 1294              		.section	.text.HAL_UART_RxCpltCallback,"ax",%progbits
+ 1295              		.align	1
+ 1296              		.global	HAL_UART_RxCpltCallback
+ 1297              		.syntax unified
+ 1298              		.thumb
+ 1299              		.thumb_func
+ 1300              		.fpu softvfp
+ 1302              	HAL_UART_RxCpltCallback:
+ 1303              	.LVL132:
+ 1304              	.LFB406:
  276:app/Src/main.c **** 
  277:app/Src/main.c **** 
  278:app/Src/main.c **** 
  279:app/Src/main.c **** void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
  280:app/Src/main.c **** {
- 1249              		.loc 1 280 1 is_stmt 1 view -0
- 1250              		.cfi_startproc
- 1251              		@ args = 0, pretend = 0, frame = 0
- 1252              		@ frame_needed = 0, uses_anonymous_args = 0
- 1253              		.loc 1 280 1 is_stmt 0 view .LVU338
- 1254 0000 08B5     		push	{r3, lr}
- 1255              	.LCFI14:
- 1256              		.cfi_def_cfa_offset 8
- 1257              		.cfi_offset 3, -8
- 1258              		.cfi_offset 14, -4
+ 1305              		.loc 1 280 1 is_stmt 1 view -0
+ 1306              		.cfi_startproc
+ 1307              		@ args = 0, pretend = 0, frame = 0
+ 1308              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1309              		.loc 1 280 1 is_stmt 0 view .LVU346
+ 1310 0000 08B5     		push	{r3, lr}
+ 1311              	.LCFI17:
+ 1312              		.cfi_def_cfa_offset 8
+ 1313              		.cfi_offset 3, -8
+ 1314              		.cfi_offset 14, -4
  281:app/Src/main.c ****   if(huart->Instance == USART1)
- 1259              		.loc 1 281 3 is_stmt 1 view .LVU339
- 1260              		.loc 1 281 11 is_stmt 0 view .LVU340
- 1261 0002 0268     		ldr	r2, [r0]
- 1262              		.loc 1 281 5 view .LVU341
- 1263 0004 1B4B     		ldr	r3, .L64
- 1264 0006 9A42     		cmp	r2, r3
- 1265 0008 00D0     		beq	.L63
- 1266              	.LVL127:
- 1267              	.L57:
+ 1315              		.loc 1 281 3 is_stmt 1 view .LVU347
+ 1316              		.loc 1 281 11 is_stmt 0 view .LVU348
+ 1317 0002 0268     		ldr	r2, [r0]
+ 1318              		.loc 1 281 5 view .LVU349
+ 1319 0004 1B4B     		ldr	r3, .L64
+ 1320 0006 9A42     		cmp	r2, r3
+ 1321 0008 00D0     		beq	.L63
+ 1322              	.LVL133:
+ 1323              	.L57:
  282:app/Src/main.c ****   {
  283:app/Src/main.c ****     uart1_data->buffer[uart1_data->len++] = current_data;
  284:app/Src/main.c ****     switch(status)                 //set the tail 0x0A 0x0D  
@@ -2693,14 +2758,14 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  286:app/Src/main.c **** 			case 0:
  287:app/Src/main.c **** 			{
  288:app/Src/main.c **** 				if(current_data == 0x0A)
+ARM GAS  /tmp/ccv7mc5q.s 			page 47
+
+
  289:app/Src/main.c **** 				  	status = 1;
  290:app/Src/main.c **** 			}break;
  291:app/Src/main.c **** 			case 1:
  292:app/Src/main.c **** 			{
  293:app/Src/main.c **** 				status = 0;
-ARM GAS  /tmp/cccngOsp.s 			page 46
-
-
  294:app/Src/main.c **** 				if(current_data == 0x0D)
  295:app/Src/main.c **** 				{
  296:app/Src/main.c **** 					uart1_data->buffer[uart1_data->len + 1] = '\0';
@@ -2712,150 +2777,150 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  302:app/Src/main.c ****     HAL_UART_Receive_IT(&huart1, &current_data, 1);
  303:app/Src/main.c ****   }
  304:app/Src/main.c **** }
- 1268              		.loc 1 304 1 view .LVU342
- 1269 000a 08BD     		pop	{r3, pc}
- 1270              	.LVL128:
- 1271              	.L63:
+ 1324              		.loc 1 304 1 view .LVU350
+ 1325 000a 08BD     		pop	{r3, pc}
+ 1326              	.LVL134:
+ 1327              	.L63:
  283:app/Src/main.c ****     switch(status)                 //set the tail 0x0A 0x0D  
- 1272              		.loc 1 283 5 is_stmt 1 view .LVU343
+ 1328              		.loc 1 283 5 is_stmt 1 view .LVU351
  283:app/Src/main.c ****     switch(status)                 //set the tail 0x0A 0x0D  
- 1273              		.loc 1 283 15 is_stmt 0 view .LVU344
- 1274 000c 1A4B     		ldr	r3, .L64+4
- 1275 000e 1B68     		ldr	r3, [r3]
+ 1329              		.loc 1 283 15 is_stmt 0 view .LVU352
+ 1330 000c 1A4B     		ldr	r3, .L64+4
+ 1331 000e 1B68     		ldr	r3, [r3]
  283:app/Src/main.c ****     switch(status)                 //set the tail 0x0A 0x0D  
- 1276              		.loc 1 283 34 view .LVU345
- 1277 0010 5978     		ldrb	r1, [r3, #1]	@ zero_extendqisi2
+ 1332              		.loc 1 283 34 view .LVU353
+ 1333 0010 5978     		ldrb	r1, [r3, #1]	@ zero_extendqisi2
  283:app/Src/main.c ****     switch(status)                 //set the tail 0x0A 0x0D  
- 1278              		.loc 1 283 39 view .LVU346
- 1279 0012 4A1C     		adds	r2, r1, #1
- 1280 0014 D2B2     		uxtb	r2, r2
- 1281 0016 5A70     		strb	r2, [r3, #1]
+ 1334              		.loc 1 283 39 view .LVU354
+ 1335 0012 4A1C     		adds	r2, r1, #1
+ 1336 0014 D2B2     		uxtb	r2, r2
+ 1337 0016 5A70     		strb	r2, [r3, #1]
  283:app/Src/main.c ****     switch(status)                 //set the tail 0x0A 0x0D  
- 1282              		.loc 1 283 43 view .LVU347
- 1283 0018 184A     		ldr	r2, .L64+8
- 1284 001a 1278     		ldrb	r2, [r2]	@ zero_extendqisi2
- 1285 001c D2B2     		uxtb	r2, r2
- 1286 001e 0B44     		add	r3, r3, r1
- 1287 0020 9A70     		strb	r2, [r3, #2]
+ 1338              		.loc 1 283 43 view .LVU355
+ 1339 0018 184A     		ldr	r2, .L64+8
+ 1340 001a 1278     		ldrb	r2, [r2]	@ zero_extendqisi2
+ 1341 001c D2B2     		uxtb	r2, r2
+ 1342 001e 0B44     		add	r3, r3, r1
+ 1343 0020 9A70     		strb	r2, [r3, #2]
  284:app/Src/main.c **** 		{
- 1288              		.loc 1 284 5 is_stmt 1 view .LVU348
- 1289 0022 174B     		ldr	r3, .L64+12
- 1290 0024 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 1291 0026 3BB1     		cbz	r3, .L59
- 1292 0028 012B     		cmp	r3, #1
- 1293 002a 0ED0     		beq	.L60
- 1294              	.L61:
+ 1344              		.loc 1 284 5 is_stmt 1 view .LVU356
+ 1345 0022 174B     		ldr	r3, .L64+12
+ 1346 0024 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 1347 0026 3BB1     		cbz	r3, .L59
+ 1348 0028 012B     		cmp	r3, #1
+ 1349 002a 0ED0     		beq	.L60
+ 1350              	.L61:
  302:app/Src/main.c ****   }
- 1295              		.loc 1 302 5 view .LVU349
- 1296 002c 0122     		movs	r2, #1
- 1297 002e 1349     		ldr	r1, .L64+8
- 1298 0030 1448     		ldr	r0, .L64+16
- 1299              	.LVL129:
+ 1351              		.loc 1 302 5 view .LVU357
+ 1352 002c 0122     		movs	r2, #1
+ 1353 002e 1349     		ldr	r1, .L64+8
+ 1354 0030 1448     		ldr	r0, .L64+16
+ 1355              	.LVL135:
  302:app/Src/main.c ****   }
- 1300              		.loc 1 302 5 is_stmt 0 view .LVU350
- 1301 0032 FFF7FEFF 		bl	HAL_UART_Receive_IT
- 1302              	.LVL130:
- 1303              		.loc 1 304 1 view .LVU351
- 1304 0036 E8E7     		b	.L57
- 1305              	.LVL131:
-ARM GAS  /tmp/cccngOsp.s 			page 47
+ 1356              		.loc 1 302 5 is_stmt 0 view .LVU358
+ARM GAS  /tmp/ccv7mc5q.s 			page 48
 
 
- 1306              	.L59:
+ 1357 0032 FFF7FEFF 		bl	HAL_UART_Receive_IT
+ 1358              	.LVL136:
+ 1359              		.loc 1 304 1 view .LVU359
+ 1360 0036 E8E7     		b	.L57
+ 1361              	.LVL137:
+ 1362              	.L59:
  288:app/Src/main.c **** 				  	status = 1;
- 1307              		.loc 1 288 5 is_stmt 1 view .LVU352
+ 1363              		.loc 1 288 5 is_stmt 1 view .LVU360
  288:app/Src/main.c **** 				  	status = 1;
- 1308              		.loc 1 288 21 is_stmt 0 view .LVU353
- 1309 0038 104B     		ldr	r3, .L64+8
- 1310 003a 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 1311 003c DBB2     		uxtb	r3, r3
+ 1364              		.loc 1 288 21 is_stmt 0 view .LVU361
+ 1365 0038 104B     		ldr	r3, .L64+8
+ 1366 003a 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 1367 003c DBB2     		uxtb	r3, r3
  288:app/Src/main.c **** 				  	status = 1;
- 1312              		.loc 1 288 7 view .LVU354
- 1313 003e 0A2B     		cmp	r3, #10
- 1314 0040 F4D1     		bne	.L61
+ 1368              		.loc 1 288 7 view .LVU362
+ 1369 003e 0A2B     		cmp	r3, #10
+ 1370 0040 F4D1     		bne	.L61
  289:app/Src/main.c **** 			}break;
- 1315              		.loc 1 289 8 is_stmt 1 view .LVU355
+ 1371              		.loc 1 289 8 is_stmt 1 view .LVU363
  289:app/Src/main.c **** 			}break;
- 1316              		.loc 1 289 15 is_stmt 0 view .LVU356
- 1317 0042 0F4B     		ldr	r3, .L64+12
- 1318 0044 0122     		movs	r2, #1
- 1319 0046 1A70     		strb	r2, [r3]
- 1320 0048 F0E7     		b	.L61
- 1321              	.L60:
+ 1372              		.loc 1 289 15 is_stmt 0 view .LVU364
+ 1373 0042 0F4B     		ldr	r3, .L64+12
+ 1374 0044 0122     		movs	r2, #1
+ 1375 0046 1A70     		strb	r2, [r3]
+ 1376 0048 F0E7     		b	.L61
+ 1377              	.L60:
  293:app/Src/main.c **** 				if(current_data == 0x0D)
- 1322              		.loc 1 293 5 is_stmt 1 view .LVU357
+ 1378              		.loc 1 293 5 is_stmt 1 view .LVU365
  293:app/Src/main.c **** 				if(current_data == 0x0D)
- 1323              		.loc 1 293 12 is_stmt 0 view .LVU358
- 1324 004a 0D4B     		ldr	r3, .L64+12
- 1325 004c 0022     		movs	r2, #0
- 1326 004e 1A70     		strb	r2, [r3]
+ 1379              		.loc 1 293 12 is_stmt 0 view .LVU366
+ 1380 004a 0D4B     		ldr	r3, .L64+12
+ 1381 004c 0022     		movs	r2, #0
+ 1382 004e 1A70     		strb	r2, [r3]
  294:app/Src/main.c **** 				{
- 1327              		.loc 1 294 5 is_stmt 1 view .LVU359
+ 1383              		.loc 1 294 5 is_stmt 1 view .LVU367
  294:app/Src/main.c **** 				{
- 1328              		.loc 1 294 21 is_stmt 0 view .LVU360
- 1329 0050 0A4B     		ldr	r3, .L64+8
- 1330 0052 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
- 1331 0054 DBB2     		uxtb	r3, r3
+ 1384              		.loc 1 294 21 is_stmt 0 view .LVU368
+ 1385 0050 0A4B     		ldr	r3, .L64+8
+ 1386 0052 1B78     		ldrb	r3, [r3]	@ zero_extendqisi2
+ 1387 0054 DBB2     		uxtb	r3, r3
  294:app/Src/main.c **** 				{
- 1332              		.loc 1 294 7 view .LVU361
- 1333 0056 0D2B     		cmp	r3, #13
- 1334 0058 E8D1     		bne	.L61
+ 1388              		.loc 1 294 7 view .LVU369
+ 1389 0056 0D2B     		cmp	r3, #13
+ 1390 0058 E8D1     		bne	.L61
  296:app/Src/main.c **** 					uart1_data->is_rec = 1;
- 1335              		.loc 1 296 6 is_stmt 1 view .LVU362
+ 1391              		.loc 1 296 6 is_stmt 1 view .LVU370
  296:app/Src/main.c **** 					uart1_data->is_rec = 1;
- 1336              		.loc 1 296 16 is_stmt 0 view .LVU363
- 1337 005a 0749     		ldr	r1, .L64+4
- 1338 005c 0B68     		ldr	r3, [r1]
+ 1392              		.loc 1 296 16 is_stmt 0 view .LVU371
+ 1393 005a 0749     		ldr	r1, .L64+4
+ 1394 005c 0B68     		ldr	r3, [r1]
  296:app/Src/main.c **** 					uart1_data->is_rec = 1;
- 1339              		.loc 1 296 35 view .LVU364
- 1340 005e 5A78     		ldrb	r2, [r3, #1]	@ zero_extendqisi2
+ 1395              		.loc 1 296 35 view .LVU372
+ 1396 005e 5A78     		ldrb	r2, [r3, #1]	@ zero_extendqisi2
  296:app/Src/main.c **** 					uart1_data->is_rec = 1;
- 1341              		.loc 1 296 41 view .LVU365
- 1342 0060 0132     		adds	r2, r2, #1
+ 1397              		.loc 1 296 41 view .LVU373
+ 1398 0060 0132     		adds	r2, r2, #1
  296:app/Src/main.c **** 					uart1_data->is_rec = 1;
- 1343              		.loc 1 296 46 view .LVU366
- 1344 0062 1344     		add	r3, r3, r2
- 1345 0064 0022     		movs	r2, #0
- 1346 0066 9A70     		strb	r2, [r3, #2]
- 297:app/Src/main.c ****           cur_mode = SynMode;
-ARM GAS  /tmp/cccngOsp.s 			page 48
+ARM GAS  /tmp/ccv7mc5q.s 			page 49
 
 
- 1347              		.loc 1 297 6 is_stmt 1 view .LVU367
+ 1399              		.loc 1 296 46 view .LVU374
+ 1400 0062 1344     		add	r3, r3, r2
+ 1401 0064 0022     		movs	r2, #0
+ 1402 0066 9A70     		strb	r2, [r3, #2]
  297:app/Src/main.c ****           cur_mode = SynMode;
- 1348              		.loc 1 297 16 is_stmt 0 view .LVU368
- 1349 0068 0A68     		ldr	r2, [r1]
+ 1403              		.loc 1 297 6 is_stmt 1 view .LVU375
  297:app/Src/main.c ****           cur_mode = SynMode;
- 1350              		.loc 1 297 25 view .LVU369
- 1351 006a 0123     		movs	r3, #1
- 1352 006c 1370     		strb	r3, [r2]
+ 1404              		.loc 1 297 16 is_stmt 0 view .LVU376
+ 1405 0068 0A68     		ldr	r2, [r1]
+ 297:app/Src/main.c ****           cur_mode = SynMode;
+ 1406              		.loc 1 297 25 view .LVU377
+ 1407 006a 0123     		movs	r3, #1
+ 1408 006c 1370     		strb	r3, [r2]
  298:app/Src/main.c **** 				}
- 1353              		.loc 1 298 11 is_stmt 1 view .LVU370
+ 1409              		.loc 1 298 11 is_stmt 1 view .LVU378
  298:app/Src/main.c **** 				}
- 1354              		.loc 1 298 20 is_stmt 0 view .LVU371
- 1355 006e 064A     		ldr	r2, .L64+20
- 1356 0070 1370     		strb	r3, [r2]
- 1357 0072 DBE7     		b	.L61
- 1358              	.L65:
- 1359              		.align	2
- 1360              	.L64:
- 1361 0074 00380140 		.word	1073821696
- 1362 0078 00000000 		.word	uart1_data
- 1363 007c 00000000 		.word	current_data
- 1364 0080 00000000 		.word	.LANCHOR3
- 1365 0084 00000000 		.word	huart1
- 1366 0088 00000000 		.word	cur_mode
- 1367              		.cfi_endproc
- 1368              	.LFE406:
- 1370              		.section	.text.Error_Handler,"ax",%progbits
- 1371              		.align	1
- 1372              		.global	Error_Handler
- 1373              		.syntax unified
- 1374              		.thumb
- 1375              		.thumb_func
- 1376              		.fpu softvfp
- 1378              	Error_Handler:
- 1379              	.LFB407:
+ 1410              		.loc 1 298 20 is_stmt 0 view .LVU379
+ 1411 006e 064A     		ldr	r2, .L64+20
+ 1412 0070 1370     		strb	r3, [r2]
+ 1413 0072 DBE7     		b	.L61
+ 1414              	.L65:
+ 1415              		.align	2
+ 1416              	.L64:
+ 1417 0074 00380140 		.word	1073821696
+ 1418 0078 00000000 		.word	uart1_data
+ 1419 007c 00000000 		.word	current_data
+ 1420 0080 00000000 		.word	.LANCHOR3
+ 1421 0084 00000000 		.word	huart1
+ 1422 0088 00000000 		.word	cur_mode
+ 1423              		.cfi_endproc
+ 1424              	.LFE406:
+ 1426              		.section	.text.Error_Handler,"ax",%progbits
+ 1427              		.align	1
+ 1428              		.global	Error_Handler
+ 1429              		.syntax unified
+ 1430              		.thumb
+ 1431              		.thumb_func
+ 1432              		.fpu softvfp
+ 1434              	Error_Handler:
+ 1435              	.LFB407:
  305:app/Src/main.c **** 
  306:app/Src/main.c **** 
  307:app/Src/main.c **** // void HAL_RTCEx_RTCEventCallback(RTC_HandleTypeDef *hrtc)
@@ -2873,148 +2938,148 @@ ARM GAS  /tmp/cccngOsp.s 			page 1
  319:app/Src/main.c **** 
  320:app/Src/main.c **** 
  321:app/Src/main.c **** 
+ARM GAS  /tmp/ccv7mc5q.s 			page 50
+
+
  322:app/Src/main.c **** void Error_Handler(void)
  323:app/Src/main.c **** {
- 1380              		.loc 1 323 1 is_stmt 1 view -0
- 1381              		.cfi_startproc
- 1382              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/cccngOsp.s 			page 49
-
-
- 1383              		@ frame_needed = 0, uses_anonymous_args = 0
- 1384              		@ link register save eliminated.
+ 1436              		.loc 1 323 1 is_stmt 1 view -0
+ 1437              		.cfi_startproc
+ 1438              		@ args = 0, pretend = 0, frame = 0
+ 1439              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1440              		@ link register save eliminated.
  324:app/Src/main.c ****   /* USER CODE BEGIN Error_Handler_Debug */
  325:app/Src/main.c ****   /* User can add his own implementation to report the HAL error return state */
  326:app/Src/main.c **** 
  327:app/Src/main.c ****   /* USER CODE END Error_Handler_Debug */
  328:app/Src/main.c **** }
- 1385              		.loc 1 328 1 view .LVU373
- 1386 0000 7047     		bx	lr
- 1387              		.cfi_endproc
- 1388              	.LFE407:
- 1390              		.global	ZL_Set_Time
- 1391              		.comm	cur_mode,1,1
- 1392              		.comm	current_data,1,1
- 1393              		.comm	time_data,4,4
- 1394              		.comm	uart1_data,4,4
- 1395              		.section	.rodata
- 1396              		.align	2
- 1397              		.set	.LANCHOR1,. + 0
- 1398              	.LC6:
- 1399 0000 25303264 		.ascii	"%02d:%02d:%02d\000\000"
- 1399      3A253032 
- 1399      643A2530 
- 1399      32640000 
- 1400              	.LC7:
- 1401 0010 20253032 		.ascii	" %02d/%02d %s\000\000"
- 1401      642F2530 
- 1401      32642025 
- 1401      730000
- 1402 001f 00       		.space	1
- 1403              	.LC8:
- 1404 0020 53796E63 		.ascii	"Syncing\000\000"
- 1404      696E6700 
- 1404      00
- 1405 0029 000000   		.space	3
- 1406              	.LC9:
- 1407 002c 2E2E2E2E 		.ascii	"......\000\000"
- 1407      2E2E0000 
- 1408              		.section	.bss.row.9337,"aw",%nobits
- 1409              		.set	.LANCHOR2,. + 0
- 1412              	row.9337:
- 1413 0000 00       		.space	1
- 1414              		.section	.bss.status,"aw",%nobits
- 1415              		.set	.LANCHOR3,. + 0
- 1418              	status:
- 1419 0000 00       		.space	1
- 1420              		.section	.data.ZL_Set_Time,"aw"
- 1421              		.align	2
- 1422              		.set	.LANCHOR0,. + 0
- 1425              	ZL_Set_Time:
- 1426 0000 1E       		.byte	30
- 1427 0001 1E       		.byte	30
- 1428 0002 04       		.byte	4
- 1429 0003 06       		.byte	6
- 1430 0004 1D       		.byte	29
- 1431 0005 06       		.byte	6
- 1432 0006 13       		.byte	19
-ARM GAS  /tmp/cccngOsp.s 			page 50
+ 1441              		.loc 1 328 1 view .LVU381
+ 1442 0000 7047     		bx	lr
+ 1443              		.cfi_endproc
+ 1444              	.LFE407:
+ 1446              		.global	ZL_Set_Time
+ 1447              		.comm	cur_mode,1,1
+ 1448              		.comm	current_data,1,1
+ 1449              		.comm	time_data,4,4
+ 1450              		.comm	uart1_data,4,4
+ 1451              		.section	.rodata
+ 1452              		.align	2
+ 1453              		.set	.LANCHOR1,. + 0
+ 1454              	.LC8:
+ 1455 0000 25303264 		.ascii	"%02d:%02d:%02d\000\000"
+ 1455      3A253032 
+ 1455      643A2530 
+ 1455      32640000 
+ 1456              	.LC9:
+ 1457 0010 20253032 		.ascii	" %02d/%02d %s\000\000"
+ 1457      642F2530 
+ 1457      32642025 
+ 1457      730000
+ 1458 001f 00       		.space	1
+ 1459              	.LC10:
+ 1460 0020 53796E63 		.ascii	"Syncing\000\000"
+ 1460      696E6700 
+ 1460      00
+ 1461 0029 000000   		.space	3
+ 1462              	.LC11:
+ 1463 002c 2E2E2E2E 		.ascii	"......\000\000"
+ 1463      2E2E0000 
+ 1464              		.section	.bss.row.9339,"aw",%nobits
+ 1465              		.set	.LANCHOR2,. + 0
+ 1468              	row.9339:
+ 1469 0000 00       		.space	1
+ 1470              		.section	.bss.status,"aw",%nobits
+ 1471              		.set	.LANCHOR3,. + 0
+ 1474              	status:
+ 1475 0000 00       		.space	1
+ 1476              		.section	.data.ZL_Set_Time,"aw"
+ 1477              		.align	2
+ 1478              		.set	.LANCHOR0,. + 0
+ 1481              	ZL_Set_Time:
+ 1482 0000 1E       		.byte	30
+ 1483 0001 1E       		.byte	30
+ARM GAS  /tmp/ccv7mc5q.s 			page 51
 
 
- 1433 0007 00000000 		.space	5
- 1433      00
- 1434              		.text
- 1435              	.Letext0:
- 1436              		.file 3 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_de
- 1437              		.file 4 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_stdint
- 1438              		.file 5 "Drivers/CMSIS/Include/core_cm3.h"
- 1439              		.file 6 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h"
- 1440              		.file 7 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"
- 1441              		.file 8 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/inclu
- 1442              		.file 9 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_types.
- 1443              		.file 10 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.
- 1444              		.file 11 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/lock.h
- 1445              		.file 12 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h"
- 1446              		.file 13 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h"
- 1447              		.file 14 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h"
- 1448              		.file 15 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
- 1449              		.file 16 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h"
- 1450              		.file 17 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h"
- 1451              		.file 18 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h"
- 1452              		.file 19 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h"
- 1453              		.file 20 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
- 1454              		.file 21 "app/Inc/main.h"
- 1455              		.file 22 "component/timer/tim.h"
- 1456              		.file 23 "component/uart/usart.h"
- 1457              		.file 24 "component/rtc/rtc.h"
- 1458              		.file 25 "component/lcd/lcd.h"
- 1459              		.file 26 "component/cJSON/cJSON.h"
- 1460              		.file 27 "component/iwdg/iwdg.h"
- 1461              		.file 28 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdlib.h"
- 1462              		.file 29 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h"
- 1463              		.file 30 "component/gpio/gpio.h"
- 1464              		.file 31 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdio.h"
- 1465              		.file 32 "<built-in>"
-ARM GAS  /tmp/cccngOsp.s 			page 51
+ 1484 0002 04       		.byte	4
+ 1485 0003 06       		.byte	6
+ 1486 0004 1D       		.byte	29
+ 1487 0005 06       		.byte	6
+ 1488 0006 13       		.byte	19
+ 1489 0007 00000000 		.space	5
+ 1489      00
+ 1490              		.text
+ 1491              	.Letext0:
+ 1492              		.file 3 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/machine/_de
+ 1493              		.file 4 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_stdint
+ 1494              		.file 5 "Drivers/CMSIS/Include/core_cm3.h"
+ 1495              		.file 6 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h"
+ 1496              		.file 7 "Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h"
+ 1497              		.file 8 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/inclu
+ 1498              		.file 9 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/_types.
+ 1499              		.file 10 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/reent.
+ 1500              		.file 11 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/lock.h
+ 1501              		.file 12 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h"
+ 1502              		.file 13 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h"
+ 1503              		.file 14 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h"
+ 1504              		.file 15 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h"
+ 1505              		.file 16 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h"
+ 1506              		.file 17 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h"
+ 1507              		.file 18 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h"
+ 1508              		.file 19 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h"
+ 1509              		.file 20 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h"
+ 1510              		.file 21 "app/Inc/main.h"
+ 1511              		.file 22 "component/timer/tim.h"
+ 1512              		.file 23 "component/uart/usart.h"
+ 1513              		.file 24 "component/rtc/rtc.h"
+ 1514              		.file 25 "component/lcd/lcd.h"
+ 1515              		.file 26 "component/cJSON/cJSON.h"
+ 1516              		.file 27 "component/iwdg/iwdg.h"
+ 1517              		.file 28 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdlib.h"
+ 1518              		.file 29 "Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h"
+ 1519              		.file 30 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdio.h"
+ 1520              		.file 31 "component/gpio/gpio.h"
+ 1521              		.file 32 "<built-in>"
+ARM GAS  /tmp/ccv7mc5q.s 			page 52
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.c
-     /tmp/cccngOsp.s:16     .text.SystemClock_Config:0000000000000000 $t
-     /tmp/cccngOsp.s:23     .text.SystemClock_Config:0000000000000000 SystemClock_Config
-     /tmp/cccngOsp.s:139    .text.put_to_screen:0000000000000000 $t
-     /tmp/cccngOsp.s:146    .text.put_to_screen:0000000000000000 put_to_screen
-     /tmp/cccngOsp.s:197    .text.StrToInt:0000000000000000 $t
-     /tmp/cccngOsp.s:204    .text.StrToInt:0000000000000000 StrToInt
-     /tmp/cccngOsp.s:267    .rodata.decode_time.str1.4:0000000000000000 $d
-     /tmp/cccngOsp.s:286    .text.decode_time:0000000000000000 $t
-     /tmp/cccngOsp.s:293    .text.decode_time:0000000000000000 decode_time
-     /tmp/cccngOsp.s:449    .text.decode_time:0000000000000094 $d
-     /tmp/cccngOsp.s:459    .text.main:0000000000000000 $t
-     /tmp/cccngOsp.s:466    .text.main:0000000000000000 main
-     /tmp/cccngOsp.s:676    .text.main:000000000000012c $d
+     /tmp/ccv7mc5q.s:16     .text.SystemClock_Config:0000000000000000 $t
+     /tmp/ccv7mc5q.s:23     .text.SystemClock_Config:0000000000000000 SystemClock_Config
+     /tmp/ccv7mc5q.s:139    .text.put_to_screen:0000000000000000 $t
+     /tmp/ccv7mc5q.s:146    .text.put_to_screen:0000000000000000 put_to_screen
+     /tmp/ccv7mc5q.s:197    .text.StrToInt:0000000000000000 $t
+     /tmp/ccv7mc5q.s:204    .text.StrToInt:0000000000000000 StrToInt
+     /tmp/ccv7mc5q.s:267    .rodata.decode_time.str1.4:0000000000000000 $d
+     /tmp/ccv7mc5q.s:292    .text.decode_time:0000000000000000 $t
+     /tmp/ccv7mc5q.s:299    .text.decode_time:0000000000000000 decode_time
+     /tmp/ccv7mc5q.s:503    .text.decode_time:00000000000000d4 $d
+     /tmp/ccv7mc5q.s:515    .text.main:0000000000000000 $t
+     /tmp/ccv7mc5q.s:522    .text.main:0000000000000000 main
+     /tmp/ccv7mc5q.s:732    .text.main:000000000000012c $d
                             *COM*:0000000000000001 cur_mode
                             *COM*:0000000000000004 uart1_data
                             *COM*:0000000000000004 time_data
                             *COM*:0000000000000001 current_data
-     /tmp/cccngOsp.s:690    .text.print_syn_msg:0000000000000000 $t
-     /tmp/cccngOsp.s:697    .text.print_syn_msg:0000000000000000 print_syn_msg
-     /tmp/cccngOsp.s:757    .text.print_syn_msg:0000000000000048 $d
-     /tmp/cccngOsp.s:762    .text.HAL_TIM_PeriodElapsedCallback:0000000000000000 $t
-     /tmp/cccngOsp.s:769    .text.HAL_TIM_PeriodElapsedCallback:0000000000000000 HAL_TIM_PeriodElapsedCallback
-     /tmp/cccngOsp.s:1230   .text.HAL_TIM_PeriodElapsedCallback:000000000000011c $d
-     /tmp/cccngOsp.s:1239   .text.HAL_UART_RxCpltCallback:0000000000000000 $t
-     /tmp/cccngOsp.s:1246   .text.HAL_UART_RxCpltCallback:0000000000000000 HAL_UART_RxCpltCallback
-     /tmp/cccngOsp.s:1361   .text.HAL_UART_RxCpltCallback:0000000000000074 $d
-     /tmp/cccngOsp.s:1371   .text.Error_Handler:0000000000000000 $t
-     /tmp/cccngOsp.s:1378   .text.Error_Handler:0000000000000000 Error_Handler
-     /tmp/cccngOsp.s:1425   .data.ZL_Set_Time:0000000000000000 ZL_Set_Time
-     /tmp/cccngOsp.s:1396   .rodata:0000000000000000 $d
-     /tmp/cccngOsp.s:1412   .bss.row.9337:0000000000000000 row.9337
-     /tmp/cccngOsp.s:1413   .bss.row.9337:0000000000000000 $d
-     /tmp/cccngOsp.s:1418   .bss.status:0000000000000000 status
-     /tmp/cccngOsp.s:1419   .bss.status:0000000000000000 $d
-     /tmp/cccngOsp.s:1421   .data.ZL_Set_Time:0000000000000000 $d
+     /tmp/ccv7mc5q.s:746    .text.print_syn_msg:0000000000000000 $t
+     /tmp/ccv7mc5q.s:753    .text.print_syn_msg:0000000000000000 print_syn_msg
+     /tmp/ccv7mc5q.s:813    .text.print_syn_msg:0000000000000048 $d
+     /tmp/ccv7mc5q.s:818    .text.HAL_TIM_PeriodElapsedCallback:0000000000000000 $t
+     /tmp/ccv7mc5q.s:825    .text.HAL_TIM_PeriodElapsedCallback:0000000000000000 HAL_TIM_PeriodElapsedCallback
+     /tmp/ccv7mc5q.s:1286   .text.HAL_TIM_PeriodElapsedCallback:000000000000011c $d
+     /tmp/ccv7mc5q.s:1295   .text.HAL_UART_RxCpltCallback:0000000000000000 $t
+     /tmp/ccv7mc5q.s:1302   .text.HAL_UART_RxCpltCallback:0000000000000000 HAL_UART_RxCpltCallback
+     /tmp/ccv7mc5q.s:1417   .text.HAL_UART_RxCpltCallback:0000000000000074 $d
+     /tmp/ccv7mc5q.s:1427   .text.Error_Handler:0000000000000000 $t
+     /tmp/ccv7mc5q.s:1434   .text.Error_Handler:0000000000000000 Error_Handler
+     /tmp/ccv7mc5q.s:1481   .data.ZL_Set_Time:0000000000000000 ZL_Set_Time
+     /tmp/ccv7mc5q.s:1452   .rodata:0000000000000000 $d
+     /tmp/ccv7mc5q.s:1468   .bss.row.9339:0000000000000000 row.9339
+     /tmp/ccv7mc5q.s:1469   .bss.row.9339:0000000000000000 $d
+     /tmp/ccv7mc5q.s:1474   .bss.status:0000000000000000 status
+     /tmp/ccv7mc5q.s:1475   .bss.status:0000000000000000 $d
+     /tmp/ccv7mc5q.s:1477   .data.ZL_Set_Time:0000000000000000 $d
 
 UNDEFINED SYMBOLS
 HAL_RCC_OscConfig
@@ -3022,6 +3087,8 @@ HAL_RCC_ClockConfig
 HAL_RCCEx_PeriphCLKConfig
 cJSON_Parse
 cJSON_GetObjectItem
+sprintf
+LedMatrix_ShowString
 cJSON_Delete
 memset
 malloc
@@ -3033,14 +3100,12 @@ MX_USART1_UART_Init
 LedMatrixInit
 HAL_TIM_Base_Start_IT
 ZL_RTC_Init
+ARM GAS  /tmp/ccv7mc5q.s 			page 53
+
+
 HAL_UART_Receive_IT
 HAL_Delay
-ARM GAS  /tmp/cccngOsp.s 			page 52
-
-
 ZL_RTC_GetTime
-sprintf
-LedMatrix_ShowString
 get_eng_week
 HAL_IWDG_Refresh
 HAL_TIM_Base_Stop_IT

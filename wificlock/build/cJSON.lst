@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc8c3D5j.s 			page 1
+ARM GAS  /tmp/cczDZRLi.s 			page 1
 
 
    1              		.cpu cortex-m3
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
   30:component/cJSON/cJSON.c **** 
   31:component/cJSON/cJSON.c **** #ifdef __GNUC__
   32:component/cJSON/cJSON.c **** #pragma GCC visibility push(default)
-ARM GAS  /tmp/cc8c3D5j.s 			page 2
+ARM GAS  /tmp/cczDZRLi.s 			page 2
 
 
   33:component/cJSON/cJSON.c **** #endif
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
   87:component/cJSON/cJSON.c ****     return item->valuestring;
   88:component/cJSON/cJSON.c **** }
   89:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 3
+ARM GAS  /tmp/cczDZRLi.s 			page 3
 
 
   90:component/cJSON/cJSON.c **** /* This is a safeguard to prevent copy-pasters from using incompatible C and header files */
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  114:component/cJSON/cJSON.c ****     }
  115:component/cJSON/cJSON.c **** 
  116:component/cJSON/cJSON.c ****     for(; tolower(*string1) == tolower(*string2); (void)string1++, string2++)
-ARM GAS  /tmp/cc8c3D5j.s 			page 4
+ARM GAS  /tmp/cczDZRLi.s 			page 4
 
 
   56              		.loc 1 116 11 discriminator 2 view .LVU9
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
   99 0036 03F00303 		and	r3, r3, #3
  100 003a 012B     		cmp	r3, #1
  101 003c EBD1     		bne	.L7
-ARM GAS  /tmp/cc8c3D5j.s 			page 5
+ARM GAS  /tmp/cczDZRLi.s 			page 5
 
 
  116:component/cJSON/cJSON.c ****     {
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  144              	.LVL15:
  108:component/cJSON/cJSON.c ****     }
  145              		.loc 1 108 16 view .LVU37
-ARM GAS  /tmp/cc8c3D5j.s 			page 6
+ARM GAS  /tmp/cczDZRLi.s 			page 6
 
 
  146 004e F9E7     		b	.L1
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  159:component/cJSON/cJSON.c **** static unsigned char* cJSON_strdup(const unsigned char* string, const internal_hooks * const hooks)
  160:component/cJSON/cJSON.c **** {
  161:component/cJSON/cJSON.c ****     size_t length = 0;
-ARM GAS  /tmp/cc8c3D5j.s 			page 7
+ARM GAS  /tmp/cczDZRLi.s 			page 7
 
 
  162:component/cJSON/cJSON.c ****     unsigned char *copy = NULL;
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  216:component/cJSON/cJSON.c ****     {
  217:component/cJSON/cJSON.c ****         memset(node, '\0', sizeof(cJSON));
  218:component/cJSON/cJSON.c ****     }
-ARM GAS  /tmp/cc8c3D5j.s 			page 8
+ARM GAS  /tmp/cczDZRLi.s 			page 8
 
 
  219:component/cJSON/cJSON.c **** 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  185              		.fpu softvfp
  187              	parse_hex4:
  188              	.LVL17:
-ARM GAS  /tmp/cc8c3D5j.s 			page 9
+ARM GAS  /tmp/cczDZRLi.s 			page 9
 
 
  189              	.LFB17:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  310:component/cJSON/cJSON.c ****                 number_c_string[i] = buffer_at_offset(input_buffer)[i];
  311:component/cJSON/cJSON.c ****                 break;
  312:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 10
+ARM GAS  /tmp/cczDZRLi.s 			page 10
 
 
  313:component/cJSON/cJSON.c ****             case '.':
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  367:component/cJSON/cJSON.c **** 
  368:component/cJSON/cJSON.c ****     return object->valuedouble = number;
  369:component/cJSON/cJSON.c **** }
-ARM GAS  /tmp/cc8c3D5j.s 			page 11
+ARM GAS  /tmp/cczDZRLi.s 			page 11
 
 
  370:component/cJSON/cJSON.c **** 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  424:component/cJSON/cJSON.c ****         {
  425:component/cJSON/cJSON.c ****             return NULL;
  426:component/cJSON/cJSON.c ****         }
-ARM GAS  /tmp/cc8c3D5j.s 			page 12
+ARM GAS  /tmp/cczDZRLi.s 			page 12
 
 
  427:component/cJSON/cJSON.c ****     }
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  481:component/cJSON/cJSON.c **** }
  482:component/cJSON/cJSON.c **** 
  483:component/cJSON/cJSON.c **** /* Render the number nicely from the given item into a string. */
-ARM GAS  /tmp/cc8c3D5j.s 			page 13
+ARM GAS  /tmp/cczDZRLi.s 			page 13
 
 
  484:component/cJSON/cJSON.c **** static cJSON_bool print_number(const cJSON * const item, printbuffer * const output_buffer)
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  538:component/cJSON/cJSON.c ****         }
  539:component/cJSON/cJSON.c **** 
  540:component/cJSON/cJSON.c ****         output_pointer[i] = number_buffer[i];
-ARM GAS  /tmp/cc8c3D5j.s 			page 14
+ARM GAS  /tmp/cczDZRLi.s 			page 14
 
 
  541:component/cJSON/cJSON.c ****     }
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  563:component/cJSON/cJSON.c ****         {
  564:component/cJSON/cJSON.c ****             h += (unsigned int) 10 + input[i] - 'A';
  221              		.loc 1 564 13 is_stmt 1 view .LVU53
-ARM GAS  /tmp/cc8c3D5j.s 			page 15
+ARM GAS  /tmp/cczDZRLi.s 			page 15
 
 
  222              		.loc 1 564 15 is_stmt 0 view .LVU54
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  254 002c 092A     		cmp	r2, #9
  255 002e ECD8     		bhi	.L24
  560:component/cJSON/cJSON.c ****         }
-ARM GAS  /tmp/cc8c3D5j.s 			page 16
+ARM GAS  /tmp/cczDZRLi.s 			page 16
 
 
  256              		.loc 1 560 13 is_stmt 1 view .LVU68
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  294 004a 7047     		bx	lr
  295              		.cfi_endproc
  296              	.LFE17:
-ARM GAS  /tmp/cc8c3D5j.s 			page 17
+ARM GAS  /tmp/cczDZRLi.s 			page 17
 
 
  298              		.section	.text.utf16_literal_to_utf8,"ax",%progbits
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  598:component/cJSON/cJSON.c ****     {
  599:component/cJSON/cJSON.c ****         /* input ends unexpectedly */
  600:component/cJSON/cJSON.c ****         goto fail;
-ARM GAS  /tmp/cc8c3D5j.s 			page 18
+ARM GAS  /tmp/cczDZRLi.s 			page 18
 
 
  601:component/cJSON/cJSON.c ****     }
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  374 0030 4FDD     		ble	.L43
  620:component/cJSON/cJSON.c ****         {
  621:component/cJSON/cJSON.c ****             /* input ends unexpectedly */
-ARM GAS  /tmp/cc8c3D5j.s 			page 19
+ARM GAS  /tmp/cczDZRLi.s 			page 19
 
 
  622:component/cJSON/cJSON.c ****             goto fail;
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  408 005a 2043     		orrs	r0, r0, r4
  409              		.loc 1 642 19 view .LVU126
  410 005c 00F58034 		add	r4, r0, #65536
-ARM GAS  /tmp/cc8c3D5j.s 			page 20
+ARM GAS  /tmp/cczDZRLi.s 			page 20
 
 
  411              	.LVL42:
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  436 0076 B4F5881F 		cmp	r4, #1114112
  437 007a 32D2     		bcs	.L50
  671:component/cJSON/cJSON.c ****     {
-ARM GAS  /tmp/cc8c3D5j.s 			page 21
+ARM GAS  /tmp/cczDZRLi.s 			page 21
 
 
  672:component/cJSON/cJSON.c ****         /* four bytes, encoding 1110xxxx 10xxxxxx 10xxxxxx 10xxxxxx */
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  472 0092 E027     		movs	r7, #224
  667:component/cJSON/cJSON.c ****         first_byte_mark = 0xE0; /* 11100000 */
  473              		.loc 1 667 21 view .LVU149
-ARM GAS  /tmp/cc8c3D5j.s 			page 22
+ARM GAS  /tmp/cczDZRLi.s 			page 22
 
 
  474 0094 0326     		movs	r6, #3
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  513              		.loc 1 692 32 view .LVU167
  514 00b4 3C43     		orrs	r4, r4, r7
  515              	.LVL58:
-ARM GAS  /tmp/cc8c3D5j.s 			page 23
+ARM GAS  /tmp/cczDZRLi.s 			page 23
 
 
  516              		.loc 1 692 30 view .LVU168
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  704:component/cJSON/cJSON.c **** }
  552              		.loc 1 704 12 view .LVU180
  553 00d0 FCE7     		b	.L33
-ARM GAS  /tmp/cc8c3D5j.s 			page 24
+ARM GAS  /tmp/cczDZRLi.s 			page 24
 
 
  554              	.LVL66:
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  599              		.thumb
  600              		.thumb_func
  601              		.fpu softvfp
-ARM GAS  /tmp/cc8c3D5j.s 			page 25
+ARM GAS  /tmp/cczDZRLi.s 			page 25
 
 
  603              	parse_string:
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  646              	.LVL80:
  647              		.loc 1 716 39 view .LVU204
  648 0018 03EB020E 		add	lr, r3, r2
-ARM GAS  /tmp/cc8c3D5j.s 			page 26
+ARM GAS  /tmp/cczDZRLi.s 			page 26
 
 
  649 001c 9B5C     		ldrb	r3, [r3, r2]	@ zero_extendqisi2
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  675 0034 2378     		ldrb	r3, [r4]	@ zero_extendqisi2
  725:component/cJSON/cJSON.c ****         while (((size_t)(input_end - input_buffer->content) < input_buffer->length) && (*input_end 
  676              		.loc 1 725 85 discriminator 1 view .LVU215
-ARM GAS  /tmp/cc8c3D5j.s 			page 27
+ARM GAS  /tmp/cczDZRLi.s 			page 27
 
 
  677 0036 222B     		cmp	r3, #34
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  713 005a A0EB0C00 		sub	r0, r0, ip
  714              	.LVL85:
  747:component/cJSON/cJSON.c ****         output = (unsigned char*)input_buffer->hooks.allocate(allocation_length + sizeof(""));
-ARM GAS  /tmp/cc8c3D5j.s 			page 28
+ARM GAS  /tmp/cczDZRLi.s 			page 28
 
 
  715              		.loc 1 747 9 is_stmt 1 view .LVU233
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  753              		.loc 1 758 13 is_stmt 0 view .LVU249
  754 007e 2B78     		ldrb	r3, [r5]	@ zero_extendqisi2
  758:component/cJSON/cJSON.c ****         {
-ARM GAS  /tmp/cc8c3D5j.s 			page 29
+ARM GAS  /tmp/cczDZRLi.s 			page 29
 
 
  755              		.loc 1 758 12 view .LVU250
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  798 00b0 27       		.byte	(.L70-.L67)/2
  799 00b1 44       		.byte	(.L60-.L67)/2
  800 00b2 44       		.byte	(.L60-.L67)/2
-ARM GAS  /tmp/cc8c3D5j.s 			page 30
+ARM GAS  /tmp/cczDZRLi.s 			page 30
 
 
  801 00b3 44       		.byte	(.L60-.L67)/2
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  831 00d2 0192     		str	r2, [sp, #4]
  774:component/cJSON/cJSON.c ****                     break;
  832              		.loc 1 774 39 view .LVU266
-ARM GAS  /tmp/cc8c3D5j.s 			page 31
+ARM GAS  /tmp/cczDZRLi.s 			page 31
 
 
  833 00d4 0822     		movs	r2, #8
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  780:component/cJSON/cJSON.c ****                     break;
  863              		.loc 1 780 36 is_stmt 0 view .LVU279
  864 00ec 019B     		ldr	r3, [sp, #4]
-ARM GAS  /tmp/cc8c3D5j.s 			page 32
+ARM GAS  /tmp/cczDZRLi.s 			page 32
 
 
  865 00ee 5A1C     		adds	r2, r3, #1
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  903              	.L66:
  796:component/cJSON/cJSON.c ****                     if (sequence_length == 0)
  904              		.loc 1 796 21 is_stmt 1 view .LVU296
-ARM GAS  /tmp/cc8c3D5j.s 			page 33
+ARM GAS  /tmp/cczDZRLi.s 			page 33
 
 
  796:component/cJSON/cJSON.c ****                     if (sequence_length == 0)
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  934 0132 9DB1     		cbz	r5, .L76
  829:component/cJSON/cJSON.c ****     {
  830:component/cJSON/cJSON.c ****         input_buffer->offset = (size_t)(input_pointer - input_buffer->content);
-ARM GAS  /tmp/cc8c3D5j.s 			page 34
+ARM GAS  /tmp/cczDZRLi.s 			page 34
 
 
  935              		.loc 1 830 9 is_stmt 1 view .LVU308
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  974              		.loc 1 818 25 is_stmt 0 view .LVU324
  975 0154 0133     		adds	r3, r3, #1
  976 0156 B360     		str	r3, [r6, #8]
-ARM GAS  /tmp/cc8c3D5j.s 			page 35
+ARM GAS  /tmp/cczDZRLi.s 			page 35
 
 
  820:component/cJSON/cJSON.c **** 
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  866:component/cJSON/cJSON.c ****     {
  867:component/cJSON/cJSON.c ****         switch (*input_pointer)
  868:component/cJSON/cJSON.c ****         {
-ARM GAS  /tmp/cc8c3D5j.s 			page 36
+ARM GAS  /tmp/cczDZRLi.s 			page 36
 
 
  869:component/cJSON/cJSON.c ****             case '\"':
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  923:component/cJSON/cJSON.c ****                 case '\\':
  924:component/cJSON/cJSON.c ****                     *output_pointer = '\\';
  925:component/cJSON/cJSON.c ****                     break;
-ARM GAS  /tmp/cc8c3D5j.s 			page 37
+ARM GAS  /tmp/cczDZRLi.s 			page 37
 
 
  926:component/cJSON/cJSON.c ****                 case '\"':
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  975:component/cJSON/cJSON.c ****     if ((buffer == NULL) || (buffer->content == NULL))
  1004              		.loc 1 975 5 view .LVU329
  1005              		.loc 1 975 8 is_stmt 0 view .LVU330
-ARM GAS  /tmp/cc8c3D5j.s 			page 38
+ARM GAS  /tmp/cczDZRLi.s 			page 38
 
 
  1006 0000 0246     		mov	r2, r0
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1044              	.LVL102:
  1045              	.L88:
  987:component/cJSON/cJSON.c ****     }
-ARM GAS  /tmp/cc8c3D5j.s 			page 39
+ARM GAS  /tmp/cczDZRLi.s 			page 39
 
 
  1046              		.loc 1 987 9 is_stmt 1 view .LVU344
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1021:component/cJSON/cJSON.c ****         goto fail;
 1022:component/cJSON/cJSON.c ****     }
 1023:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 40
+ARM GAS  /tmp/cczDZRLi.s 			page 40
 
 
 1024:component/cJSON/cJSON.c ****     buffer.content = (const unsigned char*)value;
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1078:component/cJSON/cJSON.c ****         if (return_parse_end != NULL)
 1079:component/cJSON/cJSON.c ****         {
 1080:component/cJSON/cJSON.c ****             *return_parse_end = (const char*)local_error.json + local_error.position;
-ARM GAS  /tmp/cc8c3D5j.s 			page 41
+ARM GAS  /tmp/cczDZRLi.s 			page 41
 
 
 1081:component/cJSON/cJSON.c ****         }
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1135:component/cJSON/cJSON.c ****         {
 1136:component/cJSON/cJSON.c ****             goto fail;
 1137:component/cJSON/cJSON.c ****         }
-ARM GAS  /tmp/cc8c3D5j.s 			page 42
+ARM GAS  /tmp/cczDZRLi.s 			page 42
 
 
 1138:component/cJSON/cJSON.c ****         memcpy(printed, buffer->buffer, cjson_min(buffer->length, buffer->offset + 1));
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1192:component/cJSON/cJSON.c **** 
 1193:component/cJSON/cJSON.c ****     if (!print_value(item, &p))
 1194:component/cJSON/cJSON.c ****     {
-ARM GAS  /tmp/cc8c3D5j.s 			page 43
+ARM GAS  /tmp/cczDZRLi.s 			page 43
 
 
 1195:component/cJSON/cJSON.c ****         global_hooks.deallocate(p.buffer);
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1249:component/cJSON/cJSON.c ****         input_buffer->offset += 4;
 1250:component/cJSON/cJSON.c ****         return true;
 1251:component/cJSON/cJSON.c ****     }
-ARM GAS  /tmp/cc8c3D5j.s 			page 44
+ARM GAS  /tmp/cczDZRLi.s 			page 44
 
 
 1252:component/cJSON/cJSON.c ****     /* string */
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1306:component/cJSON/cJSON.c ****         case cJSON_True:
 1307:component/cJSON/cJSON.c ****             output = ensure(output_buffer, 5);
 1308:component/cJSON/cJSON.c ****             if (output == NULL)
-ARM GAS  /tmp/cc8c3D5j.s 			page 45
+ARM GAS  /tmp/cczDZRLi.s 			page 45
 
 
 1309:component/cJSON/cJSON.c ****             {
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1363:component/cJSON/cJSON.c ****     {
 1364:component/cJSON/cJSON.c ****         /* not an array */
 1365:component/cJSON/cJSON.c ****         goto fail;
-ARM GAS  /tmp/cc8c3D5j.s 			page 46
+ARM GAS  /tmp/cczDZRLi.s 			page 46
 
 
 1366:component/cJSON/cJSON.c ****     }
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1420:component/cJSON/cJSON.c ****     if (cannot_access_at_index(input_buffer, 0) || buffer_at_offset(input_buffer)[0] != ']')
 1421:component/cJSON/cJSON.c ****     {
 1422:component/cJSON/cJSON.c ****         goto fail; /* expected end of array */
-ARM GAS  /tmp/cc8c3D5j.s 			page 47
+ARM GAS  /tmp/cczDZRLi.s 			page 47
 
 
 1423:component/cJSON/cJSON.c ****     }
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1477:component/cJSON/cJSON.c ****             length = (size_t) (output_buffer->format ? 2 : 1);
 1478:component/cJSON/cJSON.c ****             output_pointer = ensure(output_buffer, length + 1);
 1479:component/cJSON/cJSON.c ****             if (output_pointer == NULL)
-ARM GAS  /tmp/cc8c3D5j.s 			page 48
+ARM GAS  /tmp/cczDZRLi.s 			page 48
 
 
 1480:component/cJSON/cJSON.c ****             {
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1534:component/cJSON/cJSON.c ****         goto fail;
 1535:component/cJSON/cJSON.c ****     }
 1536:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 49
+ARM GAS  /tmp/cczDZRLi.s 			page 49
 
 
 1537:component/cJSON/cJSON.c ****     /* step back to character in front of the first element */
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1591:component/cJSON/cJSON.c **** 
 1592:component/cJSON/cJSON.c ****     if (cannot_access_at_index(input_buffer, 0) || (buffer_at_offset(input_buffer)[0] != '}'))
 1593:component/cJSON/cJSON.c ****     {
-ARM GAS  /tmp/cc8c3D5j.s 			page 50
+ARM GAS  /tmp/cczDZRLi.s 			page 50
 
 
 1594:component/cJSON/cJSON.c ****         goto fail; /* expected end of object */
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1648:component/cJSON/cJSON.c ****             output_pointer = ensure(output_buffer, output_buffer->depth);
 1649:component/cJSON/cJSON.c ****             if (output_pointer == NULL)
 1650:component/cJSON/cJSON.c ****             {
-ARM GAS  /tmp/cc8c3D5j.s 			page 51
+ARM GAS  /tmp/cczDZRLi.s 			page 51
 
 
 1651:component/cJSON/cJSON.c ****                 return false;
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1705:component/cJSON/cJSON.c **** 
 1706:component/cJSON/cJSON.c ****         current_item = current_item->next;
 1707:component/cJSON/cJSON.c ****     }
-ARM GAS  /tmp/cc8c3D5j.s 			page 52
+ARM GAS  /tmp/cczDZRLi.s 			page 52
 
 
 1708:component/cJSON/cJSON.c **** 
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1756:component/cJSON/cJSON.c **** 
 1757:component/cJSON/cJSON.c ****     if (array == NULL)
  1076              		.loc 1 1757 5 view .LVU350
-ARM GAS  /tmp/cc8c3D5j.s 			page 53
+ARM GAS  /tmp/cczDZRLi.s 			page 53
 
 
  1077              		.loc 1 1757 8 is_stmt 0 view .LVU351
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1772:component/cJSON/cJSON.c **** CJSON_PUBLIC(cJSON *) cJSON_GetArrayItem(const cJSON *array, int index)
 1773:component/cJSON/cJSON.c **** {
 1774:component/cJSON/cJSON.c ****     if (index < 0)
-ARM GAS  /tmp/cc8c3D5j.s 			page 54
+ARM GAS  /tmp/cczDZRLi.s 			page 54
 
 
 1775:component/cJSON/cJSON.c ****     {
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1829:component/cJSON/cJSON.c **** /* Utility for array list handling. */
 1830:component/cJSON/cJSON.c **** static void suffix_object(cJSON *prev, cJSON *item)
 1831:component/cJSON/cJSON.c **** {
-ARM GAS  /tmp/cc8c3D5j.s 			page 55
+ARM GAS  /tmp/cczDZRLi.s 			page 55
 
 
  1119              		.loc 1 1831 1 is_stmt 1 view -0
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1147              		@ args = 0, pretend = 0, frame = 0
  1148              		@ frame_needed = 0, uses_anonymous_args = 0
 1860:component/cJSON/cJSON.c ****     cJSON *child = NULL;
-ARM GAS  /tmp/cc8c3D5j.s 			page 56
+ARM GAS  /tmp/cczDZRLi.s 			page 56
 
 
  1149              		.loc 1 1860 5 view .LVU371
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1181              	.LVL114:
  1182              		.loc 1 1881 9 is_stmt 0 view .LVU384
  1183 0016 FFF7FEFF 		bl	suffix_object
-ARM GAS  /tmp/cc8c3D5j.s 			page 57
+ARM GAS  /tmp/cczDZRLi.s 			page 57
 
 
  1184              	.LVL115:
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1229              	.LVL122:
  1230              	.LFB48:
 1886:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 58
+ARM GAS  /tmp/cczDZRLi.s 			page 58
 
 
 1887:component/cJSON/cJSON.c **** /* Add item to array/object. */
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1922:component/cJSON/cJSON.c ****         new_type = item->type | cJSON_StringIsConst;
 1923:component/cJSON/cJSON.c ****     }
 1924:component/cJSON/cJSON.c ****     else
-ARM GAS  /tmp/cc8c3D5j.s 			page 59
+ARM GAS  /tmp/cczDZRLi.s 			page 59
 
 
 1925:component/cJSON/cJSON.c ****     {
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1979:component/cJSON/cJSON.c ****     cJSON *null = cJSON_CreateNull();
 1980:component/cJSON/cJSON.c ****     if (add_item_to_object(object, name, null, &global_hooks, false))
 1981:component/cJSON/cJSON.c ****     {
-ARM GAS  /tmp/cc8c3D5j.s 			page 60
+ARM GAS  /tmp/cczDZRLi.s 			page 60
 
 
 1982:component/cJSON/cJSON.c ****         return null;
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2036:component/cJSON/cJSON.c **** 
 2037:component/cJSON/cJSON.c **** CJSON_PUBLIC(cJSON*) cJSON_AddStringToObject(cJSON * const object, const char * const name, const c
 2038:component/cJSON/cJSON.c **** {
-ARM GAS  /tmp/cc8c3D5j.s 			page 61
+ARM GAS  /tmp/cczDZRLi.s 			page 61
 
 
 2039:component/cJSON/cJSON.c ****     cJSON *string_item = cJSON_CreateString(string);
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2093:component/cJSON/cJSON.c ****     {
 2094:component/cJSON/cJSON.c ****         /* not the first element */
 2095:component/cJSON/cJSON.c ****         item->prev->next = item->next;
-ARM GAS  /tmp/cc8c3D5j.s 			page 62
+ARM GAS  /tmp/cczDZRLi.s 			page 62
 
 
 2096:component/cJSON/cJSON.c ****     }
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2150:component/cJSON/cJSON.c **** {
 2151:component/cJSON/cJSON.c ****     cJSON_Delete(cJSON_DetachItemFromObjectCaseSensitive(object, string));
 2152:component/cJSON/cJSON.c **** }
-ARM GAS  /tmp/cc8c3D5j.s 			page 63
+ARM GAS  /tmp/cczDZRLi.s 			page 63
 
 
 2153:component/cJSON/cJSON.c **** 
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2207:component/cJSON/cJSON.c ****     if (parent->child == item)
 2208:component/cJSON/cJSON.c ****     {
 2209:component/cJSON/cJSON.c ****         parent->child = replacement;
-ARM GAS  /tmp/cc8c3D5j.s 			page 64
+ARM GAS  /tmp/cczDZRLi.s 			page 64
 
 
 2210:component/cJSON/cJSON.c ****     }
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2264:component/cJSON/cJSON.c ****     {
 2265:component/cJSON/cJSON.c ****         item->type = cJSON_NULL;
 2266:component/cJSON/cJSON.c ****     }
-ARM GAS  /tmp/cc8c3D5j.s 			page 65
+ARM GAS  /tmp/cczDZRLi.s 			page 65
 
 
 2267:component/cJSON/cJSON.c **** 
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2321:component/cJSON/cJSON.c ****         else
 2322:component/cJSON/cJSON.c ****         {
 2323:component/cJSON/cJSON.c ****             item->valueint = (int)num;
-ARM GAS  /tmp/cc8c3D5j.s 			page 66
+ARM GAS  /tmp/cczDZRLi.s 			page 66
 
 
 2324:component/cJSON/cJSON.c ****         }
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2378:component/cJSON/cJSON.c **** }
 2379:component/cJSON/cJSON.c **** 
 2380:component/cJSON/cJSON.c **** CJSON_PUBLIC(cJSON *) cJSON_CreateRaw(const char *raw)
-ARM GAS  /tmp/cc8c3D5j.s 			page 67
+ARM GAS  /tmp/cczDZRLi.s 			page 67
 
 
 2381:component/cJSON/cJSON.c **** {
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2435:component/cJSON/cJSON.c ****         n = cJSON_CreateNumber(numbers[i]);
 2436:component/cJSON/cJSON.c ****         if (!n)
 2437:component/cJSON/cJSON.c ****         {
-ARM GAS  /tmp/cc8c3D5j.s 			page 68
+ARM GAS  /tmp/cczDZRLi.s 			page 68
 
 
 2438:component/cJSON/cJSON.c ****             cJSON_Delete(a);
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2492:component/cJSON/cJSON.c **** {
 2493:component/cJSON/cJSON.c ****     size_t i = 0;
 2494:component/cJSON/cJSON.c ****     cJSON *n = NULL;
-ARM GAS  /tmp/cc8c3D5j.s 			page 69
+ARM GAS  /tmp/cczDZRLi.s 			page 69
 
 
 2495:component/cJSON/cJSON.c ****     cJSON *p = NULL;
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2549:component/cJSON/cJSON.c ****         if(!i)
 2550:component/cJSON/cJSON.c ****         {
 2551:component/cJSON/cJSON.c ****             a->child = n;
-ARM GAS  /tmp/cc8c3D5j.s 			page 70
+ARM GAS  /tmp/cczDZRLi.s 			page 70
 
 
 2552:component/cJSON/cJSON.c ****         }
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2606:component/cJSON/cJSON.c ****     }
 2607:component/cJSON/cJSON.c ****     /* Walk the ->next chain for the child. */
 2608:component/cJSON/cJSON.c ****     child = item->child;
-ARM GAS  /tmp/cc8c3D5j.s 			page 71
+ARM GAS  /tmp/cczDZRLi.s 			page 71
 
 
 2609:component/cJSON/cJSON.c ****     while (child != NULL)
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1267              		.loc 1 2647 20 discriminator 1 view .LVU404
  1268 0008 1A78     		ldrb	r2, [r3]	@ zero_extendqisi2
  1269              		.loc 1 2647 5 discriminator 1 view .LVU405
-ARM GAS  /tmp/cc8c3D5j.s 			page 72
+ARM GAS  /tmp/cczDZRLi.s 			page 72
 
 
  1270 000a 3AB1     		cbz	r2, .L112
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1312              		.loc 1 2660 5 is_stmt 1 view .LVU416
  1313 0006 01E0     		b	.L115
  1314              	.L116:
-ARM GAS  /tmp/cc8c3D5j.s 			page 73
+ARM GAS  /tmp/cczDZRLi.s 			page 73
 
 
  1315              		.loc 1 2660 33 view .LVU417
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1361              		@ link register save eliminated.
 2671:component/cJSON/cJSON.c ****     (*output)[0] = (*input)[0];
  1362              		.loc 1 2671 5 view .LVU431
-ARM GAS  /tmp/cc8c3D5j.s 			page 74
+ARM GAS  /tmp/cczDZRLi.s 			page 74
 
 
  1363              		.loc 1 2671 21 is_stmt 0 view .LVU432
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2676:component/cJSON/cJSON.c ****         (*output)[0] = (*input)[0];
  1404              		.loc 1 2676 42 is_stmt 0 view .LVU450
  1405 002a 0368     		ldr	r3, [r0]
-ARM GAS  /tmp/cc8c3D5j.s 			page 75
+ARM GAS  /tmp/cczDZRLi.s 			page 75
 
 
 2676:component/cJSON/cJSON.c ****         (*output)[0] = (*input)[0];
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1444              		.loc 1 2685 13 is_stmt 1 view .LVU469
  1445              		.loc 1 2685 14 is_stmt 0 view .LVU470
  1446 0052 0A68     		ldr	r2, [r1]
-ARM GAS  /tmp/cc8c3D5j.s 			page 76
+ARM GAS  /tmp/cczDZRLi.s 			page 76
 
 
  1447              		.loc 1 2685 26 view .LVU471
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  474:component/cJSON/cJSON.c ****     {
  1493              		.loc 1 474 36 discriminator 1 view .LVU482
  1494 0006 0068     		ldr	r0, [r0]
-ARM GAS  /tmp/cc8c3D5j.s 			page 77
+ARM GAS  /tmp/cczDZRLi.s 			page 77
 
 
  1495              	.LVL127:
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1541              		@ frame_needed = 0, uses_anonymous_args = 0
  213:component/cJSON/cJSON.c ****     cJSON* node = (cJSON*)hooks->allocate(sizeof(cJSON));
  1542              		.loc 1 213 1 is_stmt 0 view .LVU493
-ARM GAS  /tmp/cc8c3D5j.s 			page 78
+ARM GAS  /tmp/cczDZRLi.s 			page 78
 
 
  1543 0000 10B5     		push	{r4, lr}
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  995:component/cJSON/cJSON.c ****     if ((buffer == NULL) || (buffer->content == NULL) || (buffer->offset != 0))
  1589              		.loc 1 995 1 is_stmt 1 view -0
  1590              		.cfi_startproc
-ARM GAS  /tmp/cc8c3D5j.s 			page 79
+ARM GAS  /tmp/cczDZRLi.s 			page 79
 
 
  1591              		@ args = 0, pretend = 0, frame = 0
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1632              	.LVL139:
  1633              	.L138:
 1007:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 80
+ARM GAS  /tmp/cczDZRLi.s 			page 80
 
 
  1634              		.loc 1 1007 1 view .LVU518
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1684              		.cfi_offset 9, -8
  1685              		.cfi_offset 14, -4
  1686 0004 93B0     		sub	sp, sp, #76
-ARM GAS  /tmp/cc8c3D5j.s 			page 81
+ARM GAS  /tmp/cczDZRLi.s 			page 81
 
 
  1687              	.LCFI17:
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  322:component/cJSON/cJSON.c **** 
  1726              		.loc 1 322 24 view .LVU540
  1727 002c 0022     		movs	r2, #0
-ARM GAS  /tmp/cc8c3D5j.s 			page 82
+ARM GAS  /tmp/cczDZRLi.s 			page 82
 
 
  1728 002e 03F8442C 		strb	r2, [r3, #-68]
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1767              		.loc 1 348 5 is_stmt 1 view .LVU555
  348:component/cJSON/cJSON.c ****     return true;
  1768              		.loc 1 348 48 is_stmt 0 view .LVU556
-ARM GAS  /tmp/cc8c3D5j.s 			page 83
+ARM GAS  /tmp/cczDZRLi.s 			page 83
 
 
  1769 0068 01AB     		add	r3, sp, #4
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1811 0090 8A42     		cmp	r2, r1
  1812 0092 C9D2     		bcs	.L148
  294:component/cJSON/cJSON.c ****         {
-ARM GAS  /tmp/cc8c3D5j.s 			page 84
+ARM GAS  /tmp/cczDZRLi.s 			page 84
 
 
  1813              		.loc 1 294 9 is_stmt 1 view .LVU569
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1862 011e 1A44     		add	r2, r2, r3
  1863 0120 02F8440C 		strb	r0, [r2, #-68]
  315:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 85
+ARM GAS  /tmp/cczDZRLi.s 			page 85
 
 
  1864              		.loc 1 315 17 is_stmt 1 view .LVU575
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1907              	.L161:
  327:component/cJSON/cJSON.c ****     }
  1908              		.loc 1 327 16 view .LVU587
-ARM GAS  /tmp/cc8c3D5j.s 			page 86
+ARM GAS  /tmp/cczDZRLi.s 			page 86
 
 
  1909 0150 0020     		movs	r0, #0
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1955              		.loc 1 393 11 is_stmt 0 view .LVU597
  1956 000c 4368     		ldr	r3, [r0, #4]
  393:component/cJSON/cJSON.c ****     {
-ARM GAS  /tmp/cc8c3D5j.s 			page 87
+ARM GAS  /tmp/cczDZRLi.s 			page 87
 
 
  1957              		.loc 1 393 8 view .LVU598
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  1994 0030 0029     		cmp	r1, #0
  1995 0032 04DB     		blt	.L185
  421:component/cJSON/cJSON.c ****         }
-ARM GAS  /tmp/cc8c3D5j.s 			page 88
+ARM GAS  /tmp/cczDZRLi.s 			page 88
 
 
  1996              		.loc 1 421 21 view .LVU616
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2035              		.loc 1 464 5 is_stmt 1 view .LVU631
  464:component/cJSON/cJSON.c ****     p->buffer = newbuffer;
  2036              		.loc 1 464 15 is_stmt 0 view .LVU632
-ARM GAS  /tmp/cc8c3D5j.s 			page 89
+ARM GAS  /tmp/cczDZRLi.s 			page 89
 
 
  2037 0052 6C60     		str	r4, [r5, #4]
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2074              		.loc 1 449 9 is_stmt 1 view .LVU649
  449:component/cJSON/cJSON.c ****         if (!newbuffer)
  2075              		.loc 1 449 45 is_stmt 0 view .LVU650
-ARM GAS  /tmp/cc8c3D5j.s 			page 90
+ARM GAS  /tmp/cczDZRLi.s 			page 90
 
 
  2076 006c AB69     		ldr	r3, [r5, #24]
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  453:component/cJSON/cJSON.c ****             p->buffer = NULL;
  2115              		.loc 1 453 13 is_stmt 1 view .LVU666
  453:component/cJSON/cJSON.c ****             p->buffer = NULL;
-ARM GAS  /tmp/cc8c3D5j.s 			page 91
+ARM GAS  /tmp/cczDZRLi.s 			page 91
 
 
  2116              		.loc 1 453 23 is_stmt 0 view .LVU667
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2162              		.cfi_def_cfa_offset 16
  2163              		.cfi_offset 4, -16
  2164              		.cfi_offset 5, -12
-ARM GAS  /tmp/cc8c3D5j.s 			page 92
+ARM GAS  /tmp/cczDZRLi.s 			page 92
 
 
  2165              		.cfi_offset 6, -8
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2203 0020 2846     		mov	r0, r5
  2204 0022 70BD     		pop	{r4, r5, r6, pc}
  2205              	.LVL193:
-ARM GAS  /tmp/cc8c3D5j.s 			page 93
+ARM GAS  /tmp/cczDZRLi.s 			page 93
 
 
  2206              	.L190:
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2251              		.loc 1 1919 8 is_stmt 0 view .LVU704
  2252 0012 069B     		ldr	r3, [sp, #24]
  2253              	.LVL195:
-ARM GAS  /tmp/cc8c3D5j.s 			page 94
+ARM GAS  /tmp/cczDZRLi.s 			page 94
 
 
 1919:component/cJSON/cJSON.c ****     {
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1940:component/cJSON/cJSON.c ****     item->type = new_type;
  2292              		.loc 1 1940 5 is_stmt 1 view .LVU721
 1940:component/cJSON/cJSON.c ****     item->type = new_type;
-ARM GAS  /tmp/cc8c3D5j.s 			page 95
+ARM GAS  /tmp/cczDZRLi.s 			page 95
 
 
  2293              		.loc 1 1940 18 is_stmt 0 view .LVU722
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2332              	.LVL210:
  2333              	.L197:
  2334              	.LCFI23:
-ARM GAS  /tmp/cc8c3D5j.s 			page 96
+ARM GAS  /tmp/cczDZRLi.s 			page 96
 
 
  2335              		.cfi_def_cfa_offset 0
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2382              		.thumb
  2383              		.thumb_func
  2384              		.fpu softvfp
-ARM GAS  /tmp/cc8c3D5j.s 			page 97
+ARM GAS  /tmp/cczDZRLi.s 			page 97
 
 
  2386              	create_reference:
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2428 0018 9D68     		ldr	r5, [r3, #8]	@ unaligned
  2429 001a D968     		ldr	r1, [r3, #12]	@ unaligned
  2430 001c 1760     		str	r7, [r2]	@ unaligned
-ARM GAS  /tmp/cc8c3D5j.s 			page 98
+ARM GAS  /tmp/cczDZRLi.s 			page 98
 
 
  2431 001e 5660     		str	r6, [r2, #4]	@ unaligned
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2476              		.fpu softvfp
  2478              	print_string_ptr:
  2479              	.LVL224:
-ARM GAS  /tmp/cc8c3D5j.s 			page 99
+ARM GAS  /tmp/cczDZRLi.s 			page 99
 
 
  2480              	.LFB20:
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2519              	.LVL226:
  854:component/cJSON/cJSON.c ****         if (output == NULL)
  2520              		.loc 1 854 18 view .LVU782
-ARM GAS  /tmp/cc8c3D5j.s 			page 100
+ARM GAS  /tmp/cczDZRLi.s 			page 100
 
 
  2521 0016 FFF7FEFF 		bl	ensure
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2560              		.loc 1 878 17 is_stmt 1 view .LVU797
  2561              	.L216:
  865:component/cJSON/cJSON.c ****     {
-ARM GAS  /tmp/cc8c3D5j.s 			page 101
+ARM GAS  /tmp/cczDZRLi.s 			page 101
 
 
  2562              		.loc 1 865 49 discriminator 2 view .LVU798
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2603              		.loc 1 897 8 is_stmt 0 view .LVU811
  2604 006c 26B1     		cbz	r6, .L242
  907:component/cJSON/cJSON.c ****     output_pointer = output + 1;
-ARM GAS  /tmp/cc8c3D5j.s 			page 102
+ARM GAS  /tmp/cczDZRLi.s 			page 102
 
 
  2605              		.loc 1 907 5 is_stmt 1 view .LVU812
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2643              		.loc 1 904 9 is_stmt 1 view .LVU828
  904:component/cJSON/cJSON.c ****     }
  2644              		.loc 1 904 16 is_stmt 0 view .LVU829
-ARM GAS  /tmp/cc8c3D5j.s 			page 103
+ARM GAS  /tmp/cczDZRLi.s 			page 103
 
 
  2645 0090 0120     		movs	r0, #1
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  921:component/cJSON/cJSON.c ****             {
  2686              		.loc 1 921 13 is_stmt 1 view .LVU843
  921:component/cJSON/cJSON.c ****             {
-ARM GAS  /tmp/cc8c3D5j.s 			page 104
+ARM GAS  /tmp/cczDZRLi.s 			page 104
 
 
  2687              		.loc 1 921 21 is_stmt 0 view .LVU844
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  927:component/cJSON/cJSON.c ****                     break;
  2737              		.loc 1 927 21 view .LVU849
  927:component/cJSON/cJSON.c ****                     break;
-ARM GAS  /tmp/cc8c3D5j.s 			page 105
+ARM GAS  /tmp/cczDZRLi.s 			page 105
 
 
  2738              		.loc 1 927 37 is_stmt 0 view .LVU850
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2776              		.loc 1 943 21 is_stmt 1 view .LVU866
  2777 0114 C0E7     		b	.L221
  2778              	.L223:
-ARM GAS  /tmp/cc8c3D5j.s 			page 106
+ARM GAS  /tmp/cczDZRLi.s 			page 106
 
 
  946:component/cJSON/cJSON.c ****                     output_pointer += 4;
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2820              		.cfi_restore 14
  848:component/cJSON/cJSON.c ****     }
  2821              		.loc 1 848 16 view .LVU880
-ARM GAS  /tmp/cc8c3D5j.s 			page 107
+ARM GAS  /tmp/cczDZRLi.s 			page 107
 
 
  2822 0130 0020     		movs	r0, #0
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2871              		.loc 1 960 1 is_stmt 0 view .LVU887
  2872 0000 08B5     		push	{r3, lr}
  2873              	.LCFI29:
-ARM GAS  /tmp/cc8c3D5j.s 			page 108
+ARM GAS  /tmp/cczDZRLi.s 			page 108
 
 
  2874              		.cfi_def_cfa_offset 8
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2921              		.cfi_def_cfa_offset 28
  2922              		.cfi_offset 4, -28
  2923              		.cfi_offset 5, -24
-ARM GAS  /tmp/cc8c3D5j.s 			page 109
+ARM GAS  /tmp/cczDZRLi.s 			page 109
 
 
  2924              		.cfi_offset 6, -20
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  2963 0022 0022     		movs	r2, #0
  2964 0024 0023     		movs	r3, #0
  2965 0026 FFF7FEFF 		bl	__aeabi_dcmpeq
-ARM GAS  /tmp/cc8c3D5j.s 			page 110
+ARM GAS  /tmp/cczDZRLi.s 			page 110
 
 
  2966              	.LVL269:
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  510:component/cJSON/cJSON.c ****         {
  3010              		.loc 1 510 9 is_stmt 1 view .LVU919
  510:component/cJSON/cJSON.c ****         {
-ARM GAS  /tmp/cc8c3D5j.s 			page 111
+ARM GAS  /tmp/cczDZRLi.s 			page 111
 
 
  3011              		.loc 1 510 14 is_stmt 0 view .LVU920
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  532:component/cJSON/cJSON.c ****     {
  3055              		.loc 1 532 12 view .LVU931
  3056 0090 0023     		movs	r3, #0
-ARM GAS  /tmp/cc8c3D5j.s 			page 112
+ARM GAS  /tmp/cczDZRLi.s 			page 112
 
 
  3057 0092 02E0     		b	.L256
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3095              	.LVL285:
  544:component/cJSON/cJSON.c **** 
  3096              		.loc 1 544 27 view .LVU948
-ARM GAS  /tmp/cc8c3D5j.s 			page 113
+ARM GAS  /tmp/cczDZRLi.s 			page 113
 
 
  3097 00b4 1F44     		add	r7, r7, r3
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3144              	.LVL291:
  3145              	.LFB32:
 1278:component/cJSON/cJSON.c ****     unsigned char *output = NULL;
-ARM GAS  /tmp/cc8c3D5j.s 			page 114
+ARM GAS  /tmp/cczDZRLi.s 			page 114
 
 
  3146              		.loc 1 1278 1 is_stmt 1 view -0
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3192 002c 66       		.byte	(.L286-.L275)/2
  3193 002d 66       		.byte	(.L286-.L275)/2
  3194 002e 66       		.byte	(.L286-.L275)/2
-ARM GAS  /tmp/cc8c3D5j.s 			page 115
+ARM GAS  /tmp/cczDZRLi.s 			page 115
 
 
  3195 002f 66       		.byte	(.L286-.L275)/2
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3240 0058 2846     		mov	r0, r5
  3241 005a FFF7FEFF 		bl	ensure
  3242              	.LVL297:
-ARM GAS  /tmp/cc8c3D5j.s 			page 116
+ARM GAS  /tmp/cczDZRLi.s 			page 116
 
 
 1328:component/cJSON/cJSON.c ****             {
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3282 0080 214A     		ldr	r2, .L294
  3283 0082 1068     		ldr	r0, [r2]
  3284              	.LVL304:
-ARM GAS  /tmp/cc8c3D5j.s 			page 117
+ARM GAS  /tmp/cczDZRLi.s 			page 117
 
 
 1294:component/cJSON/cJSON.c ****             return true;
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3324 00a6 0521     		movs	r1, #5
  3325              	.LVL311:
 1307:component/cJSON/cJSON.c ****             if (output == NULL)
-ARM GAS  /tmp/cc8c3D5j.s 			page 118
+ARM GAS  /tmp/cczDZRLi.s 			page 118
 
 
  3326              		.loc 1 1307 22 view .LVU1004
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3367              	.L274:
 1340:component/cJSON/cJSON.c **** 
  3368              		.loc 1 1340 13 is_stmt 1 view .LVU1018
-ARM GAS  /tmp/cc8c3D5j.s 			page 119
+ARM GAS  /tmp/cczDZRLi.s 			page 119
 
 
 1340:component/cJSON/cJSON.c **** 
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1301:component/cJSON/cJSON.c ****             }
  3412              		.loc 1 1301 24 view .LVU1030
  3413 00f6 0024     		movs	r4, #0
-ARM GAS  /tmp/cc8c3D5j.s 			page 120
+ARM GAS  /tmp/cczDZRLi.s 			page 120
 
 
  3414 00f8 F7E7     		b	.L271
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3464              		.cfi_offset 14, -4
  3465 0002 8BB0     		sub	sp, sp, #44
  3466              	.LCFI36:
-ARM GAS  /tmp/cc8c3D5j.s 			page 121
+ARM GAS  /tmp/cczDZRLi.s 			page 121
 
 
  3467              		.cfi_def_cfa_offset 64
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1109:component/cJSON/cJSON.c ****     if (buffer->buffer == NULL)
  3505              		.loc 1 1109 19 is_stmt 0 view .LVU1053
  3506 0028 96E80700 		ldm	r6, {r0, r1, r2}
-ARM GAS  /tmp/cc8c3D5j.s 			page 122
+ARM GAS  /tmp/cczDZRLi.s 			page 122
 
 
  3507 002c 0AAB     		add	r3, sp, #40
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3544 004e 9847     		blx	r3
  3545              	.LVL340:
 1158:component/cJSON/cJSON.c **** }
-ARM GAS  /tmp/cc8c3D5j.s 			page 123
+ARM GAS  /tmp/cczDZRLi.s 			page 123
 
 
  3546              		.loc 1 1158 12 view .LVU1071
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1133:component/cJSON/cJSON.c ****         if (printed == NULL)
  3589              		.loc 1 1133 36 view .LVU1083
  3590 0074 0398     		ldr	r0, [sp, #12]
-ARM GAS  /tmp/cc8c3D5j.s 			page 124
+ARM GAS  /tmp/cczDZRLi.s 			page 124
 
 
  3591 0076 0130     		adds	r0, r0, #1
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1446:component/cJSON/cJSON.c ****     unsigned char *output_pointer = NULL;
  3637              		.loc 1 1446 1 is_stmt 1 view -0
  3638              		.cfi_startproc
-ARM GAS  /tmp/cc8c3D5j.s 			page 125
+ARM GAS  /tmp/cczDZRLi.s 			page 125
 
 
  3639              		@ args = 0, pretend = 0, frame = 0
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3678 0018 0270     		strb	r2, [r0]
 1465:component/cJSON/cJSON.c ****     output_buffer->depth++;
  3679              		.loc 1 1465 5 is_stmt 1 view .LVU1110
-ARM GAS  /tmp/cc8c3D5j.s 			page 126
+ARM GAS  /tmp/cczDZRLi.s 			page 126
 
 
 1465:component/cJSON/cJSON.c ****     output_buffer->depth++;
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1468:component/cJSON/cJSON.c ****     {
  3719              		.loc 1 1468 11 is_stmt 1 view .LVU1126
  3720 0038 FDB1     		cbz	r5, .L317
-ARM GAS  /tmp/cc8c3D5j.s 			page 127
+ARM GAS  /tmp/cczDZRLi.s 			page 127
 
 
 1470:component/cJSON/cJSON.c ****         {
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3759              		.loc 1 1483 28 is_stmt 0 view .LVU1142
  3760 0064 0346     		mov	r3, r0
  3761              	.LVL364:
-ARM GAS  /tmp/cc8c3D5j.s 			page 128
+ARM GAS  /tmp/cczDZRLi.s 			page 128
 
 
 1483:component/cJSON/cJSON.c ****             if(output_buffer->format)
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3800              		.loc 1 1501 5 is_stmt 1 view .LVU1158
 1501:component/cJSON/cJSON.c **** 
  3801              		.loc 1 1501 18 is_stmt 0 view .LVU1159
-ARM GAS  /tmp/cc8c3D5j.s 			page 129
+ARM GAS  /tmp/cczDZRLi.s 			page 129
 
 
  3802 008c E368     		ldr	r3, [r4, #12]
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3849              		@ args = 0, pretend = 0, frame = 0
  3850              		@ frame_needed = 0, uses_anonymous_args = 0
 1617:component/cJSON/cJSON.c ****     unsigned char *output_pointer = NULL;
-ARM GAS  /tmp/cc8c3D5j.s 			page 130
+ARM GAS  /tmp/cczDZRLi.s 			page 130
 
 
  3851              		.loc 1 1617 1 is_stmt 0 view .LVU1169
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3890              		.loc 1 1630 8 is_stmt 0 discriminator 4 view .LVU1184
  3891 001a 0028     		cmp	r0, #0
  3892 001c 00F09B80 		beq	.L339
-ARM GAS  /tmp/cc8c3D5j.s 			page 131
+ARM GAS  /tmp/cczDZRLi.s 			page 131
 
 
 1635:component/cJSON/cJSON.c ****     output_buffer->depth++;
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1647:component/cJSON/cJSON.c ****             output_pointer = ensure(output_buffer, output_buffer->depth);
  3932              		.loc 1 1647 13 is_stmt 1 view .LVU1200
 1648:component/cJSON/cJSON.c ****             if (output_pointer == NULL)
-ARM GAS  /tmp/cc8c3D5j.s 			page 132
+ARM GAS  /tmp/cczDZRLi.s 			page 132
 
 
  3933              		.loc 1 1648 13 view .LVU1201
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  3972 0062 1944     		add	r1, r1, r3
  3973 0064 A160     		str	r1, [r4, #8]
  3974 0066 10E0     		b	.L323
-ARM GAS  /tmp/cc8c3D5j.s 			page 133
+ARM GAS  /tmp/cczDZRLi.s 			page 133
 
 
  3975              	.LVL393:
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4015 0082 44D0     		beq	.L352
 1645:component/cJSON/cJSON.c ****         {
  4016              		.loc 1 1645 9 view .LVU1231
-ARM GAS  /tmp/cc8c3D5j.s 			page 134
+ARM GAS  /tmp/cczDZRLi.s 			page 134
 
 
 1645:component/cJSON/cJSON.c ****         {
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4057              	.LVL404:
 1673:component/cJSON/cJSON.c ****         if (output_buffer->format)
  4058              		.loc 1 1673 27 is_stmt 0 view .LVU1246
-ARM GAS  /tmp/cc8c3D5j.s 			page 135
+ARM GAS  /tmp/cczDZRLi.s 			page 135
 
 
  4059 00b2 3A22     		movs	r2, #58
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4099              	.LVL409:
  4100              	.L328:
 1688:component/cJSON/cJSON.c ****         output_pointer = ensure(output_buffer, length + 1);
-ARM GAS  /tmp/cc8c3D5j.s 			page 136
+ARM GAS  /tmp/cczDZRLi.s 			page 136
 
 
  4101              		.loc 1 1688 82 discriminator 4 view .LVU1261
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1701:component/cJSON/cJSON.c ****         }
  4140              		.loc 1 1701 13 is_stmt 1 view .LVU1277
  4141              	.LVL414:
-ARM GAS  /tmp/cc8c3D5j.s 			page 137
+ARM GAS  /tmp/cczDZRLi.s 			page 137
 
 
 1701:component/cJSON/cJSON.c ****         }
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1723:component/cJSON/cJSON.c ****     output_buffer->depth--;
  4180              		.loc 1 1723 21 is_stmt 0 view .LVU1294
  4181 0128 0022     		movs	r2, #0
-ARM GAS  /tmp/cc8c3D5j.s 			page 138
+ARM GAS  /tmp/cczDZRLi.s 			page 138
 
 
  4182 012a 5A70     		strb	r2, [r3, #1]
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4221              	.LVL423:
  4222              	.L349:
 1717:component/cJSON/cJSON.c ****         {
-ARM GAS  /tmp/cc8c3D5j.s 			page 139
+ARM GAS  /tmp/cczDZRLi.s 			page 139
 
 
  4223              		.loc 1 1717 16 view .LVU1310
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4269              		.syntax unified
  4270              		.thumb
  4271              		.thumb_func
-ARM GAS  /tmp/cc8c3D5j.s 			page 140
+ARM GAS  /tmp/cczDZRLi.s 			page 140
 
 
  4272              		.fpu softvfp
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4314              		.loc 1 1801 42 discriminator 1 view .LVU1332
  4315 0018 50B1     		cbz	r0, .L358
 1803:component/cJSON/cJSON.c ****         }
-ARM GAS  /tmp/cc8c3D5j.s 			page 141
+ARM GAS  /tmp/cczDZRLi.s 			page 141
 
 
  4316              		.loc 1 1803 13 is_stmt 1 view .LVU1333
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1788:component/cJSON/cJSON.c ****     }
  4356              		.loc 1 1788 16 view .LVU1348
  4357 003a 0C46     		mov	r4, r1
-ARM GAS  /tmp/cc8c3D5j.s 			page 142
+ARM GAS  /tmp/cczDZRLi.s 			page 142
 
 
  4358 003c FBE7     		b	.L354
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4405              	.LFE3:
  4407              		.section	.rodata.cJSON_Version.str1.4,"aMS",%progbits,1
  4408              		.align	2
-ARM GAS  /tmp/cc8c3D5j.s 			page 143
+ARM GAS  /tmp/cczDZRLi.s 			page 143
 
 
  4409              	.LC9:
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4457              		.cfi_endproc
  4458              	.LFE5:
  4460              		.section	.text.cJSON_InitHooks,"ax",%progbits
-ARM GAS  /tmp/cc8c3D5j.s 			page 144
+ARM GAS  /tmp/cczDZRLi.s 			page 144
 
 
  4461              		.align	1
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4502 0018 5B68     		ldr	r3, [r3, #4]
  198:component/cJSON/cJSON.c ****     {
  4503              		.loc 1 198 8 view .LVU1377
-ARM GAS  /tmp/cc8c3D5j.s 			page 145
+ARM GAS  /tmp/cczDZRLi.s 			page 145
 
 
  4504 001a 03B1     		cbz	r3, .L378
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4542 003e 044B     		ldr	r3, .L381
  4543 0040 5A68     		ldr	r2, [r3, #4]
  205:component/cJSON/cJSON.c ****     {
-ARM GAS  /tmp/cc8c3D5j.s 			page 146
+ARM GAS  /tmp/cczDZRLi.s 			page 146
 
 
  4544              		.loc 1 205 43 discriminator 1 view .LVU1394
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4593              	.LVL448:
  4594              	.L385:
  234:component/cJSON/cJSON.c ****         {
-ARM GAS  /tmp/cc8c3D5j.s 			page 147
+ARM GAS  /tmp/cczDZRLi.s 			page 147
 
 
  4595              		.loc 1 234 9 is_stmt 1 view .LVU1402
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4632              		.loc 1 242 21 is_stmt 0 view .LVU1419
  4633 002a 094B     		ldr	r3, .L391
  4634 002c 5B68     		ldr	r3, [r3, #4]
-ARM GAS  /tmp/cc8c3D5j.s 			page 148
+ARM GAS  /tmp/cczDZRLi.s 			page 148
 
 
  242:component/cJSON/cJSON.c ****         item = next;
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4675              		.cfi_endproc
  4676              	.LFE10:
  4678              		.section	.text.parse_object,"ax",%progbits
-ARM GAS  /tmp/cc8c3D5j.s 			page 149
+ARM GAS  /tmp/cczDZRLi.s 			page 149
 
 
  4679              		.align	1
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4722 001c 4A68     		ldr	r2, [r1, #4]
  4723 001e 9342     		cmp	r3, r2
  4724 0020 7DD2     		bcs	.L404
-ARM GAS  /tmp/cc8c3D5j.s 			page 150
+ARM GAS  /tmp/cczDZRLi.s 			page 150
 
 
 1518:component/cJSON/cJSON.c ****     {
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4764              		.loc 1 1531 5 is_stmt 1 discriminator 1 view .LVU1460
 1531:component/cJSON/cJSON.c ****     {
  4765              		.loc 1 1531 9 is_stmt 0 discriminator 1 view .LVU1461
-ARM GAS  /tmp/cc8c3D5j.s 			page 151
+ARM GAS  /tmp/cczDZRLi.s 			page 151
 
 
  4766 004a A368     		ldr	r3, [r4, #8]
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4805              		.loc 1 1565 9 is_stmt 0 view .LVU1476
  4806 006e FFF7FEFF 		bl	buffer_skip_whitespace
  4807              	.LVL465:
-ARM GAS  /tmp/cc8c3D5j.s 			page 152
+ARM GAS  /tmp/cczDZRLi.s 			page 152
 
 
 1566:component/cJSON/cJSON.c ****         {
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4846 009e A360     		str	r3, [r4, #8]
 1583:component/cJSON/cJSON.c ****         if (!parse_value(current_item, input_buffer))
  4847              		.loc 1 1583 9 is_stmt 1 view .LVU1493
-ARM GAS  /tmp/cc8c3D5j.s 			page 153
+ARM GAS  /tmp/cczDZRLi.s 			page 153
 
 
  4848 00a0 2046     		mov	r0, r4
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4888              		.loc 1 1544 12 is_stmt 0 view .LVU1507
  4889 00d0 0546     		mov	r5, r0
  4890              	.LVL473:
-ARM GAS  /tmp/cc8c3D5j.s 			page 154
+ARM GAS  /tmp/cczDZRLi.s 			page 154
 
 
 1544:component/cJSON/cJSON.c ****         {
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4928 00f2 B7B1     		cbz	r7, .L408
 1609:component/cJSON/cJSON.c ****     }
  4929              		.loc 1 1609 9 is_stmt 1 view .LVU1525
-ARM GAS  /tmp/cc8c3D5j.s 			page 155
+ARM GAS  /tmp/cczDZRLi.s 			page 155
 
 
  4930 00f4 3846     		mov	r0, r7
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  4970              		.cfi_restore 5
  4971              		.cfi_restore 6
  4972              		.cfi_restore 7
-ARM GAS  /tmp/cc8c3D5j.s 			page 156
+ARM GAS  /tmp/cczDZRLi.s 			page 156
 
 
  4973              		.cfi_restore 8
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5021              	.LFB31:
 1223:component/cJSON/cJSON.c ****     if ((input_buffer == NULL) || (input_buffer->content == NULL))
  5022              		.loc 1 1223 1 is_stmt 1 view -0
-ARM GAS  /tmp/cc8c3D5j.s 			page 157
+ARM GAS  /tmp/cczDZRLi.s 			page 157
 
 
  5023              		.cfi_startproc
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1238:component/cJSON/cJSON.c ****     {
  5066              		.loc 1 1238 5 is_stmt 1 discriminator 1 view .LVU1560
 1238:component/cJSON/cJSON.c ****     {
-ARM GAS  /tmp/cc8c3D5j.s 			page 158
+ARM GAS  /tmp/cczDZRLi.s 			page 158
 
 
  5067              		.loc 1 1238 9 is_stmt 0 discriminator 1 view .LVU1561
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5111              	.L420:
 1258:component/cJSON/cJSON.c ****     {
  5112              		.loc 1 1258 5 is_stmt 1 discriminator 1 view .LVU1572
-ARM GAS  /tmp/cc8c3D5j.s 			page 159
+ARM GAS  /tmp/cczDZRLi.s 			page 159
 
 
 1258:component/cJSON/cJSON.c ****     {
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5153              		.loc 1 1273 12 view .LVU1586
  5154 0098 0020     		movs	r0, #0
  5155 009a 2BE0     		b	.L415
-ARM GAS  /tmp/cc8c3D5j.s 			page 160
+ARM GAS  /tmp/cczDZRLi.s 			page 160
 
 
  5156              	.L432:
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1249:component/cJSON/cJSON.c ****         return true;
  5193              		.loc 1 1249 30 is_stmt 0 view .LVU1604
  5194 00be A268     		ldr	r2, [r4, #8]
-ARM GAS  /tmp/cc8c3D5j.s 			page 161
+ARM GAS  /tmp/cczDZRLi.s 			page 161
 
 
  5195 00c0 0432     		adds	r2, r2, #4
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5239              		.cfi_restore 14
 1226:component/cJSON/cJSON.c ****     }
  5240              		.loc 1 1226 16 view .LVU1615
-ARM GAS  /tmp/cc8c3D5j.s 			page 162
+ARM GAS  /tmp/cczDZRLi.s 			page 162
 
 
  5241 00ee 0020     		movs	r0, #0
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5289              		.loc 1 1356 5 view .LVU1623
 1356:component/cJSON/cJSON.c ****     {
  5290              		.loc 1 1356 21 is_stmt 0 view .LVU1624
-ARM GAS  /tmp/cc8c3D5j.s 			page 163
+ARM GAS  /tmp/cczDZRLi.s 			page 163
 
 
  5291 0000 CB68     		ldr	r3, [r1, #12]
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5332              		.loc 1 1369 5 is_stmt 1 view .LVU1637
  5333 0028 0846     		mov	r0, r1
  5334              	.LVL506:
-ARM GAS  /tmp/cc8c3D5j.s 			page 164
+ARM GAS  /tmp/cczDZRLi.s 			page 164
 
 
 1369:component/cJSON/cJSON.c ****     if (can_access_at_index(input_buffer, 0) && (buffer_at_offset(input_buffer)[0] == ']'))
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5373              		.loc 1 1379 21 is_stmt 0 view .LVU1653
  5374 0054 A368     		ldr	r3, [r4, #8]
 1379:component/cJSON/cJSON.c ****         goto fail;
-ARM GAS  /tmp/cc8c3D5j.s 			page 165
+ARM GAS  /tmp/cczDZRLi.s 			page 165
 
 
  5375              		.loc 1 1379 29 view .LVU1654
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5415              		.loc 1 1418 11 view .LVU1668
 1418:component/cJSON/cJSON.c **** 
  5416              		.loc 1 1418 12 is_stmt 0 view .LVU1669
-ARM GAS  /tmp/cc8c3D5j.s 			page 166
+ARM GAS  /tmp/cczDZRLi.s 			page 166
 
 
  5417 007c A368     		ldr	r3, [r4, #8]
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5455              	.LVL517:
 1406:component/cJSON/cJSON.c ****         }
  5456              		.loc 1 1406 13 is_stmt 0 view .LVU1686
-ARM GAS  /tmp/cc8c3D5j.s 			page 167
+ARM GAS  /tmp/cczDZRLi.s 			page 167
 
 
  5457 00a6 DBE7     		b	.L447
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5495 00c8 A360     		str	r3, [r4, #8]
 1433:component/cJSON/cJSON.c **** 
  5496              		.loc 1 1433 5 is_stmt 1 view .LVU1703
-ARM GAS  /tmp/cc8c3D5j.s 			page 168
+ARM GAS  /tmp/cczDZRLi.s 			page 168
 
 
 1433:component/cJSON/cJSON.c **** 
@@ -10078,7 +10078,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5542              		.loc 1 1441 12 view .LVU1712
  5543 00e2 0020     		movs	r0, #0
  5544              	.LVL526:
-ARM GAS  /tmp/cc8c3D5j.s 			page 169
+ARM GAS  /tmp/cczDZRLi.s 			page 169
 
 
 1441:component/cJSON/cJSON.c **** }
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5592 001c 7361     		str	r3, [r6, #20]
  5593              	.L463:
  368:component/cJSON/cJSON.c **** }
-ARM GAS  /tmp/cc8c3D5j.s 			page 170
+ARM GAS  /tmp/cczDZRLi.s 			page 170
 
 
  5594              		.loc 1 368 5 is_stmt 1 view .LVU1722
@@ -10198,7 +10198,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5639              		.syntax unified
  5640              		.thumb
  5641              		.thumb_func
-ARM GAS  /tmp/cc8c3D5j.s 			page 171
+ARM GAS  /tmp/cczDZRLi.s 			page 171
 
 
  5642              		.fpu softvfp
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1019:component/cJSON/cJSON.c ****     {
  5686              		.loc 1 1019 8 is_stmt 0 view .LVU1743
  5687 001c 0546     		mov	r5, r0
-ARM GAS  /tmp/cc8c3D5j.s 			page 172
+ARM GAS  /tmp/cczDZRLi.s 			page 172
 
 
  5688 001e 0028     		cmp	r0, #0
@@ -10318,7 +10318,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5725 0048 FFF7FEFF 		bl	skip_utf8_bom
  5726              	.LVL540:
  5727 004c FFF7FEFF 		bl	buffer_skip_whitespace
-ARM GAS  /tmp/cc8c3D5j.s 			page 173
+ARM GAS  /tmp/cczDZRLi.s 			page 173
 
 
  5728              	.LVL541:
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1045:component/cJSON/cJSON.c ****         {
  5767              		.loc 1 1045 46 discriminator 1 view .LVU1776
  5768 007a 002B     		cmp	r3, #0
-ARM GAS  /tmp/cc8c3D5j.s 			page 174
+ARM GAS  /tmp/cczDZRLi.s 			page 174
 
 
  5769 007c EED0     		beq	.L476
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5805 0098 14B1     		cbz	r4, .L480
 1080:component/cJSON/cJSON.c ****         }
  5806              		.loc 1 1080 13 is_stmt 1 view .LVU1795
-ARM GAS  /tmp/cc8c3D5j.s 			page 175
+ARM GAS  /tmp/cczDZRLi.s 			page 175
 
 
 1080:component/cJSON/cJSON.c ****         }
@@ -10498,7 +10498,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5849              	.L481:
 1075:component/cJSON/cJSON.c ****         }
  5850              		.loc 1 1075 34 view .LVU1808
-ARM GAS  /tmp/cc8c3D5j.s 			page 176
+ARM GAS  /tmp/cczDZRLi.s 			page 176
 
 
  5851              	.LBE18:
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5903              	cJSON_Print:
  5904              	.LVL550:
  5905              	.LFB27:
-ARM GAS  /tmp/cc8c3D5j.s 			page 177
+ARM GAS  /tmp/cczDZRLi.s 			page 177
 
 
 1163:component/cJSON/cJSON.c ****     return (char*)print(item, true, &global_hooks);
@@ -10618,7 +10618,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  5953              		.loc 1 1169 19 is_stmt 0 view .LVU1823
  5954 0002 024A     		ldr	r2, .L494
  5955 0004 0021     		movs	r1, #0
-ARM GAS  /tmp/cc8c3D5j.s 			page 178
+ARM GAS  /tmp/cczDZRLi.s 			page 178
 
 
  5956 0006 FFF7FEFF 		bl	print
@@ -10678,7 +10678,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6005              	.LVL557:
 1174:component/cJSON/cJSON.c **** 
  6006              		.loc 1 1174 17 view .LVU1831
-ARM GAS  /tmp/cc8c3D5j.s 			page 179
+ARM GAS  /tmp/cczDZRLi.s 			page 179
 
 
  6007 0010 FFF7FEFF 		bl	memset
@@ -10738,7 +10738,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6043 0034 0AAB     		add	r3, sp, #40
  6044 0036 03E90700 		stmdb	r3, {r0, r1, r2}
 1193:component/cJSON/cJSON.c ****     {
-ARM GAS  /tmp/cc8c3D5j.s 			page 180
+ARM GAS  /tmp/cczDZRLi.s 			page 180
 
 
  6045              		.loc 1 1193 5 is_stmt 1 view .LVU1850
@@ -10798,7 +10798,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6088              		.cfi_endproc
  6089              	.LFE29:
  6091              		.section	.text.cJSON_PrintPreallocated,"ax",%progbits
-ARM GAS  /tmp/cc8c3D5j.s 			page 181
+ARM GAS  /tmp/cczDZRLi.s 			page 181
 
 
  6092              		.align	1
@@ -10858,7 +10858,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6138 0018 13DB     		blt	.L506
 1206:component/cJSON/cJSON.c ****     {
  6139              		.loc 1 1206 19 discriminator 1 view .LVU1871
-ARM GAS  /tmp/cc8c3D5j.s 			page 182
+ARM GAS  /tmp/cczDZRLi.s 			page 182
 
 
  6140 001a A5B1     		cbz	r5, .L507
@@ -10918,7 +10918,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6179              	.L506:
  6180              	.LCFI70:
  6181              		.cfi_restore_state
-ARM GAS  /tmp/cc8c3D5j.s 			page 183
+ARM GAS  /tmp/cczDZRLi.s 			page 183
 
 
 1208:component/cJSON/cJSON.c ****     }
@@ -10978,7 +10978,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6227              	.L514:
 1744:component/cJSON/cJSON.c ****         child = child->next;
  6228              		.loc 1 1744 9 is_stmt 1 view .LVU1898
-ARM GAS  /tmp/cc8c3D5j.s 			page 184
+ARM GAS  /tmp/cczDZRLi.s 			page 184
 
 
 1744:component/cJSON/cJSON.c ****         child = child->next;
@@ -11038,7 +11038,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1773:component/cJSON/cJSON.c ****     if (index < 0)
  6273              		.loc 1 1773 1 view .LVU1911
  6274 0004 08B5     		push	{r3, lr}
-ARM GAS  /tmp/cc8c3D5j.s 			page 185
+ARM GAS  /tmp/cczDZRLi.s 			page 185
 
 
  6275              	.LCFI71:
@@ -11098,7 +11098,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6322 0002 0022     		movs	r2, #0
  6323 0004 FFF7FEFF 		bl	get_object_item
  6324              	.LVL583:
-ARM GAS  /tmp/cc8c3D5j.s 			page 186
+ARM GAS  /tmp/cczDZRLi.s 			page 186
 
 
 1817:component/cJSON/cJSON.c **** 
@@ -11158,7 +11158,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 1825:component/cJSON/cJSON.c ****     return cJSON_GetObjectItem(object, string) ? 1 : 0;
  6376              		.loc 1 1825 1 is_stmt 0 view .LVU1928
  6377 0000 08B5     		push	{r3, lr}
-ARM GAS  /tmp/cc8c3D5j.s 			page 187
+ARM GAS  /tmp/cczDZRLi.s 			page 187
 
 
  6378              	.LCFI75:
@@ -11218,7 +11218,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6428              		.thumb_func
  6429              		.fpu softvfp
  6431              	cJSON_AddItemToObject:
-ARM GAS  /tmp/cc8c3D5j.s 			page 188
+ARM GAS  /tmp/cczDZRLi.s 			page 188
 
 
  6432              	.LVL590:
@@ -11278,7 +11278,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6482              	.LCFI80:
  6483              		.cfi_def_cfa_offset 4
  6484              		.cfi_offset 14, -4
-ARM GAS  /tmp/cc8c3D5j.s 			page 189
+ARM GAS  /tmp/cczDZRLi.s 			page 189
 
 
  6485 0002 83B0     		sub	sp, sp, #12
@@ -11338,7 +11338,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6534 0008 0449     		ldr	r1, .L545
  6535              	.LVL595:
 1964:component/cJSON/cJSON.c **** }
-ARM GAS  /tmp/cc8c3D5j.s 			page 190
+ARM GAS  /tmp/cczDZRLi.s 			page 190
 
 
  6536              		.loc 1 1964 5 is_stmt 0 view .LVU1949
@@ -11398,7 +11398,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6584              	.LCFI85:
  6585              		.cfi_def_cfa_offset 16
  6586              		.cfi_offset 4, -16
-ARM GAS  /tmp/cc8c3D5j.s 			page 191
+ARM GAS  /tmp/cczDZRLi.s 			page 191
 
 
  6587              		.cfi_offset 5, -12
@@ -11458,7 +11458,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6634              		.align	2
  6635              	.L553:
  6636 002c 00000000 		.word	.LANCHOR2
-ARM GAS  /tmp/cc8c3D5j.s 			page 192
+ARM GAS  /tmp/cczDZRLi.s 			page 192
 
 
  6637              		.cfi_endproc
@@ -11518,7 +11518,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6679              		.loc 1 2100 9 is_stmt 1 view .LVU1978
 2100:component/cJSON/cJSON.c ****     }
  6680              		.loc 1 2100 32 is_stmt 0 view .LVU1979
-ARM GAS  /tmp/cc8c3D5j.s 			page 193
+ARM GAS  /tmp/cczDZRLi.s 			page 193
 
 
  6681 0012 4868     		ldr	r0, [r1, #4]
@@ -11578,7 +11578,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6719 0030 7047     		bx	lr
  6720              		.cfi_endproc
  6721              	.LFE63:
-ARM GAS  /tmp/cc8c3D5j.s 			page 194
+ARM GAS  /tmp/cczDZRLi.s 			page 194
 
 
  6723              		.section	.text.cJSON_DetachItemFromArray,"ax",%progbits
@@ -11638,7 +11638,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6768 0016 0020     		movs	r0, #0
  6769              	.LVL614:
 2123:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 195
+ARM GAS  /tmp/cczDZRLi.s 			page 195
 
 
  6770              		.loc 1 2123 1 view .LVU2006
@@ -11698,7 +11698,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2131:component/cJSON/cJSON.c ****     cJSON *to_detach = cJSON_GetObjectItem(object, string);
  6822              		.loc 1 2131 1 is_stmt 0 view .LVU2013
  6823 0000 10B5     		push	{r4, lr}
-ARM GAS  /tmp/cc8c3D5j.s 			page 196
+ARM GAS  /tmp/cczDZRLi.s 			page 196
 
 
  6824              	.LCFI92:
@@ -11758,7 +11758,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6870 0002 0446     		mov	r4, r0
 2139:component/cJSON/cJSON.c **** 
  6871              		.loc 1 2139 5 is_stmt 1 view .LVU2024
-ARM GAS  /tmp/cc8c3D5j.s 			page 197
+ARM GAS  /tmp/cczDZRLi.s 			page 197
 
 
 2139:component/cJSON/cJSON.c **** 
@@ -11818,7 +11818,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6917              	.LVL630:
 2147:component/cJSON/cJSON.c **** 
  6918              		.loc 1 2147 1 view .LVU2036
-ARM GAS  /tmp/cc8c3D5j.s 			page 198
+ARM GAS  /tmp/cczDZRLi.s 			page 198
 
 
  6919 000a 08BD     		pop	{r3, pc}
@@ -11878,7 +11878,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  6970              		.loc 1 2157 5 view .LVU2043
 2159:component/cJSON/cJSON.c ****     {
  6971              		.loc 1 2159 5 view .LVU2044
-ARM GAS  /tmp/cc8c3D5j.s 			page 199
+ARM GAS  /tmp/cczDZRLi.s 			page 199
 
 
 2159:component/cJSON/cJSON.c ****     {
@@ -11938,7 +11938,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7009 001c 07D0     		beq	.L589
 2180:component/cJSON/cJSON.c ****     }
  7010              		.loc 1 2180 9 is_stmt 1 view .LVU2062
-ARM GAS  /tmp/cc8c3D5j.s 			page 200
+ARM GAS  /tmp/cczDZRLi.s 			page 200
 
 
 2180:component/cJSON/cJSON.c ****     }
@@ -11998,7 +11998,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7058              	.LVL642:
  7059              	.LFB71:
 2185:component/cJSON/cJSON.c ****     if ((parent == NULL) || (replacement == NULL) || (item == NULL))
-ARM GAS  /tmp/cc8c3D5j.s 			page 201
+ARM GAS  /tmp/cczDZRLi.s 			page 201
 
 
  7060              		.loc 1 2185 1 is_stmt 1 view -0
@@ -12058,7 +12058,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7097              		.loc 1 2201 33 is_stmt 0 view .LVU2089
  7098 0018 5A60     		str	r2, [r3, #4]
  7099              	.L592:
-ARM GAS  /tmp/cc8c3D5j.s 			page 202
+ARM GAS  /tmp/cczDZRLi.s 			page 202
 
 
 2203:component/cJSON/cJSON.c ****     {
@@ -12118,7 +12118,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7136              		.loc 1 2209 23 is_stmt 0 view .LVU2107
  7137 0036 A260     		str	r2, [r4, #8]
  7138 0038 F5E7     		b	.L594
-ARM GAS  /tmp/cc8c3D5j.s 			page 203
+ARM GAS  /tmp/cczDZRLi.s 			page 203
 
 
  7139              	.LVL646:
@@ -12178,7 +12178,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7187              	.LVL654:
  7188              	.LFB72:
 2220:component/cJSON/cJSON.c ****     if (which < 0)
-ARM GAS  /tmp/cc8c3D5j.s 			page 204
+ARM GAS  /tmp/cczDZRLi.s 			page 204
 
 
  7189              		.loc 1 2220 1 is_stmt 1 view -0
@@ -12238,7 +12238,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7236              		.thumb
  7237              		.thumb_func
  7238              		.fpu softvfp
-ARM GAS  /tmp/cc8c3D5j.s 			page 205
+ARM GAS  /tmp/cczDZRLi.s 			page 205
 
 
  7240              	cJSON_CreateNull:
@@ -12298,7 +12298,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7286              		.cfi_startproc
  7287              		@ args = 0, pretend = 0, frame = 0
  7288              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc8c3D5j.s 			page 206
+ARM GAS  /tmp/cczDZRLi.s 			page 206
 
 
 1978:component/cJSON/cJSON.c ****     cJSON *null = cJSON_CreateNull();
@@ -12358,7 +12358,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7334              	.L618:
  7335              	.LCFI107:
  7336              		.cfi_restore_state
-ARM GAS  /tmp/cc8c3D5j.s 			page 207
+ARM GAS  /tmp/cczDZRLi.s 			page 207
 
 
 1985:component/cJSON/cJSON.c ****     return NULL;
@@ -12418,7 +12418,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7382              		.loc 1 2276 20 is_stmt 0 view .LVU2154
  7383 000a 0223     		movs	r3, #2
  7384 000c C360     		str	r3, [r0, #12]
-ARM GAS  /tmp/cc8c3D5j.s 			page 208
+ARM GAS  /tmp/cczDZRLi.s 			page 208
 
 
 2279:component/cJSON/cJSON.c **** }
@@ -12478,7 +12478,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7432              		.loc 1 1992 9 is_stmt 0 view .LVU2163
  7433 000e 0023     		movs	r3, #0
  7434 0010 0093     		str	r3, [sp]
-ARM GAS  /tmp/cc8c3D5j.s 			page 209
+ARM GAS  /tmp/cczDZRLi.s 			page 209
 
 
  7435 0012 074B     		ldr	r3, .L630
@@ -12538,7 +12538,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7484              	cJSON_CreateFalse:
  7485              	.LFB78:
 2283:component/cJSON/cJSON.c ****     cJSON *item = cJSON_New_Item(&global_hooks);
-ARM GAS  /tmp/cc8c3D5j.s 			page 210
+ARM GAS  /tmp/cczDZRLi.s 			page 210
 
 
  7486              		.loc 1 2283 1 is_stmt 1 view -0
@@ -12598,7 +12598,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2002:component/cJSON/cJSON.c ****     cJSON *false_item = cJSON_CreateFalse();
  7533              		.loc 1 2002 1 is_stmt 0 view .LVU2181
  7534 0000 70B5     		push	{r4, r5, r6, lr}
-ARM GAS  /tmp/cc8c3D5j.s 			page 211
+ARM GAS  /tmp/cczDZRLi.s 			page 211
 
 
  7535              	.LCFI114:
@@ -12658,7 +12658,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2009:component/cJSON/cJSON.c ****     return NULL;
  7581              		.loc 1 2009 5 is_stmt 1 view .LVU2190
  7582 0026 2046     		mov	r0, r4
-ARM GAS  /tmp/cc8c3D5j.s 			page 212
+ARM GAS  /tmp/cczDZRLi.s 			page 212
 
 
  7583 0028 FFF7FEFF 		bl	cJSON_Delete
@@ -12718,7 +12718,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7629 000a 10B1     		cbz	r0, .L643
 2298:component/cJSON/cJSON.c ****     }
  7630              		.loc 1 2298 9 is_stmt 1 view .LVU2201
-ARM GAS  /tmp/cc8c3D5j.s 			page 213
+ARM GAS  /tmp/cczDZRLi.s 			page 213
 
 
 2298:component/cJSON/cJSON.c ****     }
@@ -12778,7 +12778,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7680 0006 0E46     		mov	r6, r1
 2015:component/cJSON/cJSON.c ****     if (add_item_to_object(object, name, bool_item, &global_hooks, false))
  7681              		.loc 1 2015 5 is_stmt 1 view .LVU2209
-ARM GAS  /tmp/cc8c3D5j.s 			page 214
+ARM GAS  /tmp/cczDZRLi.s 			page 214
 
 
 2015:component/cJSON/cJSON.c ****     if (add_item_to_object(object, name, bool_item, &global_hooks, false))
@@ -12838,7 +12838,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7725 002e 0024     		movs	r4, #0
  7726              	.LVL701:
 2022:component/cJSON/cJSON.c **** }
-ARM GAS  /tmp/cc8c3D5j.s 			page 215
+ARM GAS  /tmp/cczDZRLi.s 			page 215
 
 
  7727              		.loc 1 2022 12 view .LVU2221
@@ -12898,7 +12898,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7774 0010 0823     		movs	r3, #8
  7775 0012 C360     		str	r3, [r0, #12]
 2310:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 216
+ARM GAS  /tmp/cczDZRLi.s 			page 216
 
 
  7776              		.loc 1 2310 9 is_stmt 1 view .LVU2231
@@ -12958,7 +12958,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7817 0048 2046     		mov	r0, r4
  7818 004a 2946     		mov	r1, r5
  7819 004c FFF7FEFF 		bl	__aeabi_d2iz
-ARM GAS  /tmp/cc8c3D5j.s 			page 217
+ARM GAS  /tmp/cczDZRLi.s 			page 217
 
 
  7820              	.LVL709:
@@ -13018,7 +13018,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7868              		.loc 1 2027 26 view .LVU2252
  7869 000a 1946     		mov	r1, r3
  7870              	.LVL712:
-ARM GAS  /tmp/cc8c3D5j.s 			page 218
+ARM GAS  /tmp/cczDZRLi.s 			page 218
 
 
 2027:component/cJSON/cJSON.c ****     if (add_item_to_object(object, name, number_item, &global_hooks, false))
@@ -13078,7 +13078,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7914 0032 F7E7     		b	.L669
  7915              	.L674:
  7916              		.align	2
-ARM GAS  /tmp/cc8c3D5j.s 			page 219
+ARM GAS  /tmp/cczDZRLi.s 			page 219
 
 
  7917              	.L673:
@@ -13138,7 +13138,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  7962              		.loc 1 2336 36 is_stmt 0 view .LVU2274
  7963 0012 0749     		ldr	r1, .L679
  7964 0014 2046     		mov	r0, r4
-ARM GAS  /tmp/cc8c3D5j.s 			page 220
+ARM GAS  /tmp/cczDZRLi.s 			page 220
 
 
  7965              	.LVL724:
@@ -13198,7 +13198,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8011              		.loc 1 2038 1 is_stmt 1 view -0
  8012              		.cfi_startproc
  8013              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/cc8c3D5j.s 			page 221
+ARM GAS  /tmp/cczDZRLi.s 			page 221
 
 
  8014              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -13258,7 +13258,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8058              		.cfi_remember_state
  8059              		.cfi_def_cfa_offset 16
  8060              		@ sp needed
-ARM GAS  /tmp/cc8c3D5j.s 			page 222
+ARM GAS  /tmp/cczDZRLi.s 			page 222
 
 
  8061 0026 70BD     		pop	{r4, r5, r6, pc}
@@ -13318,7 +13318,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8109 0004 0648     		ldr	r0, .L690
  8110              	.LVL742:
 2349:component/cJSON/cJSON.c ****     if (item != NULL)
-ARM GAS  /tmp/cc8c3D5j.s 			page 223
+ARM GAS  /tmp/cczDZRLi.s 			page 223
 
 
  8111              		.loc 1 2349 19 view .LVU2303
@@ -13378,7 +13378,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2360:component/cJSON/cJSON.c ****     cJSON *item = cJSON_New_Item(&global_hooks);
  8156              		.loc 1 2360 1 is_stmt 1 view -0
  8157              		.cfi_startproc
-ARM GAS  /tmp/cc8c3D5j.s 			page 224
+ARM GAS  /tmp/cczDZRLi.s 			page 224
 
 
  8158              		@ args = 0, pretend = 0, frame = 0
@@ -13438,7 +13438,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8198              	.LVL752:
  8199              	.L696:
 2368:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 225
+ARM GAS  /tmp/cczDZRLi.s 			page 225
 
 
  8200              		.loc 1 2368 1 view .LVU2330
@@ -13498,7 +13498,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8246              		.loc 1 2374 9 is_stmt 1 view .LVU2340
 2374:component/cJSON/cJSON.c ****     }
  8247              		.loc 1 2374 31 is_stmt 0 view .LVU2341
-ARM GAS  /tmp/cc8c3D5j.s 			page 226
+ARM GAS  /tmp/cczDZRLi.s 			page 226
 
 
  8248 0014 2046     		mov	r0, r4
@@ -13558,7 +13558,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8295 0004 0A48     		ldr	r0, .L706
  8296              	.LVL760:
 2382:component/cJSON/cJSON.c ****     if(item)
-ARM GAS  /tmp/cc8c3D5j.s 			page 227
+ARM GAS  /tmp/cczDZRLi.s 			page 227
 
 
  8297              		.loc 1 2382 19 view .LVU2351
@@ -13618,7 +13618,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8337              	.LVL768:
 2390:component/cJSON/cJSON.c ****         }
  8338              		.loc 1 2390 20 view .LVU2366
-ARM GAS  /tmp/cc8c3D5j.s 			page 228
+ARM GAS  /tmp/cczDZRLi.s 			page 228
 
 
  8339 002c F8E7     		b	.L702
@@ -13678,7 +13678,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8387 0010 0023     		movs	r3, #0
  8388 0012 0093     		str	r3, [sp]
  8389 0014 074B     		ldr	r3, .L712
-ARM GAS  /tmp/cc8c3D5j.s 			page 229
+ARM GAS  /tmp/cczDZRLi.s 			page 229
 
 
  8390 0016 0246     		mov	r2, r0
@@ -13738,7 +13738,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8439              	.LFB86:
 2398:component/cJSON/cJSON.c ****     cJSON *item = cJSON_New_Item(&global_hooks);
  8440              		.loc 1 2398 1 is_stmt 1 view -0
-ARM GAS  /tmp/cc8c3D5j.s 			page 230
+ARM GAS  /tmp/cczDZRLi.s 			page 230
 
 
  8441              		.cfi_startproc
@@ -13798,7 +13798,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8487              		.loc 1 2074 1 is_stmt 0 view .LVU2392
  8488 0000 70B5     		push	{r4, r5, r6, lr}
  8489              	.LCFI142:
-ARM GAS  /tmp/cc8c3D5j.s 			page 231
+ARM GAS  /tmp/cczDZRLi.s 			page 231
 
 
  8490              		.cfi_def_cfa_offset 16
@@ -13858,7 +13858,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8535              		.loc 1 2081 5 is_stmt 1 view .LVU2401
  8536 0026 2046     		mov	r0, r4
  8537 0028 FFF7FEFF 		bl	cJSON_Delete
-ARM GAS  /tmp/cc8c3D5j.s 			page 232
+ARM GAS  /tmp/cczDZRLi.s 			page 232
 
 
  8538              	.LVL787:
@@ -13918,7 +13918,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8583              		.loc 1 2416 5 is_stmt 1 view .LVU2412
  8584              	.L725:
 2417:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 233
+ARM GAS  /tmp/cczDZRLi.s 			page 233
 
 
  8585              		.loc 1 2417 1 is_stmt 0 view .LVU2413
@@ -13978,7 +13978,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8634 0014 0246     		mov	r2, r0
  8635 0016 3146     		mov	r1, r6
  8636 0018 2846     		mov	r0, r5
-ARM GAS  /tmp/cc8c3D5j.s 			page 234
+ARM GAS  /tmp/cczDZRLi.s 			page 234
 
 
  8637              	.LVL793:
@@ -14038,7 +14038,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2421:component/cJSON/cJSON.c ****     size_t i = 0;
  8686              		.loc 1 2421 1 is_stmt 1 view -0
  8687              		.cfi_startproc
-ARM GAS  /tmp/cc8c3D5j.s 			page 235
+ARM GAS  /tmp/cczDZRLi.s 			page 235
 
 
  8688              		@ args = 0, pretend = 0, frame = 0
@@ -14098,7 +14098,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8727 0018 0CE0     		b	.L738
  8728              	.LVL803:
  8729              	.L746:
-ARM GAS  /tmp/cc8c3D5j.s 			page 236
+ARM GAS  /tmp/cczDZRLi.s 			page 236
 
 
 2438:component/cJSON/cJSON.c ****             return NULL;
@@ -14158,7 +14158,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2435:component/cJSON/cJSON.c ****         if (!n)
  8770              		.loc 1 2435 9 is_stmt 1 view .LVU2458
 2435:component/cJSON/cJSON.c ****         if (!n)
-ARM GAS  /tmp/cc8c3D5j.s 			page 237
+ARM GAS  /tmp/cczDZRLi.s 			page 237
 
 
  8771              		.loc 1 2435 13 is_stmt 0 view .LVU2459
@@ -14218,7 +14218,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2456:component/cJSON/cJSON.c ****     size_t i = 0;
  8818              		.loc 1 2456 1 is_stmt 0 view .LVU2469
  8819 0000 2DE9F843 		push	{r3, r4, r5, r6, r7, r8, r9, lr}
-ARM GAS  /tmp/cc8c3D5j.s 			page 238
+ARM GAS  /tmp/cczDZRLi.s 			page 238
 
 
  8820              	.LCFI152:
@@ -14278,7 +14278,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8859 001a 3046     		mov	r0, r6
  8860              	.LVL820:
 2474:component/cJSON/cJSON.c ****             return NULL;
-ARM GAS  /tmp/cc8c3D5j.s 			page 239
+ARM GAS  /tmp/cczDZRLi.s 			page 239
 
 
  8861              		.loc 1 2474 13 is_stmt 0 view .LVU2485
@@ -14338,7 +14338,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8901 0040 FFF7FEFF 		bl	__aeabi_f2d
  8902              	.LVL828:
  8903 0044 FFF7FEFF 		bl	cJSON_CreateNumber
-ARM GAS  /tmp/cc8c3D5j.s 			page 240
+ARM GAS  /tmp/cczDZRLi.s 			page 240
 
 
  8904              	.LVL829:
@@ -14398,7 +14398,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  8950              		.cfi_offset 4, -28
  8951              		.cfi_offset 5, -24
  8952              		.cfi_offset 6, -20
-ARM GAS  /tmp/cc8c3D5j.s 			page 241
+ARM GAS  /tmp/cczDZRLi.s 			page 241
 
 
  8953              		.cfi_offset 7, -16
@@ -14458,7 +14458,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2511:component/cJSON/cJSON.c ****         }
  8991              		.loc 1 2511 13 is_stmt 1 view .LVU2526
 2511:component/cJSON/cJSON.c ****         }
-ARM GAS  /tmp/cc8c3D5j.s 			page 242
+ARM GAS  /tmp/cczDZRLi.s 			page 242
 
 
  8992              		.loc 1 2511 20 is_stmt 0 view .LVU2527
@@ -14518,7 +14518,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9032              		.loc 1 2508 9 is_stmt 1 view .LVU2541
 2508:component/cJSON/cJSON.c ****         {
  9033              		.loc 1 2508 11 is_stmt 0 view .LVU2542
-ARM GAS  /tmp/cc8c3D5j.s 			page 243
+ARM GAS  /tmp/cczDZRLi.s 			page 243
 
 
  9034 0048 0546     		mov	r5, r0
@@ -14578,7 +14578,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9082              		.cfi_offset 9, -8
  9083              		.cfi_offset 14, -4
 2529:component/cJSON/cJSON.c ****     cJSON *n = NULL;
-ARM GAS  /tmp/cc8c3D5j.s 			page 244
+ARM GAS  /tmp/cczDZRLi.s 			page 244
 
 
  9084              		.loc 1 2529 5 is_stmt 1 view .LVU2551
@@ -14638,7 +14638,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9121              	.LVL853:
  9122              	.L769:
 2561:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 245
+ARM GAS  /tmp/cczDZRLi.s 			page 245
 
 
  9123              		.loc 1 2561 1 view .LVU2569
@@ -14698,7 +14698,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2549:component/cJSON/cJSON.c ****         {
  9163              		.loc 1 2549 11 is_stmt 0 view .LVU2584
  9164 004a 002C     		cmp	r4, #0
-ARM GAS  /tmp/cc8c3D5j.s 			page 246
+ARM GAS  /tmp/cczDZRLi.s 			page 246
 
 
  9165 004c ECD1     		bne	.L773
@@ -14758,7 +14758,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9210              		.loc 1 2572 5 view .LVU2595
 2572:component/cJSON/cJSON.c ****     {
  9211              		.loc 1 2572 8 is_stmt 0 view .LVU2596
-ARM GAS  /tmp/cc8c3D5j.s 			page 247
+ARM GAS  /tmp/cczDZRLi.s 			page 247
 
 
  9212 0002 0446     		mov	r4, r0
@@ -14818,7 +14818,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2586:component/cJSON/cJSON.c ****     {
  9249              		.loc 1 2586 8 view .LVU2614
  9250 002c 20B1     		cbz	r0, .L783
-ARM GAS  /tmp/cc8c3D5j.s 			page 248
+ARM GAS  /tmp/cczDZRLi.s 			page 248
 
 
 2588:component/cJSON/cJSON.c ****         if (!newitem->valuestring)
@@ -14878,7 +14878,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2609:component/cJSON/cJSON.c ****     {
  9287              		.loc 1 2609 5 is_stmt 1 view .LVU2633
 2568:component/cJSON/cJSON.c ****     cJSON *newchild = NULL;
-ARM GAS  /tmp/cc8c3D5j.s 			page 249
+ARM GAS  /tmp/cczDZRLi.s 			page 249
 
 
  9288              		.loc 1 2568 12 is_stmt 0 view .LVU2634
@@ -14938,7 +14938,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9328              		.loc 1 2616 9 is_stmt 1 view .LVU2648
 2616:component/cJSON/cJSON.c ****         {
  9329              		.loc 1 2616 12 is_stmt 0 view .LVU2649
-ARM GAS  /tmp/cc8c3D5j.s 			page 250
+ARM GAS  /tmp/cczDZRLi.s 			page 250
 
 
  9330 006c 002E     		cmp	r6, #0
@@ -14998,7 +14998,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9372              		.section	.text.cJSON_Minify,"ax",%progbits
  9373              		.align	1
  9374              		.global	cJSON_Minify
-ARM GAS  /tmp/cc8c3D5j.s 			page 251
+ARM GAS  /tmp/cczDZRLi.s 			page 251
 
 
  9375              		.syntax unified
@@ -15058,7 +15058,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9410              	.L796:
 2701:component/cJSON/cJSON.c ****     {
  9411              		.loc 1 2701 11 view .LVU2672
-ARM GAS  /tmp/cc8c3D5j.s 			page 252
+ARM GAS  /tmp/cczDZRLi.s 			page 252
 
 
 2701:component/cJSON/cJSON.c ****     {
@@ -15118,7 +15118,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9463 00bc EF000000 		.word	.L798+1
  9464 00c0 C5000000 		.word	.L799+1
  9465              		.p2align 1
-ARM GAS  /tmp/cc8c3D5j.s 			page 253
+ARM GAS  /tmp/cczDZRLi.s 			page 253
 
 
  9466              	.L799:
@@ -15178,7 +15178,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9501 00ec 90E7     		b	.L796
  9502              	.L798:
 2728:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 254
+ARM GAS  /tmp/cczDZRLi.s 			page 254
 
 
 2729:component/cJSON/cJSON.c ****             default:
@@ -15238,7 +15238,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9546              		.cfi_startproc
  9547              		@ args = 0, pretend = 0, frame = 0
  9548              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc8c3D5j.s 			page 255
+ARM GAS  /tmp/cczDZRLi.s 			page 255
 
 
  9549              		@ link register save eliminated.
@@ -15298,7 +15298,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2756:component/cJSON/cJSON.c **** 
 2757:component/cJSON/cJSON.c ****     return (item->type & 0xFF) == cJSON_False;
  9590              		.loc 1 2757 5 is_stmt 1 view .LVU2708
-ARM GAS  /tmp/cc8c3D5j.s 			page 256
+ARM GAS  /tmp/cczDZRLi.s 			page 256
 
 
  9591              		.loc 1 2757 24 is_stmt 0 view .LVU2709
@@ -15358,7 +15358,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9636 0008 0020     		movne	r0, #0
  9637 000a 0120     		moveq	r0, #1
  9638 000c 7047     		bx	lr
-ARM GAS  /tmp/cc8c3D5j.s 			page 257
+ARM GAS  /tmp/cczDZRLi.s 			page 257
 
 
  9639              	.LVL897:
@@ -15418,7 +15418,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2779:component/cJSON/cJSON.c **** }
  9682              		.loc 1 2779 1 view .LVU2728
  9683 0010 7047     		bx	lr
-ARM GAS  /tmp/cc8c3D5j.s 			page 258
+ARM GAS  /tmp/cczDZRLi.s 			page 258
 
 
  9684              		.cfi_endproc
@@ -15478,7 +15478,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9731              		.thumb_func
  9732              		.fpu softvfp
  9734              	cJSON_IsNumber:
-ARM GAS  /tmp/cc8c3D5j.s 			page 259
+ARM GAS  /tmp/cczDZRLi.s 			page 259
 
 
  9735              	.LVL907:
@@ -15538,7 +15538,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9777              		.cfi_startproc
  9778              		@ args = 0, pretend = 0, frame = 0
  9779              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc8c3D5j.s 			page 260
+ARM GAS  /tmp/cczDZRLi.s 			page 260
 
 
  9780              		@ link register save eliminated.
@@ -15598,7 +15598,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
   83:component/cJSON/cJSON.c ****         return NULL;
  9826              		.loc 1 83 5 is_stmt 1 view .LVU2755
   83:component/cJSON/cJSON.c ****         return NULL;
-ARM GAS  /tmp/cc8c3D5j.s 			page 261
+ARM GAS  /tmp/cczDZRLi.s 			page 261
 
 
  9827              		.loc 1 83 10 is_stmt 0 view .LVU2756
@@ -15658,7 +15658,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9869              		.loc 1 2817 32 view .LVU2767
  9870 0004 2028     		cmp	r0, #32
  9871 0006 14BF     		ite	ne
-ARM GAS  /tmp/cc8c3D5j.s 			page 262
+ARM GAS  /tmp/cczDZRLi.s 			page 262
 
 
  9872 0008 0020     		movne	r0, #0
@@ -15718,7 +15718,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9916              		.loc 1 2824 16 view .LVU2776
  9917 000e 0020     		movs	r0, #0
  9918              	.LVL925:
-ARM GAS  /tmp/cc8c3D5j.s 			page 263
+ARM GAS  /tmp/cczDZRLi.s 			page 263
 
 
 2828:component/cJSON/cJSON.c **** }
@@ -15778,7 +15778,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  9964              		.align	1
  9965              		.global	cJSON_Compare
  9966              		.syntax unified
-ARM GAS  /tmp/cc8c3D5j.s 			page 264
+ARM GAS  /tmp/cczDZRLi.s 			page 264
 
 
  9967              		.thumb
@@ -15838,7 +15838,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2845:component/cJSON/cJSON.c ****     }
 2846:component/cJSON/cJSON.c **** 
 2847:component/cJSON/cJSON.c ****     /* check if type is valid */
-ARM GAS  /tmp/cc8c3D5j.s 			page 265
+ARM GAS  /tmp/cczDZRLi.s 			page 265
 
 
 2848:component/cJSON/cJSON.c ****     switch (a->type & 0xFF)
@@ -15898,7 +15898,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2850:component/cJSON/cJSON.c ****         case cJSON_False:
 2851:component/cJSON/cJSON.c ****         case cJSON_True:
 2852:component/cJSON/cJSON.c ****         case cJSON_NULL:
-ARM GAS  /tmp/cc8c3D5j.s 			page 266
+ARM GAS  /tmp/cczDZRLi.s 			page 266
 
 
 2853:component/cJSON/cJSON.c ****         case cJSON_Number:
@@ -15958,7 +15958,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  10104 009b 6D       		.byte	(.L845-.L852)/2
  10105 009c 6D       		.byte	(.L845-.L852)/2
  10106 009d 6D       		.byte	(.L845-.L852)/2
-ARM GAS  /tmp/cc8c3D5j.s 			page 267
+ARM GAS  /tmp/cczDZRLi.s 			page 267
 
 
  10107 009e 6D       		.byte	(.L845-.L852)/2
@@ -16018,7 +16018,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  10140              		.loc 1 2891 16 view .LVU2811
  10141 00c4 0028     		cmp	r0, #0
  10142 00c6 4BD1     		bne	.L845
-ARM GAS  /tmp/cc8c3D5j.s 			page 268
+ARM GAS  /tmp/cczDZRLi.s 			page 268
 
 
 2892:component/cJSON/cJSON.c ****             {
@@ -16078,7 +16078,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  10180 00f2 FFF7FEFF 		bl	cJSON_Compare
  10181              	.LVL936:
  10182              		.loc 1 2905 20 view .LVU2826
-ARM GAS  /tmp/cc8c3D5j.s 			page 269
+ARM GAS  /tmp/cczDZRLi.s 			page 269
 
 
  10183 00f6 0028     		cmp	r0, #0
@@ -16138,7 +16138,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2927:component/cJSON/cJSON.c ****             {
 2928:component/cJSON/cJSON.c ****                 /* TODO This has O(n^2) runtime, which is horrible! */
 2929:component/cJSON/cJSON.c ****                 b_element = get_object_item(b, a_element->string, case_sensitive);
-ARM GAS  /tmp/cc8c3D5j.s 			page 270
+ARM GAS  /tmp/cczDZRLi.s 			page 270
 
 
  10216              		.loc 1 2929 17 view .LVU2840
@@ -16198,7 +16198,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  10252 0130 216A     		ldr	r1, [r4, #32]
  10253 0132 3846     		mov	r0, r7
  10254 0134 FFF7FEFF 		bl	get_object_item
-ARM GAS  /tmp/cc8c3D5j.s 			page 271
+ARM GAS  /tmp/cczDZRLi.s 			page 271
 
 
  10255              	.LVL946:
@@ -16258,7 +16258,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  10293              	.L845:
 2958:component/cJSON/cJSON.c ****         }
 2959:component/cJSON/cJSON.c **** 
-ARM GAS  /tmp/cc8c3D5j.s 			page 272
+ARM GAS  /tmp/cczDZRLi.s 			page 272
 
 
 2960:component/cJSON/cJSON.c ****         default:
@@ -16318,7 +16318,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
 2964:component/cJSON/cJSON.c **** 
 2965:component/cJSON/cJSON.c **** CJSON_PUBLIC(void *) cJSON_malloc(size_t size)
 2966:component/cJSON/cJSON.c **** {
-ARM GAS  /tmp/cc8c3D5j.s 			page 273
+ARM GAS  /tmp/cczDZRLi.s 			page 273
 
 
  10340              		.loc 1 2966 1 is_stmt 1 view -0
@@ -16378,7 +16378,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  10390 0004 5B68     		ldr	r3, [r3, #4]
  10391              		.loc 1 2972 5 view .LVU2883
  10392 0006 9847     		blx	r3
-ARM GAS  /tmp/cc8c3D5j.s 			page 274
+ARM GAS  /tmp/cczDZRLi.s 			page 274
 
 
  10393              	.LVL959:
@@ -16438,7 +16438,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  10440              		.loc 1 2237 8 view .LVU2892
  10441 0010 13F4007F 		tst	r3, #512
  10442 0014 03D1     		bne	.L887
-ARM GAS  /tmp/cc8c3D5j.s 			page 275
+ARM GAS  /tmp/cczDZRLi.s 			page 275
 
 
 2237:component/cJSON/cJSON.c ****     {
@@ -16498,7 +16498,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  10485              		.cfi_def_cfa_offset 0
  10486              		.cfi_restore 3
  10487              		.cfi_restore 4
-ARM GAS  /tmp/cc8c3D5j.s 			page 276
+ARM GAS  /tmp/cczDZRLi.s 			page 276
 
 
  10488              		.cfi_restore 5
@@ -16558,7 +16558,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  10538              		.cfi_offset 3, -8
  10539              		.cfi_offset 14, -4
 2251:component/cJSON/cJSON.c **** }
-ARM GAS  /tmp/cc8c3D5j.s 			page 277
+ARM GAS  /tmp/cczDZRLi.s 			page 277
 
 
  10540              		.loc 1 2251 5 is_stmt 1 view .LVU2911
@@ -16618,7 +16618,7 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  10592      000000
  10593              		.section	.data.global_hooks,"aw"
  10594              		.align	2
-ARM GAS  /tmp/cc8c3D5j.s 			page 278
+ARM GAS  /tmp/cczDZRLi.s 			page 278
 
 
  10595              		.set	.LANCHOR2,. + 0
@@ -16639,313 +16639,313 @@ ARM GAS  /tmp/cc8c3D5j.s 			page 1
  10612              		.file 10 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/string.h"
  10613              		.file 11 "<built-in>"
  10614              		.file 12 "/home/yhf/toolchains/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/stdio.h"
-ARM GAS  /tmp/cc8c3D5j.s 			page 279
+ARM GAS  /tmp/cczDZRLi.s 			page 279
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 cJSON.c
-     /tmp/cc8c3D5j.s:16     .text.case_insensitive_strcmp:0000000000000000 $t
-     /tmp/cc8c3D5j.s:23     .text.case_insensitive_strcmp:0000000000000000 case_insensitive_strcmp
-     /tmp/cc8c3D5j.s:155    .text.case_insensitive_strcmp:0000000000000054 $d
-     /tmp/cc8c3D5j.s:160    .text.get_decimal_point:0000000000000000 $t
-     /tmp/cc8c3D5j.s:166    .text.get_decimal_point:0000000000000000 get_decimal_point
-     /tmp/cc8c3D5j.s:181    .text.parse_hex4:0000000000000000 $t
-     /tmp/cc8c3D5j.s:187    .text.parse_hex4:0000000000000000 parse_hex4
-     /tmp/cc8c3D5j.s:299    .text.utf16_literal_to_utf8:0000000000000000 $t
-     /tmp/cc8c3D5j.s:305    .text.utf16_literal_to_utf8:0000000000000000 utf16_literal_to_utf8
-     /tmp/cc8c3D5j.s:592    .text.utf16_literal_to_utf8:00000000000000e8 $d
-     /tmp/cc8c3D5j.s:597    .text.parse_string:0000000000000000 $t
-     /tmp/cc8c3D5j.s:603    .text.parse_string:0000000000000000 parse_string
-     /tmp/cc8c3D5j.s:780    .text.parse_string:000000000000009e $d
-     /tmp/cc8c3D5j.s:806    .text.parse_string:00000000000000b8 $t
-     /tmp/cc8c3D5j.s:990    .text.buffer_skip_whitespace:0000000000000000 $t
-     /tmp/cc8c3D5j.s:996    .text.buffer_skip_whitespace:0000000000000000 buffer_skip_whitespace
-     /tmp/cc8c3D5j.s:1061   .text.get_array_item:0000000000000000 $t
-     /tmp/cc8c3D5j.s:1067   .text.get_array_item:0000000000000000 get_array_item
-     /tmp/cc8c3D5j.s:1110   .text.suffix_object:0000000000000000 $t
-     /tmp/cc8c3D5j.s:1116   .text.suffix_object:0000000000000000 suffix_object
-     /tmp/cc8c3D5j.s:1136   .text.add_item_to_array:0000000000000000 $t
-     /tmp/cc8c3D5j.s:1142   .text.add_item_to_array:0000000000000000 add_item_to_array
-     /tmp/cc8c3D5j.s:1222   .text.cast_away_const:0000000000000000 $t
-     /tmp/cc8c3D5j.s:1228   .text.cast_away_const:0000000000000000 cast_away_const
-     /tmp/cc8c3D5j.s:1243   .text.skip_oneline_comment:0000000000000000 $t
-     /tmp/cc8c3D5j.s:1249   .text.skip_oneline_comment:0000000000000000 skip_oneline_comment
-     /tmp/cc8c3D5j.s:1293   .text.skip_multiline_comment:0000000000000000 $t
-     /tmp/cc8c3D5j.s:1299   .text.skip_multiline_comment:0000000000000000 skip_multiline_comment
-     /tmp/cc8c3D5j.s:1348   .text.minify_string:0000000000000000 $t
-     /tmp/cc8c3D5j.s:1354   .text.minify_string:0000000000000000 minify_string
-     /tmp/cc8c3D5j.s:1467   .text.update_offset:0000000000000000 $t
-     /tmp/cc8c3D5j.s:1473   .text.update_offset:0000000000000000 update_offset
-     /tmp/cc8c3D5j.s:1529   .text.cJSON_New_Item:0000000000000000 $t
-     /tmp/cc8c3D5j.s:1535   .text.cJSON_New_Item:0000000000000000 cJSON_New_Item
-     /tmp/cc8c3D5j.s:1576   .rodata.skip_utf8_bom.str1.4:0000000000000000 $d
-     /tmp/cc8c3D5j.s:1580   .text.skip_utf8_bom:0000000000000000 $t
-     /tmp/cc8c3D5j.s:1586   .text.skip_utf8_bom:0000000000000000 skip_utf8_bom
-     /tmp/cc8c3D5j.s:1654   .text.skip_utf8_bom:0000000000000034 $d
-     /tmp/cc8c3D5j.s:1662   .text.parse_number:0000000000000000 $t
-     /tmp/cc8c3D5j.s:1668   .text.parse_number:0000000000000000 parse_number
-     /tmp/cc8c3D5j.s:1830   .text.parse_number:00000000000000b0 $d
-     /tmp/cc8c3D5j.s:1857   .text.parse_number:000000000000011c $t
-     /tmp/cc8c3D5j.s:1914   .text.parse_number:0000000000000158 $d
-     /tmp/cc8c3D5j.s:1921   .text.ensure:0000000000000000 $t
-     /tmp/cc8c3D5j.s:1927   .text.ensure:0000000000000000 ensure
-     /tmp/cc8c3D5j.s:2146   .text.cJSON_strdup:0000000000000000 $t
-     /tmp/cc8c3D5j.s:2152   .text.cJSON_strdup:0000000000000000 cJSON_strdup
-     /tmp/cc8c3D5j.s:2214   .text.add_item_to_object:0000000000000000 $t
-     /tmp/cc8c3D5j.s:2220   .text.add_item_to_object:0000000000000000 add_item_to_object
-     /tmp/cc8c3D5j.s:2380   .text.create_reference:0000000000000000 $t
-     /tmp/cc8c3D5j.s:2386   .text.create_reference:0000000000000000 create_reference
-     /tmp/cc8c3D5j.s:2465   .rodata.print_string_ptr.str1.4:0000000000000000 $d
-     /tmp/cc8c3D5j.s:2472   .text.print_string_ptr:0000000000000000 $t
-     /tmp/cc8c3D5j.s:2478   .text.print_string_ptr:0000000000000000 print_string_ptr
-     /tmp/cc8c3D5j.s:2699   .text.print_string_ptr:00000000000000cc $d
-ARM GAS  /tmp/cc8c3D5j.s 			page 280
+     /tmp/cczDZRLi.s:16     .text.case_insensitive_strcmp:0000000000000000 $t
+     /tmp/cczDZRLi.s:23     .text.case_insensitive_strcmp:0000000000000000 case_insensitive_strcmp
+     /tmp/cczDZRLi.s:155    .text.case_insensitive_strcmp:0000000000000054 $d
+     /tmp/cczDZRLi.s:160    .text.get_decimal_point:0000000000000000 $t
+     /tmp/cczDZRLi.s:166    .text.get_decimal_point:0000000000000000 get_decimal_point
+     /tmp/cczDZRLi.s:181    .text.parse_hex4:0000000000000000 $t
+     /tmp/cczDZRLi.s:187    .text.parse_hex4:0000000000000000 parse_hex4
+     /tmp/cczDZRLi.s:299    .text.utf16_literal_to_utf8:0000000000000000 $t
+     /tmp/cczDZRLi.s:305    .text.utf16_literal_to_utf8:0000000000000000 utf16_literal_to_utf8
+     /tmp/cczDZRLi.s:592    .text.utf16_literal_to_utf8:00000000000000e8 $d
+     /tmp/cczDZRLi.s:597    .text.parse_string:0000000000000000 $t
+     /tmp/cczDZRLi.s:603    .text.parse_string:0000000000000000 parse_string
+     /tmp/cczDZRLi.s:780    .text.parse_string:000000000000009e $d
+     /tmp/cczDZRLi.s:806    .text.parse_string:00000000000000b8 $t
+     /tmp/cczDZRLi.s:990    .text.buffer_skip_whitespace:0000000000000000 $t
+     /tmp/cczDZRLi.s:996    .text.buffer_skip_whitespace:0000000000000000 buffer_skip_whitespace
+     /tmp/cczDZRLi.s:1061   .text.get_array_item:0000000000000000 $t
+     /tmp/cczDZRLi.s:1067   .text.get_array_item:0000000000000000 get_array_item
+     /tmp/cczDZRLi.s:1110   .text.suffix_object:0000000000000000 $t
+     /tmp/cczDZRLi.s:1116   .text.suffix_object:0000000000000000 suffix_object
+     /tmp/cczDZRLi.s:1136   .text.add_item_to_array:0000000000000000 $t
+     /tmp/cczDZRLi.s:1142   .text.add_item_to_array:0000000000000000 add_item_to_array
+     /tmp/cczDZRLi.s:1222   .text.cast_away_const:0000000000000000 $t
+     /tmp/cczDZRLi.s:1228   .text.cast_away_const:0000000000000000 cast_away_const
+     /tmp/cczDZRLi.s:1243   .text.skip_oneline_comment:0000000000000000 $t
+     /tmp/cczDZRLi.s:1249   .text.skip_oneline_comment:0000000000000000 skip_oneline_comment
+     /tmp/cczDZRLi.s:1293   .text.skip_multiline_comment:0000000000000000 $t
+     /tmp/cczDZRLi.s:1299   .text.skip_multiline_comment:0000000000000000 skip_multiline_comment
+     /tmp/cczDZRLi.s:1348   .text.minify_string:0000000000000000 $t
+     /tmp/cczDZRLi.s:1354   .text.minify_string:0000000000000000 minify_string
+     /tmp/cczDZRLi.s:1467   .text.update_offset:0000000000000000 $t
+     /tmp/cczDZRLi.s:1473   .text.update_offset:0000000000000000 update_offset
+     /tmp/cczDZRLi.s:1529   .text.cJSON_New_Item:0000000000000000 $t
+     /tmp/cczDZRLi.s:1535   .text.cJSON_New_Item:0000000000000000 cJSON_New_Item
+     /tmp/cczDZRLi.s:1576   .rodata.skip_utf8_bom.str1.4:0000000000000000 $d
+     /tmp/cczDZRLi.s:1580   .text.skip_utf8_bom:0000000000000000 $t
+     /tmp/cczDZRLi.s:1586   .text.skip_utf8_bom:0000000000000000 skip_utf8_bom
+     /tmp/cczDZRLi.s:1654   .text.skip_utf8_bom:0000000000000034 $d
+     /tmp/cczDZRLi.s:1662   .text.parse_number:0000000000000000 $t
+     /tmp/cczDZRLi.s:1668   .text.parse_number:0000000000000000 parse_number
+     /tmp/cczDZRLi.s:1830   .text.parse_number:00000000000000b0 $d
+     /tmp/cczDZRLi.s:1857   .text.parse_number:000000000000011c $t
+     /tmp/cczDZRLi.s:1914   .text.parse_number:0000000000000158 $d
+     /tmp/cczDZRLi.s:1921   .text.ensure:0000000000000000 $t
+     /tmp/cczDZRLi.s:1927   .text.ensure:0000000000000000 ensure
+     /tmp/cczDZRLi.s:2146   .text.cJSON_strdup:0000000000000000 $t
+     /tmp/cczDZRLi.s:2152   .text.cJSON_strdup:0000000000000000 cJSON_strdup
+     /tmp/cczDZRLi.s:2214   .text.add_item_to_object:0000000000000000 $t
+     /tmp/cczDZRLi.s:2220   .text.add_item_to_object:0000000000000000 add_item_to_object
+     /tmp/cczDZRLi.s:2380   .text.create_reference:0000000000000000 $t
+     /tmp/cczDZRLi.s:2386   .text.create_reference:0000000000000000 create_reference
+     /tmp/cczDZRLi.s:2465   .rodata.print_string_ptr.str1.4:0000000000000000 $d
+     /tmp/cczDZRLi.s:2472   .text.print_string_ptr:0000000000000000 $t
+     /tmp/cczDZRLi.s:2478   .text.print_string_ptr:0000000000000000 print_string_ptr
+     /tmp/cczDZRLi.s:2699   .text.print_string_ptr:00000000000000cc $d
+ARM GAS  /tmp/cczDZRLi.s 			page 280
 
 
-     /tmp/cc8c3D5j.s:2851   .text.print_string_ptr:000000000000013c $d
-     /tmp/cc8c3D5j.s:2858   .text.print_string:0000000000000000 $t
-     /tmp/cc8c3D5j.s:2864   .text.print_string:0000000000000000 print_string
-     /tmp/cc8c3D5j.s:2892   .rodata.print_number.str1.4:0000000000000000 $d
-     /tmp/cc8c3D5j.s:2905   .text.print_number:0000000000000000 $t
-     /tmp/cc8c3D5j.s:2911   .text.print_number:0000000000000000 print_number
-     /tmp/cc8c3D5j.s:3122   .text.print_number:00000000000000c4 $d
-     /tmp/cc8c3D5j.s:3130   .rodata.print_value.str1.4:0000000000000000 $d
-     /tmp/cc8c3D5j.s:3137   .text.print_value:0000000000000000 $t
-     /tmp/cc8c3D5j.s:3143   .text.print_value:0000000000000000 print_value
-     /tmp/cc8c3D5j.s:3182   .text.print_value:0000000000000022 $d
-     /tmp/cc8c3D5j.s:3214   .text.print_value:0000000000000042 $t
-     /tmp/cc8c3D5j.s:3634   .text.print_array:0000000000000000 print_array
-     /tmp/cc8c3D5j.s:3844   .text.print_object:0000000000000000 print_object
-     /tmp/cc8c3D5j.s:3435   .text.print_value:0000000000000108 $d
-     /tmp/cc8c3D5j.s:3443   .text.print:0000000000000000 $t
-     /tmp/cc8c3D5j.s:3449   .text.print:0000000000000000 print
-     /tmp/cc8c3D5j.s:3628   .text.print_array:0000000000000000 $t
-     /tmp/cc8c3D5j.s:3838   .text.print_object:0000000000000000 $t
-     /tmp/cc8c3D5j.s:4268   .text.get_object_item:0000000000000000 $t
-     /tmp/cc8c3D5j.s:4274   .text.get_object_item:0000000000000000 get_object_item
-     /tmp/cc8c3D5j.s:4377   .text.cJSON_GetErrorPtr:0000000000000000 $t
-     /tmp/cc8c3D5j.s:4384   .text.cJSON_GetErrorPtr:0000000000000000 cJSON_GetErrorPtr
-     /tmp/cc8c3D5j.s:4403   .text.cJSON_GetErrorPtr:000000000000000c $d
-     /tmp/cc8c3D5j.s:4408   .rodata.cJSON_Version.str1.4:0000000000000000 $d
-     /tmp/cc8c3D5j.s:4412   .text.cJSON_Version:0000000000000000 $t
-     /tmp/cc8c3D5j.s:4419   .text.cJSON_Version:0000000000000000 cJSON_Version
-     /tmp/cc8c3D5j.s:4455   .text.cJSON_Version:000000000000001c $d
-     /tmp/cc8c3D5j.s:4461   .text.cJSON_InitHooks:0000000000000000 $t
-     /tmp/cc8c3D5j.s:4468   .text.cJSON_InitHooks:0000000000000000 cJSON_InitHooks
-     /tmp/cc8c3D5j.s:4557   .text.cJSON_InitHooks:0000000000000050 $d
-     /tmp/cc8c3D5j.s:4565   .text.cJSON_Delete:0000000000000000 $t
-     /tmp/cc8c3D5j.s:4572   .text.cJSON_Delete:0000000000000000 cJSON_Delete
-     /tmp/cc8c3D5j.s:4674   .text.cJSON_Delete:0000000000000050 $d
-     /tmp/cc8c3D5j.s:4679   .text.parse_object:0000000000000000 $t
-     /tmp/cc8c3D5j.s:4685   .text.parse_object:0000000000000000 parse_object
-     /tmp/cc8c3D5j.s:5019   .text.parse_value:0000000000000000 parse_value
-     /tmp/cc8c3D5j.s:5013   .text.parse_value:0000000000000000 $t
-     /tmp/cc8c3D5j.s:5280   .text.parse_array:0000000000000000 parse_array
-     /tmp/cc8c3D5j.s:5267   .text.parse_value:00000000000000fc $d
-     /tmp/cc8c3D5j.s:5274   .text.parse_array:0000000000000000 $t
-     /tmp/cc8c3D5j.s:5551   .text.cJSON_SetNumberHelper:0000000000000000 $t
-     /tmp/cc8c3D5j.s:5558   .text.cJSON_SetNumberHelper:0000000000000000 cJSON_SetNumberHelper
-     /tmp/cc8c3D5j.s:5630   .text.cJSON_SetNumberHelper:0000000000000050 $d
-     /tmp/cc8c3D5j.s:5637   .text.cJSON_ParseWithOpts:0000000000000000 $t
-     /tmp/cc8c3D5j.s:5644   .text.cJSON_ParseWithOpts:0000000000000000 cJSON_ParseWithOpts
-     /tmp/cc8c3D5j.s:5858   .text.cJSON_ParseWithOpts:00000000000000c0 $d
-     /tmp/cc8c3D5j.s:5864   .text.cJSON_Parse:0000000000000000 $t
-     /tmp/cc8c3D5j.s:5871   .text.cJSON_Parse:0000000000000000 cJSON_Parse
-     /tmp/cc8c3D5j.s:5896   .text.cJSON_Print:0000000000000000 $t
-     /tmp/cc8c3D5j.s:5903   .text.cJSON_Print:0000000000000000 cJSON_Print
-     /tmp/cc8c3D5j.s:5927   .text.cJSON_Print:000000000000000c $d
-     /tmp/cc8c3D5j.s:5932   .text.cJSON_PrintUnformatted:0000000000000000 $t
-     /tmp/cc8c3D5j.s:5939   .text.cJSON_PrintUnformatted:0000000000000000 cJSON_PrintUnformatted
-     /tmp/cc8c3D5j.s:5963   .text.cJSON_PrintUnformatted:000000000000000c $d
-     /tmp/cc8c3D5j.s:5968   .text.cJSON_PrintBuffered:0000000000000000 $t
-     /tmp/cc8c3D5j.s:5975   .text.cJSON_PrintBuffered:0000000000000000 cJSON_PrintBuffered
-ARM GAS  /tmp/cc8c3D5j.s 			page 281
+     /tmp/cczDZRLi.s:2851   .text.print_string_ptr:000000000000013c $d
+     /tmp/cczDZRLi.s:2858   .text.print_string:0000000000000000 $t
+     /tmp/cczDZRLi.s:2864   .text.print_string:0000000000000000 print_string
+     /tmp/cczDZRLi.s:2892   .rodata.print_number.str1.4:0000000000000000 $d
+     /tmp/cczDZRLi.s:2905   .text.print_number:0000000000000000 $t
+     /tmp/cczDZRLi.s:2911   .text.print_number:0000000000000000 print_number
+     /tmp/cczDZRLi.s:3122   .text.print_number:00000000000000c4 $d
+     /tmp/cczDZRLi.s:3130   .rodata.print_value.str1.4:0000000000000000 $d
+     /tmp/cczDZRLi.s:3137   .text.print_value:0000000000000000 $t
+     /tmp/cczDZRLi.s:3143   .text.print_value:0000000000000000 print_value
+     /tmp/cczDZRLi.s:3182   .text.print_value:0000000000000022 $d
+     /tmp/cczDZRLi.s:3214   .text.print_value:0000000000000042 $t
+     /tmp/cczDZRLi.s:3634   .text.print_array:0000000000000000 print_array
+     /tmp/cczDZRLi.s:3844   .text.print_object:0000000000000000 print_object
+     /tmp/cczDZRLi.s:3435   .text.print_value:0000000000000108 $d
+     /tmp/cczDZRLi.s:3443   .text.print:0000000000000000 $t
+     /tmp/cczDZRLi.s:3449   .text.print:0000000000000000 print
+     /tmp/cczDZRLi.s:3628   .text.print_array:0000000000000000 $t
+     /tmp/cczDZRLi.s:3838   .text.print_object:0000000000000000 $t
+     /tmp/cczDZRLi.s:4268   .text.get_object_item:0000000000000000 $t
+     /tmp/cczDZRLi.s:4274   .text.get_object_item:0000000000000000 get_object_item
+     /tmp/cczDZRLi.s:4377   .text.cJSON_GetErrorPtr:0000000000000000 $t
+     /tmp/cczDZRLi.s:4384   .text.cJSON_GetErrorPtr:0000000000000000 cJSON_GetErrorPtr
+     /tmp/cczDZRLi.s:4403   .text.cJSON_GetErrorPtr:000000000000000c $d
+     /tmp/cczDZRLi.s:4408   .rodata.cJSON_Version.str1.4:0000000000000000 $d
+     /tmp/cczDZRLi.s:4412   .text.cJSON_Version:0000000000000000 $t
+     /tmp/cczDZRLi.s:4419   .text.cJSON_Version:0000000000000000 cJSON_Version
+     /tmp/cczDZRLi.s:4455   .text.cJSON_Version:000000000000001c $d
+     /tmp/cczDZRLi.s:4461   .text.cJSON_InitHooks:0000000000000000 $t
+     /tmp/cczDZRLi.s:4468   .text.cJSON_InitHooks:0000000000000000 cJSON_InitHooks
+     /tmp/cczDZRLi.s:4557   .text.cJSON_InitHooks:0000000000000050 $d
+     /tmp/cczDZRLi.s:4565   .text.cJSON_Delete:0000000000000000 $t
+     /tmp/cczDZRLi.s:4572   .text.cJSON_Delete:0000000000000000 cJSON_Delete
+     /tmp/cczDZRLi.s:4674   .text.cJSON_Delete:0000000000000050 $d
+     /tmp/cczDZRLi.s:4679   .text.parse_object:0000000000000000 $t
+     /tmp/cczDZRLi.s:4685   .text.parse_object:0000000000000000 parse_object
+     /tmp/cczDZRLi.s:5019   .text.parse_value:0000000000000000 parse_value
+     /tmp/cczDZRLi.s:5013   .text.parse_value:0000000000000000 $t
+     /tmp/cczDZRLi.s:5280   .text.parse_array:0000000000000000 parse_array
+     /tmp/cczDZRLi.s:5267   .text.parse_value:00000000000000fc $d
+     /tmp/cczDZRLi.s:5274   .text.parse_array:0000000000000000 $t
+     /tmp/cczDZRLi.s:5551   .text.cJSON_SetNumberHelper:0000000000000000 $t
+     /tmp/cczDZRLi.s:5558   .text.cJSON_SetNumberHelper:0000000000000000 cJSON_SetNumberHelper
+     /tmp/cczDZRLi.s:5630   .text.cJSON_SetNumberHelper:0000000000000050 $d
+     /tmp/cczDZRLi.s:5637   .text.cJSON_ParseWithOpts:0000000000000000 $t
+     /tmp/cczDZRLi.s:5644   .text.cJSON_ParseWithOpts:0000000000000000 cJSON_ParseWithOpts
+     /tmp/cczDZRLi.s:5858   .text.cJSON_ParseWithOpts:00000000000000c0 $d
+     /tmp/cczDZRLi.s:5864   .text.cJSON_Parse:0000000000000000 $t
+     /tmp/cczDZRLi.s:5871   .text.cJSON_Parse:0000000000000000 cJSON_Parse
+     /tmp/cczDZRLi.s:5896   .text.cJSON_Print:0000000000000000 $t
+     /tmp/cczDZRLi.s:5903   .text.cJSON_Print:0000000000000000 cJSON_Print
+     /tmp/cczDZRLi.s:5927   .text.cJSON_Print:000000000000000c $d
+     /tmp/cczDZRLi.s:5932   .text.cJSON_PrintUnformatted:0000000000000000 $t
+     /tmp/cczDZRLi.s:5939   .text.cJSON_PrintUnformatted:0000000000000000 cJSON_PrintUnformatted
+     /tmp/cczDZRLi.s:5963   .text.cJSON_PrintUnformatted:000000000000000c $d
+     /tmp/cczDZRLi.s:5968   .text.cJSON_PrintBuffered:0000000000000000 $t
+     /tmp/cczDZRLi.s:5975   .text.cJSON_PrintBuffered:0000000000000000 cJSON_PrintBuffered
+ARM GAS  /tmp/cczDZRLi.s 			page 281
 
 
-     /tmp/cc8c3D5j.s:6087   .text.cJSON_PrintBuffered:000000000000005c $d
-     /tmp/cc8c3D5j.s:6092   .text.cJSON_PrintPreallocated:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6099   .text.cJSON_PrintPreallocated:0000000000000000 cJSON_PrintPreallocated
-     /tmp/cc8c3D5j.s:6191   .text.cJSON_PrintPreallocated:000000000000004c $d
-     /tmp/cc8c3D5j.s:6196   .text.cJSON_GetArraySize:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6203   .text.cJSON_GetArraySize:0000000000000000 cJSON_GetArraySize
-     /tmp/cc8c3D5j.s:6254   .text.cJSON_GetArrayItem:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6261   .text.cJSON_GetArrayItem:0000000000000000 cJSON_GetArrayItem
-     /tmp/cc8c3D5j.s:6300   .text.cJSON_GetObjectItem:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6307   .text.cJSON_GetObjectItem:0000000000000000 cJSON_GetObjectItem
-     /tmp/cc8c3D5j.s:6331   .text.cJSON_GetObjectItemCaseSensitive:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6338   .text.cJSON_GetObjectItemCaseSensitive:0000000000000000 cJSON_GetObjectItemCaseSensitive
-     /tmp/cc8c3D5j.s:6362   .text.cJSON_HasObjectItem:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6369   .text.cJSON_HasObjectItem:0000000000000000 cJSON_HasObjectItem
-     /tmp/cc8c3D5j.s:6395   .text.cJSON_AddItemToArray:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6402   .text.cJSON_AddItemToArray:0000000000000000 cJSON_AddItemToArray
-     /tmp/cc8c3D5j.s:6424   .text.cJSON_AddItemToObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6431   .text.cJSON_AddItemToObject:0000000000000000 cJSON_AddItemToObject
-     /tmp/cc8c3D5j.s:6461   .text.cJSON_AddItemToObject:0000000000000014 $d
-     /tmp/cc8c3D5j.s:6466   .text.cJSON_AddItemToObjectCS:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6473   .text.cJSON_AddItemToObjectCS:0000000000000000 cJSON_AddItemToObjectCS
-     /tmp/cc8c3D5j.s:6503   .text.cJSON_AddItemToObjectCS:0000000000000014 $d
-     /tmp/cc8c3D5j.s:6508   .text.cJSON_AddItemReferenceToArray:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6515   .text.cJSON_AddItemReferenceToArray:0000000000000000 cJSON_AddItemReferenceToArray
-     /tmp/cc8c3D5j.s:6560   .text.cJSON_AddItemReferenceToArray:000000000000001c $d
-     /tmp/cc8c3D5j.s:6565   .text.cJSON_AddItemReferenceToObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6572   .text.cJSON_AddItemReferenceToObject:0000000000000000 cJSON_AddItemReferenceToObject
-     /tmp/cc8c3D5j.s:6636   .text.cJSON_AddItemReferenceToObject:000000000000002c $d
-     /tmp/cc8c3D5j.s:6641   .text.cJSON_DetachItemViaPointer:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6648   .text.cJSON_DetachItemViaPointer:0000000000000000 cJSON_DetachItemViaPointer
-     /tmp/cc8c3D5j.s:6724   .text.cJSON_DetachItemFromArray:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6731   .text.cJSON_DetachItemFromArray:0000000000000000 cJSON_DetachItemFromArray
-     /tmp/cc8c3D5j.s:6776   .text.cJSON_DeleteItemFromArray:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6783   .text.cJSON_DeleteItemFromArray:0000000000000000 cJSON_DeleteItemFromArray
-     /tmp/cc8c3D5j.s:6808   .text.cJSON_DetachItemFromObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6815   .text.cJSON_DetachItemFromObject:0000000000000000 cJSON_DetachItemFromObject
-     /tmp/cc8c3D5j.s:6850   .text.cJSON_DetachItemFromObjectCaseSensitive:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6857   .text.cJSON_DetachItemFromObjectCaseSensitive:0000000000000000 cJSON_DetachItemFromObjectCaseSensitive
-     /tmp/cc8c3D5j.s:6892   .text.cJSON_DeleteItemFromObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6899   .text.cJSON_DeleteItemFromObject:0000000000000000 cJSON_DeleteItemFromObject
-     /tmp/cc8c3D5j.s:6924   .text.cJSON_DeleteItemFromObjectCaseSensitive:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6931   .text.cJSON_DeleteItemFromObjectCaseSensitive:0000000000000000 cJSON_DeleteItemFromObjectCaseSensitive
-     /tmp/cc8c3D5j.s:6956   .text.cJSON_InsertItemInArray:0000000000000000 $t
-     /tmp/cc8c3D5j.s:6963   .text.cJSON_InsertItemInArray:0000000000000000 cJSON_InsertItemInArray
-     /tmp/cc8c3D5j.s:7050   .text.cJSON_ReplaceItemViaPointer:0000000000000000 $t
-     /tmp/cc8c3D5j.s:7057   .text.cJSON_ReplaceItemViaPointer:0000000000000000 cJSON_ReplaceItemViaPointer
-     /tmp/cc8c3D5j.s:7179   .text.cJSON_ReplaceItemInArray:0000000000000000 $t
-     /tmp/cc8c3D5j.s:7186   .text.cJSON_ReplaceItemInArray:0000000000000000 cJSON_ReplaceItemInArray
-     /tmp/cc8c3D5j.s:7233   .text.cJSON_CreateNull:0000000000000000 $t
-     /tmp/cc8c3D5j.s:7240   .text.cJSON_CreateNull:0000000000000000 cJSON_CreateNull
-     /tmp/cc8c3D5j.s:7270   .text.cJSON_CreateNull:0000000000000010 $d
-     /tmp/cc8c3D5j.s:7275   .text.cJSON_AddNullToObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:7282   .text.cJSON_AddNullToObject:0000000000000000 cJSON_AddNullToObject
-     /tmp/cc8c3D5j.s:7350   .text.cJSON_AddNullToObject:0000000000000030 $d
-     /tmp/cc8c3D5j.s:7355   .text.cJSON_CreateTrue:0000000000000000 $t
-     /tmp/cc8c3D5j.s:7362   .text.cJSON_CreateTrue:0000000000000000 cJSON_CreateTrue
-     /tmp/cc8c3D5j.s:7392   .text.cJSON_CreateTrue:0000000000000010 $d
-ARM GAS  /tmp/cc8c3D5j.s 			page 282
+     /tmp/cczDZRLi.s:6087   .text.cJSON_PrintBuffered:000000000000005c $d
+     /tmp/cczDZRLi.s:6092   .text.cJSON_PrintPreallocated:0000000000000000 $t
+     /tmp/cczDZRLi.s:6099   .text.cJSON_PrintPreallocated:0000000000000000 cJSON_PrintPreallocated
+     /tmp/cczDZRLi.s:6191   .text.cJSON_PrintPreallocated:000000000000004c $d
+     /tmp/cczDZRLi.s:6196   .text.cJSON_GetArraySize:0000000000000000 $t
+     /tmp/cczDZRLi.s:6203   .text.cJSON_GetArraySize:0000000000000000 cJSON_GetArraySize
+     /tmp/cczDZRLi.s:6254   .text.cJSON_GetArrayItem:0000000000000000 $t
+     /tmp/cczDZRLi.s:6261   .text.cJSON_GetArrayItem:0000000000000000 cJSON_GetArrayItem
+     /tmp/cczDZRLi.s:6300   .text.cJSON_GetObjectItem:0000000000000000 $t
+     /tmp/cczDZRLi.s:6307   .text.cJSON_GetObjectItem:0000000000000000 cJSON_GetObjectItem
+     /tmp/cczDZRLi.s:6331   .text.cJSON_GetObjectItemCaseSensitive:0000000000000000 $t
+     /tmp/cczDZRLi.s:6338   .text.cJSON_GetObjectItemCaseSensitive:0000000000000000 cJSON_GetObjectItemCaseSensitive
+     /tmp/cczDZRLi.s:6362   .text.cJSON_HasObjectItem:0000000000000000 $t
+     /tmp/cczDZRLi.s:6369   .text.cJSON_HasObjectItem:0000000000000000 cJSON_HasObjectItem
+     /tmp/cczDZRLi.s:6395   .text.cJSON_AddItemToArray:0000000000000000 $t
+     /tmp/cczDZRLi.s:6402   .text.cJSON_AddItemToArray:0000000000000000 cJSON_AddItemToArray
+     /tmp/cczDZRLi.s:6424   .text.cJSON_AddItemToObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:6431   .text.cJSON_AddItemToObject:0000000000000000 cJSON_AddItemToObject
+     /tmp/cczDZRLi.s:6461   .text.cJSON_AddItemToObject:0000000000000014 $d
+     /tmp/cczDZRLi.s:6466   .text.cJSON_AddItemToObjectCS:0000000000000000 $t
+     /tmp/cczDZRLi.s:6473   .text.cJSON_AddItemToObjectCS:0000000000000000 cJSON_AddItemToObjectCS
+     /tmp/cczDZRLi.s:6503   .text.cJSON_AddItemToObjectCS:0000000000000014 $d
+     /tmp/cczDZRLi.s:6508   .text.cJSON_AddItemReferenceToArray:0000000000000000 $t
+     /tmp/cczDZRLi.s:6515   .text.cJSON_AddItemReferenceToArray:0000000000000000 cJSON_AddItemReferenceToArray
+     /tmp/cczDZRLi.s:6560   .text.cJSON_AddItemReferenceToArray:000000000000001c $d
+     /tmp/cczDZRLi.s:6565   .text.cJSON_AddItemReferenceToObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:6572   .text.cJSON_AddItemReferenceToObject:0000000000000000 cJSON_AddItemReferenceToObject
+     /tmp/cczDZRLi.s:6636   .text.cJSON_AddItemReferenceToObject:000000000000002c $d
+     /tmp/cczDZRLi.s:6641   .text.cJSON_DetachItemViaPointer:0000000000000000 $t
+     /tmp/cczDZRLi.s:6648   .text.cJSON_DetachItemViaPointer:0000000000000000 cJSON_DetachItemViaPointer
+     /tmp/cczDZRLi.s:6724   .text.cJSON_DetachItemFromArray:0000000000000000 $t
+     /tmp/cczDZRLi.s:6731   .text.cJSON_DetachItemFromArray:0000000000000000 cJSON_DetachItemFromArray
+     /tmp/cczDZRLi.s:6776   .text.cJSON_DeleteItemFromArray:0000000000000000 $t
+     /tmp/cczDZRLi.s:6783   .text.cJSON_DeleteItemFromArray:0000000000000000 cJSON_DeleteItemFromArray
+     /tmp/cczDZRLi.s:6808   .text.cJSON_DetachItemFromObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:6815   .text.cJSON_DetachItemFromObject:0000000000000000 cJSON_DetachItemFromObject
+     /tmp/cczDZRLi.s:6850   .text.cJSON_DetachItemFromObjectCaseSensitive:0000000000000000 $t
+     /tmp/cczDZRLi.s:6857   .text.cJSON_DetachItemFromObjectCaseSensitive:0000000000000000 cJSON_DetachItemFromObjectCaseSensitive
+     /tmp/cczDZRLi.s:6892   .text.cJSON_DeleteItemFromObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:6899   .text.cJSON_DeleteItemFromObject:0000000000000000 cJSON_DeleteItemFromObject
+     /tmp/cczDZRLi.s:6924   .text.cJSON_DeleteItemFromObjectCaseSensitive:0000000000000000 $t
+     /tmp/cczDZRLi.s:6931   .text.cJSON_DeleteItemFromObjectCaseSensitive:0000000000000000 cJSON_DeleteItemFromObjectCaseSensitive
+     /tmp/cczDZRLi.s:6956   .text.cJSON_InsertItemInArray:0000000000000000 $t
+     /tmp/cczDZRLi.s:6963   .text.cJSON_InsertItemInArray:0000000000000000 cJSON_InsertItemInArray
+     /tmp/cczDZRLi.s:7050   .text.cJSON_ReplaceItemViaPointer:0000000000000000 $t
+     /tmp/cczDZRLi.s:7057   .text.cJSON_ReplaceItemViaPointer:0000000000000000 cJSON_ReplaceItemViaPointer
+     /tmp/cczDZRLi.s:7179   .text.cJSON_ReplaceItemInArray:0000000000000000 $t
+     /tmp/cczDZRLi.s:7186   .text.cJSON_ReplaceItemInArray:0000000000000000 cJSON_ReplaceItemInArray
+     /tmp/cczDZRLi.s:7233   .text.cJSON_CreateNull:0000000000000000 $t
+     /tmp/cczDZRLi.s:7240   .text.cJSON_CreateNull:0000000000000000 cJSON_CreateNull
+     /tmp/cczDZRLi.s:7270   .text.cJSON_CreateNull:0000000000000010 $d
+     /tmp/cczDZRLi.s:7275   .text.cJSON_AddNullToObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:7282   .text.cJSON_AddNullToObject:0000000000000000 cJSON_AddNullToObject
+     /tmp/cczDZRLi.s:7350   .text.cJSON_AddNullToObject:0000000000000030 $d
+     /tmp/cczDZRLi.s:7355   .text.cJSON_CreateTrue:0000000000000000 $t
+     /tmp/cczDZRLi.s:7362   .text.cJSON_CreateTrue:0000000000000000 cJSON_CreateTrue
+     /tmp/cczDZRLi.s:7392   .text.cJSON_CreateTrue:0000000000000010 $d
+ARM GAS  /tmp/cczDZRLi.s 			page 282
 
 
-     /tmp/cc8c3D5j.s:7397   .text.cJSON_AddTrueToObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:7404   .text.cJSON_AddTrueToObject:0000000000000000 cJSON_AddTrueToObject
-     /tmp/cc8c3D5j.s:7472   .text.cJSON_AddTrueToObject:0000000000000030 $d
-     /tmp/cc8c3D5j.s:7477   .text.cJSON_CreateFalse:0000000000000000 $t
-     /tmp/cc8c3D5j.s:7484   .text.cJSON_CreateFalse:0000000000000000 cJSON_CreateFalse
-     /tmp/cc8c3D5j.s:7514   .text.cJSON_CreateFalse:0000000000000010 $d
-     /tmp/cc8c3D5j.s:7519   .text.cJSON_AddFalseToObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:7526   .text.cJSON_AddFalseToObject:0000000000000000 cJSON_AddFalseToObject
-     /tmp/cc8c3D5j.s:7594   .text.cJSON_AddFalseToObject:0000000000000030 $d
-     /tmp/cc8c3D5j.s:7599   .text.cJSON_CreateBool:0000000000000000 $t
-     /tmp/cc8c3D5j.s:7606   .text.cJSON_CreateBool:0000000000000000 cJSON_CreateBool
-     /tmp/cc8c3D5j.s:7649   .text.cJSON_CreateBool:0000000000000018 $d
-     /tmp/cc8c3D5j.s:7654   .text.cJSON_AddBoolToObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:7661   .text.cJSON_AddBoolToObject:0000000000000000 cJSON_AddBoolToObject
-     /tmp/cc8c3D5j.s:7732   .text.cJSON_AddBoolToObject:0000000000000034 $d
-     /tmp/cc8c3D5j.s:7737   .text.cJSON_CreateNumber:0000000000000000 $t
-     /tmp/cc8c3D5j.s:7744   .text.cJSON_CreateNumber:0000000000000000 cJSON_CreateNumber
-     /tmp/cc8c3D5j.s:7829   .text.cJSON_CreateNumber:0000000000000058 $d
-     /tmp/cc8c3D5j.s:7837   .text.cJSON_AddNumberToObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:7844   .text.cJSON_AddNumberToObject:0000000000000000 cJSON_AddNumberToObject
-     /tmp/cc8c3D5j.s:7918   .text.cJSON_AddNumberToObject:0000000000000034 $d
-     /tmp/cc8c3D5j.s:7923   .text.cJSON_CreateString:0000000000000000 $t
-     /tmp/cc8c3D5j.s:7930   .text.cJSON_CreateString:0000000000000000 cJSON_CreateString
-     /tmp/cc8c3D5j.s:7996   .text.cJSON_CreateString:0000000000000030 $d
-     /tmp/cc8c3D5j.s:8001   .text.cJSON_AddStringToObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:8008   .text.cJSON_AddStringToObject:0000000000000000 cJSON_AddStringToObject
-     /tmp/cc8c3D5j.s:8079   .text.cJSON_AddStringToObject:0000000000000034 $d
-     /tmp/cc8c3D5j.s:8084   .text.cJSON_CreateStringReference:0000000000000000 $t
-     /tmp/cc8c3D5j.s:8091   .text.cJSON_CreateStringReference:0000000000000000 cJSON_CreateStringReference
-     /tmp/cc8c3D5j.s:8141   .text.cJSON_CreateStringReference:0000000000000020 $d
-     /tmp/cc8c3D5j.s:8146   .text.cJSON_CreateObjectReference:0000000000000000 $t
-     /tmp/cc8c3D5j.s:8153   .text.cJSON_CreateObjectReference:0000000000000000 cJSON_CreateObjectReference
-     /tmp/cc8c3D5j.s:8203   .text.cJSON_CreateObjectReference:0000000000000020 $d
-     /tmp/cc8c3D5j.s:8208   .text.cJSON_CreateArrayReference:0000000000000000 $t
-     /tmp/cc8c3D5j.s:8215   .text.cJSON_CreateArrayReference:0000000000000000 cJSON_CreateArrayReference
-     /tmp/cc8c3D5j.s:8265   .text.cJSON_CreateArrayReference:0000000000000020 $d
-     /tmp/cc8c3D5j.s:8270   .text.cJSON_CreateRaw:0000000000000000 $t
-     /tmp/cc8c3D5j.s:8277   .text.cJSON_CreateRaw:0000000000000000 cJSON_CreateRaw
-     /tmp/cc8c3D5j.s:8343   .text.cJSON_CreateRaw:0000000000000030 $d
-     /tmp/cc8c3D5j.s:8348   .text.cJSON_AddRawToObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:8355   .text.cJSON_AddRawToObject:0000000000000000 cJSON_AddRawToObject
-     /tmp/cc8c3D5j.s:8426   .text.cJSON_AddRawToObject:0000000000000034 $d
-     /tmp/cc8c3D5j.s:8431   .text.cJSON_CreateArray:0000000000000000 $t
-     /tmp/cc8c3D5j.s:8438   .text.cJSON_CreateArray:0000000000000000 cJSON_CreateArray
-     /tmp/cc8c3D5j.s:8468   .text.cJSON_CreateArray:0000000000000010 $d
-     /tmp/cc8c3D5j.s:8473   .text.cJSON_AddArrayToObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:8480   .text.cJSON_AddArrayToObject:0000000000000000 cJSON_AddArrayToObject
-     /tmp/cc8c3D5j.s:8548   .text.cJSON_AddArrayToObject:0000000000000030 $d
-     /tmp/cc8c3D5j.s:8553   .text.cJSON_CreateObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:8560   .text.cJSON_CreateObject:0000000000000000 cJSON_CreateObject
-     /tmp/cc8c3D5j.s:8590   .text.cJSON_CreateObject:0000000000000010 $d
-     /tmp/cc8c3D5j.s:8595   .text.cJSON_AddObjectToObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:8602   .text.cJSON_AddObjectToObject:0000000000000000 cJSON_AddObjectToObject
-     /tmp/cc8c3D5j.s:8670   .text.cJSON_AddObjectToObject:0000000000000030 $d
-     /tmp/cc8c3D5j.s:8676   .text.cJSON_CreateIntArray:0000000000000000 $t
-     /tmp/cc8c3D5j.s:8683   .text.cJSON_CreateIntArray:0000000000000000 cJSON_CreateIntArray
-     /tmp/cc8c3D5j.s:8804   .text.cJSON_CreateFloatArray:0000000000000000 $t
-ARM GAS  /tmp/cc8c3D5j.s 			page 283
+     /tmp/cczDZRLi.s:7397   .text.cJSON_AddTrueToObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:7404   .text.cJSON_AddTrueToObject:0000000000000000 cJSON_AddTrueToObject
+     /tmp/cczDZRLi.s:7472   .text.cJSON_AddTrueToObject:0000000000000030 $d
+     /tmp/cczDZRLi.s:7477   .text.cJSON_CreateFalse:0000000000000000 $t
+     /tmp/cczDZRLi.s:7484   .text.cJSON_CreateFalse:0000000000000000 cJSON_CreateFalse
+     /tmp/cczDZRLi.s:7514   .text.cJSON_CreateFalse:0000000000000010 $d
+     /tmp/cczDZRLi.s:7519   .text.cJSON_AddFalseToObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:7526   .text.cJSON_AddFalseToObject:0000000000000000 cJSON_AddFalseToObject
+     /tmp/cczDZRLi.s:7594   .text.cJSON_AddFalseToObject:0000000000000030 $d
+     /tmp/cczDZRLi.s:7599   .text.cJSON_CreateBool:0000000000000000 $t
+     /tmp/cczDZRLi.s:7606   .text.cJSON_CreateBool:0000000000000000 cJSON_CreateBool
+     /tmp/cczDZRLi.s:7649   .text.cJSON_CreateBool:0000000000000018 $d
+     /tmp/cczDZRLi.s:7654   .text.cJSON_AddBoolToObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:7661   .text.cJSON_AddBoolToObject:0000000000000000 cJSON_AddBoolToObject
+     /tmp/cczDZRLi.s:7732   .text.cJSON_AddBoolToObject:0000000000000034 $d
+     /tmp/cczDZRLi.s:7737   .text.cJSON_CreateNumber:0000000000000000 $t
+     /tmp/cczDZRLi.s:7744   .text.cJSON_CreateNumber:0000000000000000 cJSON_CreateNumber
+     /tmp/cczDZRLi.s:7829   .text.cJSON_CreateNumber:0000000000000058 $d
+     /tmp/cczDZRLi.s:7837   .text.cJSON_AddNumberToObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:7844   .text.cJSON_AddNumberToObject:0000000000000000 cJSON_AddNumberToObject
+     /tmp/cczDZRLi.s:7918   .text.cJSON_AddNumberToObject:0000000000000034 $d
+     /tmp/cczDZRLi.s:7923   .text.cJSON_CreateString:0000000000000000 $t
+     /tmp/cczDZRLi.s:7930   .text.cJSON_CreateString:0000000000000000 cJSON_CreateString
+     /tmp/cczDZRLi.s:7996   .text.cJSON_CreateString:0000000000000030 $d
+     /tmp/cczDZRLi.s:8001   .text.cJSON_AddStringToObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:8008   .text.cJSON_AddStringToObject:0000000000000000 cJSON_AddStringToObject
+     /tmp/cczDZRLi.s:8079   .text.cJSON_AddStringToObject:0000000000000034 $d
+     /tmp/cczDZRLi.s:8084   .text.cJSON_CreateStringReference:0000000000000000 $t
+     /tmp/cczDZRLi.s:8091   .text.cJSON_CreateStringReference:0000000000000000 cJSON_CreateStringReference
+     /tmp/cczDZRLi.s:8141   .text.cJSON_CreateStringReference:0000000000000020 $d
+     /tmp/cczDZRLi.s:8146   .text.cJSON_CreateObjectReference:0000000000000000 $t
+     /tmp/cczDZRLi.s:8153   .text.cJSON_CreateObjectReference:0000000000000000 cJSON_CreateObjectReference
+     /tmp/cczDZRLi.s:8203   .text.cJSON_CreateObjectReference:0000000000000020 $d
+     /tmp/cczDZRLi.s:8208   .text.cJSON_CreateArrayReference:0000000000000000 $t
+     /tmp/cczDZRLi.s:8215   .text.cJSON_CreateArrayReference:0000000000000000 cJSON_CreateArrayReference
+     /tmp/cczDZRLi.s:8265   .text.cJSON_CreateArrayReference:0000000000000020 $d
+     /tmp/cczDZRLi.s:8270   .text.cJSON_CreateRaw:0000000000000000 $t
+     /tmp/cczDZRLi.s:8277   .text.cJSON_CreateRaw:0000000000000000 cJSON_CreateRaw
+     /tmp/cczDZRLi.s:8343   .text.cJSON_CreateRaw:0000000000000030 $d
+     /tmp/cczDZRLi.s:8348   .text.cJSON_AddRawToObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:8355   .text.cJSON_AddRawToObject:0000000000000000 cJSON_AddRawToObject
+     /tmp/cczDZRLi.s:8426   .text.cJSON_AddRawToObject:0000000000000034 $d
+     /tmp/cczDZRLi.s:8431   .text.cJSON_CreateArray:0000000000000000 $t
+     /tmp/cczDZRLi.s:8438   .text.cJSON_CreateArray:0000000000000000 cJSON_CreateArray
+     /tmp/cczDZRLi.s:8468   .text.cJSON_CreateArray:0000000000000010 $d
+     /tmp/cczDZRLi.s:8473   .text.cJSON_AddArrayToObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:8480   .text.cJSON_AddArrayToObject:0000000000000000 cJSON_AddArrayToObject
+     /tmp/cczDZRLi.s:8548   .text.cJSON_AddArrayToObject:0000000000000030 $d
+     /tmp/cczDZRLi.s:8553   .text.cJSON_CreateObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:8560   .text.cJSON_CreateObject:0000000000000000 cJSON_CreateObject
+     /tmp/cczDZRLi.s:8590   .text.cJSON_CreateObject:0000000000000010 $d
+     /tmp/cczDZRLi.s:8595   .text.cJSON_AddObjectToObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:8602   .text.cJSON_AddObjectToObject:0000000000000000 cJSON_AddObjectToObject
+     /tmp/cczDZRLi.s:8670   .text.cJSON_AddObjectToObject:0000000000000030 $d
+     /tmp/cczDZRLi.s:8676   .text.cJSON_CreateIntArray:0000000000000000 $t
+     /tmp/cczDZRLi.s:8683   .text.cJSON_CreateIntArray:0000000000000000 cJSON_CreateIntArray
+     /tmp/cczDZRLi.s:8804   .text.cJSON_CreateFloatArray:0000000000000000 $t
+ARM GAS  /tmp/cczDZRLi.s 			page 283
 
 
-     /tmp/cc8c3D5j.s:8811   .text.cJSON_CreateFloatArray:0000000000000000 cJSON_CreateFloatArray
-     /tmp/cc8c3D5j.s:8931   .text.cJSON_CreateDoubleArray:0000000000000000 $t
-     /tmp/cc8c3D5j.s:8938   .text.cJSON_CreateDoubleArray:0000000000000000 cJSON_CreateDoubleArray
-     /tmp/cc8c3D5j.s:9058   .text.cJSON_CreateStringArray:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9065   .text.cJSON_CreateStringArray:0000000000000000 cJSON_CreateStringArray
-     /tmp/cc8c3D5j.s:9183   .text.cJSON_Duplicate:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9190   .text.cJSON_Duplicate:0000000000000000 cJSON_Duplicate
-     /tmp/cc8c3D5j.s:9368   .text.cJSON_Duplicate:0000000000000088 $d
-     /tmp/cc8c3D5j.s:9373   .text.cJSON_Minify:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9380   .text.cJSON_Minify:0000000000000000 cJSON_Minify
-     /tmp/cc8c3D5j.s:9426   .text.cJSON_Minify:0000000000000028 $d
-     /tmp/cc8c3D5j.s:9465   .text.cJSON_Minify:00000000000000c4 $t
-     /tmp/cc8c3D5j.s:9535   .text.cJSON_IsInvalid:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9542   .text.cJSON_IsInvalid:0000000000000000 cJSON_IsInvalid
-     /tmp/cc8c3D5j.s:9572   .text.cJSON_IsFalse:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9579   .text.cJSON_IsFalse:0000000000000000 cJSON_IsFalse
-     /tmp/cc8c3D5j.s:9611   .text.cJSON_IsTrue:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9618   .text.cJSON_IsTrue:0000000000000000 cJSON_IsTrue
-     /tmp/cc8c3D5j.s:9650   .text.cJSON_IsBool:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9657   .text.cJSON_IsBool:0000000000000000 cJSON_IsBool
-     /tmp/cc8c3D5j.s:9688   .text.cJSON_IsNull:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9695   .text.cJSON_IsNull:0000000000000000 cJSON_IsNull
-     /tmp/cc8c3D5j.s:9727   .text.cJSON_IsNumber:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9734   .text.cJSON_IsNumber:0000000000000000 cJSON_IsNumber
-     /tmp/cc8c3D5j.s:9766   .text.cJSON_IsString:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9773   .text.cJSON_IsString:0000000000000000 cJSON_IsString
-     /tmp/cc8c3D5j.s:9805   .text.cJSON_GetStringValue:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9812   .text.cJSON_GetStringValue:0000000000000000 cJSON_GetStringValue
-     /tmp/cc8c3D5j.s:9847   .text.cJSON_IsArray:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9854   .text.cJSON_IsArray:0000000000000000 cJSON_IsArray
-     /tmp/cc8c3D5j.s:9886   .text.cJSON_IsObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9893   .text.cJSON_IsObject:0000000000000000 cJSON_IsObject
-     /tmp/cc8c3D5j.s:9925   .text.cJSON_IsRaw:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9932   .text.cJSON_IsRaw:0000000000000000 cJSON_IsRaw
-     /tmp/cc8c3D5j.s:9964   .text.cJSON_Compare:0000000000000000 $t
-     /tmp/cc8c3D5j.s:9971   .text.cJSON_Compare:0000000000000000 cJSON_Compare
-     /tmp/cc8c3D5j.s:10029  .text.cJSON_Compare:0000000000000048 $d
-     /tmp/cc8c3D5j.s:10061  .text.cJSON_Compare:0000000000000068 $t
-     /tmp/cc8c3D5j.s:10083  .text.cJSON_Compare:0000000000000086 $d
-     /tmp/cc8c3D5j.s:10115  .text.cJSON_Compare:00000000000000a6 $t
-     /tmp/cc8c3D5j.s:10330  .text.cJSON_malloc:0000000000000000 $t
-     /tmp/cc8c3D5j.s:10337  .text.cJSON_malloc:0000000000000000 cJSON_malloc
-     /tmp/cc8c3D5j.s:10362  .text.cJSON_malloc:000000000000000c $d
-     /tmp/cc8c3D5j.s:10367  .text.cJSON_free:0000000000000000 $t
-     /tmp/cc8c3D5j.s:10374  .text.cJSON_free:0000000000000000 cJSON_free
-     /tmp/cc8c3D5j.s:10399  .text.cJSON_free:000000000000000c $d
-     /tmp/cc8c3D5j.s:10404  .text.replace_item_in_object:0000000000000000 $t
-     /tmp/cc8c3D5j.s:10410  .text.replace_item_in_object:0000000000000000 replace_item_in_object
-     /tmp/cc8c3D5j.s:10515  .text.replace_item_in_object:0000000000000050 $d
-     /tmp/cc8c3D5j.s:10520  .text.cJSON_ReplaceItemInObject:0000000000000000 $t
-     /tmp/cc8c3D5j.s:10527  .text.cJSON_ReplaceItemInObject:0000000000000000 cJSON_ReplaceItemInObject
-     /tmp/cc8c3D5j.s:10550  .text.cJSON_ReplaceItemInObjectCaseSensitive:0000000000000000 $t
-     /tmp/cc8c3D5j.s:10557  .text.cJSON_ReplaceItemInObjectCaseSensitive:0000000000000000 cJSON_ReplaceItemInObjectCaseSensitive
-     /tmp/cc8c3D5j.s:10580  .bss.global_error:0000000000000000 $d
-     /tmp/cc8c3D5j.s:10584  .bss.global_error:0000000000000000 global_error
-     /tmp/cc8c3D5j.s:10587  .bss.version.6623:0000000000000000 $d
-     /tmp/cc8c3D5j.s:10591  .bss.version.6623:0000000000000000 version.6623
-ARM GAS  /tmp/cc8c3D5j.s 			page 284
+     /tmp/cczDZRLi.s:8811   .text.cJSON_CreateFloatArray:0000000000000000 cJSON_CreateFloatArray
+     /tmp/cczDZRLi.s:8931   .text.cJSON_CreateDoubleArray:0000000000000000 $t
+     /tmp/cczDZRLi.s:8938   .text.cJSON_CreateDoubleArray:0000000000000000 cJSON_CreateDoubleArray
+     /tmp/cczDZRLi.s:9058   .text.cJSON_CreateStringArray:0000000000000000 $t
+     /tmp/cczDZRLi.s:9065   .text.cJSON_CreateStringArray:0000000000000000 cJSON_CreateStringArray
+     /tmp/cczDZRLi.s:9183   .text.cJSON_Duplicate:0000000000000000 $t
+     /tmp/cczDZRLi.s:9190   .text.cJSON_Duplicate:0000000000000000 cJSON_Duplicate
+     /tmp/cczDZRLi.s:9368   .text.cJSON_Duplicate:0000000000000088 $d
+     /tmp/cczDZRLi.s:9373   .text.cJSON_Minify:0000000000000000 $t
+     /tmp/cczDZRLi.s:9380   .text.cJSON_Minify:0000000000000000 cJSON_Minify
+     /tmp/cczDZRLi.s:9426   .text.cJSON_Minify:0000000000000028 $d
+     /tmp/cczDZRLi.s:9465   .text.cJSON_Minify:00000000000000c4 $t
+     /tmp/cczDZRLi.s:9535   .text.cJSON_IsInvalid:0000000000000000 $t
+     /tmp/cczDZRLi.s:9542   .text.cJSON_IsInvalid:0000000000000000 cJSON_IsInvalid
+     /tmp/cczDZRLi.s:9572   .text.cJSON_IsFalse:0000000000000000 $t
+     /tmp/cczDZRLi.s:9579   .text.cJSON_IsFalse:0000000000000000 cJSON_IsFalse
+     /tmp/cczDZRLi.s:9611   .text.cJSON_IsTrue:0000000000000000 $t
+     /tmp/cczDZRLi.s:9618   .text.cJSON_IsTrue:0000000000000000 cJSON_IsTrue
+     /tmp/cczDZRLi.s:9650   .text.cJSON_IsBool:0000000000000000 $t
+     /tmp/cczDZRLi.s:9657   .text.cJSON_IsBool:0000000000000000 cJSON_IsBool
+     /tmp/cczDZRLi.s:9688   .text.cJSON_IsNull:0000000000000000 $t
+     /tmp/cczDZRLi.s:9695   .text.cJSON_IsNull:0000000000000000 cJSON_IsNull
+     /tmp/cczDZRLi.s:9727   .text.cJSON_IsNumber:0000000000000000 $t
+     /tmp/cczDZRLi.s:9734   .text.cJSON_IsNumber:0000000000000000 cJSON_IsNumber
+     /tmp/cczDZRLi.s:9766   .text.cJSON_IsString:0000000000000000 $t
+     /tmp/cczDZRLi.s:9773   .text.cJSON_IsString:0000000000000000 cJSON_IsString
+     /tmp/cczDZRLi.s:9805   .text.cJSON_GetStringValue:0000000000000000 $t
+     /tmp/cczDZRLi.s:9812   .text.cJSON_GetStringValue:0000000000000000 cJSON_GetStringValue
+     /tmp/cczDZRLi.s:9847   .text.cJSON_IsArray:0000000000000000 $t
+     /tmp/cczDZRLi.s:9854   .text.cJSON_IsArray:0000000000000000 cJSON_IsArray
+     /tmp/cczDZRLi.s:9886   .text.cJSON_IsObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:9893   .text.cJSON_IsObject:0000000000000000 cJSON_IsObject
+     /tmp/cczDZRLi.s:9925   .text.cJSON_IsRaw:0000000000000000 $t
+     /tmp/cczDZRLi.s:9932   .text.cJSON_IsRaw:0000000000000000 cJSON_IsRaw
+     /tmp/cczDZRLi.s:9964   .text.cJSON_Compare:0000000000000000 $t
+     /tmp/cczDZRLi.s:9971   .text.cJSON_Compare:0000000000000000 cJSON_Compare
+     /tmp/cczDZRLi.s:10029  .text.cJSON_Compare:0000000000000048 $d
+     /tmp/cczDZRLi.s:10061  .text.cJSON_Compare:0000000000000068 $t
+     /tmp/cczDZRLi.s:10083  .text.cJSON_Compare:0000000000000086 $d
+     /tmp/cczDZRLi.s:10115  .text.cJSON_Compare:00000000000000a6 $t
+     /tmp/cczDZRLi.s:10330  .text.cJSON_malloc:0000000000000000 $t
+     /tmp/cczDZRLi.s:10337  .text.cJSON_malloc:0000000000000000 cJSON_malloc
+     /tmp/cczDZRLi.s:10362  .text.cJSON_malloc:000000000000000c $d
+     /tmp/cczDZRLi.s:10367  .text.cJSON_free:0000000000000000 $t
+     /tmp/cczDZRLi.s:10374  .text.cJSON_free:0000000000000000 cJSON_free
+     /tmp/cczDZRLi.s:10399  .text.cJSON_free:000000000000000c $d
+     /tmp/cczDZRLi.s:10404  .text.replace_item_in_object:0000000000000000 $t
+     /tmp/cczDZRLi.s:10410  .text.replace_item_in_object:0000000000000000 replace_item_in_object
+     /tmp/cczDZRLi.s:10515  .text.replace_item_in_object:0000000000000050 $d
+     /tmp/cczDZRLi.s:10520  .text.cJSON_ReplaceItemInObject:0000000000000000 $t
+     /tmp/cczDZRLi.s:10527  .text.cJSON_ReplaceItemInObject:0000000000000000 cJSON_ReplaceItemInObject
+     /tmp/cczDZRLi.s:10550  .text.cJSON_ReplaceItemInObjectCaseSensitive:0000000000000000 $t
+     /tmp/cczDZRLi.s:10557  .text.cJSON_ReplaceItemInObjectCaseSensitive:0000000000000000 cJSON_ReplaceItemInObjectCaseSensitive
+     /tmp/cczDZRLi.s:10580  .bss.global_error:0000000000000000 $d
+     /tmp/cczDZRLi.s:10584  .bss.global_error:0000000000000000 global_error
+     /tmp/cczDZRLi.s:10587  .bss.version.6623:0000000000000000 $d
+     /tmp/cczDZRLi.s:10591  .bss.version.6623:0000000000000000 version.6623
+ARM GAS  /tmp/cczDZRLi.s 			page 284
 
 
-     /tmp/cc8c3D5j.s:10594  .data.global_hooks:0000000000000000 $d
-     /tmp/cc8c3D5j.s:10598  .data.global_hooks:0000000000000000 global_hooks
-     /tmp/cc8c3D5j.s:2726   .text.print_string_ptr:00000000000000e7 $d
-     /tmp/cc8c3D5j.s:2726   .text.print_string_ptr:00000000000000e8 $t
+     /tmp/cczDZRLi.s:10594  .data.global_hooks:0000000000000000 $d
+     /tmp/cczDZRLi.s:10598  .data.global_hooks:0000000000000000 global_hooks
+     /tmp/cczDZRLi.s:2726   .text.print_string_ptr:00000000000000e7 $d
+     /tmp/cczDZRLi.s:2726   .text.print_string_ptr:00000000000000e8 $t
 
 UNDEFINED SYMBOLS
 _ctype_
