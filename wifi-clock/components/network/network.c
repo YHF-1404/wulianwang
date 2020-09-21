@@ -195,10 +195,13 @@ void scanf_task(void *arg)
             case ZL_SCANF_DONE:
             {
                 ZL_WIFI_EVENT = ZL_DISCONNECTED;
+                ap_num = MAX_APs;
+                //ESP_LOGI(TAG, "ap_num:%d",ap_num);
                 ESP_ERROR_CHECK(esp_wifi_scan_get_ap_records(&ap_num, ap_records));
-                ESP_LOGI(TAG, "checking ssid...");
+                ESP_LOGI(TAG, "ap_num:%d,checking ssid...",ap_num);
                 for(int i = 0; i < ap_num; i++)
                 {
+                    ESP_LOGI(TAG, "found ap[%d]:%s",i,ap_records[i].ssid);
                     int8_t loc = lookup_wifi_info((char const * const)ap_records[i].ssid, WIFI_SSID, SSIDTableSize);
                     if(loc != -1)              //here has something wrong
                     {
@@ -275,6 +278,12 @@ void sntp_task(void *arg)
             // strftime(my_time, sizeof(strftime_buf), "Time:\"%H:%M:%S\"Day:\"%d\"Mon:\"%b\"Week:\"%a\"", &timeinfo);
             // ESP_LOGI(TAG, "%s", my_time);
             // ESP_LOGI(TAG, "%s", strftime_buf);
+            //printf("xxxxx:%d\n",timeinfo.tm_year);
+            printf("shi:%d\n",timeinfo.tm_hour);
+            printf("fen:%d\n",timeinfo.tm_min);
+            printf("miao:%d\n",timeinfo.tm_sec);
+            if(timeinfo.tm_hour == 12 && timeinfo.tm_min == 00 && timeinfo.tm_sec == 00)
+                esp_restart();
             cJSON *root = cJSON_CreateObject();
 
             strftime(timebuf, sizeof(timebuf), "%Y", &timeinfo);
