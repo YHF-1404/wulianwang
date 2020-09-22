@@ -26,8 +26,8 @@ mbedtls/library/sha512.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha512.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/sha512_alt.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_sha.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/sha512_alt.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/util/include/esp_sha.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/string.h \
@@ -94,9 +94,9 @@ mbedtls/library/sha512.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/sha512_alt.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/sha512_alt.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_sha.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/util/include/esp_sha.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
 

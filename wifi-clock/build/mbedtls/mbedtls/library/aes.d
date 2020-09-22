@@ -28,8 +28,8 @@ mbedtls/library/aes.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/aes_alt.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp8266/esp_aes.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/aes_alt.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/util/include/esp_aes.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/time.h \
@@ -101,9 +101,9 @@ mbedtls/library/aes.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/aes_alt.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/aes_alt.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp8266/esp_aes.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/util/include/esp_aes.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform.h:
 

@@ -29,7 +29,7 @@ src/fast_crypto/fast_crypto_internal-cipher.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/stdlib.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/alloca.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_err.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
@@ -52,7 +52,6 @@ src/fast_crypto/fast_crypto_internal-cipher.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/config/system.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/simcall.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_context.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime-frames.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_timer.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/mpu_wrappers.h \
@@ -132,7 +131,7 @@ src/fast_crypto/fast_crypto_internal-cipher.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/alloca.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_err.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h:
 
@@ -177,8 +176,6 @@ src/fast_crypto/fast_crypto_internal-cipher.o: \
 /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/simcall.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_context.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime-frames.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_timer.h:
 

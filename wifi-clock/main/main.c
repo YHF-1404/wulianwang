@@ -56,7 +56,7 @@ static void uart_init(void)
         .flow_ctrl = UART_HW_FLOWCTRL_DISABLE
     };
     uart_param_config(UART_NUM_1, &uart_config);
-    uart_driver_install(UART_NUM_1, BUF_SIZE * 2, 0, 0, NULL, NULL);
+    uart_driver_install(UART_NUM_1, BUF_SIZE * 2, 0, 0, NULL);
 }
 
 

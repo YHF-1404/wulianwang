@@ -47,12 +47,11 @@ esp-mqtt/mqtt_client.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/config/system.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/simcall.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_context.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime-frames.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_timer.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/mpu_wrappers.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/heap/include/esp_heap_caps.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_err.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/heap/port/esp8266/include/esp_heap_config.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h \
@@ -66,117 +65,48 @@ esp-mqtt/mqtt_client.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/err.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/opt.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/lwipopts.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/time.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/time.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/time.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/unistd.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/unistd.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/unistd.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/time.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/fcntl.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_default_fcntl.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/stat.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/vfs/include/sys/ioctl.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/select.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/include/apps/sntp/sntp.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/netif/dhcp_state.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/time.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/udp_sync.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/debug.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/arch.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/cc.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/errno.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/errno.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/sys_arch.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/vfs_lwip.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/inttypes.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/limits.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/ctype.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sockets.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/poll.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/ip_addr.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/def.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/ip4_addr.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/ip6_addr.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/def.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/netif.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/pbuf.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/stats.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/mem.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/memp.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/priv/memp_std.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/priv/memp_priv.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/priv/mem_priv.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/inet.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/errno.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/string.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/errno.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sys.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/sys_arch.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/vfs_lwip.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/netdb.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/dns.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/queue.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/queue.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_client.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/string.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_config.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp_event/include/esp_event.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_base.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_legacy.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_interface.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_base.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/tcpip_adapter/include/tcpip_adapter.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/include/apps/dhcpserver/dhcpserver.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/mqtt_msg.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_config.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/tcp_transport/include/esp_transport.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/tcp_transport/include/esp_transport_tcp.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/tcp_transport/include/esp_transport.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/tcp_transport/include/esp_transport_ssl.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp-tls/esp_tls.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/sys/socket.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/fcntl.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/config.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp_mem.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ssl.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ecp.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/pk.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/md.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/rsa.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/cipher.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/x509.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/asn1.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/dhm.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_debug.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ssl.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/entropy.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha512.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/sha512_alt.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_sha.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/aes.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/aes_alt.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp8266/esp_aes.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/error.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/certs.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/tcp_transport/include/esp_transport_ws.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/mqtt_outbox.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/platform.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_supported_features.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/http_parser/include/http_parser.h
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdio.h:
@@ -273,8 +203,6 @@ esp-mqtt/mqtt_client.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_context.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime-frames.h:
-
 /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_timer.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
@@ -283,7 +211,7 @@ esp-mqtt/mqtt_client.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/heap/include/esp_heap_caps.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_err.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h:
 
@@ -311,31 +239,9 @@ esp-mqtt/mqtt_client.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/lwipopts.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/time.h:
-
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/time.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/time.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/unistd.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/unistd.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/unistd.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/time.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/fcntl.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_default_fcntl.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/stat.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/vfs/include/sys/ioctl.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/select.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h:
 
@@ -343,11 +249,9 @@ esp-mqtt/mqtt_client.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/time.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/include/apps/sntp/sntp.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/netif/dhcp_state.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/udp_sync.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/debug.h:
 
@@ -355,23 +259,11 @@ esp-mqtt/mqtt_client.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/cc.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/errno.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/errno.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/sys_arch.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/vfs_lwip.h:
-
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/inttypes.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/limits.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/ctype.h:
-
 /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sockets.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/poll.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/ip_addr.h:
 
@@ -383,37 +275,23 @@ esp-mqtt/mqtt_client.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/def.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/netif.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/pbuf.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/stats.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/mem.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/memp.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/priv/memp_std.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/priv/memp_priv.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/priv/mem_priv.h:
-
 /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/inet.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/errno.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/string.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/errno.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sys.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/sys_arch.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/arch/vfs_lwip.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/netdb.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/dns.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/queue.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/queue.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
 
@@ -421,23 +299,11 @@ esp-mqtt/mqtt_client.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_client.h:
 
+/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h:
+
+/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/string.h:
+
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_config.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp_event/include/esp_event.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_base.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_legacy.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_interface.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_base.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/tcpip_adapter/include/tcpip_adapter.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/include/apps/dhcpserver/dhcpserver.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/mqtt_msg.h:
 
@@ -451,87 +317,11 @@ esp-mqtt/mqtt_client.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/tcp_transport/include/esp_transport_ssl.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp-tls/esp_tls.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/sys/socket.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/fcntl.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_config.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/config.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp_mem.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform_time.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/net_sockets.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ssl.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/bignum.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ecp.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/pk.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/md.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/rsa.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/cipher.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/x509.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/asn1.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/dhm.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_debug.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ssl.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/entropy.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha512.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/sha512_alt.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_sha.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/aes.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/aes_alt.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp8266/esp_aes.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/error.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/certs.h:
-
 /home/yhf/esp/ESP8266_RTOS_SDK/components/tcp_transport/include/esp_transport_ws.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/mqtt_outbox.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/platform.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_supported_features.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/http_parser/include/http_parser.h:
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/mqtt_client.c:

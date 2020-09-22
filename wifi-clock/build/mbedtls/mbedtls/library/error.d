@@ -39,8 +39,8 @@ mbedtls/library/error.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/aes.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/aes_alt.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp8266/esp_aes.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/aes_alt.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/util/include/esp_aes.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/base64.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/cipher.h \
@@ -51,8 +51,8 @@ mbedtls/library/error.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/entropy.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha512.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/sha512_alt.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_sha.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/sha512_alt.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/util/include/esp_sha.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/hmac_drbg.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/md.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/md.h \
@@ -70,9 +70,9 @@ mbedtls/library/error.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/pkcs5.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/rsa.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha1.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/sha1_alt.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/sha1_alt.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha256.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/sha256_alt.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/sha256_alt.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha512.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ssl.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/ecp.h \
@@ -161,9 +161,9 @@ mbedtls/library/error.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/aes_alt.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/aes_alt.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp8266/esp_aes.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/util/include/esp_aes.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/base64.h:
 
@@ -185,9 +185,9 @@ mbedtls/library/error.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha512.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/sha512_alt.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/sha512_alt.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_sha.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/util/include/esp_sha.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/hmac_drbg.h:
 
@@ -223,11 +223,11 @@ mbedtls/library/error.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha1.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/sha1_alt.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/sha1_alt.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha256.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/sha256_alt.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/sha256_alt.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha512.h:
 

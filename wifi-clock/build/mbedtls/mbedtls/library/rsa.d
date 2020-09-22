@@ -51,8 +51,8 @@ mbedtls/library/rsa.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/time.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/time.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha1.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/sha1_alt.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_sha.h
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/sha1_alt.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/util/include/esp_sha.h
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/mbedtls/esp_config.h:
 
@@ -156,7 +156,7 @@ mbedtls/library/rsa.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/include/mbedtls/sha1.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/sha1_alt.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/sha1_alt.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_sha.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/util/include/esp_sha.h:
 /home/yhf/esp/ESP8266_RTOS_SDK/components/mbedtls/mbedtls/library/rsa.c:

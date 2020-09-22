@@ -29,7 +29,7 @@ src/fast_crypto_ops.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/stdlib.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/alloca.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_err.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
@@ -52,7 +52,6 @@ src/fast_crypto_ops.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/config/system.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/simcall.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_context.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime-frames.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_timer.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/mpu_wrappers.h \
@@ -73,9 +72,7 @@ src/fast_crypto_ops.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/include/wps/wps.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/include/wps/wps_defs.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/queue.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_interface.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_base.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/include/wps/wps_i.h \
@@ -154,7 +151,7 @@ src/fast_crypto_ops.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/alloca.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_err.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h:
 
@@ -200,8 +197,6 @@ src/fast_crypto_ops.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_context.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime-frames.h:
-
 /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_timer.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
@@ -242,11 +237,7 @@ src/fast_crypto_ops.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi_types.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/queue.h:
-
 /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_interface.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp_event/include/esp_event_base.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h:
 

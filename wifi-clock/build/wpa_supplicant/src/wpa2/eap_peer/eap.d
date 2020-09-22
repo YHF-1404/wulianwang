@@ -15,7 +15,7 @@ src/wpa2/eap_peer/eap.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/lock.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/cdefs.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/string.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h \
+ /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_err.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdio.h \
@@ -53,7 +53,6 @@ src/wpa2/eap_peer/eap.o: \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/config/system.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/simcall.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_context.h \
- /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime-frames.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_timer.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/mpu_wrappers.h \
@@ -127,7 +126,7 @@ src/wpa2/eap_peer/eap.o: \
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/string.h:
 
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_err.h:
+/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_err.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h:
 
@@ -202,8 +201,6 @@ src/wpa2/eap_peer/eap.o: \
 /home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/simcall.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_context.h:
-
-/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime-frames.h:
 
 /home/yhf/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_timer.h:
 
