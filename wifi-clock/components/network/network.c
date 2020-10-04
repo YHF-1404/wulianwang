@@ -164,7 +164,10 @@ static void ZL_Obtain_Time(void)
         ESP_LOGI(TAG, "Waiting for system time to be set... (%d/%d)", retry, retry_count);
         vTaskDelay(2000 / portTICK_PERIOD_MS);
         time(&now);
+        printf("now time is %ld\n", now);
         localtime_r(&now, &timeinfo);
+        printf("%d-%d-%d %d:%d:%d\n", timeinfo.tm_year + 1900, timeinfo.tm_mon + 1,
+		timeinfo.tm_mday, timeinfo.tm_hour, timeinfo.tm_min, timeinfo.tm_sec);
         if(retry == (retry_count-1))
             esp_restart();
     }
@@ -173,6 +176,7 @@ static void ZL_Obtain_Time(void)
 
 void scanf_task(void *arg)
 {
+    bool restart_flag = 0;
     wifi_scan_config_t scan_config = {
 	    .ssid = 0,
 	    .bssid = 0,
@@ -220,6 +224,7 @@ void scanf_task(void *arg)
 
             case ZL_GOT_IP:
             {
+                restart_flag = 1;
                 //ESP_LOGI("ZL_GOT_IP", "[%d]", ZL_GOT_IP);
                 vTaskResume(sntp_handle);
                 ZL_WIFI_EVENT = ZL_NORMAL;
@@ -227,6 +232,7 @@ void scanf_task(void *arg)
             
             case ZL_DISCONNECTED:
             {
+                if(restart_flag == 1)esp_restart();
                 //ESP_LOGI("ZL_DISCONNECTED", "[%d]", ZL_DISCONNECTED);
                 //ESP_LOGI(TAG, "start scanf");
                 vTaskSuspend(sntp_handle);
