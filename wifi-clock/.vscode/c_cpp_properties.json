@@ -4,12 +4,12 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/home/yhf/esp/ESP8266_RTOS_SDK",
-                "/home/yhf/esp/ESP8266_RTOS_SDK/components/**",
-                "/home/yhf/esp/ESP8266_RTOS_SDK/components/esp8266/include"
+                "/home/yhf/software/esp/ESP8266_RTOS_SDK",
+                "/home/yhf/software/esp/ESP8266_RTOS_SDK/components/**",
+                "/home/yhf/software/esp/ESP8266_RTOS_SDK/components/esp8266/include"
             ],
             "defines": [],
-            "compilerPath": "/home/yhf/esp/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc",
+            "compilerPath": "/home/yhf/software/esp/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"
