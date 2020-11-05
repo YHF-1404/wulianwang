@@ -31,7 +31,7 @@ void put_to_screen(uint8_t indata, GPIO_TypeDef *GPIO_port, uint32_t GPIO_pin);
 uint8_t StrToInt(char* str);
 void decode_time(char *text, ZL_RTC_t *ZL_Time);
 void print_syn_msg(void);
-
+void duty_time(ZL_RTC_t *ZL_Time);
 
 
 ZL_RTC_t ZL_Set_Time = 
@@ -77,6 +77,7 @@ int main(void)
       case DisMode:
       {
         ZL_RTC_GetTime(&NowTime);
+        duty_time(&NowTime);
         sprintf((char *)Disbuf, "%02d:%02d:%02d\0", NowTime.Hours, NowTime.Minutes, NowTime.Seconds);
         LedMatrix_ShowString(0, 0, (const uint8_t *)Disbuf, 2);
         memset(Disbuf, '\0', sizeof(Disbuf));
@@ -105,7 +106,19 @@ int main(void)
   }
 }
 
-
+void duty_time(ZL_RTC_t *ZL_Time)   //每隔一小时自动减去一秒钟
+{
+  static i = 0;
+  if(ZL_Time->Hours == 0 && ZL_Time->Minutes == 0 && ZL_Time->Seconds == 0)
+  {
+    i = 0;
+  }
+  if(i < 10 && ZL_Time->Minutes == 0 && ZL_Time->Seconds == 0 && (ZL_Time->Hours % 2 == 1))
+  {
+    i++;
+    ZL_Time->Seconds = ZL_Time->Seconds - i;
+  }
+}
 
 static void SystemClock_Config(void)
 {
