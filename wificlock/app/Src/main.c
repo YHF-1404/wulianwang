@@ -31,7 +31,6 @@ void put_to_screen(uint8_t indata, GPIO_TypeDef *GPIO_port, uint32_t GPIO_pin);
 uint8_t StrToInt(char* str);
 void decode_time(char *text, ZL_RTC_t *ZL_Time);
 void print_syn_msg(void);
-void duty_time(ZL_RTC_t *ZL_Time);
 
 
 ZL_RTC_t ZL_Set_Time = 
@@ -48,10 +47,13 @@ ZL_RTC_t ZL_Set_Time =
 
 int main(void)
 {
+  uint8_t deta_t = 0;
+  uint8_t deta_x = 1;
   cur_mode = DisMode;
   ZL_RTC_t NowTime;
   uint8_t Disbuf[100];
-
+  uint8_t seconds_curr = 0;
+  uint8_t seconds_prev = 0;
   memset(Disbuf, '\0', sizeof(Disbuf));
   uart1_data = (volatile data_buf_t*)malloc(sizeof(data_buf_t));
   time_data = (time_typedef*)malloc(sizeof(time_typedef));
@@ -76,16 +78,42 @@ int main(void)
     {
       case DisMode:
       {
+        seconds_curr = seconds_prev;        
         ZL_RTC_GetTime(&NowTime);
-        duty_time(&NowTime);
-        sprintf((char *)Disbuf, "%02d:%02d:%02d\0", NowTime.Hours, NowTime.Minutes, NowTime.Seconds);
-        LedMatrix_ShowString(0, 0, (const uint8_t *)Disbuf, 2);
-        memset(Disbuf, '\0', sizeof(Disbuf));
-        
-        sprintf((char *)Disbuf, " %02d/%02d %s\0", NowTime.Month, NowTime.Day, get_eng_week(NowTime.WeekDay));
-        LedMatrix_ShowString(0, 18, (const uint8_t *)Disbuf, 1);
-        memset(Disbuf, '\0', sizeof(Disbuf));
-        lcdbuf.is_update = 1;
+        seconds_prev = NowTime.Seconds;
+        if(seconds_curr != seconds_prev)    //用初状态和次状态做比较来限定执行逻辑，目的是1s刷新一次显示。
+        {
+          if((NowTime.Hours == 0) && (NowTime.Minutes == 0) && (NowTime.Seconds == 0))
+          {
+            deta_t = 0;
+          }
+          //每两小时减去1s，每天减满11秒就退出这个判断
+          if((NowTime.Hours % 2 == 1) && (NowTime.Minutes == 0) && (NowTime.Seconds <= 1) && (deta_x == 0) && (deta_t < 11))       //
+          {
+            if(NowTime.Seconds == 1)
+            {
+              NowTime.Seconds = 0;
+              ZL_RTC_SetTime(&NowTime);
+              deta_x = 1;
+              deta_t++;
+            }
+          }
+          else
+          {
+            if(NowTime.Seconds > 1)
+            {
+              deta_x = 0;
+            }
+            sprintf((char *)Disbuf, "%02d:%02d:%02d\0", NowTime.Hours, NowTime.Minutes, NowTime.Seconds);
+            LedMatrix_ShowString(0, 0, (const uint8_t *)Disbuf, 2);
+            memset(Disbuf, '\0', sizeof(Disbuf));
+            
+            sprintf((char *)Disbuf, " %02d/%02d %s\0", NowTime.Month, NowTime.Day, get_eng_week(NowTime.WeekDay));
+            LedMatrix_ShowString(0, 18, (const uint8_t *)Disbuf, 1);
+            memset(Disbuf, '\0', sizeof(Disbuf));
+            lcdbuf.is_update = 1;            
+          }
+        }
       }break;
 
       case SynMode:
@@ -106,19 +134,6 @@ int main(void)
   }
 }
 
-void duty_time(ZL_RTC_t *ZL_Time)   //每隔一小时自动减去一秒钟
-{
-  static i = 0;
-  if(ZL_Time->Hours == 0 && ZL_Time->Minutes == 0 && ZL_Time->Seconds == 0)
-  {
-    i = 0;
-  }
-  if(i < 10 && ZL_Time->Minutes == 0 && ZL_Time->Seconds == 0 && (ZL_Time->Hours % 2 == 1))
-  {
-    i++;
-    ZL_Time->Seconds = ZL_Time->Seconds - i;
-  }
-}
 
 static void SystemClock_Config(void)
 {
